@@ -1,0 +1,11 @@
+constraint_id,constraint_name,physics_metric,physics_status,ml_metric,ml_status,overall_status,data_label
+1,Downwind Preference,Down: 9.27 vs Up: 0.00,PASS,Down: 9.28 vs Up: 0.00,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+2,Distance Monotonicity (at dt=1h),Near: 14.58 >= Far: 0.07,PASS,Near: 13.11 >= Far: 1.61,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+3,Wind Speed Sensitivity,HighSpeedFar: 9.38 >= LowSpeedFar: 9.11,PASS,HighSpeedFar: 9.30 >= LowSpeedFar: 9.44,FAIL,FAIL,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+4,Wind Direction Sensitivity,Rotates peak dispersion bearing consistently,PASS,Rotates peak dispersion bearing consistently,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+5,Non-Negativity,Negative count: 0 (0.0%),PASS,Negative count: 0 (0.0%),PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+6,Mass Conservation,Max Sum(Fraction): 1.0000 <= 1.0,PASS,Max Sum(Fraction): 1.0000 <= 1.0,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+7,Source Location Consistency,Peak near src: 10.11 > Distant: 0.02,PASS,Peak near src: 9.38 > Distant: 0.41,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+8,Time Dependence (Expansion),6h MeanDist: 42.2km > 1h MeanDist: 16.1km,PASS,6h MeanDist: 41.0km > 1h MeanDist: 17.7km,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+9,Spatial Continuity,Smooth spatial transitions without spikes,PASS,Smooth spatial transitions without spikes,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
+10,"Ensemble Stability (N=5,10,20)",N=5 vs N=20 MAE: 0.0143,PASS,Inherited from ensemble target stability,PASS,PASS,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY

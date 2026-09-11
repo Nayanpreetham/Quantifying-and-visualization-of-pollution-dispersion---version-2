@@ -97,7 +97,54 @@ Below is the verification comparison between the Reference Physics Model and the
 
 ---
 
-## 6. Requirements to Transition to Production Data
+## 6. Reproducible Project Artifacts
+
+The repository includes the small synthetic inputs, generated validation outputs, and trained surrogate model needed to inspect the pilot experiment without committing raw or intermediate production datasets:
+
+```text
+data/
+└── synthetic/
+  ├── cities.csv
+  ├── grid.csv
+  ├── era5_wind.csv
+  ├── pollution.csv
+  └── transport_targets.csv
+results/
+├── physics/
+│   ├── physics_dispersion_summary.csv
+│   └── ensemble_stability_benchmark.csv
+├── ml/
+│   ├── ml_evaluation_metrics.csv
+│   ├── loco_evaluation_metrics.csv
+│   ├── feature_importances.csv
+│   └── predictions_full_dataset.csv
+├── constraints/
+│   └── constraint_verification_report.csv
+└── figures/
+  ├── 01_source_location_map.png
+  ├── 02_wind_vector_field.png
+  ├── 03_physics_dispersion_map.png
+  ├── 04_ml_predicted_dispersion_map.png
+  ├── 05_physics_vs_ml_error_map.png
+  ├── 06_transport_matrix.png
+  ├── 07_dispersion_vs_distance.png
+  ├── 08_downwind_vs_upwind.png
+  ├── 09_ensemble_stability_N5_10_20.png
+  └── 10_ml_feature_importance.png
+models/
+└── surrogate_model.joblib
+src/synthetic/
+├── generate_synthetic_data.py
+├── physics_2d_dispersion.py
+├── train_surrogate_ml.py
+├── verify_constraints.py
+├── plot_visualizations.py
+└── run_pilot_pipeline.py
+```
+
+The synthetic source files are generated inputs, the CSV and PNG files under `results/` are the corresponding validation outputs, and `models/surrogate_model.joblib` is the trained Random Forest surrogate. Raw, intermediate, and large geospatial files remain excluded from version control.
+
+## 7. Requirements to Transition to Production Data
 
 When transitioning from synthetic data to production:
 1. Replace `data/synthetic/pollution.csv` with real **OpenAQ hourly PM2.5 observations**.

@@ -6,6 +6,8 @@ __pycache__/
 data/*
 !data/manifests/
 !data/manifests/**
+!data/synthetic/
+!data/synthetic/**
 archive/old_project/Intermediate/
 archive/old_project/Models/
 archive/old_project/Raw data/
@@ -15,7 +17,6 @@ archive/old_project/**/*.csv
 *.zip
 *.pkl
 src/models/*.json
-models/
-results/
 *.joblib
+!models/surrogate_model.joblib
 *.docx

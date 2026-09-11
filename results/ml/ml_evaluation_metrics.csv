@@ -1,0 +1,2 @@
+evaluation_split,sample_count,mae,rmse,r2_score,data_label
+Random 80/20 Split,1176,1.6865,6.4991,0.7525,SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY
