@@ -1,0 +1,23 @@
+datasets:
+  - name: cpcb_openaq_sample
+    type: point_observations
+    provider: OpenAQ
+    original_source: CPCB
+    temporal_coverage: "2020-11-10 to 2020-11-20"
+    spatial_coverage: "India"
+    status: "Sample downloaded for architecture validation."
+    
+  - name: era5_meteorology
+    type: reanalysis_grid
+    provider: ECMWF Copernicus Climate Data Store
+    variables: [u10, v10, t2m, d2m, sp, blh, sshf, slhf, tp]
+    temporal_coverage: "2020-01-01"
+    resolution: "0.25 degree"
+    status: "Validated extraction, requires batch download for full years."
+    
+  - name: india_computational_grid
+    type: spatial_grid
+    resolution: "50x50 km"
+    projection: "EPSG:7755 (Albers Equal Area)"
+    cells: 4209
+    status: "Fully generated and active."

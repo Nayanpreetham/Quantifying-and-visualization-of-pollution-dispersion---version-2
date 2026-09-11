@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated datasets and geospatial/model artifacts
+data/*
+!data/manifests/
+!data/manifests/**
+archive/old_project/Intermediate/
+archive/old_project/Models/
+archive/old_project/Raw data/
+archive/old_project/**/*.csv
+*.nc
+*.tif
+*.zip
+*.pkl
