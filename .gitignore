@@ -15,3 +15,7 @@ archive/old_project/**/*.csv
 *.zip
 *.pkl
 src/models/*.json
+models/
+results/
+*.joblib
+*.docx

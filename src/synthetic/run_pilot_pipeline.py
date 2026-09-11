@@ -1,4 +1,30 @@
-# 2D Grid-to-Grid Pollution Dispersion Model
+"""
+MASTER SYNTHETIC PILOT PIPELINE RUNNER
+=======================================
+Executes the full 10-City Synthetic Pilot Experiment:
+1. Generate synthetic datasets (cities, grid, wind, pollution)
+2. Run 2D kinematic physics & ensemble dispersion model
+3. Train Random Forest ML surrogate model & evaluate (Random split + LOCO CV)
+4. Execute 10 physical constraint tests (Physics vs ML comparison)
+5. Generate 10 verification visualization figures
+6. Generate project README.md with results & disclaimer
+"""
+
+import os
+import sys
+import pandas as pd
+
+from src.synthetic.generate_synthetic_data import run_generator
+from src.synthetic.physics_2d_dispersion import generate_transport_targets, benchmark_ensemble_stability
+from src.synthetic.train_surrogate_ml import train_and_evaluate
+from src.synthetic.verify_constraints import run_constraint_verification
+from src.synthetic.plot_visualizations import generate_all_plots
+
+DISCLAIMER = "SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY"
+
+
+def generate_readme(data_dir="data/synthetic", results_dir="results"):
+    readme_content = """# 2D Grid-to-Grid Pollution Dispersion Model
 ## 10-City Synthetic Pilot Experiment
 
 > **DISCLAIMER: SYNTHETIC DATA — PIPELINE/CONSTRAINT VERIFICATION ONLY**  
@@ -89,7 +115,7 @@ Below is the verification comparison between the Reference Physics Model and the
 3. `03_physics_dispersion_map.png`: Physics-derived dispersion heatmap.
 4. `04_ml_predicted_dispersion_map.png`: ML-predicted dispersion heatmap.
 5. `05_physics_vs_ml_error_map.png`: Difference map (ML - Physics).
-6. `06_transport_matrix.png`: Heatmap of Source $	o$ Destination Transport Matrix $T[A, B, t]$.
+6. `06_transport_matrix.png`: Heatmap of Source $\to$ Destination Transport Matrix $T[A, B, t]$.
 7. `07_dispersion_vs_distance.png`: Transport influence decay over distance.
 8. `08_downwind_vs_upwind.png`: Clear separation between downwind and upwind influence.
 9. `09_ensemble_stability_N5_10_20.png`: Stability comparison across $N=5, 10, 20$.
@@ -104,3 +130,42 @@ When transitioning from synthetic data to production:
 2. Replace `data/synthetic/era5_wind.csv` with **real ERA5 surface horizontal $U10, V10$ NetCDFs**.
 3. Retain the regular lat/lon grid structure and KD-tree/grid lookup.
 4. Retain the 2D physics dispersion engine and constraint verification test suite.
+"""
+    readme_path = "README.md"
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print(f"[Pipeline Runner] Generated project README: {readme_path}")
+
+
+def run_full_pipeline():
+    print(f"\n=======================================================================")
+    print(f"STARTING 10-CITY SYNTHETIC PILOT PIPELINE ({DISCLAIMER})")
+    print(f"=======================================================================\n")
+
+    # Step 1: Generate synthetic datasets
+    run_generator(output_dir="data/synthetic")
+
+    # Step 2: Run 2D physics & ensemble dispersion
+    generate_transport_targets(data_dir="data/synthetic", results_dir="results/physics", n_ensemble=20)
+    benchmark_ensemble_stability(data_dir="data/synthetic", results_dir="results/physics")
+
+    # Step 3: Train ML surrogate model (Random split + LOCO)
+    train_and_evaluate(data_dir="data/synthetic", models_dir="models", results_dir="results/ml")
+
+    # Step 4: Verify 10 physical constraints
+    run_constraint_verification(data_dir="data/synthetic", ml_results_dir="results/ml", results_dir="results/constraints")
+
+    # Step 5: Generate 10 verification plots
+    generate_all_plots(data_dir="data/synthetic", ml_results_dir="results/ml", figures_dir="results/figures")
+
+    # Step 6: Generate README.md
+    generate_readme(data_dir="data/synthetic", results_dir="results")
+
+    print(f"\n=======================================================================")
+    print(f"PILOT PIPELINE EXECUTION COMPLETE!")
+    print(f"All datasets, models, constraint tables, and plots saved successfully.")
+    print(f"=======================================================================\n")
+
+
+if __name__ == "__main__":
+    run_full_pipeline()
