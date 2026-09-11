@@ -14,3 +14,4 @@ archive/old_project/**/*.csv
 *.tif
 *.zip
 *.pkl
+src/models/*.json
