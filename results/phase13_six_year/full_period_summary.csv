@@ -1,0 +1,2 @@
+evaluation_period,years_processed,months_completed,total_synoptic_steps,total_simulation_runs,total_matrix_pairs,mean_boundary_retention_pct,closure_audit_pass_rate,total_pipeline_runtime_sec,total_pipeline_runtime_min,overall_status
+2020–2024,5,60,73080,365400,81512,99.99,100.0%,353.6,5.89,COMPLETE WITH GAPS (5 Years 2020-2024 Complete; 2019 Missing ERA5)

@@ -1,0 +1,51 @@
+station_id,station_name,city,elapsed_time_hours,sum_inside_fractions,outside_fraction,total_closure_sum,closure_error,closure_status
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,3.0,0.9999999999999999,0.0,0.9999999999999999,1.1102230246251565e-16,STRICTLY_CLOSED_1.0000
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228397,"IESD Banaras Hindu University, Vara",Varanasi,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228397,"IESD Banaras Hindu University, Vara",Varanasi,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228397,"IESD Banaras Hindu University, Vara",Varanasi,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228397,"IESD Banaras Hindu University, Vara",Varanasi,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228397,"IESD Banaras Hindu University, Vara",Varanasi,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,1.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,3.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,6.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,12.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,24.0,1.0,0.0,1.0,0.0,STRICTLY_CLOSED_1.0000

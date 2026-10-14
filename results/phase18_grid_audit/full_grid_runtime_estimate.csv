@@ -1,0 +1,13 @@
+metric_category,parameter_name,metric_value,unit,technical_specification
+Computational Domain Scope,Total 50 km Source Cells,"1,380",Grid Cells,All terrestrial cells in EPSG:7755 intersecting sovereign India landmass
+Computational Domain Scope,Temporal Extent,"8,768",Synoptic Steps,"6 Full Calendar Years (2019–2024), 6-hourly intervals (00, 06, 12, 18 UTC)"
+Computational Scale,Total Source-Time Slices,"12,099,840",Source-Synoptic Slices,"1,380 cells × 8,768 steps (138.0× expansion over 10-station pilot)"
+Computational Scale,Simulation Window Evaluations,"60,499,200",Window Evaluations,"5 Horizons: 1h, 3h, 6h, 12h, 24h per source slice"
+Computational Scale,Total Particle Trajectories,"120,998,400",Lagrangian Trajectories,10 ensemble members initialized per source cell per synoptic time step
+Runtime Estimates,Single-Core CPU Time,22.4,CPU Hours,Measured empirical throughput: ~150 slices/sec including bilinear interp
+Runtime Estimates,Parallel Wall-Clock Time (4 Cores),6.6,Hours,Chunked by month-batch with 85% multiprocessing efficiency
+Runtime Estimates,Parallel Wall-Clock Time (8 Cores),3.4,Hours,Chunked by month-batch with 82% multiprocessing efficiency
+Memory & Storage,Peak RAM per Worker,1024,MB,1 month ERA5 netCDF in memory (~120 MB) + scratch array buffer
+Memory & Storage,6-Year Matrix Storage (CSV Format),1.12,GB,"12,420,000 rows across 72 monthly matrix CSVs (~15.5 MB/month)"
+Memory & Storage,6-Year Matrix Storage (Parquet Format),0.19,GB,Snappy-compressed columnar Parquet files (~2.6 MB/month)
+Recommended Architecture,Chunking & Restart Strategy,72 Independent Monthly Batches,,"Year-Month partitioned jobs with atomic commit, SHA-256 hash log, and row-sum closure checkpoint"

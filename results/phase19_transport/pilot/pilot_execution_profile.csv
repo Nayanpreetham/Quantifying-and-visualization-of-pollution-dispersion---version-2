@@ -1,0 +1,13 @@
+metric,value,unit
+Total Source Cells Evaluated,1380,Cells
+Synoptic Slices Executed,"38,640",Source-Time Slices
+Window Evaluations,"193,200",Window Evaluations
+Lagrangian Trajectories Simulated,"386,400",Trajectories
+Wall-Clock Runtime,90.80,Seconds
+CPU Process Time,89.62,Seconds
+Throughput Rate,425.5,Slices / Second
+Peak Traced Memory,107.8,MB
+Aggregated Matrix Rows,"132,175",Pairs
+Max Probability Closure Error,1.78e-15,Abs Error
+Closure Groups Audited,"6,900",Source-Window Groups
+Closure Pass Rate,100.00%,Percent

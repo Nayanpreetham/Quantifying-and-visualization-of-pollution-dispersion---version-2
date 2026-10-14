@@ -1,0 +1,11 @@
+constraint_id,constraint_name,metric,status,data_label
+1,Downwind Preference,Downwind: 1.94 ug/m3 > Upwind: 0.00 ug/m3,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+2,Distance Monotonicity (at dt=1h),Near (<=12km): 10.25 >= Far (>=25km): 0.00,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+3,Wind Speed Sensitivity,HighSpeedFar: 1.21 >= LowSpeedFar: 1.32,FAIL,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+4,Wind Direction Sensitivity,Rotates peak dispersion bearing consistently with ERA5 flow vector,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+5,Non-Negativity,Negative count: 0 (0.0%),PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+6,Mass Conservation,Max Sum(Fraction): 1.0000 <= 1.0 (Mean: 1.0000),PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+7,Source Location Consistency,Peak near src: 2.89 > Distant: 0.00,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+8,Time Dependence (Expansion),6h MeanDist: 34.4km > 1h MeanDist: 8.9km,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+9,Spatial Continuity,Smooth continuous Gaussian-like spatial transition across receptor cells,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS
+10,"Ensemble Stability (N=5,10,20)",N=5 vs N=20 MAE: 0.0082 <= 0.10,PASS,REAL DATA — OPENAQ OBSERVATIONS & ERA5 REANALYSIS

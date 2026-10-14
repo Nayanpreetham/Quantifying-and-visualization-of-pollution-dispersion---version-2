@@ -1,0 +1,6 @@
+target_grid_id,source_grid_id,hourly_residence_time,transport_weight,distance_km,pct_mass_inside_domain,pct_mass_outside_domain
+IND_040_032,IND_040_028,2,0.08,200.000000000001,100.0,0.0
+IND_040_032,IND_040_029,7,0.28,150.00000000000028,100.0,0.0
+IND_040_032,IND_040_030,7,0.28,99.99999999999945,100.0,0.0
+IND_040_032,IND_040_031,5,0.2,49.99999999999986,100.0,0.0
+IND_040_032,IND_040_032,4,0.16,0.0,100.0,0.0

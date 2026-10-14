@@ -1,0 +1,1069 @@
+station_id,station_name,city,source_grid_id,dest_grid_id,elapsed_time_hours,mean_transport_fraction,max_transport_fraction,mean_transport_influence,max_transport_influence,distance_km
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r18_c41,24.0,0.05,0.05,1.621,1.621,279.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r20_c37,24.0,0.05,0.05,1.7465000000000002,1.955,196.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r20_c38,24.0,0.1,0.1,3.91,3.91,200.89
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r20_c39,24.0,0.05,0.05,1.621,1.621,208.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c34,24.0,0.05,0.05,1.955,1.955,174.12
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c35,24.0,0.05,0.05,1.955,1.955,168.65
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c36,24.0,0.1,0.1,3.076,3.076,166.79
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c37,24.0,0.05,0.05,2.5985,3.659,168.65
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c38,24.0,0.05,0.05,1.955,1.955,174.12
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c39,24.0,0.05,0.05,1.621,1.621,182.86
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r21_c41,24.0,0.1,0.1,3.242,3.242,208.39
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c34,24.0,0.1,0.1,3.076,3.076,147.72
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c36,24.0,0.225,0.25,7.755000000000001,7.82,138.99
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c37,24.0,0.1,0.1,3.91,3.91,141.23
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c38,24.0,0.05,0.05,1.955,1.955,147.72
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c39,24.0,0.05,0.05,3.659,3.659,157.95
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c40,24.0,0.05,0.05,2.6399999999999997,3.659,171.25
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c41,24.0,0.05,0.05,1.621,1.621,186.97
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r22_c43,24.0,0.05,0.05,1.621,1.621,223.54
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c28,24.0,0.05,0.05,2.671,2.671,229.09
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c33,24.0,0.05,0.05,1.538,1.538,134.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c34,24.0,0.05,0.05,1.538,1.538,121.95
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c35,12.0,0.05,0.05,1.538,1.538,113.98
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c35,24.0,0.1,0.1,3.076,3.076,113.98
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c36,12.0,0.05,0.05,1.955,1.955,111.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c36,24.0,0.15,0.15,5.865,5.865,111.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c37,24.0,0.05,0.05,2.5985,3.659,113.98
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c38,24.0,0.06666666666666667,0.1,3.6313333333333335,7.318,121.95
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c39,24.0,0.1,0.1,5.279999999999999,7.318,134.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c40,24.0,0.1,0.1,21.657999999999998,40.074,149.65
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r23_c41,24.0,0.15,0.15,4.863,4.863,167.44
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c27,24.0,0.05,0.05,2.671,2.671,240.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c28,24.0,0.05,0.05,3.288,3.288,217.16
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c30,24.0,0.05,0.05,3.288,3.288,171.96
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c34,12.0,0.05,0.05,1.538,1.538,97.3
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c35,12.0,0.175,0.25,6.4255,9.775,87.08
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c35,24.0,0.15,0.15,4.614,4.614,87.08
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c36,12.0,0.225,0.25,7.9635,9.775,83.4
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c36,24.0,0.05,0.05,2.807,3.659,83.4
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c37,12.0,0.06666666666666667,0.1,3.063333333333333,3.91,87.08
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c37,24.0,0.05,0.05,2.807,3.659,87.08
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c38,12.0,0.2,0.2,6.484,6.484,97.3
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c38,24.0,0.05,0.05,3.659,3.659,97.3
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c39,24.0,0.05,0.05,11.847999999999999,20.037,112.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c40,24.0,0.07500000000000001,0.1,2.8754999999999997,3.242,130.41
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c41,24.0,0.05,0.05,1.621,1.621,150.53
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r24_c42,24.0,0.05,0.05,3.659,3.659,171.96
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c28,24.0,0.1,0.1,5.341,5.341,208.28
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c29,24.0,0.05,0.05,2.9795,3.288,184.22
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c30,24.0,0.2,0.2,13.15,13.15,160.48
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c31,24.0,0.1,0.1,6.575,6.575,137.22
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c32,12.0,0.05,0.05,2.9795,3.288,114.73
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c33,12.0,0.05,0.05,3.288,3.288,93.58
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c34,12.0,0.05,0.05,3.288,3.288,74.89
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c35,12.0,0.1,0.15,3.2845,4.614,61.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c36,6.0,0.125,0.2,4.679,7.82,55.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c36,12.0,0.275,0.35,9.293,10.766,55.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c37,6.0,0.07500000000000001,0.1,2.39,3.242,61.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c37,12.0,0.125,0.3,16.401,40.074,61.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c37,24.0,0.0625,0.1,11.82725,40.074,61.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c38,12.0,0.1875,0.4,10.46025,29.272,74.89
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c38,24.0,0.1,0.1,23.695999999999998,40.074,74.89
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c39,12.0,0.125,0.2,5.0715,6.484,93.58
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c39,24.0,0.15,0.15,35.544,60.111,93.58
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c40,24.0,0.07500000000000001,0.1,21.2915,40.074,114.73
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r25_c41,24.0,0.05,0.05,2.509,2.509,137.22
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c26,24.0,0.05,0.05,2.671,2.671,252.7
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c27,24.0,0.05,0.05,2.671,2.671,227.75
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c28,24.0,0.1,0.1,5.341,5.341,202.85
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c29,24.0,0.1,0.15,5.6495,8.011,178.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c30,24.0,0.15,0.15,8.011,8.011,153.24
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c31,24.0,0.07500000000000001,0.1,3.998,6.575,128.62
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c32,12.0,0.175,0.3,9.6555,16.023,104.24
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c32,24.0,0.15,0.15,9.862,9.862,104.24
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c33,12.0,0.2,0.2,13.15,13.15,80.31
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c33,24.0,0.05,0.05,2.671,2.671,80.31
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c34,6.0,0.07500000000000001,0.1,4.623,6.575,57.41
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c34,12.0,0.125,0.2,7.2855,13.15,57.41
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c35,6.0,0.15,0.35,8.834999999999999,23.012,37.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c35,24.0,0.1,0.1,5.924,5.924,37.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c36,3.0,0.43000000000000005,0.8,23.333,40.074,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c36,6.0,0.5666666666666667,0.8,21.636666666666667,29.325,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c36,12.0,0.1,0.1,3.076,3.076,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c36,24.0,0.05,0.05,1.538,1.538,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c37,3.0,0.15,0.25,5.882,8.105,37.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c37,6.0,0.4625,0.8,55.59625,140.259,37.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c37,12.0,0.21666666666666667,0.4,59.147,160.296,37.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c37,24.0,0.1,0.15,31.884999999999998,60.111,37.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c38,6.0,0.15,0.25,5.307,8.105,57.41
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c38,12.0,0.18333333333333335,0.2,25.543666666666667,60.111,57.41
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c38,24.0,0.07500000000000001,0.1,21.2915,40.074,57.41
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c39,12.0,0.05,0.05,2.065,2.509,80.31
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c39,24.0,0.125,0.15,32.564499999999995,60.111,80.31
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c40,24.0,0.2,0.2,10.036,10.036,104.24
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c41,24.0,0.15,0.15,7.527,7.527,128.62
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r26_c43,24.0,0.05,0.05,2.509,2.509,178.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c29,24.0,0.1,0.1,5.958,6.575,176.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c30,24.0,0.05,0.05,3.288,3.288,150.86
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c31,24.0,0.05,0.05,3.288,3.288,125.71
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c32,12.0,0.1,0.1,5.958,6.575,100.57
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c33,12.0,0.13333333333333333,0.2,7.527333333333334,13.15,75.43
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c33,24.0,0.125,0.2,4.323,5.684,75.43
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c34,6.0,0.475,0.7,26.9125,37.387,50.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c34,12.0,0.07500000000000001,0.1,3.7625,6.575,50.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c34,24.0,0.25,0.25,10.9575,14.81,50.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c35,3.0,0.42000000000000004,1.0,24.363999999999997,62.462,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c35,6.0,0.2625,0.4,12.59225,19.725,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c35,12.0,0.55,0.6,24.877,35.544,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c35,24.0,0.425,0.6,21.3245,35.544,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c36,1.0,1.0,1.0,71.553125,400.74,0.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c36,3.0,0.5535714285714286,1.0,48.42957142857143,320.592,0.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c36,6.0,0.4,0.9,37.74225,140.259,0.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c36,12.0,0.24,0.35,39.402,140.259,0.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c37,3.0,0.22999999999999998,0.6,19.445,40.074,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c37,6.0,0.475,0.75,52.83925,120.222,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c37,12.0,0.31666666666666665,0.45,18.814333333333334,34.86,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c37,24.0,0.25,0.25,17.7325,29.05,25.14
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c38,6.0,0.15,0.15,7.527,7.527,50.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c38,12.0,0.32499999999999996,0.35,12.6305,17.563,50.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c38,24.0,0.1,0.1,5.018,5.018,50.29
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c39,12.0,0.1,0.1,5.018,5.018,75.43
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c39,24.0,0.1,0.1,2.566,2.566,75.43
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c40,24.0,0.07500000000000001,0.1,3.1505,5.018,100.57
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r27_c42,24.0,0.1,0.1,5.018,5.018,150.86
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c28,24.0,0.05,0.05,3.288,3.288,203.26
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c32,12.0,0.25,0.25,13.352,13.352,104.44
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c33,12.0,0.1,0.1,5.341,5.341,80.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c33,24.0,0.1,0.1,2.842,2.842,80.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c34,12.0,0.05,0.05,1.421,1.421,57.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c34,24.0,0.1,0.1,2.842,2.842,57.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c35,3.0,0.35,0.35,10.951,10.951,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c35,6.0,0.45,0.8,15.3535,25.032,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c35,12.0,0.05,0.05,1.421,1.421,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c36,3.0,0.5375,1.0,26.393500000000003,57.99,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c36,6.0,0.45,0.85,17.9215,42.562,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c36,12.0,0.15,0.25,4.389,5.94,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c36,24.0,0.05,0.05,1.188,1.188,27.8
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c37,3.0,0.05,0.05,2.838,2.838,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c37,6.0,0.05,0.05,4.324,5.81,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c37,12.0,0.16666666666666666,0.25,11.758333333333333,29.05,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c37,24.0,0.125,0.15,9.998,17.43,37.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c38,12.0,0.15,0.15,17.43,17.43,57.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c38,24.0,0.125,0.15,9.998,17.43,57.5
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c39,12.0,0.05,0.05,3.5465,5.81,80.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c39,24.0,0.125,0.15,7.7345,11.62,80.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r28_c40,24.0,0.15,0.15,3.849,3.849,104.44
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c28,24.0,0.05,0.05,2.671,2.671,209.08
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c33,12.0,0.05,0.05,1.565,1.565,93.83
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c34,12.0,0.1,0.1,3.129,3.129,75.03
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c34,24.0,0.05,0.05,1.421,1.421,75.03
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c35,6.0,0.1,0.1,3.129,3.129,61.04
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c35,12.0,0.15,0.15,4.693,4.693,61.04
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c36,6.0,0.425,0.75,24.583499999999997,43.492,55.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c36,12.0,0.25,0.45,6.765000000000001,10.692,55.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c36,24.0,0.05,0.05,1.188,1.188,55.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c37,6.0,0.15,0.15,8.698,8.698,61.04
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c37,12.0,0.10000000000000002,0.2,5.146,11.35,61.04
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c37,24.0,0.2,0.2,4.752,4.752,61.04
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c38,24.0,0.07500000000000001,0.1,4.188,5.81,75.03
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c39,24.0,0.15,0.15,17.43,17.43,93.83
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r29_c40,24.0,0.1,0.1,11.62,11.62,115.1
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c30,24.0,0.05,0.05,2.671,2.671,172.78
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c33,12.0,0.05,0.05,1.565,1.565,112.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c33,24.0,0.05,0.05,1.565,1.565,112.6
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c34,12.0,0.35,0.35,10.951,10.951,97.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c34,24.0,0.1,0.1,3.129,3.129,97.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c35,12.0,0.225,0.25,9.586,11.35,87.13
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c35,24.0,0.05,0.05,1.188,1.188,87.13
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c36,12.0,0.13333333333333333,0.3,7.0376666666666665,17.025,83.4
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c36,24.0,0.05,0.05,1.188,1.188,83.4
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c37,12.0,0.15,0.2,7.495333333333334,11.598,87.13
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c37,24.0,0.2,0.2,4.752,4.752,87.13
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c38,12.0,0.05,0.05,2.9,2.9,97.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r30_c38,24.0,0.05,0.05,5.81,5.81,97.46
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c31,24.0,0.05,0.05,1.565,1.565,168.22
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c32,24.0,0.15,0.15,4.693,4.693,150.2
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c33,24.0,0.1,0.1,3.129,3.129,134.54
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c34,24.0,0.05,0.05,2.838,2.838,122.12
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c35,12.0,0.08333333333333333,0.15,4.367,8.698,114.02
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c35,24.0,0.05,0.05,1.188,1.188,114.02
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c36,12.0,0.15,0.15,8.698,8.698,111.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c36,24.0,0.07500000000000001,0.1,3.4314999999999998,5.675,111.19
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c37,12.0,0.2,0.2,11.598,11.598,114.02
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c37,24.0,0.07500000000000001,0.1,2.607,2.838,114.02
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c38,12.0,0.1,0.1,5.799,5.799,122.12
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r31_c38,24.0,0.05,0.05,1.188,1.188,122.12
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c31,24.0,0.15,0.15,4.693,4.693,187.84
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c32,24.0,0.1,0.1,3.129,3.129,171.86
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c34,24.0,0.05,0.05,1.565,1.565,147.9
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c35,24.0,0.05,0.05,2.838,2.838,141.27
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c36,24.0,0.2,0.2,11.35,11.35,138.99
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c37,12.0,0.05,0.05,2.9,2.9,141.27
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c37,24.0,0.05,0.05,2.013,2.838,141.27
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IGP_r27_c36,IGP_r32_c38,24.0,0.05,0.05,1.188,1.188,147.9
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r18_c41,24.0,0.05,0.05,2.34,2.34,279.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r20_c37,24.0,0.05,0.05,2.6159999999999997,3.159,196.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r20_c38,24.0,0.1,0.1,4.146,4.146,200.89
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r20_c39,24.0,0.05,0.05,2.34,2.34,208.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c34,24.0,0.05,0.05,2.073,2.073,174.12
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c35,24.0,0.05,0.05,2.073,2.073,168.65
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c36,24.0,0.1,0.1,6.318,6.318,166.79
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c37,24.0,0.05,0.05,3.519,3.879,168.65
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c38,24.0,0.05,0.05,2.073,2.073,174.12
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c39,24.0,0.05,0.05,2.34,2.34,182.86
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r21_c41,24.0,0.1,0.1,4.679,4.679,208.39
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c34,24.0,0.1,0.1,6.318,6.318,147.72
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c36,24.0,0.225,0.25,12.0435,15.795,138.99
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c37,24.0,0.1,0.1,4.146,4.146,141.23
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c38,24.0,0.05,0.05,2.073,2.073,147.72
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c39,24.0,0.05,0.05,3.879,3.879,157.95
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c40,24.0,0.05,0.05,3.1094999999999997,3.879,171.25
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c41,24.0,0.05,0.05,2.34,2.34,186.97
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r22_c43,24.0,0.05,0.05,2.34,2.34,223.54
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c28,24.0,0.05,0.05,5.366,5.366,229.09
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c33,24.0,0.05,0.05,3.159,3.159,134.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c34,24.0,0.05,0.05,3.159,3.159,121.95
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c35,12.0,0.05,0.05,3.159,3.159,113.98
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c35,24.0,0.1,0.1,6.318,6.318,113.98
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c36,12.0,0.05,0.05,2.073,2.073,111.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c36,24.0,0.15,0.15,6.219,6.219,111.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c37,24.0,0.05,0.05,3.519,3.879,113.98
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c38,24.0,0.06666666666666667,0.1,4.0569999999999995,7.758,121.95
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c39,24.0,0.1,0.1,6.218500000000001,7.758,134.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c40,24.0,0.1,0.1,66.638,128.597,149.65
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r23_c41,24.0,0.15,0.15,7.018,7.018,167.44
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c27,24.0,0.05,0.05,5.366,5.366,240.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c28,24.0,0.05,0.05,3.965,3.965,217.16
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c30,24.0,0.05,0.05,3.965,3.965,171.96
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c34,12.0,0.05,0.05,3.159,3.159,97.3
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c35,12.0,0.175,0.25,8.3415,10.365,87.08
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c35,24.0,0.15,0.15,9.477,9.477,87.08
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c36,12.0,0.225,0.25,11.500499999999999,12.636,83.4
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c36,24.0,0.05,0.05,2.976,3.879,83.4
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c37,12.0,0.06666666666666667,0.1,3.455,4.146,87.08
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c37,24.0,0.05,0.05,2.976,3.879,87.08
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c38,12.0,0.2,0.2,9.358,9.358,97.3
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c38,24.0,0.05,0.05,3.879,3.879,97.3
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c39,24.0,0.05,0.05,34.089000000000006,64.299,112.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c40,24.0,0.07500000000000001,0.1,3.617,4.679,130.41
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c41,24.0,0.05,0.05,2.34,2.34,150.53
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r24_c42,24.0,0.05,0.05,3.879,3.879,171.96
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c28,24.0,0.1,0.1,10.731,10.731,208.28
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c29,24.0,0.05,0.05,4.6655,5.366,184.22
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c30,24.0,0.2,0.2,15.86,15.86,160.48
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c31,24.0,0.1,0.1,7.93,7.93,137.22
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c32,12.0,0.05,0.05,4.6655,5.366,114.73
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c33,12.0,0.05,0.05,3.965,3.965,93.58
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c34,12.0,0.05,0.05,3.965,3.965,74.89
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c35,12.0,0.1,0.15,5.775,9.477,61.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c36,6.0,0.125,0.2,5.7255,8.292,55.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c36,12.0,0.275,0.35,15.2025,22.113,55.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c37,6.0,0.07500000000000001,0.1,3.919,4.679,61.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c37,12.0,0.125,0.3,39.071000000000005,128.597,61.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c37,24.0,0.0625,0.1,34.22225,128.597,61.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c38,12.0,0.1875,0.4,11.83925,31.032,74.89
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c38,24.0,0.1,0.1,68.17750000000001,128.597,74.89
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c39,12.0,0.125,0.2,6.6185,9.358,93.58
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c39,24.0,0.15,0.15,102.266,192.895,93.58
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c40,24.0,0.07500000000000001,0.1,65.57600000000001,128.597,114.73
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r25_c41,24.0,0.05,0.05,2.555,2.555,137.22
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c26,24.0,0.05,0.05,5.366,5.366,252.7
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c27,24.0,0.05,0.05,5.366,5.366,227.75
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c28,24.0,0.1,0.1,10.731,10.731,202.85
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c29,24.0,0.1,0.15,10.0305,16.096,178.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c30,24.0,0.15,0.15,16.096,16.096,153.24
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c31,24.0,0.07500000000000001,0.1,4.728,7.93,128.62
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c32,12.0,0.175,0.3,18.079,32.193,104.24
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c32,24.0,0.15,0.15,11.895,11.895,104.24
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c33,12.0,0.2,0.2,15.86,15.86,80.31
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c33,24.0,0.05,0.05,5.366,5.366,80.31
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c34,6.0,0.07500000000000001,0.1,6.648,7.93,57.41
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c34,12.0,0.125,0.2,8.693,15.86,57.41
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c35,6.0,0.15,0.35,10.995666666666667,27.755,37.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c35,24.0,0.1,0.1,6.046,6.046,37.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c36,3.0,0.43000000000000005,0.8,47.5966,128.597,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c36,6.0,0.5666666666666667,0.8,31.092,50.544,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c36,12.0,0.1,0.1,6.318,6.318,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c36,24.0,0.05,0.05,3.159,3.159,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c37,3.0,0.15,0.25,7.787999999999999,11.697,37.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c37,6.0,0.4625,0.8,136.28025,450.089,37.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c37,12.0,0.21666666666666667,0.4,177.48633333333336,514.388,37.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c37,24.0,0.1,0.15,98.387,192.895,37.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c38,6.0,0.15,0.25,7.1259999999999994,11.697,57.41
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c38,12.0,0.18333333333333335,0.2,70.82366666666667,192.895,57.41
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c38,24.0,0.07500000000000001,0.1,65.57600000000001,128.597,57.41
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c39,12.0,0.05,0.05,2.4475,2.555,80.31
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c39,24.0,0.125,0.15,99.00200000000001,192.895,80.31
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c40,24.0,0.2,0.2,10.218,10.218,104.24
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c41,24.0,0.15,0.15,7.663,7.663,128.62
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r26_c43,24.0,0.05,0.05,2.555,2.555,178.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c29,24.0,0.1,0.1,9.3305,10.731,176.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c30,24.0,0.05,0.05,3.965,3.965,150.86
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c31,24.0,0.05,0.05,3.965,3.965,125.71
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c32,12.0,0.1,0.1,9.3305,10.731,100.57
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c33,12.0,0.13333333333333333,0.2,11.160666666666666,16.096,75.43
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c33,24.0,0.125,0.2,4.5635,6.104,75.43
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c34,6.0,0.475,0.7,47.471000000000004,75.117,50.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c34,12.0,0.07500000000000001,0.1,4.84275,7.93,50.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c34,24.0,0.25,0.25,11.3725,15.115,50.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c35,3.0,0.42000000000000004,1.0,37.718599999999995,107.31,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c35,6.0,0.2625,0.4,17.218,26.828,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c35,12.0,0.55,0.6,25.768,36.276,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c35,24.0,0.425,0.6,21.953000000000003,36.276,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c36,1.0,1.0,1.0,139.718125,1285.97,0.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c36,3.0,0.5535714285714286,1.0,105.71021428571429,1028.776,0.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c36,6.0,0.4,0.9,82.009,450.089,0.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c36,12.0,0.24,0.35,104.29180000000001,450.089,0.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c37,3.0,0.22999999999999998,0.6,39.1198,128.597,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c37,6.0,0.475,0.75,125.4885,385.791,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c37,12.0,0.31666666666666665,0.45,25.915000000000003,50.679,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c37,24.0,0.25,0.25,25.796499999999998,42.233,25.14
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c38,6.0,0.15,0.15,7.663,7.663,50.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c38,12.0,0.32499999999999996,0.35,14.5565,17.881,50.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c38,24.0,0.1,0.1,5.109,5.109,50.29
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c39,12.0,0.1,0.1,5.109,5.109,75.43
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c39,24.0,0.1,0.1,3.744,3.744,75.43
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c40,24.0,0.07500000000000001,0.1,3.4905,5.109,100.57
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r27_c42,24.0,0.1,0.1,5.109,5.109,150.86
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c28,24.0,0.05,0.05,3.965,3.965,203.26
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c32,12.0,0.25,0.25,26.828,26.828,104.44
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c33,12.0,0.1,0.1,10.731,10.731,80.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c33,24.0,0.1,0.1,3.052,3.052,80.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c34,12.0,0.05,0.05,1.526,1.526,57.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c34,24.0,0.1,0.1,3.052,3.052,57.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c35,3.0,0.35,0.35,9.793,9.793,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c35,6.0,0.45,0.8,14.377500000000001,22.384,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c35,12.0,0.05,0.05,1.526,1.526,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c36,3.0,0.5375,1.0,26.204,52.83,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c36,6.0,0.45,0.85,22.6655,47.782,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c36,12.0,0.15,0.25,6.7105,10.235,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c36,24.0,0.05,0.05,2.047,2.047,27.8
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c37,3.0,0.05,0.05,3.186,3.186,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c37,6.0,0.05,0.05,5.8165,8.447,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c37,12.0,0.16666666666666666,0.25,17.314333333333334,42.233,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c37,24.0,0.125,0.15,14.542,25.34,37.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c38,12.0,0.15,0.15,25.34,25.34,57.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c38,24.0,0.125,0.15,14.542,25.34,57.5
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c39,12.0,0.05,0.05,5.1594999999999995,8.447,80.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c39,24.0,0.125,0.15,11.2545,16.893,80.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r28_c40,24.0,0.15,0.15,5.616,5.616,104.44
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c28,24.0,0.05,0.05,5.366,5.366,209.08
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c33,12.0,0.05,0.05,1.399,1.399,93.83
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c34,12.0,0.1,0.1,2.798,2.798,75.03
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c34,24.0,0.05,0.05,1.526,1.526,75.03
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c35,6.0,0.1,0.1,2.798,2.798,61.04
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c35,12.0,0.15,0.15,4.197,4.197,61.04
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c36,6.0,0.425,0.75,22.997,39.623,55.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c36,12.0,0.25,0.45,10.804499999999999,18.423,55.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c36,24.0,0.05,0.05,2.047,2.047,55.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c37,6.0,0.15,0.15,7.924,7.924,61.04
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c37,12.0,0.10000000000000002,0.2,5.810333333333333,12.742,61.04
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c37,24.0,0.2,0.2,8.188,8.188,61.04
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c38,24.0,0.07500000000000001,0.1,6.0954999999999995,8.447,75.03
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c39,24.0,0.15,0.15,25.34,25.34,93.83
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r29_c40,24.0,0.1,0.1,16.893,16.893,115.1
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c30,24.0,0.05,0.05,5.366,5.366,172.78
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c33,12.0,0.05,0.05,1.399,1.399,112.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c33,24.0,0.05,0.05,1.399,1.399,112.6
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c34,12.0,0.35,0.35,9.793,9.793,97.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c34,24.0,0.1,0.1,2.798,2.798,97.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c35,12.0,0.225,0.25,9.868500000000001,12.742,87.13
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c35,24.0,0.05,0.05,2.047,2.047,87.13
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c36,12.0,0.13333333333333333,0.3,7.934,19.113,83.4
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c36,24.0,0.05,0.05,2.047,2.047,83.4
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c37,12.0,0.15,0.2,8.072000000000001,10.566,87.13
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c37,24.0,0.2,0.2,8.188,8.188,87.13
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c38,12.0,0.05,0.05,2.642,2.642,97.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r30_c38,24.0,0.05,0.05,8.447,8.447,97.46
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c31,24.0,0.05,0.05,1.399,1.399,168.22
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c32,24.0,0.15,0.15,4.197,4.197,150.2
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c33,24.0,0.1,0.1,2.798,2.798,134.54
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c34,24.0,0.05,0.05,3.186,3.186,122.12
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c35,12.0,0.08333333333333333,0.15,4.169666666666667,7.924,114.02
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c35,24.0,0.05,0.05,2.047,2.047,114.02
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c36,12.0,0.15,0.15,7.924,7.924,111.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c36,24.0,0.07500000000000001,0.1,4.2090000000000005,6.371,111.19
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c37,12.0,0.2,0.2,10.566,10.566,114.02
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c37,24.0,0.07500000000000001,0.1,3.64,4.094,114.02
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c38,12.0,0.1,0.1,5.283,5.283,122.12
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r31_c38,24.0,0.05,0.05,2.047,2.047,122.12
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c31,24.0,0.15,0.15,4.197,4.197,187.84
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c32,24.0,0.1,0.1,2.798,2.798,171.86
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c34,24.0,0.05,0.05,1.399,1.399,147.9
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c35,24.0,0.05,0.05,3.186,3.186,141.27
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c36,24.0,0.2,0.2,12.742,12.742,138.99
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c37,12.0,0.05,0.05,2.642,2.642,141.27
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c37,24.0,0.05,0.05,2.6165000000000003,3.186,141.27
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IGP_r27_c36,IGP_r32_c38,24.0,0.05,0.05,2.047,2.047,147.9
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r12_c27,24.0,0.05,0.05,59.752,59.752,282.31
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r13_c27,24.0,0.05,0.05,59.752,59.752,254.99
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r15_c27,24.0,0.15,0.15,179.257,179.257,200.76
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r15_c29,24.0,0.05,0.05,59.752,59.752,218.21
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r15_c30,24.0,0.05,0.05,59.752,59.752,230.43
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c23,24.0,0.05,0.05,3.845,3.845,173.96
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c25,24.0,0.1,0.1,119.505,119.505,166.79
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c26,24.0,0.1,0.1,119.505,119.505,168.61
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c27,24.0,0.1,0.1,119.505,119.505,173.96
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c28,24.0,0.1,0.1,119.505,119.505,182.53
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c30,24.0,0.05,0.05,59.752,59.752,207.57
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r17_c26,24.0,0.05,0.05,59.752,59.752,141.18
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r17_c28,24.0,0.1,0.1,119.505,119.505,157.57
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r17_c30,24.0,0.05,0.05,59.752,59.752,186.07
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c22,24.0,0.1,0.1,7.689,7.689,133.74
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c23,24.0,0.15,0.15,11.534,11.534,121.73
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c25,12.0,0.15,0.15,179.257,179.257,111.19
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c26,12.0,0.2,0.2,239.01,239.01,113.92
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c22,24.0,0.1,0.1,7.689,7.689,111.75
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c23,12.0,0.05,0.05,3.845,3.845,97.03
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c23,24.0,0.15,0.15,11.534,11.534,97.03
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c24,24.0,0.05,0.05,3.845,3.845,87.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c25,12.0,0.07500000000000001,0.1,61.675,119.505,83.4
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c26,12.0,0.05,0.05,59.752,59.752,87.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c27,12.0,0.1,0.1,119.505,119.505,97.03
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c28,12.0,0.05,0.05,59.752,59.752,111.75
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c29,24.0,0.05,0.05,6.601,6.601,129.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c30,24.0,0.1,0.1,13.201,13.201,149.42
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c32,24.0,0.05,0.05,6.601,6.601,192.57
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c15,24.0,0.05,0.05,3.517,3.517,254.38
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c21,24.0,0.05,0.05,3.845,3.845,113.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c23,12.0,0.1,0.1,7.689,7.689,74.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c23,24.0,0.1,0.1,7.689,7.689,74.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c24,12.0,0.1,0.1,7.689,7.689,60.89
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c24,24.0,0.05,0.05,3.845,3.845,60.89
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c25,6.0,0.4,0.4,478.02,478.02,55.6
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c25,12.0,0.15,0.15,179.257,179.257,55.6
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c26,6.0,0.15,0.15,179.257,179.257,60.89
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c26,12.0,0.15,0.15,179.257,179.257,60.89
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c27,24.0,0.05,0.05,6.601,6.601,74.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c28,24.0,0.05,0.05,6.601,6.601,92.94
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c29,12.0,0.05,0.05,6.601,6.601,113.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c29,24.0,0.1,0.1,13.201,13.201,113.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c30,24.0,0.05,0.05,5.707,5.707,136.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c31,24.0,0.125,0.2,16.0545,26.402,158.98
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c34,24.0,0.05,0.05,5.707,5.707,230.22
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c20,12.0,0.05,0.05,3.517,3.517,127.33
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c21,12.0,0.05,0.05,4.667,4.667,103.22
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c21,24.0,0.05,0.05,3.845,3.845,103.22
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c23,12.0,0.2,0.2,15.378,15.378,56.95
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c23,24.0,0.05,0.05,3.845,3.845,56.95
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,3.0,0.05,0.05,3.845,3.845,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,6.0,0.5,0.5,38.445,38.445,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,12.0,0.45,0.45,34.601,34.601,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,24.0,0.1,0.1,7.689,7.689,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c25,3.0,0.9,0.9,1075.545,1075.545,27.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c25,6.0,0.15000000000000002,0.2,67.44149999999999,119.505,27.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c26,3.0,0.1,0.1,119.505,119.505,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c26,6.0,0.275,0.35,222.3345,418.267,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c26,12.0,0.05,0.05,59.752,59.752,37.29
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c27,6.0,0.05,0.05,6.154,6.601,56.95
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c27,12.0,0.19999999999999998,0.35,23.127,46.203,56.95
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c27,24.0,0.05,0.05,6.601,6.601,56.95
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c28,12.0,0.11666666666666665,0.25,13.912666666666667,33.002,79.57
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c28,24.0,0.09999999999999999,0.15,12.337000000000002,19.801,79.57
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c29,24.0,0.05,0.05,5.707,5.707,103.22
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c30,24.0,0.07500000000000001,0.1,5.926500000000001,6.057,127.33
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c31,24.0,0.05,0.05,6.154,6.601,151.67
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c32,24.0,0.1,0.1,11.414,11.414,176.16
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c15,24.0,0.05,0.05,3.517,3.517,248.78
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c16,24.0,0.1,0.1,7.033,7.033,223.9
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c17,24.0,0.05,0.05,4.667,4.667,199.02
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c19,24.0,0.05,0.05,4.667,4.667,149.27
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c20,12.0,0.07500000000000001,0.1,5.8875,7.033,124.39
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c20,24.0,0.05,0.05,3.517,3.517,124.39
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c21,12.0,0.08333333333333333,0.15,6.653,10.55,99.51
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c22,6.0,0.06666666666666667,0.1,5.480666666666667,7.033,74.63
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c22,12.0,0.05,0.05,4.742,4.742,74.63
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c23,6.0,0.3499999999999999,0.6,28.215999999999998,42.198,49.76
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c23,24.0,0.05,0.05,4.158,4.158,49.76
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,3.0,0.6375000000000001,0.9,54.497749999999996,75.864,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,6.0,0.10000000000000002,0.1,7.879333333333334,8.316,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,12.0,0.26666666666666666,0.5,21.502333333333336,41.58,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,24.0,0.35,0.45,28.252,37.422,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,1.0,1.0,1.0,150.388125,1195.05,0.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,3.0,0.5230769230769231,1.0,42.116846153846154,90.47,0.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,6.0,0.42142857142857143,0.9,34.55914285714285,74.844,0.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,12.0,0.21000000000000002,0.45,17.2742,34.349,0.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,24.0,0.05,0.05,3.817,3.817,0.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,3.0,0.48333333333333334,0.85,48.549499999999995,112.208,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,6.0,0.6599999999999999,0.85,65.896,98.523,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,12.0,0.1,0.15,10.6964,17.386,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,24.0,0.07500000000000001,0.1,8.649,11.591,24.88
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c27,6.0,0.21666666666666665,0.3,19.671333333333333,34.242,49.76
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c27,12.0,0.24,0.35,22.330199999999998,34.773,49.76
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c27,24.0,0.06666666666666667,0.1,6.1513333333333335,6.601,49.76
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c28,12.0,0.1125,0.2,11.0775,22.828,74.63
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c28,24.0,0.05,0.05,4.4125,5.796,74.63
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c29,12.0,0.05,0.05,4.8149999999999995,6.601,99.51
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c29,24.0,0.13333333333333333,0.15,12.628333333333336,17.386,99.51
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c30,24.0,0.15,0.3,14.68825,34.242,124.39
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c31,24.0,0.05,0.05,4.8149999999999995,6.601,149.27
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c33,24.0,0.05,0.05,3.029,3.029,199.02
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c14,24.0,0.05,0.05,3.517,3.517,275.36
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c15,24.0,0.05,0.05,4.092,4.667,250.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c16,24.0,0.10000000000000002,0.2,7.825,14.066,225.86
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c17,24.0,0.07500000000000001,0.1,5.85,7.033,201.17
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c18,24.0,0.1,0.15,7.6085,10.55,176.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c20,12.0,0.08333333333333333,0.1,7.4446666666666665,9.483,127.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c20,24.0,0.05,0.05,4.667,4.667,127.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c21,12.0,0.19999999999999998,0.25,16.82466666666667,18.668,103.43
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c22,6.0,0.05,0.05,4.742,4.742,79.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c22,12.0,0.09999999999999999,0.15,9.025,14.224,79.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c22,24.0,0.05,0.05,3.9875000000000003,4.158,79.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c23,6.0,0.48333333333333334,0.65,43.06166666666667,60.671,57.04
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c23,12.0,0.05,0.05,3.9875000000000003,4.158,57.04
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c23,24.0,0.15,0.15,11.961500000000001,12.474,57.04
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,3.0,0.15,0.2,13.333333333333334,18.966,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,6.0,0.075,0.15,5.9145,14.001,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,12.0,0.13333333333333333,0.25,10.640666666666668,19.082,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,24.0,0.275,0.3,22.015,24.948,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,3.0,0.3875,0.9,18.818749999999998,41.94,27.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,6.0,0.4375,0.7,24.674,36.19,27.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,12.0,0.7,0.7,63.329,63.329,27.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,24.0,0.25,0.4,21.910500000000003,36.188,27.8
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c26,3.0,0.35000000000000003,0.65,17.616,32.487,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c26,6.0,0.22499999999999998,0.45,12.581,24.705,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c26,12.0,0.05,0.05,4.2705,5.796,37.32
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c27,6.0,0.1,0.1,4.998,4.998,57.04
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c27,12.0,0.275,0.4,22.940749999999998,40.568,57.04
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c27,24.0,0.10000000000000002,0.2,9.652,23.182,57.04
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c28,12.0,0.05,0.05,4.4125,5.796,79.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c28,24.0,0.1,0.1,11.591,11.591,79.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c29,24.0,0.1,0.1,8.824,11.591,103.43
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c30,24.0,0.05,0.05,5.707,5.707,127.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c31,24.0,0.05,0.05,3.029,3.029,151.99
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c32,24.0,0.05,0.05,4.368,5.707,176.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c15,24.0,0.07500000000000001,0.1,6.4254999999999995,9.334,255.44
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c17,24.0,0.07500000000000001,0.1,7.075,9.483,207.06
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c18,24.0,0.2,0.2,18.668,18.668,183.16
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c19,24.0,0.05,0.05,4.742,4.742,159.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c20,12.0,0.05,0.05,3.517,3.517,136.49
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c20,24.0,0.05,0.05,4.667,4.667,136.49
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c21,12.0,0.26666666666666666,0.35,23.480666666666664,32.669,114.18
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c21,24.0,0.05,0.05,3.817,3.817,114.18
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c22,12.0,0.07500000000000001,0.1,6.4254999999999995,9.334,93.2
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c23,6.0,0.05,0.05,4.742,4.742,74.68
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c23,12.0,0.05,0.05,4.667,4.667,74.68
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c23,24.0,0.1,0.1,7.633,7.633,74.68
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c24,6.0,0.05,0.05,2.585,2.585,60.93
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c24,12.0,0.1,0.1,4.915,5.17,60.93
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c24,24.0,0.15,0.15,13.57,13.57,60.93
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c25,6.0,0.175,0.2,8.5375,9.32,55.6
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c25,12.0,0.2333333333333333,0.5,13.185666666666668,25.85,55.6
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c25,24.0,0.1,0.15,8.0775,13.57,55.6
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c26,6.0,0.5,0.5,24.99,24.99,60.93
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c26,12.0,0.05,0.05,2.745,2.745,60.93
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c27,6.0,0.05,0.05,2.499,2.499,74.68
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c27,12.0,0.15,0.25,8.112,13.725,74.68
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c27,24.0,0.1,0.1,5.49,5.49,74.68
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c28,12.0,0.07500000000000001,0.1,5.397,5.796,93.2
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c28,24.0,0.2,0.2,10.98,10.98,93.2
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c29,12.0,0.05,0.05,2.499,2.499,114.18
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c29,24.0,0.1,0.1,5.49,5.49,114.18
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c30,24.0,0.05,0.05,2.745,2.745,136.49
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c31,24.0,0.06666666666666667,0.1,4.771666666666667,5.796,159.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c15,24.0,0.05,0.05,4.742,4.742,263.14
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c16,24.0,0.15,0.15,14.224,14.224,239.6
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c17,24.0,0.06666666666666667,0.1,5.889,9.483,216.38
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c18,24.0,0.1,0.15,9.4455,14.224,193.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c19,24.0,0.05,0.05,4.7044999999999995,4.742,171.41
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c21,12.0,0.1,0.15,8.8705,14.224,130.08
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c22,12.0,0.05,0.05,4.742,4.742,112.08
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c23,24.0,0.05,0.05,2.585,2.585,97.19
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c24,12.0,0.15000000000000002,0.2,7.245,9.32,87.05
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c24,24.0,0.1,0.1,9.047,9.047,87.05
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c25,12.0,0.275,0.35,13.325,16.31,83.4
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c25,24.0,0.175,0.2,11.955,13.57,83.4
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c26,12.0,0.05,0.05,2.542,2.585,87.05
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c27,12.0,0.2,0.2,9.996,9.996,97.19
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c27,24.0,0.05,0.05,2.745,2.745,97.19
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c28,12.0,0.3,0.3,14.994,14.994,112.08
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c28,24.0,0.05,0.05,2.745,2.745,112.08
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c29,12.0,0.05,0.05,2.499,2.499,130.08
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c30,24.0,0.07500000000000001,0.1,5.643000000000001,5.796,150.09
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c16,24.0,0.05,0.05,4.742,4.742,250.85
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c17,24.0,0.05,0.05,4.667,4.667,228.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c18,24.0,0.05,0.05,4.742,4.742,207.25
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c19,24.0,0.05,0.05,4.742,4.742,186.65
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c23,12.0,0.05,0.05,2.33,2.33,121.91
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c23,24.0,0.05,0.05,2.585,2.585,121.91
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c24,12.0,0.15,0.15,6.99,6.99,113.97
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c24,24.0,0.1,0.1,4.66,4.66,113.97
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c25,12.0,0.05,0.05,2.4575,2.585,111.19
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c25,24.0,0.08333333333333333,0.15,4.869666666666666,7.755,111.19
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c26,12.0,0.1,0.1,4.998,4.998,113.97
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c26,24.0,0.05,0.05,2.585,2.585,113.97
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c27,12.0,0.05,0.05,2.499,2.499,121.91
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c28,12.0,0.05,0.05,2.499,2.499,134.1
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c28,24.0,0.15,0.15,8.235,8.235,134.1
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c29,24.0,0.05,0.05,2.745,2.745,149.51
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c31,24.0,0.05,0.05,2.499,2.499,186.65
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c32,24.0,0.05,0.05,2.499,2.499,207.25
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c17,24.0,0.05,0.05,3.517,3.517,243.63
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c18,24.0,0.05,0.05,4.742,4.742,223.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c19,24.0,0.05,0.05,3.517,3.517,204.55
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c22,24.0,0.05,0.05,2.585,2.585,157.95
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c23,24.0,0.2,0.2,9.32,9.32,147.72
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c24,24.0,0.07500000000000001,0.1,3.6225,4.66,141.23
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c25,24.0,0.1,0.15,5.0425,7.755,138.99
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c26,24.0,0.05,0.05,2.585,2.585,141.23
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c29,24.0,0.05,0.05,2.499,2.499,171.25
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c31,24.0,0.05,0.05,2.499,2.499,204.55
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c32,24.0,0.05,0.05,2.499,2.499,223.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c18,24.0,0.05,0.05,4.7044999999999995,4.742,241.94
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c22,24.0,0.05,0.05,2.33,2.33,182.92
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c23,24.0,0.1,0.1,4.66,4.66,174.15
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c24,24.0,0.05,0.05,2.33,2.33,168.66
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c25,24.0,0.05,0.05,2.33,2.33,166.79
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c26,24.0,0.05,0.05,2.33,2.33,168.66
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c27,24.0,0.05,0.05,2.499,2.499,174.15
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c30,24.0,0.15,0.15,7.497,7.497,208.54
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c31,24.0,0.05,0.05,2.499,2.499,224.47
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c17,24.0,0.05,0.05,4.742,4.742,279.4
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c22,24.0,0.05,0.05,2.33,2.33,208.61
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c23,24.0,0.05,0.05,2.4575,2.585,200.94
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c24,24.0,0.05,0.05,2.33,2.33,196.2
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c25,24.0,0.05,0.05,2.4575,2.585,194.59
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c26,24.0,0.05,0.05,2.542,2.585,196.2
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c28,24.0,0.05,0.05,2.499,2.499,208.61
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c29,24.0,0.1,0.1,4.998,4.998,218.9
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c31,24.0,0.05,0.05,2.499,2.499,245.92
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r30_c27,24.0,0.05,0.05,2.499,2.499,227.98
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r30_c32,24.0,0.05,0.05,2.499,2.499,283.37
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r31_c27,24.0,0.1,0.1,4.998,4.998,255.18
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r31_c28,24.0,0.05,0.05,2.499,2.499,261.29
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c01,24.0,0.05,0.05,8.034,8.034,275.03
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c02,24.0,0.05,0.05,3.596,5.292,254.84
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c03,24.0,0.05,0.05,5.292,5.292,235.3
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c04,24.0,0.1,0.1,16.067,16.067,216.61
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c05,24.0,0.06666666666666667,0.1,6.317,8.034,198.99
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c06,12.0,0.05,0.05,1.9,1.9,182.76
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c06,24.0,0.07500000000000001,0.1,7.021,10.583,182.76
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c07,24.0,0.05000000000000001,0.05,4.142,5.292,168.32
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c08,24.0,0.07500000000000001,0.1,5.295999999999999,6.917,156.17
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c09,24.0,0.05000000000000001,0.05,3.578,3.675,146.87
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c10,24.0,0.07500000000000001,0.1,5.475,7.35,141.01
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r00_c14,24.0,0.05,0.05,3.6,3.6,156.17
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c03,24.0,0.05,0.05,6.663,8.034,220.25
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c05,24.0,0.125,0.2,18.713,32.134,180.82
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c06,12.0,0.05,0.05,4.9670000000000005,8.034,162.74
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c06,24.0,0.05,0.05,4.3755,5.292,162.74
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c07,24.0,0.1,0.15,6.593999999999999,10.376,146.29
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c08,12.0,0.10000000000000002,0.2,8.192,11.25,132.09
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c08,24.0,0.05,0.05,3.1355,3.459,132.09
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c09,12.0,0.1,0.15,6.0565,8.438,120.93
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c09,24.0,0.05,0.05,3.675,3.675,120.93
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c10,12.0,0.1,0.15,5.9485,8.438,113.71
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c10,24.0,0.1,0.1,7.35,7.35,113.71
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c11,12.0,0.05,0.05,3.6,3.6,111.19
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c11,24.0,0.05,0.05,3.6,3.6,111.19
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r01_c13,24.0,0.05,0.05,3.6,3.6,120.93
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c01,24.0,0.05,0.05,1.9,1.9,252.15
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c02,24.0,0.05,0.05,8.034,8.034,229.83
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c03,24.0,0.05,0.05,8.034,8.034,207.84
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c05,12.0,0.1,0.1,3.8,3.8,165.35
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c05,24.0,0.05,0.05,5.7465,8.034,165.35
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c06,12.0,0.05,0.05,8.034,8.034,145.3
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c06,24.0,0.05,0.05,5.292,5.292,145.3
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c07,12.0,0.11666666666666668,0.2,13.348333333333334,21.166,126.55
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c07,24.0,0.05,0.05,5.7465,8.034,126.55
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c08,12.0,0.1625,0.25,17.622,32.134,109.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c09,12.0,0.11000000000000001,0.15,9.547799999999999,16.067,96.02
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c09,24.0,0.07500000000000001,0.1,5.295999999999999,6.917,96.02
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c10,12.0,0.15,0.25,10.662333333333335,18.375,86.72
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c10,24.0,0.1,0.1,7.35,7.35,86.72
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c11,12.0,0.18333333333333335,0.45,12.962333333333333,32.4,83.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r02_c12,12.0,0.125,0.2,9.0375,14.4,86.72
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c04,12.0,0.2,0.2,7.6,7.6,175.82
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c04,24.0,0.05,0.05,1.863,1.863,175.82
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c05,12.0,0.1,0.1,3.8,3.8,153.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c05,24.0,0.05,0.05,3.459,3.459,153.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c06,12.0,0.05,0.05,6.663,8.034,131.47
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c06,24.0,0.05,0.05,1.863,1.863,131.47
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c07,12.0,0.1,0.15,11.954,15.874,110.34
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c08,6.0,0.05,0.05,1.9,1.9,90.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c08,12.0,0.19999999999999998,0.3,25.427999999999997,48.201,90.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c08,24.0,0.05,0.05,3.459,3.459,90.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c09,6.0,0.11666666666666668,0.2,15.176333333333334,32.134,73.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c09,12.0,0.14,0.4,10.9662,27.668,73.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c09,24.0,0.05,0.05,3.459,3.459,73.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c10,6.0,0.20833333333333334,0.7,14.961333333333334,39.375,60.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c10,12.0,0.175,0.3,12.7545,22.05,60.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c11,6.0,0.15,0.15,10.8,10.8,55.6
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c11,12.0,0.15,0.15,10.8,10.8,55.6
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r03_c15,24.0,0.05,0.05,2.542,2.542,110.34
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c01,24.0,0.05,0.05,4.35,4.35,240.2
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c02,24.0,0.05,0.05,3.434,3.434,216.52
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c04,12.0,0.3,0.3,11.4,11.4,169.31
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c05,12.0,0.05,0.05,1.9,1.9,145.83
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c05,24.0,0.05,0.05,1.863,1.863,145.83
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c06,12.0,0.05,0.05,3.434,3.434,122.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c06,24.0,0.25,0.25,9.312,9.312,122.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c07,6.0,0.1,0.1,3.8,3.8,99.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c07,12.0,0.05,0.05,3.434,3.434,99.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c07,24.0,0.07500000000000001,0.1,3.592,3.725,99.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c08,6.0,0.35,0.35,13.3,13.3,76.79
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c08,12.0,0.15,0.15,5.587,5.587,76.79
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c09,3.0,0.25,0.25,9.5,9.5,55.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c09,6.0,0.22999999999999998,0.5,26.7226,80.335,55.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c09,12.0,0.2,0.2,10.642,13.834,55.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c10,3.0,0.48,0.8,48.34740000000001,104.435,36.63
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c10,6.0,0.3416666666666666,0.7,28.647499999999997,48.419,36.63
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c10,12.0,0.05,0.05,3.459,3.459,36.63
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c11,3.0,0.3833333333333333,0.9,28.137,64.8,27.8
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c11,6.0,0.3666666666666667,0.7,26.455666666666662,50.4,27.8
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c12,6.0,0.05,0.05,3.6,3.6,36.63
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c12,12.0,0.1,0.1,5.083,5.083,36.63
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c13,12.0,0.05,0.05,2.542,2.542,55.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c14,24.0,0.1,0.1,5.083,5.083,76.79
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c15,24.0,0.05,0.05,2.542,2.542,99.4
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r04_c16,24.0,0.05,0.05,2.542,2.542,122.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c01,24.0,0.05,0.05,4.35,4.35,238.9
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c02,24.0,0.05,0.05,1.567,1.567,215.01
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c03,24.0,0.05,0.05,2.6485000000000003,3.434,191.12
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c04,12.0,0.05,0.05,1.9,1.9,167.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c04,24.0,0.05,0.05,2.6485000000000003,3.434,167.23
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c05,12.0,0.1,0.1,3.8,3.8,143.34
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c05,24.0,0.05000000000000001,0.05,2.288,3.434,143.34
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c06,12.0,0.125,0.15,9.9585,13.05,119.45
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c06,24.0,0.05,0.05,1.317,1.317,119.45
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c07,6.0,0.15,0.15,5.7,5.7,95.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c07,12.0,0.10000000000000002,0.1,6.233333333333333,8.7,95.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c07,24.0,0.1,0.15,4.9685,5.587,95.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c08,6.0,0.13749999999999998,0.3,7.1335,11.4,71.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c08,12.0,0.18333333333333335,0.3,8.825333333333333,13.734,71.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c09,3.0,0.4,0.4,15.2,15.2,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c09,6.0,0.38,0.75,24.611800000000002,51.502,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c09,12.0,0.2,0.25,6.6305,9.312,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c09,24.0,0.05,0.05,1.317,1.317,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c10,1.0,0.5,0.5,19.0,19.0,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c10,3.0,0.45909090909090905,1.0,28.383454545454548,78.3,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c10,6.0,0.2875,0.6,12.635375,24.085,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c10,12.0,0.21666666666666665,0.45,6.978999999999999,11.848,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c10,24.0,0.15,0.3,4.859666666666667,7.899,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c11,1.0,0.96875,1.0,70.301875,160.67,0.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c11,3.0,0.44999999999999996,0.85,31.102555555555554,125.375,0.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c11,6.0,0.3125,0.5,25.352,73.75,0.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c11,12.0,0.25,0.35,29.4255,51.625,0.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c11,24.0,0.05,0.05,1.317,1.317,0.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c12,3.0,0.375,0.5,24.186,35.665,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c12,6.0,0.85,0.85,43.206,43.206,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c12,12.0,0.4,0.4,20.332,20.332,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c12,24.0,0.15,0.15,7.624,7.624,23.89
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c13,3.0,0.05,0.05,3.567,3.567,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c13,6.0,0.05,0.05,3.0545,3.567,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c13,12.0,0.4,0.4,20.332,20.332,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c13,24.0,0.1,0.1,5.083,5.083,47.78
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c14,12.0,0.05,0.05,2.542,2.542,71.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c14,24.0,0.2,0.2,10.166,10.166,71.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c15,12.0,0.05,0.05,3.567,3.567,95.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c15,24.0,0.15,0.15,7.624,7.624,95.56
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r05_c17,24.0,0.1,0.1,5.083,5.083,143.34
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c01,24.0,0.0625,0.1,3.6617499999999996,6.867,240.82
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c02,24.0,0.1,0.15,8.242,13.05,217.08
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c03,24.0,0.1,0.15,5.9335,10.3,193.38
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c04,24.0,0.08333333333333333,0.15,6.115666666666667,13.05,169.74
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c05,24.0,0.07500000000000001,0.1,4.365,6.867,146.19
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c06,12.0,0.06666666666666667,0.1,3.639,4.35,122.79
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c06,24.0,0.05,0.05,2.409,2.409,122.79
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c07,12.0,0.2333333333333333,0.3,15.366666666666667,26.1,99.64
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c07,24.0,0.05,0.05,2.409,2.409,99.64
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c08,12.0,0.08750000000000001,0.2,4.11475,6.266,76.96
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c08,24.0,0.06666666666666667,0.1,2.203,2.633,76.96
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c09,6.0,0.2333333333333333,0.3,14.122,26.1,55.33
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c09,12.0,0.14,0.3,6.4176,14.451,55.33
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c09,24.0,0.09999999999999999,0.15,5.380333333333333,7.375,55.33
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c10,3.0,0.07500000000000001,0.1,5.1335,8.7,36.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c10,6.0,0.175,0.25,13.3965,14.75,36.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c10,12.0,0.3,0.4,26.239,59.0,36.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c10,24.0,0.15,0.2,13.119666666666667,29.5,36.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c11,3.0,0.15,0.15,22.125,22.125,27.8
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c11,6.0,0.3,0.3,44.25,44.25,27.8
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c11,12.0,0.1,0.1,14.75,14.75,27.8
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c11,24.0,0.1,0.1,14.75,14.75,27.8
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c12,3.0,0.45,0.45,32.099,32.099,36.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c12,6.0,0.25,0.25,17.832,17.832,36.67
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c13,6.0,0.55,0.55,39.232,39.232,55.33
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c13,12.0,0.05,0.05,3.567,3.567,55.33
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c15,12.0,0.2,0.2,14.266,14.266,99.64
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r06_c16,24.0,0.05,0.05,2.542,2.542,122.79
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c00,24.0,0.05,0.05,4.35,4.35,269.27
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c01,24.0,0.05,0.05,4.35,4.35,245.88
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c02,24.0,0.06666666666666667,0.1,3.639,4.35,222.62
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c03,24.0,0.09999999999999999,0.15,6.539000000000001,13.05,199.52
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c04,24.0,0.06666666666666667,0.1,3.639,4.35,176.64
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c05,24.0,0.2,0.2,6.266,6.266,154.09
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c06,12.0,0.05,0.05,2.5005,3.434,132.04
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c07,12.0,0.175,0.2,13.85,17.4,110.77
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c07,24.0,0.07500000000000001,0.1,3.067,4.817,110.77
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c08,12.0,0.09999999999999999,0.15,5.269333333333333,8.7,90.85
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c08,24.0,0.07500000000000001,0.1,8.0335,14.75,90.85
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c09,24.0,0.09999999999999999,0.15,7.764333333333333,14.75,73.39
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c10,12.0,0.05,0.05,7.375,7.375,60.54
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c10,24.0,0.15,0.15,22.125,22.125,60.54
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c11,12.0,0.05,0.05,7.375,7.375,55.6
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c12,6.0,0.15,0.15,10.699,10.699,60.54
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c14,12.0,0.05,0.05,3.567,3.567,90.85
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c15,12.0,0.2,0.2,14.266,14.266,110.77
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r07_c16,12.0,0.05,0.05,3.567,3.567,132.04
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c03,24.0,0.1,0.1,6.867,6.867,209.2
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c04,24.0,0.05,0.05,4.35,4.35,187.45
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c05,24.0,0.05,0.05,3.434,3.434,166.31
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c06,24.0,0.05,0.05,1.988,2.409,146.06
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c07,12.0,0.05,0.05,2.9585,4.35,127.11
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c07,24.0,0.07500000000000001,0.1,6.096,7.375,127.11
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c08,24.0,0.07500000000000001,0.1,3.067,4.817,110.14
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c09,24.0,0.15,0.15,22.125,22.125,96.21
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c14,12.0,0.2,0.2,14.266,14.266,110.14
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c15,12.0,0.1,0.1,7.133,7.133,127.11
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c17,24.0,0.05,0.05,3.567,3.567,166.31
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c19,24.0,0.05,0.05,3.567,3.567,209.2
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c20,24.0,0.05,0.05,3.567,3.567,231.39
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r08_c21,24.0,0.05,0.05,3.567,3.567,253.91
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c02,24.0,0.05,0.05,3.434,3.434,243.04
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c04,24.0,0.1,0.1,3.133,3.133,201.54
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c05,24.0,0.05,0.05,1.567,1.567,182.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c08,24.0,0.05,0.05,7.375,7.375,132.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c14,12.0,0.05,0.05,3.567,3.567,132.49
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c15,12.0,0.05,0.05,3.567,3.567,146.94
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c17,24.0,0.1,0.1,7.133,7.133,182.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c18,24.0,0.1,0.1,7.133,7.133,201.54
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r09_c21,24.0,0.05,0.05,3.567,3.567,264.62
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r10_c03,24.0,0.05,0.05,4.35,4.35,237.31
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r10_c05,24.0,0.05,0.05,4.35,4.35,200.32
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r10_c06,24.0,0.05,0.05,1.567,1.567,183.77
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r10_c08,24.0,0.05,0.05,7.375,7.375,156.59
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r10_c17,24.0,0.05,0.05,3.567,3.567,200.32
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r10_c18,24.0,0.1,0.1,7.133,7.133,218.28
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r11_c16,24.0,0.05,0.05,3.567,3.567,205.69
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r11_c17,24.0,0.05,0.05,3.567,3.567,220.64
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r11_c19,24.0,0.05,0.05,3.567,3.567,254.77
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r11_c20,24.0,0.1,0.1,7.133,7.133,273.42
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IGP_r05_c11,IGP_r12_c17,24.0,0.15,0.15,10.699,10.699,242.44
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r12_c27,24.0,0.05,0.05,54.777,54.777,282.31
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r13_c27,24.0,0.05,0.05,54.777,54.777,254.99
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r15_c27,24.0,0.15,0.15,164.331,164.331,200.76
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r15_c29,24.0,0.05,0.05,54.777,54.777,218.21
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r15_c30,24.0,0.05,0.05,54.777,54.777,230.43
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c23,24.0,0.05,0.05,3.043,3.043,173.96
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c25,24.0,0.1,0.1,109.554,109.554,166.79
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c26,24.0,0.1,0.1,109.554,109.554,168.61
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c27,24.0,0.1,0.1,109.554,109.554,173.96
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c28,24.0,0.1,0.1,109.554,109.554,182.53
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r16_c30,24.0,0.05,0.05,54.777,54.777,207.57
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r17_c26,24.0,0.05,0.05,54.777,54.777,141.18
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r17_c28,24.0,0.1,0.1,109.554,109.554,157.57
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r17_c30,24.0,0.05,0.05,54.777,54.777,186.07
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c22,24.0,0.1,0.1,6.086,6.086,133.74
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c23,24.0,0.15,0.15,9.129,9.129,121.73
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c25,12.0,0.15,0.15,164.331,164.331,111.19
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r18_c26,12.0,0.2,0.2,219.108,219.108,113.92
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c22,24.0,0.1,0.1,6.086,6.086,111.75
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c23,12.0,0.05,0.05,3.043,3.043,97.03
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c23,24.0,0.15,0.15,9.129,9.129,97.03
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c24,24.0,0.05,0.05,3.043,3.043,87.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c25,12.0,0.07500000000000001,0.1,56.298500000000004,109.554,83.4
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c26,12.0,0.05,0.05,54.777,54.777,87.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c27,12.0,0.1,0.1,109.554,109.554,97.03
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c28,12.0,0.05,0.05,54.777,54.777,111.75
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c29,24.0,0.05,0.05,9.66,9.66,129.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c30,24.0,0.1,0.1,19.32,19.32,149.42
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r19_c32,24.0,0.05,0.05,9.66,9.66,192.57
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c15,24.0,0.05,0.05,4.862,4.862,254.38
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c21,24.0,0.05,0.05,3.043,3.043,113.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c23,12.0,0.1,0.1,6.086,6.086,74.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c23,24.0,0.1,0.1,6.086,6.086,74.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c24,12.0,0.1,0.1,6.086,6.086,60.89
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c24,24.0,0.05,0.05,3.043,3.043,60.89
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c25,6.0,0.4,0.4,438.216,438.216,55.6
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c25,12.0,0.15,0.15,164.331,164.331,55.6
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c26,6.0,0.15,0.15,164.331,164.331,60.89
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c26,12.0,0.15,0.15,164.331,164.331,60.89
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c27,24.0,0.05,0.05,9.66,9.66,74.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c28,24.0,0.05,0.05,9.66,9.66,92.94
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c29,12.0,0.05,0.05,9.66,9.66,113.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c29,24.0,0.1,0.1,19.32,19.32,113.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c30,24.0,0.05,0.05,6.256,6.256,136.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c31,24.0,0.125,0.2,22.448,38.64,158.98
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r20_c34,24.0,0.05,0.05,6.256,6.256,230.22
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c20,12.0,0.05,0.05,4.862,4.862,127.33
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c21,12.0,0.05,0.05,4.415,4.415,103.22
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c21,24.0,0.05,0.05,3.043,3.043,103.22
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c23,12.0,0.2,0.2,12.172,12.172,56.95
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c23,24.0,0.05,0.05,3.043,3.043,56.95
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,3.0,0.05,0.05,3.043,3.043,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,6.0,0.5,0.5,30.43,30.43,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,12.0,0.45,0.45,27.387,27.387,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c24,24.0,0.1,0.1,6.086,6.086,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c25,3.0,0.9,0.9,985.986,985.986,27.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c25,6.0,0.15000000000000002,0.2,60.863,109.554,27.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c26,3.0,0.1,0.1,109.554,109.554,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c26,6.0,0.275,0.35,211.0395,383.439,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c26,12.0,0.05,0.05,54.777,54.777,37.29
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c27,6.0,0.05,0.05,7.958,9.66,56.95
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c27,12.0,0.19999999999999998,0.35,30.764333333333337,67.62,56.95
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c27,24.0,0.05,0.05,9.66,9.66,56.95
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c28,12.0,0.11666666666666665,0.25,19.169666666666668,48.3,79.57
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c28,24.0,0.09999999999999999,0.15,16.383333333333333,28.98,79.57
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c29,24.0,0.05,0.05,6.256,6.256,103.22
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c30,24.0,0.07500000000000001,0.1,6.7825,7.659,127.33
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c31,24.0,0.05,0.05,7.958,9.66,151.67
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r21_c32,24.0,0.1,0.1,12.511,12.511,176.16
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c15,24.0,0.05,0.05,4.862,4.862,248.78
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c16,24.0,0.1,0.1,9.724,9.724,223.9
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c17,24.0,0.05,0.05,4.415,4.415,199.02
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c19,24.0,0.05,0.05,4.415,4.415,149.27
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c20,12.0,0.07500000000000001,0.1,7.32,9.724,124.39
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c20,24.0,0.05,0.05,4.862,4.862,124.39
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c21,12.0,0.08333333333333333,0.15,7.972333333333334,14.586,99.51
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c22,6.0,0.06666666666666667,0.1,6.351666666666667,9.724,74.63
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c22,12.0,0.05,0.05,4.916,4.916,74.63
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c23,6.0,0.3499999999999999,0.6,33.695,58.344,49.76
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c23,24.0,0.05,0.05,4.895,4.895,49.76
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,3.0,0.6375000000000001,0.9,60.426750000000006,87.516,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,6.0,0.10000000000000002,0.1,8.682333333333334,10.172,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,12.0,0.26666666666666666,0.5,25.806,48.945,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c24,24.0,0.35,0.45,34.739999999999995,44.05,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,1.0,1.0,1.0,164.948125,1095.54,0.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,3.0,0.5230769230769231,1.0,49.740153846153845,104.58,0.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,6.0,0.42142857142857143,0.9,41.293,91.548,0.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,12.0,0.21000000000000002,0.45,21.5818,45.774,0.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c25,24.0,0.05,0.05,5.086,5.086,0.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,3.0,0.48333333333333334,0.85,60.413666666666664,164.22,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,6.0,0.6599999999999999,0.85,81.6628,135.24,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,12.0,0.1,0.15,13.3084,22.975,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c26,24.0,0.07500000000000001,0.1,10.7865,15.317,24.88
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c27,6.0,0.21666666666666665,0.3,21.637,37.533,49.76
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c27,12.0,0.24,0.35,26.2112,45.951,49.76
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c27,24.0,0.06666666666666667,0.1,7.741666666666667,9.66,49.76
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c28,12.0,0.1125,0.2,12.8,25.022,74.63
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c28,24.0,0.05,0.05,5.306,7.659,74.63
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c29,12.0,0.05,0.05,6.3065,9.66,99.51
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c29,24.0,0.13333333333333333,0.15,14.781666666666666,22.975,99.51
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c30,24.0,0.15,0.3,16.666,37.533,124.39
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c31,24.0,0.05,0.05,6.3065,9.66,149.27
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r22_c33,24.0,0.05,0.05,2.953,2.953,199.02
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c14,24.0,0.05,0.05,4.862,4.862,275.36
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c15,24.0,0.05,0.05,4.6385000000000005,4.862,250.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c16,24.0,0.10000000000000002,0.2,9.593,19.448,225.86
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c17,24.0,0.07500000000000001,0.1,7.0695,9.724,201.17
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c18,24.0,0.1,0.15,9.5005,14.586,176.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c20,12.0,0.08333333333333333,0.1,7.841333333333334,9.832,127.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c20,24.0,0.05,0.05,4.415,4.415,127.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c21,12.0,0.19999999999999998,0.25,18.906,24.31,103.43
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c22,6.0,0.05,0.05,4.916,4.916,79.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c22,12.0,0.09999999999999999,0.15,9.479999999999999,14.748,79.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c22,24.0,0.05,0.05,4.9905,5.086,79.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c23,6.0,0.48333333333333334,0.65,45.242333333333335,57.395,57.04
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c23,12.0,0.05,0.05,4.9905,5.086,57.04
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c23,24.0,0.15,0.15,14.9705,15.258,57.04
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,3.0,0.15,0.2,14.211,19.664,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,6.0,0.075,0.15,7.686,13.245,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,12.0,0.13333333333333333,0.25,13.482666666666667,25.43,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c24,24.0,0.275,0.3,27.3985,29.367,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,3.0,0.3875,0.9,51.08175,160.731,27.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,6.0,0.4375,0.7,52.51575,125.013,27.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,12.0,0.7,0.7,73.206,73.206,27.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c25,24.0,0.25,0.4,26.002000000000002,41.832,27.8
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c26,3.0,0.35000000000000003,0.65,21.407,40.287,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c26,6.0,0.22499999999999998,0.45,15.25625,22.743,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c26,12.0,0.05,0.05,5.093,7.659,37.32
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c27,6.0,0.1,0.1,6.198,6.198,57.04
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c27,12.0,0.275,0.4,26.101,53.609,57.04
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c27,24.0,0.10000000000000002,0.2,12.037999999999998,30.634,57.04
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c28,12.0,0.05,0.05,5.306,7.659,79.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c28,24.0,0.1,0.1,15.317,15.317,79.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c29,24.0,0.1,0.1,10.6115,15.317,103.43
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c30,24.0,0.05,0.05,6.256,6.256,127.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c31,24.0,0.05,0.05,2.953,2.953,151.99
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r23_c32,24.0,0.05,0.05,4.6045,6.256,176.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c15,24.0,0.07500000000000001,0.1,6.846,8.83,255.44
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c17,24.0,0.07500000000000001,0.1,7.1235,9.832,207.06
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c18,24.0,0.2,0.2,17.66,17.66,183.16
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c19,24.0,0.05,0.05,4.916,4.916,159.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c20,12.0,0.05,0.05,4.862,4.862,136.49
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c20,24.0,0.05,0.05,4.415,4.415,136.49
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c21,12.0,0.26666666666666666,0.35,24.977666666666664,30.905,114.18
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c21,24.0,0.05,0.05,5.086,5.086,114.18
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c22,12.0,0.07500000000000001,0.1,6.846,8.83,93.2
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c23,6.0,0.05,0.05,4.916,4.916,74.68
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c23,12.0,0.05,0.05,4.415,4.415,74.68
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c23,24.0,0.1,0.1,10.172,10.172,74.68
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c24,6.0,0.05,0.05,3.653,3.653,60.93
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c24,12.0,0.1,0.1,12.583000000000002,17.859,60.93
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c24,24.0,0.15,0.15,15.687,15.687,60.93
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c25,6.0,0.175,0.2,23.339000000000002,35.718,55.6
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c25,12.0,0.2333333333333333,0.5,21.617333333333335,36.535,55.6
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c25,24.0,0.1,0.15,9.67,15.687,55.6
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c26,6.0,0.5,0.5,30.99,30.99,60.93
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c26,12.0,0.05,0.05,2.527,2.527,60.93
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c27,6.0,0.05,0.05,3.099,3.099,74.68
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c27,12.0,0.15,0.25,7.867,12.635,74.68
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c27,24.0,0.1,0.1,5.054,5.054,74.68
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c28,12.0,0.07500000000000001,0.1,6.9285,7.659,93.2
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c28,24.0,0.2,0.2,10.108,10.108,93.2
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c29,12.0,0.05,0.05,3.099,3.099,114.18
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c29,24.0,0.1,0.1,5.054,5.054,114.18
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c30,24.0,0.05,0.05,2.527,2.527,136.49
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r24_c31,24.0,0.06666666666666667,0.1,5.222,7.659,159.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c15,24.0,0.05,0.05,4.916,4.916,263.14
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c16,24.0,0.15,0.15,14.748,14.748,239.6
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c17,24.0,0.06666666666666667,0.1,6.369666666666667,9.832,216.38
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c18,24.0,0.1,0.15,9.5815,14.748,193.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c19,24.0,0.05,0.05,4.6655,4.916,171.41
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c21,12.0,0.1,0.15,9.805,14.748,130.08
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c22,12.0,0.05,0.05,4.916,4.916,112.08
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c23,24.0,0.05,0.05,3.653,3.653,97.19
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c24,12.0,0.15000000000000002,0.2,21.512500000000003,35.718,87.05
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c24,24.0,0.1,0.1,10.458,10.458,87.05
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c25,12.0,0.275,0.35,38.56,62.506,83.4
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c25,24.0,0.175,0.2,15.150500000000001,15.687,83.4
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c26,12.0,0.05,0.05,3.3760000000000003,3.653,87.05
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c27,12.0,0.2,0.2,12.396,12.396,97.19
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c27,24.0,0.05,0.05,2.527,2.527,97.19
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c28,12.0,0.3,0.3,18.594,18.594,112.08
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c28,24.0,0.05,0.05,2.527,2.527,112.08
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c29,12.0,0.05,0.05,3.099,3.099,130.08
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r25_c30,24.0,0.07500000000000001,0.1,6.3565000000000005,7.659,150.09
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c16,24.0,0.05,0.05,4.916,4.916,250.85
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c17,24.0,0.05,0.05,4.415,4.415,228.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c18,24.0,0.05,0.05,4.916,4.916,207.25
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c19,24.0,0.05,0.05,4.916,4.916,186.65
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c23,12.0,0.05,0.05,8.93,8.93,121.91
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c23,24.0,0.05,0.05,3.653,3.653,121.91
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c24,12.0,0.15,0.15,26.788,26.788,113.97
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c24,24.0,0.1,0.1,17.859,17.859,113.97
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c25,12.0,0.05,0.05,6.2915,8.93,111.19
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c25,24.0,0.08333333333333333,0.15,8.373,10.96,111.19
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c26,12.0,0.1,0.1,6.198,6.198,113.97
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c26,24.0,0.05,0.05,3.653,3.653,113.97
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c27,12.0,0.05,0.05,3.099,3.099,121.91
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c28,12.0,0.05,0.05,3.099,3.099,134.1
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c28,24.0,0.15,0.15,7.581,7.581,134.1
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c29,24.0,0.05,0.05,2.527,2.527,149.51
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c31,24.0,0.05,0.05,3.099,3.099,186.65
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r26_c32,24.0,0.05,0.05,3.099,3.099,207.25
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c17,24.0,0.05,0.05,4.862,4.862,243.63
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c18,24.0,0.05,0.05,4.916,4.916,223.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c19,24.0,0.05,0.05,4.862,4.862,204.55
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c22,24.0,0.05,0.05,3.653,3.653,157.95
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c23,24.0,0.2,0.2,35.718,35.718,147.72
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c24,24.0,0.07500000000000001,0.1,10.756,17.859,141.23
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c25,24.0,0.1,0.15,9.945,10.96,138.99
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c26,24.0,0.05,0.05,3.653,3.653,141.23
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c29,24.0,0.05,0.05,3.099,3.099,171.25
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c31,24.0,0.05,0.05,3.099,3.099,204.55
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r27_c32,24.0,0.05,0.05,3.099,3.099,223.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c18,24.0,0.05,0.05,4.6655,4.916,241.94
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c22,24.0,0.05,0.05,8.93,8.93,182.92
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c23,24.0,0.1,0.1,17.859,17.859,174.15
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c24,24.0,0.05,0.05,8.93,8.93,168.66
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c25,24.0,0.05,0.05,8.93,8.93,166.79
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c26,24.0,0.05,0.05,8.93,8.93,168.66
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c27,24.0,0.05,0.05,3.099,3.099,174.15
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c30,24.0,0.15,0.15,9.297,9.297,208.54
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r28_c31,24.0,0.05,0.05,3.099,3.099,224.47
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c17,24.0,0.05,0.05,4.916,4.916,279.4
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c22,24.0,0.05,0.05,8.93,8.93,208.61
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c23,24.0,0.05,0.05,6.2915,8.93,200.94
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c24,24.0,0.05,0.05,8.93,8.93,196.2
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c25,24.0,0.05,0.05,6.2915,8.93,194.59
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c26,24.0,0.05,0.05,3.3760000000000003,3.653,196.2
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c28,24.0,0.05,0.05,3.099,3.099,208.61
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c29,24.0,0.1,0.1,6.198,6.198,218.9
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r29_c31,24.0,0.05,0.05,3.099,3.099,245.92
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r30_c27,24.0,0.05,0.05,3.099,3.099,227.98
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r30_c32,24.0,0.05,0.05,3.099,3.099,283.37
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r31_c27,24.0,0.1,0.1,6.198,6.198,255.18
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IGP_r22_c25,IGP_r31_c28,24.0,0.05,0.05,3.099,3.099,261.29

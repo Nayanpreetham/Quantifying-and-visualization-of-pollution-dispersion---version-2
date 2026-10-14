@@ -1,0 +1,2 @@
+source_grid_id,footprint_weight,footprint_normalized,target_grid_id,timestamp,wind_speed,wind_direction,PBLH,stability_L,pct_mass_outside_domain,distance_km
+IND_035_011,0.5418949956381446,1.0,IND_035_011,2020-11-01 12:00:00,2.052586793899536,32.96600341796875,135.5037078857422,0.008976677432656288,0.0,0.0

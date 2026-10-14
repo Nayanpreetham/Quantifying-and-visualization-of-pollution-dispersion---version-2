@@ -1,0 +1,9 @@
+year,has_era5_meteorology,era5_synoptic_steps,era5_variables,era5_size_mb,era5_lat_range,era5_lon_range,openaq_obs_count,openaq_stations_total,openaq_primary_stations,openaq_min_timestamp,openaq_max_timestamp,coverage_status
+2018,False,0,None,0.0,None,None,32342,34,0,2018-03-09 03:00:00,2018-12-28 01:00:00,OBSERVATIONS_ONLY_ERA5_MISSING
+2019,False,0,None,0.0,None,None,25993,19,0,2019-01-02 21:00:00,2019-12-31 23:00:00,OBSERVATIONS_ONLY_ERA5_MISSING
+2020,True,1464,u10; v10; t2m; sp; blh,233.91,"[6.00, 35.00]","[68.00, 97.00]",20760,19,1,2020-01-01 00:00:00,2020-12-31 16:00:00,FULL_COUPLED_READY
+2021,True,1460,u10; v10; t2m; sp; blh,232.89,"[6.00, 35.00]","[68.00, 97.00]",11592,14,10,2021-01-01 02:00:00,2021-12-31 23:00:00,FULL_COUPLED_READY
+2022,True,1460,u10; v10; t2m; sp; blh,232.93,"[6.00, 35.00]","[68.00, 97.00]",2789,5,0,2022-01-01 00:00:00,2022-10-31 01:00:00,FULL_COUPLED_READY
+2023,True,1460,u10; v10; t2m; sp; blh,232.52,"[6.00, 35.00]","[68.00, 97.00]",0,0,0,None,None,METEOROLOGY_ONLY_READY
+2024,True,1464,u10; v10; t2m; sp; blh,233.63,"[6.00, 35.00]","[68.00, 97.00]",0,0,0,None,None,METEOROLOGY_ONLY_READY
+2025,False,0,None,0.0,None,None,17575,12,0,2025-02-18 20:00:00,2025-12-31 23:00:00,OBSERVATIONS_ONLY_ERA5_MISSING

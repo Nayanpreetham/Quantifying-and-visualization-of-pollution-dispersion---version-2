@@ -1,0 +1,2 @@
+rank,source_grid_id,distance_km,wind_speed,wind_direction,footprint_weight,baseline_pollution_indicator,estimated_pollution_contribution,contribution_percent,pct_mass_outside_domain
+1,IND_035_011,0.0,2.052586793899536,32.96600341796875,0.5418949956381446,180.3252112638878,180.3252112638878,99.99999999999999,0.0

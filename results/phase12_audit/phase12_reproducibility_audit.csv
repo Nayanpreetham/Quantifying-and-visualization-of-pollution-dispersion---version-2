@@ -1,0 +1,17 @@
+item,reported,audited,match
+Temporal Start,2021-09-15 00:00:00,2021-09-15 00:00:00,True
+Temporal End,2021-10-20 18:00:00,2021-10-20 18:00:00,True
+Synoptic Step Count,144,144,True
+Station Count,10,10,True
+Total Station-Step Slots,1440,1440,True
+Executed Slices (Valid PM2.5 + Wind),847,847,True
+Unmonitored Slices (Missing PM2.5),593,593,True
+Missing Meteorology Slices,0,0,True
+Aligned In-situ Slices,847,847,True
+Total Simulation Runs,4235,4235,True
+Elapsed Windows Evaluated,"1, 3, 6, 12, 24","[np.float64(1.0), np.float64(3.0), np.float64(6.0), np.float64(12.0), np.float64(24.0)]",True
+Ensemble Size (N),20,20,True
+Transport Target Records,25864,25864,True
+Aggregated Matrix Pairs,7243,7243,True
+Closure Groups (Station x Window),50,50,True
+Transport Skipped on Missing PM2.5,Yes (coupled),Yes (coupled),True

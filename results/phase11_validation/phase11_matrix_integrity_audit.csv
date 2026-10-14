@@ -1,0 +1,51 @@
+station_id,station_name,city,source_grid_id,elapsed_time_hours,eligible_steps,destinations_reached,inside_sum,outside_fraction,total_closure_sum,closure_error,max_mean_fraction,max_single_step_fraction,is_bounded_0_1,is_mass_conserved,audit_status
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,IND_r047_c095,1.0,40,1,1.0,0.0,1.0,0.0,1.0,1.0,True,True,PASS
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,IND_r047_c095,3.0,40,8,1.0,0.0,1.0,0.0,0.67375,1.0,True,True,PASS
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,IND_r047_c095,6.0,40,18,1.0,0.0,1.0,0.0,0.22875,0.85,True,True,PASS
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,IND_r047_c095,12.0,40,55,1.0,0.0,1.0,0.0,0.085,0.6,True,True,PASS
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,IND_r047_c095,24.0,40,159,1.0,0.0,1.0,0.0,0.03625,0.7,True,True,PASS
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,IND_r050_c056,1.0,90,6,1.0,0.0,1.0,0.0,0.723333,1.0,True,True,PASS
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,IND_r050_c056,3.0,90,25,1.0,0.0,1.0,0.0,0.312778,1.0,True,True,PASS
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,IND_r050_c056,6.0,90,75,1.0,0.0,1.0,0.0,0.102778,0.9,True,True,PASS
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,IND_r050_c056,12.0,90,206,1.0,0.0,1.0,0.0,0.035,0.7,True,True,PASS
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,IND_r050_c056,24.0,90,498,1.0,0.0,1.0,0.0,0.011667,0.75,True,True,PASS
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,IND_r060_c018,1.0,84,5,1.0,0.0,1.0,0.0,0.940476,1.0,True,True,PASS
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,IND_r060_c018,3.0,84,24,1.0,0.0,1.0,0.0,0.2125,1.0,True,True,PASS
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,IND_r060_c018,6.0,84,69,1.0,0.0,1.0,0.0,0.085714,1.0,True,True,PASS
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,IND_r060_c018,12.0,84,188,1.0,0.0,1.0,0.0,0.027381,0.75,True,True,PASS
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,IND_r060_c018,24.0,84,417,0.974405,0.025595,1.0,0.0,0.025595,1.0,True,True,PASS
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,IND_r043_c040,1.0,91,5,1.0,0.0,1.0,0.0,0.8,1.0,True,True,PASS
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,IND_r043_c040,3.0,91,25,1.0,0.0,1.0,0.0,0.335165,1.0,True,True,PASS
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,IND_r043_c040,6.0,91,69,1.0,0.0,1.0,0.0,0.12033,0.85,True,True,PASS
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,IND_r043_c040,12.0,91,204,1.0,0.0,1.0,0.0,0.043956,0.6,True,True,PASS
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,IND_r043_c040,24.0,91,549,1.0,0.0,1.0,0.0,0.014286,0.6,True,True,PASS
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,IND_r060_c019,1.0,89,5,1.0,0.0,1.0,0.0,0.946629,1.0,True,True,PASS
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,IND_r060_c019,3.0,89,22,1.0,0.0,1.0,0.0,0.220787,1.0,True,True,PASS
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,IND_r060_c019,6.0,89,65,1.0,0.0,1.0,0.0,0.091573,1.0,True,True,PASS
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,IND_r060_c019,12.0,89,177,1.0,0.0,1.0,0.0,0.035393,0.6,True,True,PASS
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,IND_r060_c019,24.0,89,421,0.984831,0.015169,1.0,0.0,0.015169,0.9,True,True,PASS
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IND_r051_c060,1.0,92,6,1.0,0.0,1.0,0.0,0.76413,1.0,True,True,PASS
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IND_r051_c060,3.0,92,25,1.0,0.0,1.0,0.0,0.315217,1.0,True,True,PASS
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IND_r051_c060,6.0,92,70,1.0,0.0,1.0,0.0,0.116304,0.9,True,True,PASS
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IND_r051_c060,12.0,92,191,1.0,0.0,1.0,0.0,0.044022,0.75,True,True,PASS
+228397,"IESD Banaras Hindu University, Vara",Varanasi,IND_r051_c060,24.0,92,497,1.0,0.0,1.0,0.0,0.013587,0.75,True,True,PASS
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IND_r051_c060,1.0,89,6,1.0,0.0,1.0,0.0,0.75618,1.0,True,True,PASS
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IND_r051_c060,3.0,89,25,1.0,0.0,1.0,0.0,0.310674,1.0,True,True,PASS
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IND_r051_c060,6.0,89,70,1.0,0.0,1.0,0.0,0.117978,0.9,True,True,PASS
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IND_r051_c060,12.0,89,191,1.0,0.0,1.0,0.0,0.045506,0.75,True,True,PASS
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,IND_r051_c060,24.0,89,491,1.0,0.0,1.0,0.0,0.014045,0.75,True,True,PASS
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IND_r046_c049,1.0,92,7,1.0,0.0,1.0,0.0,0.720109,1.0,True,True,PASS
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IND_r046_c049,3.0,92,32,1.0,0.0,1.0,0.0,0.277717,1.0,True,True,PASS
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IND_r046_c049,6.0,92,92,1.0,0.0,1.0,0.0,0.095652,0.85,True,True,PASS
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IND_r046_c049,12.0,92,237,1.0,0.0,1.0,0.0,0.027717,0.5,True,True,PASS
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,IND_r046_c049,24.0,92,582,1.0,0.0,1.0,0.0,0.009783,0.5,True,True,PASS
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IND_r029_c035,1.0,88,2,1.0,0.0,1.0,0.0,0.994318,1.0,True,True,PASS
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IND_r029_c035,3.0,88,14,1.0,0.0,1.0,0.0,0.422159,1.0,True,True,PASS
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IND_r029_c035,6.0,88,35,1.0,0.0,1.0,0.0,0.172727,0.85,True,True,PASS
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IND_r029_c035,12.0,88,104,1.0,0.0,1.0,0.0,0.058523,0.65,True,True,PASS
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,IND_r029_c035,24.0,88,318,1.0,0.0,1.0,0.0,0.019886,0.7,True,True,PASS
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IND_r046_c049,1.0,92,7,1.0,0.0,1.0,0.0,0.720109,1.0,True,True,PASS
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IND_r046_c049,3.0,92,32,1.0,0.0,1.0,0.0,0.277717,1.0,True,True,PASS
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IND_r046_c049,6.0,92,92,1.0,0.0,1.0,0.0,0.095652,0.85,True,True,PASS
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IND_r046_c049,12.0,92,237,1.0,0.0,1.0,0.0,0.027717,0.5,True,True,PASS
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,IND_r046_c049,24.0,92,582,1.0,0.0,1.0,0.0,0.009783,0.5,True,True,PASS

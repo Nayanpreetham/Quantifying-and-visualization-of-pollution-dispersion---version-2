@@ -1,0 +1,2 @@
+timestamp_utc,synoptic_step,station_id,station_name,city,grid_id,exclusion_reason,status
+NONE,-1,0,NONE,NONE,NONE,Zero meteorological exclusions; 100% of required station-step wind slices valid,ZERO_EXCLUSIONS

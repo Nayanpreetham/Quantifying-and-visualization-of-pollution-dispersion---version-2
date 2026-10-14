@@ -1,0 +1,9 @@
+category,cell_count,percentage_of_total,spatial_domain,scope_role
+Total Rectangular Grid Cells,16093,100.0,"National 0.25° Domain (Lat: 5.0–38.0°N, Lon: 68.0–98.0°E)",Complete rectangular computational array (133 rows × 121 cols)
+Cells Intersecting India Land Boundary,4452,27.66,Sovereign Terrestrial Landmass,Terrestrial land cells within international boundary polygon
+Cells with Valid ERA5 Wind Coverage,13689,85.06,National ERA5 Ingestion Window,Gridded meteorological cells with continuous U10/V10 coverage
+Cells Containing Mapped Monitoring Stations,61,0.38,Observational Ground-Truth Points,Contains 103 mapped OpenAQ/CPCB stations (max 8 stations per cell)
+Cells Actually Used as Dispersion Sources (Phases 11–17),8,0.05,Selected Station Hubs,"Exactly 8 unique grid cells corresponding to 10 verified monitoring stations: ['IND_r029_c035', 'IND_r043_c040', 'IND_r046_c049', 'IND_r047_c095', 'IND_r050_c056', 'IND_r051_c060', 'IND_r060_c018', 'IND_r060_c019']"
+Cells Appearing as Transport Destinations,3919,24.35,Downwind Transport Footprint,Grid cells receiving advected Lagrangian ensemble mass across 1h–24h horizons
+Cells Appearing ONLY as Transport Destinations,3911,24.3,Passive Receptor Grid,"Cells acting purely as destinations, never initialized as advection sources"
+Cells Never Utilized (Neither Source nor Destination),12174,75.65,Maritime / Remote Terrestrial Buffer,Peripheral ocean and unreached land cells outside the active 24h plumes of the 8 hubs

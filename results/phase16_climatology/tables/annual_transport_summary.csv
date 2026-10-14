@@ -1,0 +1,7 @@
+year,period_label,eligible_synoptic_steps,station_synoptic_slices,simulation_runs,active_matrix_pairs,mean_boundary_retention_pct,max_closure_error,mean_transport_distance_km,matrix_file_path
+2019,2019-ANNUAL,1460,14600,73000,16902,100.0,1.9872992140790302e-14,79.05,results/phase16_climatology\matrices\transport_matrix_annual_2019.csv
+2020,2020-ANNUAL,1464,14640,73200,15394,99.99,1.8540724511240114e-14,76.15,results/phase16_climatology\matrices\transport_matrix_annual_2020.csv
+2021,2021-ANNUAL,1460,14600,73000,17171,99.98,1.9761969838327786e-14,76.42,results/phase16_climatology\matrices\transport_matrix_annual_2021.csv
+2022,2022-ANNUAL,1460,14600,73000,15892,100.0,1.965094753586527e-14,77.76,results/phase16_climatology\matrices\transport_matrix_annual_2022.csv
+2023,2023-ANNUAL,1460,14600,73000,15629,100.0,1.8984813721090177e-14,75.62,results/phase16_climatology\matrices\transport_matrix_annual_2023.csv
+2024,2024-ANNUAL,1464,14640,73200,17426,100.0,1.965094753586527e-14,76.28,results/phase16_climatology\matrices\transport_matrix_annual_2024.csv

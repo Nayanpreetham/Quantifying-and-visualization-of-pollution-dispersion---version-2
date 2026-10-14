@@ -1,0 +1,7 @@
+calendar_year,days_in_year,is_leap_year,unique_synoptic_timestamps,station_synoptic_slices,ensemble_simulation_runs,raw_openaq_hourly_obs,matched_selected_station_obs,unmonitored_station_slices,monthly_transport_matrices_count,annual_matrix_pairs,mean_boundary_retention_pct,max_matrix_closure_error,closure_pass_pct,processing_time_sec,failed_months_count,evaluation_split_role,scientific_interpretation
+2019,365,False,1460,14600,73000,25993,0,14600,12,16902,100.0,1.9872992140790302e-14,100.0,134.9,0,DEVELOPMENT_AND_BASELINE,Unconditioned physical transport climatology
+2020,366,True,1464,14640,73200,20760,14,14626,12,15394,99.99,1.87e-14,100.0,78.5,0,DEVELOPMENT_AND_BASELINE,Empirically-conditioned transport influence & climatology
+2021,365,False,1460,14600,73000,11592,2377,12223,12,17171,99.98,1.98e-14,100.0,69.5,0,DEVELOPMENT_AND_BASELINE,Empirically-conditioned transport influence & climatology
+2022,365,False,1460,14600,73000,2789,0,14600,12,15892,100.0,1.97e-14,100.0,69.5,0,DEVELOPMENT_AND_BASELINE,Unconditioned physical transport climatology
+2023,365,False,1460,14600,73000,0,0,14600,12,15629,100.0,1.89e-14,100.0,69.8,0,VALIDATION,Unconditioned physical transport climatology
+2024,366,True,1464,14640,73200,0,0,14640,12,17426,100.0,1.97e-14,100.0,66.3,0,HELD_OUT_TEST,Unconditioned physical transport climatology

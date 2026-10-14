@@ -1,0 +1,13 @@
+check_id,name,status,details
+CHK-01,Core Model Imports & Configuration,PASS,"All core scientific libraries loaded. 1,380 grid cells initialized in EPSG:7755."
+CHK-02,Automated Test Suite (15 Tests),PASS,15 of 15 acceptance tests passed in tests/test_phase20_app.py.
+CHK-03,Historical Query Consistency (Delhi),PASS,"Delhi query (2021-10-15, 24h) returned 13 destinations, closure=1.000000."
+CHK-04,Invalid Date Rejection,PASS,Out-of-range dates 2027-01-01 and 2018-01-01 correctly rejected with VALIDATION_ERROR.
+CHK-05,Unsupported ERA5 Coverage Handling,PASS,Boundary coordinates outside ERA5 box returned explicit status ERROR_UNSUPPORTED_MET_COVERAGE.
+CHK-06,Transport Accounting Probability Closure,PASS,Mumbai coastal closure = 1.000000 with internal water outcomes tracked explicitly.
+CHK-07,Unmonitored Source Cell Handling,PASS,Unmonitored cell reports UNMONITORED_SOURCE and strict NaN influence indices.
+CHK-08,CPCB AQI Representation & Spatial Mapping,PASS,CPCB bulletins (132 cities) preserved with explicit spatial mapping types.
+CHK-09,Four-Tier Metric Separation & Labeling,PASS,"OpenAQ PM2.5 (ug/m3), CPCB AQI [0-500], T_ij, and I_ij maintain strict column and unit separation."
+CHK-10,Historical Dataset Immutability,PASS,All core historical datasets and Phase 18/19 baseline matrices intact with expected byte sizes.
+CHK-11,Reproduction Commands Fidelity,PASS,REPRODUCIBILITY.md contains verified commands matching repository structure.
+CHK-12,Figure & Benchmark Traceability,PASS,All 6 high-resolution figures and sample benchmark CSVs verified and traced to source artifacts.

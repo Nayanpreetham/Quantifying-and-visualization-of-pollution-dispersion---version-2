@@ -1,0 +1,9 @@
+metric,value,unit
+Dynamic Integration Time Step,1.0,Hours
+Total Slices Evaluated,"38,640",Source-Time Slices
+Total Trajectories Simulated,"386,400",Trajectories
+Total Wall-Clock Runtime,15.82,Seconds
+Average Step Runtime,0.57,Seconds / Synoptic Step
+Corrected Matrix Rows,"85,028",Pairs
+Max Closure Error,6.66e-16,Abs Error
+Closure Pass Rate,100.00%,Percent

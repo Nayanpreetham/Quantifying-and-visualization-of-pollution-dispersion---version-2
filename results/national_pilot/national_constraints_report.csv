@@ -1,0 +1,11 @@
+constraint_id,name,status,metric_value,physical_criterion,details
+C01,Non-negativity of Transport & Influence,PASS,"min_T=0.0500, min_I=0.000",T >= 0.0 and I >= 0.0,All active transport fractions and transported influences are strictly non-negative.
+C02,Mass Conservation Closure,PASS,"min=1.0000, max=1.0000",sum(T_inside) + T_outside == 1.0000,"Strict mass closure verified across all 1,335 national simulation runs."
+C03,Wind Speed Advection Distance Scaling,PASS,"low_w=32.33km, high_w=87.95km (+172.0%)",D_advect(high wind) > D_advect(low wind),High winds transport pollution significantly farther downwind (+172.0% distance).
+C04,Spatial Distance Decay of Influence,PASS,"near(0-30km)=8.35 ug/m3, far(100-200km)=2.40 ug/m3",I(near) > I(far),Transported influence decays monotonically with Euclidean distance from source.
+C05,Directional Alignment with Wind Vector,PASS,"downwind_frac=264.8, upwind_frac=0.0 (ratio=2647500.0x)",downwind >> upwind (ratio > 10.0),Pollution advects strictly along the ERA5 horizontal flow direction.
+C06,Temporal Plume Spatial Expansion,PASS,"1h=13 cells, 6h=173 cells, 24h=1048 cells",N_cells(1h) < N_cells(6h) < N_cells(24h),Footprint expands progressively across the national grid over time.
+C07,Peak Cell Dilution with Time,PASS,"1h_peak=1.000, 6h_mean=0.245, 24h_mean=0.074",T_peak(1h) > T_mean(6h) > T_mean(24h),Plume dilutes and disperses as particles spread across wider areas.
+C08,Boundary Loss & Zero Perimeter Clamping,PASS,"clamped_particles=0, outside_runs=0 of 1335",zero artificial edge clamping; mass explicitly conserved,Zero particles artificially clamped to border cells. Full 100% domain retention.
+C09,Transport Influence Boundedness,PASS,max_influence_ratio=1.0000,I <= PM2.5_src (ratio <= 1.0),Transported influence is strictly bounded by source emissions.
+C10,Multi-Regional Geographic Consistency,PASS,"cities_verified=7 (Chandigarh, Agra, Kanpur, Guwahati, Prayagraj, Varanasi, Ahmedabad)",D_advect(24h) > D_advect(1h) across all regions,"Consistent advective physics across North, West, Central, East, and Northeast."

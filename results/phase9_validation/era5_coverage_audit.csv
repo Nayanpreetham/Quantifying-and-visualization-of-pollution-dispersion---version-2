@@ -1,0 +1,10 @@
+audit_property,raw_dataset_value,national_grid_value,status,audit_finding
+ERA5 Latitude Span,6.0°N to 35.0°N (117 nodes),5.0°N to 38.0°N (133 nodes),VERIFIED_PARTIAL_OVERLAP,ERA5 covers 6.0°N to 35.0°N. Latitudes >35°N (12 rows) and <6°N (4 rows) lack native ERA5 wind.
+ERA5 Longitude Span,68.0°E to 97.0°E (117 nodes),68.0°E to 98.0°E (121 nodes),VERIFIED_PARTIAL_OVERLAP,ERA5 covers 68.0°E to 97.0°E. Longitudes >97°E (4 columns) lack native ERA5 wind.
+National Grid Node Breakdown,13689 nodes (85.06%),16093 total nodes,VERIFIED_EXACT,"13,689 nodes have exact 1:1 ERA5 data. 2,404 nodes (14.94%) are peripheral computational buffer cells."
+Northern Himalayan Buffer Cells,0 ERA5 nodes (>35.0°N),1452 grid nodes,BUFFER_ZONE,"12 rows (35.25°N to 38.0°N) across 121 cols = 1,452 cells in high Himalayas / Karakoram."
+Southern Ocean Buffer Cells,0 ERA5 nodes (<6.0°N),484 grid nodes,BUFFER_ZONE,4 rows (5.0°N to 5.75°N) across 121 cols = 484 cells in equatorial Indian Ocean.
+Eastern Border Buffer Cells,0 ERA5 nodes (>97.0°E),468 grid nodes,BUFFER_ZONE,4 columns (97.25°E to 98.0°E) within 6-35°N = 468 cells on Myanmar / Indo-Burma border.
+Particle Infiltration into Buffer Zones,0 particles in buffer zones,0 of 7730 records,VERIFIED_ZERO_LEAKAGE,"In Phase 8 pilot, zero particles advected into uncovered buffer cells (North=0, South=0, East=0)."
+ERA5 Variable Units & Types,"u10: 'm s**-1', v10: 'm s**-1'",m/s (SI units),VERIFIED_EXACT,"ERA5 standard units 'm s**-1' used directly in kinematic equations dx = u*dt, dy = v*dt."
+Missing / NaN Value Handling,"NaN count: u10=0, v10=0",0 NaNs permitted,VERIFIED_CLEAN,Zero NaN or missing values in raw ERA5 file across pilot window.

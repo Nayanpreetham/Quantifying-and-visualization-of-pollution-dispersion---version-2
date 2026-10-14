@@ -1,0 +1,11 @@
+station_id,station_name,city,total_slots,executed_slices,pct_monitored,excluded_no_ground_obs,excluded_no_met,excluded_other,era5_met_valid_steps,era5_met_total_steps,era5_coverage_pct
+42240,"Pan Bazaar, Guwahati - APCB",Guwahati,144,40,27.8,104,0,0,0,144,0.0
+227384,"Jhunsi, Prayagraj - UPPCB",Prayagraj,144,90,62.5,54,0,0,0,144,0.0
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,144,84,58.3,60,0,0,0,144,0.0
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,144,91,63.2,53,0,0,0,144,0.0
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,144,89,61.8,55,0,0,0,144,0.0
+228397,"IESD Banaras Hindu University, Vara",Varanasi,144,92,63.9,52,0,0,0,144,0.0
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,144,89,61.8,55,0,0,0,144,0.0
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,144,92,63.9,52,0,0,0,144,0.0
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,144,88,61.1,56,0,0,0,144,0.0
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,144,92,63.9,52,0,0,0,144,0.0

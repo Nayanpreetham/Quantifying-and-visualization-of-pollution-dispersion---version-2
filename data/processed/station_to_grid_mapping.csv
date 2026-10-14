@@ -1,0 +1,16 @@
+station_id,station_name,city_name,station_latitude,station_longitude,matched_grid_id,grid_latitude,grid_longitude,distance_km,is_city_center
+10914,"Sector-25, Chandigarh - CPCC",Chandigarh,30.751462,76.762879,IXC_r3_c3,30.7356,76.7757,2.15,True
+278418,"Sector-53, Chandigarh - CPCC",Chandigarh,30.719859000000003,76.738637,IXC_r3_c3,30.7356,76.7757,3.95,True
+234568,"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,26.428282,80.327067,KNP_r3_c3,26.4703,80.323,4.69,True
+233415,"Sector 22, Chandigarh - CPCC",Chandigarh,30.735567,76.77571400000001,IXC_r3_c3,30.7356,76.7757,0.0,True
+229252,"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,26.509954,80.249612,KNP_r3_c2,26.4703,80.223,5.14,False
+228397,"IESD Banaras Hindu University, Vara",Varanasi,25.262326,82.995408,VNS_r2_c3,25.2176,82.9739,5.42,False
+5590,"Ardhali Bazar, Varanasi - UPPCB",Varanasi,25.3505986,82.9083074,VNS_r3_c2,25.3176,82.8739,5.04,False
+228403,"Bhelupur, Varanasi - UPPCB",Varanasi,25.301778,82.996789,VNS_r3_c3,25.3176,82.9739,2.9,True
+5662,"Nehru Nagar, Kanpur - UPPCB",Kanpur,26.4703136,80.3229863,KNP_r3_c3,26.4703,80.323,0.0,True
+5631,"Maninagar, Ahmedabad - GPCB",Ahmedabad,23.002657,72.591912,AMD_r3_c3,23.0225,72.5714,3.05,True
+860,"Sanjay Palace, Agra - UPPCB",Agra,27.19865833,78.00598056,AGR_r3_c3,27.1987,78.006,0.01,True
+228297,"SVPI Airport Hansol, Ahmedabad - II",Ahmedabad,23.076793,72.627874,AMD_r4_c4,23.1225,72.6714,6.76,False
+227931,"Sector-3B Avas Vikas Colony, Agra -",Agra,27.19412,77.96236999999999,AGR_r3_c3,27.1987,78.006,4.35,True
+227384,"Jhunsi, Prayagraj - UPPCB",Agra,25.425602,81.917152,AGR_r0_c6,26.8987,78.306,395.85,False
+227534,"Gyaspur, Ahmedabad - IITM",Ahmedabad,22.977134,72.553024,AMD_r3_c3,23.0225,72.5714,5.38,True

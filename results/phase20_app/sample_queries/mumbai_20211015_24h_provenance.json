@@ -1,0 +1,23 @@
+{
+  "sample_name": "mumbai_20211015_24h",
+  "description": "Mumbai coastal 24h dispersion (marine water partition)",
+  "query_inputs": {
+    "year": 2021,
+    "month": 10,
+    "day": 15,
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "grid_id": null,
+    "horizon_hours": 24.0
+  },
+  "resolved_source_grid_id": "IND_50KM_r025_c009",
+  "monitoring_status": "HISTORICAL_BASELINE_ONLY",
+  "total_trajectories": 40,
+  "probability_closure_sum": 1.0,
+  "category_counts": {
+    "VALID_LAND_DESTINATION": 8,
+    "INTERNAL_UNMODELED_WATER": 1
+  },
+  "execution_time_seconds": 3.749,
+  "csv_path": "results/phase20_app/sample_queries\\mumbai_20211015_24h.csv"
+}

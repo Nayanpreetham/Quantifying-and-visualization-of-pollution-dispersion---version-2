@@ -1,0 +1,7 @@
+evaluation_level,calendar_year,expected_unique_timestamps,actual_unique_timestamps,timestamp_count_match,expected_station_slices,actual_station_slices,station_slices_match,expected_simulation_runs,actual_simulation_runs,runs_match,reported_in_phase13_summary,labeling_status
+ANNUAL_2020,2020,1464,1464,True,14640,14640,True,73200,73200,True,14640,DOCUMENTATION_LABEL_MISMATCH (Report labeled Station-Slices as Synoptic Steps)
+ANNUAL_2021,2021,1460,1460,True,14600,14600,True,73000,73000,True,14600,DOCUMENTATION_LABEL_MISMATCH (Report labeled Station-Slices as Synoptic Steps)
+ANNUAL_2022,2022,1460,1460,True,14600,14600,True,73000,73000,True,14600,DOCUMENTATION_LABEL_MISMATCH (Report labeled Station-Slices as Synoptic Steps)
+ANNUAL_2023,2023,1460,1460,True,14600,14600,True,73000,73000,True,14600,DOCUMENTATION_LABEL_MISMATCH (Report labeled Station-Slices as Synoptic Steps)
+ANNUAL_2024,2024,1464,1464,True,14640,14640,True,73200,73200,True,14640,DOCUMENTATION_LABEL_MISMATCH (Report labeled Station-Slices as Synoptic Steps)
+FULL_PERIOD_2020_2024,2020–2024 (5 Years),7308,7308,True,73080,73080,True,365400,365400,True,73080,"DOCUMENTATION_LABEL_MISMATCH: 73,080 is Station-Slices (7,308 x 10 stations), NOT Synoptic Steps"

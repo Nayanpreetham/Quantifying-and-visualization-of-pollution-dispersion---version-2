@@ -1,0 +1,11 @@
+item_id,claim_description,reported_value,measured_value,verification_method,status,discrepancy_details
+REP_01,Total Active Transport Records in transport_targets_national.csv,"7,730",7730,Row count of results/national_pilot/transport_targets_national.csv,VERIFIED_EXACT,None
+REP_02,Aggregated Matrix Pairs in transport_matrix_national.csv,"2,831",2831,Row count of results/national_pilot/transport_matrix_national.csv,VERIFIED_EXACT,None
+REP_03,Total Simulation Runs in boundary_loss_statistics_national.csv,"1,335",1335,Row count of results/national_pilot/boundary_loss_statistics_national.csv,VERIFIED_EXACT,None
+REP_04,Unique Active Pilot Stations in Aligned Dataset,10,10,df['station_id'].nunique() in data/national/openaq_era5_aligned_national.csv,VERIFIED_EXACT,None
+REP_05,Synoptic Time Steps and Date Window,2021-09-18 00:00 to 2021-09-24 18:00 (28 steps),2021-09-18 00:00:00 UTC to 2021-09-24 18:00:00 UTC (28 steps),timestamp_utc unique count & bounds in openaq_era5_aligned_national.csv,VERIFIED_EXACT,None
+REP_06,Simulation Runs Math: 267 slices x 5 advection windows,"267 slices x 5 dt = 1,335 runs",267 slices x 5 dt = 1335 runs,"Multiplication of input slices (267) by length of dt list [1,3,6,12,24] (5)",VERIFIED_EXACT,None
+REP_07,Ensemble Size N=20 Verification Across All Records,N=20 constant,"target_n=[20], bnd_n=[20], particles_per_run=20-20","Check ensemble_n column and particles_inside + outside == 20 across all 1,335 runs",VERIFIED_EXACT,None
+REP_08,Reported 10/10 Constraints Passed Traced to Underlying Test File,10 / 10 PASSED (100.0%),10 / 10 PASSED (100.0%),Inspect results/national_pilot/national_constraints_report.csv,VERIFIED_EXACT,None
+REP_09,Continuous National Grid Total Cell Count (133 rows x 121 cols),"16,093",16093,Row count of data/national/india_025_grid.csv,VERIFIED_EXACT,None
+REP_10,"National Station Mapping: 103 Evaluated, 103 Matched (100.0%)","103 evaluated, 103 matched",103 matched of 103 evaluated (100.0%),Inspect data/national/national_station_to_grid_mapping.csv,VERIFIED_EXACT,None

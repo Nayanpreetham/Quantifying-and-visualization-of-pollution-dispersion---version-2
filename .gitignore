@@ -8,6 +8,8 @@ data/*
 !data/manifests/**
 !data/synthetic/
 !data/synthetic/**
+!data/processed/
+!data/processed/*.parquet
 archive/old_project/Intermediate/
 archive/old_project/Models/
 archive/old_project/Raw data/
@@ -20,3 +22,8 @@ src/models/*.json
 *.joblib
 !models/surrogate_model.joblib
 *.docx
+
+# Exclude oversized matrix CSVs (>30MB, replaced by authoritative Parquet equivalents)
+results/phase19_transport/annual/*.csv
+results/phase19_transport/matrices/modeled_influence_50km_baseline.csv
+results/phase19_transport/matrices/transport_matrix_50km_2019_2024_baseline.csv

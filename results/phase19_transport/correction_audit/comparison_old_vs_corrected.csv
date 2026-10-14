@@ -1,0 +1,6 @@
+city,grid_id,old_top_dest_24h,old_top_fraction_24h,old_self_retention_24h,corrected_top_dest_24h,corrected_top_fraction_24h,corrected_self_retention_24h,top_destination_changed
+Delhi,IND_50KM_r045_c018,IND_50KM_r044_c014,0.039286,0.003571,IND_50KM_r047_c015,0.132143,0.0,True
+Kanpur,IND_50KM_r041_c024,IND_50KM_r043_c022,0.075,0.003571,IND_50KM_r041_c021,0.057143,0.0,True
+Kolkata,IND_50KM_r033_c040,IND_50KM_r034_c040,0.103571,0.039286,IND_50KM_r035_c039,0.107143,0.017857,True
+Mumbai,IND_50KM_r025_c009,IND_50KM_r031_c011,0.046429,0.0,IND_50KM_r028_c013,0.082143,0.0,True
+Bengaluru,IND_50KM_r011_c018,OUTSIDE_DOMAIN,0.1,0.0,IND_50KM_r011_c021,0.153571,0.007143,True

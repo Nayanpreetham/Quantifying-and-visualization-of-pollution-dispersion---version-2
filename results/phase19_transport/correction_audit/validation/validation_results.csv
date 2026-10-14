@@ -1,0 +1,11 @@
+test_id,name,passed,metric
+CHECK_1_ANALYTICAL_DISPLACEMENT,Constant-Wind Analytical Displacement Test,True,"Analytical distance: 501.65 km (dx=432km, dy=259km)"
+CHECK_2_DIRECTIONAL_MOTION,Directional Movement Consistency Test,True,East move: col 22->26 (Eastward); North move: row 29->33 (Northward)
+CHECK_3_TIMESTEP_SENSITIVITY,Time-Step Convergence Sensitivity Test,True,Agreement h=1.0 vs h=0.5: 95.3%; h=0.5 vs h=0.25: 97.7%
+CHECK_4_HORIZON_CONSISTENCY,Multi-Horizon Coherent Path Consistency,True,"All 5 horizons (1h, 3h, 6h, 12h, 24h) derived from exact same trajectory"
+CHECK_5_ERA5_COVERAGE_BOUNDS,ERA5 Meteorological Coverage & No-Extrapolation Test,True,All 9 out-of-domain cells strictly flagged as UNSUPPORTED_MET_COVERAGE without extrapolation
+CHECK_6_FOUR_BOUNDARY_CATEGORIES,Four-Category Boundary Classification Test,True,"Valid Land: True, Internal Water: True, Domain Exit: True, Unsupported Met: True"
+CHECK_7_ENSEMBLE_SENSITIVITY,Ensemble Perturbation Spread & Sensitivity Test,True,Delhi central dest: IND_50KM_r046_c015; ensemble spread: 3 distinct destination cells
+CHECK_8_REPRODUCIBILITY,Deterministic Seed Reproducibility Test,True,Identical inputs and seed 42 produced 100.0% bit-identical trajectory destinations
+CHECK_9_PROBABILITY_CLOSURE,Unconditional Probability Row-Sum Closure Test,True,"All 6,900 source-window groups sum to 1.0 (Max error: 0.00e+00)"
+CHECK_10_REGRESSION_COMPARISON,Dynamic Integration vs Frozen-Wind Regression Comparison,True,Documented dynamic path deviations across 5 core regional benchmark nodes

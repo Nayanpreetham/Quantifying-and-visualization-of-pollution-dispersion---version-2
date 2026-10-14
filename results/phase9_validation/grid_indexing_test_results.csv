@@ -1,0 +1,29 @@
+test_num,test_name,input_lat,input_lon,expected_grid_id,measured_grid_id,expected_inside,measured_inside,expected_row,measured_row,expected_col,measured_col,status
+1,Top-Left Corner (Northwest),38.0,68.0,IND_r000_c000,IND_r000_c000,True,True,0.0,0.0,0.0,0.0,PASS
+2,Top-Right Corner (Northeast),38.0,98.0,IND_r000_c120,IND_r000_c120,True,True,0.0,0.0,120.0,120.0,PASS
+3,Bottom-Left Corner (Southwest),5.0,68.0,IND_r132_c000,IND_r132_c000,True,True,132.0,132.0,0.0,0.0,PASS
+4,Bottom-Right Corner (Southeast),5.0,98.0,IND_r132_c120,IND_r132_c120,True,True,132.0,132.0,120.0,120.0,PASS
+5,Northern Boundary Just Inside,38.1249,75.0,IND_r000_c028,IND_r000_c028,True,True,0.0,0.0,28.0,28.0,PASS
+6,Northern Boundary Just Outside,38.1251,75.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+7,Northern Far Outside,40.0,75.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+8,Southern Boundary Just Inside,4.8751,75.0,IND_r132_c028,IND_r132_c028,True,True,132.0,132.0,28.0,28.0,PASS
+9,Southern Boundary Just Outside,4.8749,75.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+10,Southern Far Outside,3.0,75.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+11,Western Boundary Just Inside,20.0,67.8751,IND_r072_c000,IND_r072_c000,True,True,72.0,72.0,0.0,0.0,PASS
+12,Western Boundary Just Outside,20.0,67.8749,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+13,Western Far Outside,20.0,60.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+14,Eastern Boundary Just Inside,20.0,98.1249,IND_r072_c120,IND_r072_c120,True,True,72.0,72.0,120.0,120.0,PASS
+15,Eastern Boundary Just Outside,20.0,98.1251,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+16,Eastern Far Outside,20.0,102.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+17,ERA5 Northern Edge Node,35.0,75.0,IND_r012_c028,IND_r012_c028,True,True,12.0,12.0,28.0,28.0,PASS
+18,ERA5 Southern Edge Node,6.0,75.0,IND_r128_c028,IND_r128_c028,True,True,128.0,128.0,28.0,28.0,PASS
+19,ERA5 Western Edge Node,20.0,68.0,IND_r072_c000,IND_r072_c000,True,True,72.0,72.0,0.0,0.0,PASS
+20,ERA5 Eastern Edge Node,20.0,97.0,IND_r072_c116,IND_r072_c116,True,True,72.0,72.0,116.0,116.0,PASS
+21,Center Node (Bhopal region),23.25,77.5,IND_r059_c038,IND_r059_c038,True,True,59.0,59.0,38.0,38.0,PASS
+22,Near Node (slightly displaced +0.05),23.3,77.55,IND_r059_c038,IND_r059_c038,True,True,59.0,59.0,38.0,38.0,PASS
+23,Cell Crossing (moves past midpoint 77.63),23.3,77.65,IND_r059_c039,IND_r059_c039,True,True,59.0,59.0,39.0,39.0,PASS
+24,Exact Midpoint (Banker's rounding),23.125,77.625,IND_r060_c038,IND_r060_c038,True,True,60.0,60.0,38.0,38.0,PASS
+25,Negative Latitude,-12.0,78.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+26,Negative Longitude,20.0,-75.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+27,Equatorial Pacific,0.0,160.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS
+28,North Pole,90.0,0.0,OUTSIDE_DOMAIN,OUTSIDE_DOMAIN,False,False,,,,,PASS

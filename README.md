@@ -151,3 +151,60 @@ When transitioning from synthetic data to production:
 2. Replace `data/synthetic/era5_wind.csv` with **real ERA5 surface horizontal $U10, V10$ NetCDFs**.
 3. Retain the regular lat/lon grid structure and KD-tree/grid lookup.
 4. Retain the 2D physics dispersion engine and constraint verification test suite.
+
+---
+
+## 8. Phase 20 — Interactive National Pollution Dispersion Query Application
+
+### 8.1 Overview & Architecture
+Phase 20 provides the interactive web-based query interface (`app.py`) for the 2D national grid-to-grid pollution dispersion model over India:
+- **National Grid:** 1,380 terrestrial cells of $50\text{ km} \times 50\text{ km}$ projected in `EPSG:7755`.
+- **Atmospheric Forcing:** Real ECMWF ERA5 horizontal reanalysis winds ($U10, V10$) across 4 daily synoptic time slices ($00:00, 06:00, 12:00, 18:00\text{ UTC}$).
+- **Lagrangian Integration:** Dynamic sub-hourly trajectory engine with spatial bilinear and temporal linear interpolation.
+- **Ensemble Dispersion:** 10 members per release (1 central deterministic + 9 turbulent perturbations) $\times$ 4 daily releases = 40 trajectories evaluated per query.
+- **Strict Boundary Separation:** 4 explicit destination categories preserving exact probability closure ($\sum T_{ij} = 1.0 \pm 10^{-5}$):
+  1. `VALID_LAND_DESTINATION` (`IND_50KM_rXXX_cYYY`)
+  2. `INTERNAL_UNMODELED_WATER` (coastal marine waters within grid envelope)
+  3. `DOMAIN_EXIT_EXTERNAL` (international borders and outer ocean)
+  4. `UNSUPPORTED_MET_COVERAGE` (outside ERA5 $[6^\circ\text{N}–35^\circ\text{N}, 68^\circ\text{E}–97^\circ\text{E}]$)
+
+### 8.2 Application Launch Instructions
+To launch the interactive dashboard locally:
+
+```bash
+# Windows PowerShell
+.\.venv\Scripts\streamlit run app.py
+
+# Or with active virtual environment:
+streamlit run app.py
+```
+
+The application opens automatically in your browser at `http://localhost:8501`.
+
+### 8.3 User Inputs
+- **Historical Date:** Year, Month, Day (supported range: `2019-01-01` to `2024-12-31`).
+- **Source Coordinates:** Decimal latitude (°N) and longitude (°E), resolved in $O(1)$ time to the nearest 50 km cell centroid.
+- **Quick Preset Buttons:** Delhi, Kanpur, Mumbai, Kolkata, Bengaluru, Unmonitored Rural Cell, Peripheral Border Cell (Ladakh >35°N).
+- **Transport Horizon:** Supported advection windows: `1h`, `3h`, `6h`, `12h`, `24h`.
+- **Display Filters:** Minimum transport fraction slider (0–10%), destination category filter.
+
+### 8.4 Application Outputs & Dashboard Tabs
+1. **Top KPI Metrics Banner:** Source Grid ID, distance offset to centroid (km), ground monitoring status, synoptic release count, total particles, and execution runtime (seconds).
+2. **Tab 1: 🗺️ Spatial Dispersion Map:** Interactive Folium Leaflet map rendering the source cell and color-coded destination footprint polygons with interactive tooltips, distance markers, and custom legend.
+3. **Tab 2: 📊 Quantitative Transport Results:** Sortable, searchable table displaying destination Grid IDs, categories, transport fractions, distances (km), and source-weighted influence indices with **📥 Download CSV** button.
+4. **Tab 3: 📈 Date-Matched Ground Observations:** Separate sub-tabs displaying genuine date-matched CPCB Daily AQI Bulletins (0–500 index) and OpenAQ CAAQMS measured PM2.5 ($\mu\text{g/m}^3$), strictly disaggregated from transport calculations.
+5. **Tab 4: 🔬 Scientific Integrity & Model Diagnostics:** Complete provenance metadata, boundary partition breakdown, numerical probability closure confirmation, and methodology disclaimers.
+
+### 8.5 Automated Test Suite
+All 15 verification checks can be run via:
+
+```bash
+.\.venv\Scripts\python.exe tests/test_phase20_app.py
+```
+Test results are recorded in `results/phase20_app/phase20_test_results.csv` (15/15 tests passing).
+
+### 8.6 Scientific Disclaimers & Non-Negotiable Constraints
+- **Zero AQI Prediction:** This model quantifies physical 2D atmospheric transport probability. It does NOT predict future ambient AQI or forecast pollution concentrations.
+- **Source Influence vs Ambient Concentration:** The metric `source_weighted_transport_influence_index` ($I_{ij} = C_i \times T_{ij}$) represents dispersed source-tracer attribution in $\mu\text{g/m}^3$-equivalent. It is NOT measured ambient concentration at the destination.
+- **Unmonitored Cells:** For unmonitored grid cells, transport fractions are physically evaluated, but influence indices are reported strictly as `NaN` (Unmonitored). Concentration values are never fabricated.
+

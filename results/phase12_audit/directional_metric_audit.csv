@@ -1,0 +1,6 @@
+distance_bin,record_count,mean_relative_angle_deg,median_relative_angle_deg,p90_relative_angle_deg,max_relative_angle_deg
+Collocated (0 km),1509,0.0,0.0,0.0,0.0
+Local Grid (10-25 km),683,24.08,22.7,47.12,70.6
+Sub-Regional (25-50 km),2929,21.65,19.9,41.6,85.1
+Regional (50-100 km),5474,14.46,12.75,28.4,54.3
+Long-Range (>100 km),15269,10.65,9.2,22.1,50.2

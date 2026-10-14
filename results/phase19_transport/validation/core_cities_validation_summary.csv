@@ -1,0 +1,6 @@
+city,grid_id,self_retention_24h,top_destination_24h,top_dest_fraction,top_dest_dist_km,valid
+Delhi,IND_50KM_r045_c018,0.003571,IND_50KM_r044_c014,0.039286,209.4,True
+Mumbai,IND_50KM_r025_c009,0.0,IND_50KM_r031_c011,0.046429,323.12,True
+Bengaluru,IND_50KM_r011_c018,0.0,OUTSIDE_DOMAIN,0.1,,True
+Kolkata,IND_50KM_r033_c040,0.039286,IND_50KM_r034_c040,0.103571,51.19,True
+Kanpur,IND_50KM_r041_c024,0.003571,IND_50KM_r043_c022,0.075,144.15,True

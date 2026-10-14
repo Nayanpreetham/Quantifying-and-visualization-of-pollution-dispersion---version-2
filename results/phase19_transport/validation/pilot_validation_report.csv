@@ -1,0 +1,9 @@
+test_id,name,passed,details
+T1_GRID_ID_SYNTAX,Grid ID Syntax & Domain Membership,True,"1,380 valid sources, 0 syntax errors, 0 non-terrestrial sources, dests valid or OUTSIDE_DOMAIN"
+T2_PROBABILITY_CLOSURE,Unconditional Probability Row-Sum Closure,True,All 6900 groups satisfy sum(T) == 1.0 +- 1e-12 (Max observed error: 1.78e-15)
+T3_FINITE_BOUNDS,Fraction Range & Numerical Cleanliness,True,"Range [0.003571, 1.000000], NaNs=False, Infs=False"
+T4_RETENTION_DECAY,Monotonic Self-Retention Decay,True,"Self-retention strictly decreases or stays constant with window across all 1,380 sources (Violations: 0)"
+T5_DISPERSION_DISTANCE,Monotonic Transport Distance Scaling,True,"Mean transport distance increases monotonically: 1.0h: 50.9km, 3.0h: 61.8km, 6.0h: 90.7km, 12.0h: 155.5km, 24.0h: 276.4km"
+T6_BOUNDARY_CONSERVATION,Boundary Exit Accounting,True,"Boundary exit fractions properly tracked and monotonically expanding: 1.0h: 0.1257, 3.0h: 0.1600, 6.0h: 0.2113, 12.0h: 0.2182, 24.0h: 0.2187"
+T7_DETERMINISM,Reproducibility & Deterministic Seeding,True,Fixed seed base 42 enforced in configuration
+T8_PHYSICAL_CONSISTENCY,Physical Consistency with Historical Baselines,True,"Verified dispersion characteristics across Delhi, Mumbai, Bengaluru, Kolkata, and Kanpur at 24h"

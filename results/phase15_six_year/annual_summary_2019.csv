@@ -1,0 +1,2 @@
+calendar_year,is_leap_year,total_synoptic_steps,total_station_slices,total_simulation_runs,total_matrix_pairs,mean_boundary_retention_pct,max_matrix_closure_error,evaluation_split,output_matrix_file,output_boundary_file
+2019,False,1460,14600,73000,16902,100.0,1.9872992140790302e-14,DEVELOPMENT_AND_BASELINE,results/phase15_six_year\annual\transport_matrix_2019.csv,results/phase15_six_year\annual\boundary_statistics_2019.csv

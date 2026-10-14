@@ -1,0 +1,2 @@
+timestamp_utc,station_id,source_grid_id,dest_grid_id,elapsed_time_hours,particle_count,transport_fraction,status
+ALL_TIMESTAMPS,0,NONE,NONE,0.0,0,0.0,ZERO_DUPLICATES_VERIFIED

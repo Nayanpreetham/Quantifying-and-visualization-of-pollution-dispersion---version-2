@@ -1,0 +1,13 @@
+metric,value,unit
+Historical Period,2019-01-01 to 2024-12-31,Calendar Range
+Monthly Batches Processed,72,Months
+Total Synoptic Steps,"8,768",Steps
+Total Source-Time Slices,"12,099,840",Source-Time Slices
+Total Lagrangian Trajectories,"120,998,400",Trajectories
+Total Wall-Clock Runtime,1938.65,Seconds
+Average Monthly Processing Time,26.93,Seconds/Month
+Historical Throughput,6241.4,Slices/Second
+Peak Memory Traced,359.6,MB
+Master Baseline Matrix Rows,"646,807",Pairs
+Master Baseline Max Closure Error,0.00e+00,Abs Error
+Closure Satisfaction (< 1e-12),PASSED,Status

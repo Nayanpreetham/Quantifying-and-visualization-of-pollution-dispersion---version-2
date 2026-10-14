@@ -1,0 +1,22 @@
+{
+  "phase": 19,
+  "task": "Task B \u2014 Representative 50 km Pilot",
+  "benchmark_year": 2021,
+  "pilot_start_utc": "2021-09-15 00:00:00+00:00",
+  "pilot_end_utc": "2021-09-21 18:00:00+00:00",
+  "synoptic_steps_count": 28,
+  "total_source_cells": 1380,
+  "monitored_source_cells": 51,
+  "unmonitored_source_cells": 1329,
+  "advection_windows_hours": [
+    1.0,
+    3.0,
+    6.0,
+    12.0,
+    24.0
+  ],
+  "ensemble_members": 10,
+  "crs": "EPSG:7755",
+  "grid_resolution_m": 50000.0,
+  "random_seed_base": 42
+}

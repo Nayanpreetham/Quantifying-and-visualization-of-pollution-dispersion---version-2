@@ -1,0 +1,13 @@
+calendar_year,raw_hourly_obs_all_network,active_stations_all_network,raw_hourly_obs_10_primary_stations,active_primary_stations,synoptic_6h_slots_10_primary_stations,simulation_runs_with_pm25_influence,phase13_reported_figure,reconciliation_explanation
+2015,1881,2,0,0,0,0,0,OpenAQ network data gap on disk
+2016,8047,9,0,0,0,0,0,OpenAQ network data gap on disk
+2017,1363,3,0,0,0,0,0,OpenAQ network data gap on disk
+2018,32342,34,0,0,0,0,0,OpenAQ network data gap on disk
+2019,25993,19,0,0,0,0,0,OpenAQ network data gap on disk
+2020,20760,19,51,1,14,70,14,Guwahati (42240) only station active in 2020 among the 10
+2021,11592,14,10495,10,2377,11885,2377,All 10 primary stations active in 2021
+2022,2789,5,0,0,0,0,0,2022 obs in OpenAQ belong to stations outside the 10 primary
+2025,17575,12,0,0,0,0,0,OpenAQ network data gap on disk
+2026,3404,3,0,0,0,0,0,OpenAQ network data gap on disk
+SUBTOTAL_2020_2022,35141,24,10546,10,2391,11955,35141,"EXACT ORIGIN OF 35,141: Sum of raw hourly observations across ALL stations in India for 2020 (20,760) + 2021 (11,592) + 2022 (2,789)"
+TOTAL_HISTORICAL_2020_2024,35141,24,10546,10,2391,11955,2391,"EXACT ORIGIN OF 2,391: Synoptic 6-hourly observation slots strictly for the 10 primary stations: 2020 (14) + 2021 (2,377) + 2022-2024 (0)"

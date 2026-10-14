@@ -1,0 +1,22 @@
+{
+  "sample_name": "unmonitored_central_20211015_24h",
+  "description": "Unmonitored Central India cell 24h dispersion",
+  "query_inputs": {
+    "year": 2021,
+    "month": 10,
+    "day": 15,
+    "latitude": null,
+    "longitude": null,
+    "grid_id": "IND_50KM_r020_c020",
+    "horizon_hours": 24.0
+  },
+  "resolved_source_grid_id": "IND_50KM_r020_c020",
+  "monitoring_status": "UNMONITORED_SOURCE",
+  "total_trajectories": 40,
+  "probability_closure_sum": 1.0,
+  "category_counts": {
+    "VALID_LAND_DESTINATION": 7
+  },
+  "execution_time_seconds": 3.021,
+  "csv_path": "results/phase20_app/sample_queries\\unmonitored_central_20211015_24h.csv"
+}

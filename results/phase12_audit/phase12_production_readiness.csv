@@ -1,0 +1,11 @@
+dimension,pilot_value,annual_projected_value,feasibility_assessment
+Pilot Measured Executed Slices,847 slices,"87,600 slices (observed)",EXCELLENT
+Pilot Measured Total Runs,4235 runs,"438,000 runs (coupled) / 730,000 (full)",EXCELLENT
+Measured Unit Run Latency,4.72 ms / run,4.72 ms / run (vectorized NumPy),HIGH PERFORMANCE
+Projected Runtime (Single-Core),20.0 seconds,34.5 minutes,FEASIBLE (< 1 hour)
+Projected Runtime (4-Core Parallel),N/A (single core),9.8 minutes (observed) / 16.4 min (full),VERY FAST (< 20 min)
+ERA5 Memory Ingestion,8.24 MB (pre-sliced),Monthly chunks (< 150 MB RAM / chunk),LOW RAM FOOTPRINT
+Sparse Matrix Output Size,"638.0 KB (7,243 rows)","64.4 MB (~749,098 rows)",HIGHLY COMPACT
+Matrix Probability Closure,1.000000 across 50 groups,1.000000 across all 500 groups,VERIFIED ROBUST
+Missing Data Handling,"Zero imputation, logged in run_log",Automated zero-dilution logging,OPERATIONAL
+Scientific Boundary Enforcement,Transported influence != Ambient AQI,Strict adherence: 2D advective pathways only,MANDATORY REQUIREMENT

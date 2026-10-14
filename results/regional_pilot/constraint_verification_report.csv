@@ -1,0 +1,11 @@
+constraint_id,constraint_name,status,metric,data_label
+1,Downwind Preference,PASS,Downwind (6.89 µg/m³) > Upwind (0.00 µg/m³),REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+2,Distance Monotonicity (at dt=1h),PASS,Near (<=25km): 39.20 µg/m³ >= Far (>=50km): 0.00 µg/m³,REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+3,Wind Speed Advection Sensitivity,FAIL,HighSpeedFar T (0.1172) >= LowSpeedFar T (0.1345) [+-12.9%],REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+4,Wind Direction Sensitivity,PASS,Plume axis rotates with ERA5 flow vector (0°–360° continuous),REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+5,Non-Negativity,PASS,Negative count: 0 (0.0%),REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+6,Mass Conservation,PASS,Grid Sum + Boundary Loss == 1.0000 to 1.0000 (Strict 1.0000),REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+7,Source Location Consistency,PASS,Near source (43.22 µg/m³) > Distant (0.00 µg/m³) for dt=1h,REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+8,Time Dependence (Expansion),PASS,Mean dists: 1h=7.1km -> 6h=61.2km -> 24h=232.8km,REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+9,Spatial Continuity,PASS,Continuous Gaussian footprint smoothly advecting across regular 0.25° grid,REGIONAL DATA — CONTINUOUS IGP 0.25° GRID
+10,Zero Boundary Clamping,PASS,dt=6h Boundary Loss for interior stations: 0.0% (Was 81.9% in pilot!),REGIONAL DATA — CONTINUOUS IGP 0.25° GRID

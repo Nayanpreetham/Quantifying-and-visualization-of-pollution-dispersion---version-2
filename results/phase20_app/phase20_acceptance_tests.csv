@@ -1,0 +1,16 @@
+check_id,check_name,status,details
+1,"Source Grid Resolution (Delhi 28.6139N, 77.2090E)",PASS,Resolved IND_50KM_r046_c018 with centroid offset 21.97 km
+2,Synoptic Time Handling,PASS,"Used exact 4 synoptic releases: ['00:00 UTC', '06:00 UTC', '12:00 UTC', '18:00 UTC']"
+3,Direct Phase 19 Engine Comparison,PASS,"Identical destination sequence: True, Max fraction diff = 0.00e+00"
+4,Map & Quantitative Results,PASS,Folium map HTML size: 75267 chars; Reached 13 cells; Closure: 1.000000
+5,Source Monitoring Availability,PASS,"Status: HISTORICAL_BASELINE_ONLY, Baseline: 69.82 ug/m3"
+6,Query CSV Export,PASS,Exported and parsed back 13 rows with full schema
+7,Real Measured Execution Time,PASS,Execution runtime: 3.933 seconds (target < 5s)
+8,Distinct Source Locations (Mumbai & Kanpur),PASS,"Mumbai resolved to IND_50KM_r025_c009, Kanpur resolved to IND_50KM_r041_c024"
+9,Marine Water Boundary Separation (Mumbai),PASS,Coastal dispersion into INTERNAL_UNMODELED_WATER: 1 pathways (47.5%)
+10,Unmonitored Source Cell Handling,PASS,All influence indices NaN; Status: UNMONITORED_SOURCE_NO_INFLUENCE; Closure: 1.000000
+11,Invalid Date Rejection (2027),PASS,"Status: VALIDATION_ERROR, Msg: Date 2027-01-01 is outside the supported ERA5 reanalysis baseline period (2019-01-01 to 2024-12-31)."
+12,Unsupported Meteorological Location (Ladakh >35N),PASS,Status: ERROR_UNSUPPORTED_MET_COVERAGE; Silent extrapolation prevented.
+13,CPCB Observed AQI Ranking & Defensible Grid IDs,PASS,132 cities ranked; Single: Agra->r042_c020; Multi: Delhi->MULTIPLE; Unmapped: Bhiwadi->UNMAPPED
+14,OpenAQ PM2.5 Measured Ranking,PASS,9 stations reporting on 2021-10-15; Sorted descending; Units: ug/m3 (Top: Agra=127.07)
+15,Daily Transport Aggregation Consistency,PASS,"Total particles: 40, Sum of counts: 40, Probability closure: 1.000000"

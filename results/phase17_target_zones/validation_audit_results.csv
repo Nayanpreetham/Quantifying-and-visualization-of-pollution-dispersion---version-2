@@ -1,0 +1,17 @@
+test_name,passed,details
+Existence & Rows: Table 1,True,10 rows (min: 10)
+Existence & Rows: Table 2,True,7243 rows (min: 7000)
+Existence & Rows: Table 3,True,7243 rows (min: 7000)
+Existence & Rows: Table 4,True,7243 rows (min: 7000)
+Existence & Rows: Table 5,True,7 rows (min: 5)
+Existence & Size: Figure 1,True,355286 bytes (min: 50000)
+Existence & Size: Figure 2,True,693073 bytes (min: 50000)
+Existence & Size: Figure 3,True,417874 bytes (min: 50000)
+Existence & Size: Figure 4,True,729073 bytes (min: 50000)
+Existence & Size: Figure 5,True,298390 bytes (min: 50000)
+Grid ID Syntax Validation,True,0 malformed grid IDs
+Source AQI Rank Monotonicity,True,Ranks 1 to 10 strictly descending
+Destination Rank Monotonicity,True,0 violations across 50 groups
+Probability Closure (Sum T == 1.0),True,Max absolute error: 3.76e-14
+"Fraction Bounds [0.0, 1.0]",True,"Min: 0.0005, Max: 1.0000, NaNs: 0"
+Regulatory 24h Sample Sufficiency,True,Min valid days per station: 10
