@@ -99,34 +99,50 @@ streamlit run app.py
 The application will launch and bind to `http://localhost:8501`.
 
 ### 3.2 Executing the Automated Verification Test Suite
-To run the 15-check automated verification suite covering inputs, engine parity, boundary conditions, and reproducibility:
+To run the expanded 18-check automated verification suite covering forward dispersion, target-centric queries, inputs, engine parity, boundary conditions, and reproducibility:
 
 ```powershell
 .\.venv\Scripts\python.exe tests/test_phase20_app.py
 ```
-Outputs are recorded in: `results/phase20_app/phase20_test_results.csv`.
+Outputs are recorded in: `results/phase20_app/phase20_test_results.csv` (18/18 PASS).
 
-### 3.3 Executing the Acceptance Audit Runner
-To run the independent 15-check acceptance audit script:
+### 3.3 Executing the Target-Centric Benchmark Suite (8 Regions + Boundary)
+To run the dedicated target-centric regression and regional benchmark test suite:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts/run_phase20_acceptance_audit.py
+.\.venv\Scripts\python.exe scripts/run_target_query_tests.py
 ```
-Outputs are recorded in: `results/phase20_app/phase20_acceptance_tests.csv`.
+Outputs are recorded in: `results/phase21_final_synthesis/target_query_regression_tests.csv` (9/9 PASS).
+
+### 3.4 Executing the National Data Coverage Audit Generator
+To regenerate the comprehensive 1,380-cell national data coverage audit:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/generate_national_data_coverage_audit.py
+```
+Outputs are recorded in: `results/phase21_final_synthesis/national_data_coverage_audit.csv`.
+
+### 3.5 Executing the Phase 21 Final Synthesis Verification Suite
+To run the full 13-check Phase 21 verification suite:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/run_phase21_verification.py
+```
+Outputs are recorded in: `results/phase21_final_synthesis/phase21_verification_results.csv` (13/13 PASS).
 
 ---
 
 ## 4. How to Reproduce Documented Query Benchmarks
 
-### 4.1 Programmatic Execution (Python API)
-Any historical query can be executed programmatically in three lines using `AppController`:
+### 4.1 Programmatic Execution (Python API) — Forward Dispersion Mode
+Forward downwind dispersion from a source cell:
 
 ```python
 from src.phase20.app_controller import AppController
 
 ctrl = AppController()
 
-# Execute Delhi baseline post-monsoon query
+# Execute Delhi baseline post-monsoon forward dispersion
 result = ctrl.execute_query(
     year=2021, month=10, day=15,
     lat=28.6139, lon=77.2090,
@@ -142,7 +158,32 @@ print("Top 3 Destination Pathways:")
 print(df[['rank', 'destination', 'category', 'daily_transport_fraction', 'distance_km', 'source_weighted_transport_influence_index']].head(3))
 ```
 
-### 4.2 Benchmark Query Catalog
+### 4.2 Programmatic Execution (Python API) — Target-Centric Inflow Mode
+Target-specific query identifying candidate source cells reaching any location in India:
+
+```python
+from src.phase20.app_controller import AppController
+
+ctrl = AppController()
+
+# Execute Tamil Nadu target-centric inflow query
+result = ctrl.execute_target_query(
+    year=2021, month=10, day=15,
+    lat=13.0827, lon=80.2707,
+    horizon_hours=24.0,
+    ranking_metric='transport_fraction',
+    use_cache=True
+)
+
+df = result['results_table']
+print(f"Status: {result['status']}")
+print(f"Target Grid: {result['target_info']['target_grid_id']}")
+print(f"Candidate Sources Reaching Target: {result['sources_with_positive_transport']} / 1380")
+print("Top 3 Contributing Inflow Sources:")
+print(df[['rank', 'source_grid_id', 'distance_km', 'daily_transport_fraction', 'source_pm25_ugm3', 'source_weighted_transport_influence_index', 'source_observation_status']].head(3))
+```
+
+### 4.3 Benchmark Query Catalog
 Pre-computed, verified query outputs with sidecar provenance JSON are archived in `results/phase20_app/sample_queries/`:
 
 1. **Central Delhi NCR (`delhi_20211015_24h.csv`):**

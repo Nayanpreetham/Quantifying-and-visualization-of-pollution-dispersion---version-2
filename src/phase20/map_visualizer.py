@@ -253,6 +253,177 @@ class MapVisualizer:
         folium.LayerControl(collapsed=False).add_to(m)
         return m
 
+    def create_target_influence_map(self, query_result, user_lat=None, user_lon=None, min_fraction=0.0):
+        """
+        Creates an interactive Folium map representing target-centric pollution influence:
+        - Centers on the target receptor cell and highlights it with a prominent blue border and target marker.
+        - Renders incoming candidate source grid polygons color-coded by transport fraction reaching the target.
+        - Rich tooltips displaying source ID, distance to target, modeled transport fraction, source PM2.5 (if monitored),
+          and source-weighted influence index.
+        - Clearly distinguishes candidate source transport pathways from ambient AQI.
+        """
+        target_info = query_result.get('target_info', {})
+        target_lat = target_info.get('target_latitude', 22.0)
+        target_lon = target_info.get('target_longitude', 79.0)
+        target_gid = target_info.get('target_grid_id', 'UNKNOWN')
+        query_date = query_result.get('query_date', '')
+        horizon_hours = query_result.get('horizon_hours', 24.0)
+        
+        # Initialize Folium Map centered on target
+        m = folium.Map(
+            location=[target_lat, target_lon],
+            zoom_start=6,
+            tiles="CartoDB positron",
+            control_scale=True
+        )
+        
+        df_results = query_result.get('results_table', pd.DataFrame())
+        max_frac = df_results['daily_transport_fraction'].max() if not df_results.empty else 1.0
+        max_frac = max(0.05, float(max_frac))
+        
+        colormap = cm.LinearColormap(
+            colors=['#fee5d9', '#fcae91', '#fb6a4a', '#de2d26', '#a50f15'],
+            vmin=0.0,
+            vmax=max_frac,
+            caption=f"Modeled Inflow Transport Fraction reaching Target ({horizon_hours:g}h)"
+        )
+        
+        # Layer 1: Incoming Source Grid Polygons
+        sources_fg = folium.FeatureGroup(name="Contributing Source Cells (Candidate Inflow)")
+        
+        if not df_results.empty:
+            for _, row in df_results.iterrows():
+                src_id = str(row['source_grid_id'])
+                frac = float(row['daily_transport_fraction'])
+                dist_km = row.get('distance_km', np.nan)
+                src_pm25 = row.get('source_pm25_ugm3', np.nan)
+                inf_idx = row.get('source_weighted_transport_influence_index', np.nan)
+                obs_status = row.get('source_observation_status', 'UNMONITORED')
+                
+                if frac < min_fraction:
+                    continue
+                    
+                feat = self.features_by_id.get(src_id)
+                if feat is not None:
+                    fill_color = colormap(frac)
+                    dist_str = f"{dist_km:.1f} km" if not pd.isna(dist_km) else "N/A"
+                    pm_str = f"{src_pm25:.1f} ug/m3" if not pd.isna(src_pm25) else "Unmonitored"
+                    inf_str = f"{inf_idx:.2f} ug/m3-equiv" if not pd.isna(inf_idx) else "Unmonitored (NaN)"
+                    
+                    popup_html = f"""
+                    <div style="font-family: Arial, sans-serif; font-size: 12px; min-width: 210px;">
+                        <b style="color: #b03a2e;">Candidate Source: {src_id}</b><br/>
+                        <hr style="margin: 4px 0;"/>
+                        <b>Inflow Fraction to Target:</b> {frac*100:.2f}% ({frac:.4f})<br/>
+                        <b>Distance to Target:</b> {dist_str}<br/>
+                        <b>Source PM2.5 Obs:</b> {pm_str} ({obs_status})<br/>
+                        <b>Source-Weighted Influence:</b> {inf_str}<br/>
+                        <i style="color: #666; font-size: 10px;">Candidate transport pathway reaching target. Not verified emissions.</i>
+                    </div>
+                    """
+                    
+                    folium.GeoJson(
+                        feat,
+                        style_function=lambda x, fc=fill_color: {
+                            'fillColor': fc,
+                            'color': '#777777',
+                            'weight': 1,
+                            'fillOpacity': 0.60
+                        },
+                        highlight_function=lambda x: {
+                            'weight': 3,
+                            'color': '#000000',
+                            'fillOpacity': 0.85
+                        },
+                        tooltip=folium.Tooltip(f"Source {src_id}: {frac*100:.2f}% transport to target ({dist_str})"),
+                        popup=folium.Popup(popup_html, max_width=320)
+                    ).add_to(sources_fg)
+                    
+        sources_fg.add_to(m)
+        
+        # Layer 2: Target Receptor Grid Cell Highlight
+        target_fg = folium.FeatureGroup(name="Target Receptor Grid Cell")
+        tgt_feat = self.features_by_id.get(target_gid)
+        if tgt_feat is not None:
+            folium.GeoJson(
+                tgt_feat,
+                style_function=lambda x: {
+                    'fillColor': '#2980b9',
+                    'color': '#1b4f72',
+                    'weight': 3.5,
+                    'fillOpacity': 0.35
+                },
+                tooltip=f"TARGET RECEPTOR CELL: {target_gid}",
+                popup=folium.Popup(f"<b>TARGET RECEPTOR CELL: {target_gid}</b><br/>Center: ({target_lat:.4f}, {target_lon:.4f})", max_width=250)
+            ).add_to(target_fg)
+            
+        # Target centroid marker
+        folium.CircleMarker(
+            location=[target_lat, target_lon],
+            radius=7,
+            color='#1b4f72',
+            fill=True,
+            fill_color='#2980b9',
+            fill_opacity=0.9,
+            tooltip=f"Target Centroid: {target_gid} ({target_lat:.3f}, {target_lon:.3f})"
+        ).add_to(target_fg)
+        
+        # User coordinate marker (if distinct from target centroid)
+        if user_lat is not None and user_lon is not None:
+            dist_user_center = np.sqrt((user_lat - target_lat)**2 + (user_lon - target_lon)**2) * 111.0
+            folium.Marker(
+                location=[user_lat, user_lon],
+                icon=folium.Icon(color="red", icon="screenshot"),
+                tooltip=f"Selected Target Point: ({user_lat:.4f}, {user_lon:.4f})",
+                popup=folium.Popup(f"<b>User Target Point</b><br/>Lat: {user_lat:.4f}<br/>Lon: {user_lon:.4f}<br/>Resolved Target Cell: {target_gid}<br/>Offset to Center: {dist_user_center:.1f} km", max_width=250)
+            ).add_to(target_fg)
+            
+        target_fg.add_to(m)
+        
+        # Custom Floating Legend
+        legend_html = f"""
+        <div style="
+            position: fixed; 
+            bottom: 30px; 
+            right: 30px; 
+            width: 270px; 
+            background-color: white; 
+            z-index: 9999; 
+            font-size: 12px; 
+            font-family: Arial, sans-serif;
+            border: 2px solid #bbb; 
+            border-radius: 6px;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            opacity: 0.95;
+        ">
+            <h4 style="margin: 0 0 6px 0; font-size: 13px; color: #1b4f72;">Target-Centric Inflow ({horizon_hours:g}h)</h4>
+            <div style="font-size: 11px; margin-bottom: 6px;">
+                <b>Target Receptor:</b> {target_gid}<br/>
+                <b>Date:</b> {query_date}
+            </div>
+            <div>
+                <span style="display: inline-block; width: 14px; height: 14px; background: #2980b9; vertical-align: middle; margin-right: 6px;"></span> Target Receptor Cell
+            </div>
+            <div style="margin-top: 4px;">
+                <span style="display: inline-block; width: 14px; height: 14px; background: #a50f15; vertical-align: middle; margin-right: 6px;"></span> High Contributing Inflow (> {max_frac*0.6*100:.1f}%)
+            </div>
+            <div style="margin-top: 4px;">
+                <span style="display: inline-block; width: 14px; height: 14px; background: #fcae91; vertical-align: middle; margin-right: 6px;"></span> Moderate Contributing Inflow
+            </div>
+            <div style="margin-top: 4px;">
+                <span style="display: inline-block; width: 14px; height: 14px; background: #fee5d9; vertical-align: middle; margin-right: 6px;"></span> Low Contributing Inflow (< {max_frac*0.2*100:.1f}%)
+            </div>
+            <div style="margin-top: 8px; font-size: 10px; color: #7f8c8d; line-height: 1.2;">
+                *Identifies candidate source cells whose physical transport pathways reach this target. Does NOT represent emission inventories or ambient AQI.
+            </div>
+        </div>
+        """
+        m.get_root().html.add_child(folium.Element(legend_html))
+        
+        folium.LayerControl(collapsed=False).add_to(m)
+        return m
+
     def save_map_html(self, folium_map, out_path):
         """Saves folium map to HTML file."""
         os.makedirs(os.path.dirname(out_path), exist_ok=True)

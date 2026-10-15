@@ -315,6 +315,80 @@ def run_all_tests():
         record_test(15, "Application Startup & End-to-End Workflow", False, time.time() - t0, f"Exception: {e}")
 
     # -------------------------------------------------------------
+    # Test 16: Target-Centric Inflow Query & Matrix Orientation
+    # -------------------------------------------------------------
+    t0 = time.time()
+    try:
+        res_tn = ctrl.execute_target_query(2021, 10, 15, lat=13.0827, lon=80.2707, horizon_hours=24.0, use_cache=False)
+        df_tn = res_tn['results_table']
+        top_src = df_tn.iloc[0]['source_grid_id']
+        is_delhi_dominated = top_src in ['IND_50KM_r046_c018', 'IND_50KM_r045_c018']
+        
+        correct_target_id = res_tn['target_info']['target_grid_id'] == 'IND_50KM_r012_c024'
+        correct_dest_mapping = (df_tn['target_grid_id'] == 'IND_50KM_r012_c024').all()
+        has_positive_sources = len(df_tn) > 0 and (df_tn['daily_transport_fraction'] > 0).all()
+        unmon_are_nan = df_tn[df_tn['influence_status'] == 'UNMONITORED_SOURCE_NO_INFLUENCE']['source_weighted_transport_influence_index'].isna().all()
+        
+        passed16 = (res_tn['status'] == 'SUCCESS' and
+                    correct_target_id and
+                    correct_dest_mapping and
+                    has_positive_sources and
+                    (not is_delhi_dominated) and
+                    unmon_are_nan)
+        record_test(16, "Target-Centric Inflow Query & Matrix Orientation", passed16, time.time() - t0,
+                    f"Target resolved to IND_50KM_r012_c024; {len(df_tn)} sources reach target; top source {top_src} (not Delhi); unmonitored influence NaN verified.")
+    except Exception as e:
+        record_test(16, "Target-Centric Inflow Query & Matrix Orientation", False, time.time() - t0, f"Exception: {e}")
+
+    # -------------------------------------------------------------
+    # Test 17: Target Spatial & Ranking Sensitivity (Delhi vs MP vs TN)
+    # -------------------------------------------------------------
+    t0 = time.time()
+    try:
+        res_delhi_tgt = ctrl.execute_target_query(2021, 10, 15, lat=28.6139, lon=77.2090, horizon_hours=24.0, use_cache=False)
+        res_mp_tgt = ctrl.execute_target_query(2021, 10, 15, lat=23.2599, lon=77.4126, horizon_hours=24.0, use_cache=False)
+        
+        delhi_gid = res_delhi_tgt['target_info']['target_grid_id']
+        mp_gid = res_mp_tgt['target_info']['target_grid_id']
+        
+        delhi_top_src = res_delhi_tgt['results_table'].iloc[0]['source_grid_id']
+        mp_top_src = res_mp_tgt['results_table'].iloc[0]['source_grid_id']
+        
+        distinct_targets = (delhi_gid != mp_gid)
+        distinct_sources = (delhi_top_src != mp_top_src)
+        
+        res_delhi_inf = ctrl.execute_target_query(2021, 10, 15, lat=28.6139, lon=77.2090, horizon_hours=24.0, ranking_metric='source_weighted_transport_influence_index', use_cache=False)
+        inf_ranked_top = res_delhi_inf['results_table'].iloc[0]
+        valid_inf_ranking = not np.isnan(inf_ranked_top['source_weighted_transport_influence_index'])
+        
+        passed17 = distinct_targets and distinct_sources and valid_inf_ranking
+        record_test(17, "Target Spatial & Ranking Sensitivity", passed17, time.time() - t0,
+                    f"Delhi top source={delhi_top_src} vs MP top source={mp_top_src}; Influence index ranking prioritized monitored sources.")
+    except Exception as e:
+        record_test(17, "Target Spatial & Ranking Sensitivity", False, time.time() - t0, f"Exception: {e}")
+
+    # -------------------------------------------------------------
+    # Test 18: Target Influence Map & CSV Roundtrip
+    # -------------------------------------------------------------
+    t0 = time.time()
+    try:
+        tgt_map = vis.create_target_influence_map(res_tn, user_lat=13.0827, user_lon=80.2707)
+        tgt_map_html = tgt_map._repr_html_()
+        
+        csv_buffer = io.StringIO()
+        res_tn['results_table'].to_csv(csv_buffer, index=False)
+        csv_buffer.seek(0)
+        df_readback = pd.read_csv(csv_buffer)
+        
+        passed18 = (len(tgt_map_html) > 5000 and
+                    len(df_readback) == len(res_tn['results_table']) and
+                    (df_readback['is_ambient_aqi_prediction'] == False).all())
+        record_test(18, "Target Influence Map & CSV Roundtrip", passed18, time.time() - t0,
+                    f"Target map rendered ({len(tgt_map_html)} chars); CSV readback {len(df_readback)} rows; is_ambient_aqi_prediction=False verified.")
+    except Exception as e:
+        record_test(18, "Target Influence Map & CSV Roundtrip", False, time.time() - t0, f"Exception: {e}")
+
+    # -------------------------------------------------------------
     # Summary & Output Generation
     # -------------------------------------------------------------
     df_results = pd.DataFrame(test_results)

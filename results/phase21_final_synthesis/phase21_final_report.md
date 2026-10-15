@@ -294,6 +294,7 @@ During Phase 19, a comprehensive scientific audit identified four legacy impleme
 | `DEF-02` | Synoptic Release Aliasing | Daily matrices averaged wind vectors prior to trajectory calculation, damping non-linear gusts and wind reversals. | Implemented 4 independent synoptic releases ($00, 06, 12, 18\text{ UTC}$) with post-advection particle aggregation. | **RESOLVED** |
 | `DEF-03` | Probability Leakage at Coastlines | Trajectories entering maritime waters were discarded, artificially depressing row totals below $1.0$. | Established explicit 4-tier fate accounting preserving `INTERNAL_UNMODELED_WATER` and `DOMAIN_EXIT`. | **RESOLVED** |
 | `DEF-04` | Influence Index Mislabeling | Early prototypes labeled $I_{ij}$ as "predicted ambient destination concentration". | Formally re-designated as `source_weighted_transport_influence_index` ($\mu\text{g/m}^3$-equiv). | **RESOLVED** |
+| `DEF-05` | Target-Centric Query & Session State Reset | Dashboard only executed forward queries ($i \to j$), session state reset inputs to Delhi, and Tab 3 national rankings were confused with source zones. | Implemented dual query modes (`execute_target_query`), fixed coordinate state, added target inflow mapping, and verified across 8 national regions (`target_centric_query_audit.md`). | **RESOLVED** |
 
 ---
 

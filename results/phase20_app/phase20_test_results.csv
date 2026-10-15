@@ -1,16 +1,19 @@
 test_number,test_name,status,elapsed_seconds,details
 1,Valid Date and Coordinate Inputs,PASS,0.0,Accepted valid 2021-10-15 coords and 2020-05-01 grid_id.
-2,Invalid and Unsupported Queries,PASS,0.0001,"Rejected out-of-range year, invalid leap date, unsupported horizon, non-numeric coords, bad grid ID."
-3,Correct Grid-ID Resolution,PASS,0.002,"Resolved Central Delhi (28.6139N, 77.2090E) -> IND_50KM_r046_c018 (offset: 21.97 km)."
-4,Known Historical Query (Delhi 2021-10-15),PASS,3.9233,"Executed Delhi 2021-10-15: 13 destination pathways, closure=1.000000, 40 particles."
-5,Consistency with Direct Engine Output,PASS,3.7534,"Top destination match: 'IND_50KM_r045_c017', fraction difference = 0.00e+00."
-6,Date Sensitivity (Pre vs Post-Monsoon),PASS,3.9456,May top dest: IND_50KM_r046_c016 vs Oct top dest: IND_50KM_r045_c017.
-7,Spatial Sensitivity (Distinct Locations),PASS,7.0916,"Resolved: Delhi=IND_50KM_r046_c018, Mumbai=IND_50KM_r025_c009, Kolkata=IND_50KM_r033_c040."
-8,"Supported Transport Horizons (1, 3, 6, 12, 24h)",PASS,13.1281,"All 5 horizons completed with closure=1.0. Max distances: [np.float64(0.0), np.float64(0.0), np.float64(71.93), np.float64(113.94), np.float64(183.68)]"
-9,Boundary & Unsupported-Coverage Handling,PASS,0.0003,Border >35N status: ERROR_UNSUPPORTED_MET_COVERAGE; Coastal cell categories properly classified.
-10,Unmonitored Source Cell Handling,PASS,3.155,"Unmonitored cell IND_50KM_r000_c018: all influence indices NaN, labeled 'UNMONITORED_SOURCE_NO_INFLUENCE'."
-11,AQI Ranking Integrity & Defensible Grid Mapping,PASS,0.048,"CPCB ranking: 132 cities, zero NaNs, sorted descending; Agra->r042_c020, Delhi->MULTIPLE, Bhiwadi->UNMAPPED verified."
-12,Prevention of False AQI / Ambient Labels,PASS,0.0004,Zero forbidden ambient AQI column names; is_ambient_aqi_prediction = False verified.
-13,CSV Export Correctness,PASS,0.0082,Exported 13 rows to CSV; readback closure sum = 1.000000.
-14,Reproducibility for Identical Inputs,PASS,6.0521,Identical query executed twice produced identical dataframes (exact equality: True).
-15,Application Startup & End-to-End Workflow,PASS,0.2886,"Full workflow executed successfully: map HTML size=75267 chars, CPCB=132 cities, OpenAQ=9 stations."
+2,Invalid and Unsupported Queries,PASS,0.0,"Rejected out-of-range year, invalid leap date, unsupported horizon, non-numeric coords, bad grid ID."
+3,Correct Grid-ID Resolution,PASS,0.001,"Resolved Central Delhi (28.6139N, 77.2090E) -> IND_50KM_r046_c018 (offset: 21.97 km)."
+4,Known Historical Query (Delhi 2021-10-15),PASS,1.5318,"Executed Delhi 2021-10-15: 13 destination pathways, closure=1.000000, 40 particles."
+5,Consistency with Direct Engine Output,PASS,1.4641,"Top destination match: 'IND_50KM_r045_c017', fraction difference = 0.00e+00."
+6,Date Sensitivity (Pre vs Post-Monsoon),PASS,1.518,May top dest: IND_50KM_r046_c016 vs Oct top dest: IND_50KM_r045_c017.
+7,Spatial Sensitivity (Distinct Locations),PASS,2.8133,"Resolved: Delhi=IND_50KM_r046_c018, Mumbai=IND_50KM_r025_c009, Kolkata=IND_50KM_r033_c040."
+8,"Supported Transport Horizons (1, 3, 6, 12, 24h)",PASS,4.9638,"All 5 horizons completed with closure=1.0. Max distances: [np.float64(0.0), np.float64(0.0), np.float64(71.93), np.float64(113.94), np.float64(183.68)]"
+9,Boundary & Unsupported-Coverage Handling,PASS,0.0002,Border >35N status: ERROR_UNSUPPORTED_MET_COVERAGE; Coastal cell categories properly classified.
+10,Unmonitored Source Cell Handling,PASS,1.21,"Unmonitored cell IND_50KM_r000_c018: all influence indices NaN, labeled 'UNMONITORED_SOURCE_NO_INFLUENCE'."
+11,AQI Ranking Integrity & Defensible Grid Mapping,PASS,0.0232,"CPCB ranking: 132 cities, zero NaNs, sorted descending; Agra->r042_c020, Delhi->MULTIPLE, Bhiwadi->UNMAPPED verified."
+12,Prevention of False AQI / Ambient Labels,PASS,0.0002,Zero forbidden ambient AQI column names; is_ambient_aqi_prediction = False verified.
+13,CSV Export Correctness,PASS,0.0041,Exported 13 rows to CSV; readback closure sum = 1.000000.
+14,Reproducibility for Identical Inputs,PASS,2.3671,Identical query executed twice produced identical dataframes (exact equality: True).
+15,Application Startup & End-to-End Workflow,PASS,0.1216,"Full workflow executed successfully: map HTML size=75267 chars, CPCB=132 cities, OpenAQ=9 stations."
+16,Target-Centric Inflow Query & Matrix Orientation,PASS,0.1588,Target resolved to IND_50KM_r012_c024; 34 sources reach target; top source IND_50KM_r010_c023 (not Delhi); unmonitored influence NaN verified.
+17,Target Spatial & Ranking Sensitivity,PASS,0.3074,Delhi top source=IND_50KM_r044_c020 vs MP top source=IND_50KM_r032_c015; Influence index ranking prioritized monitored sources.
+18,Target Influence Map & CSV Roundtrip,PASS,0.0676,Target map rendered (186080 chars); CSV readback 34 rows; is_ambient_aqi_prediction=False verified.
