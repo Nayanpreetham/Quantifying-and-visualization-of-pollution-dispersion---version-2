@@ -22,6 +22,7 @@ src/models/*.json
 *.joblib
 !models/surrogate_model.joblib
 *.docx
+*.mp4
 
 # Exclude oversized matrix CSVs (>30MB, replaced by authoritative Parquet equivalents)
 results/phase19_transport/annual/*.csv
