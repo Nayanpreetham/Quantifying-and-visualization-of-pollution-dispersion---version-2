@@ -5,7 +5,7 @@ check_id,check_name,status,details
 4,Map & Quantitative Results,PASS,Folium map HTML size: 75267 chars; Reached 13 cells; Closure: 1.000000
 5,Source Monitoring Availability,PASS,"Status: HISTORICAL_BASELINE_ONLY, Baseline: 69.82 ug/m3"
 6,Query CSV Export,PASS,Exported and parsed back 13 rows with full schema
-7,Real Measured Execution Time,PASS,Execution runtime: 3.933 seconds (target < 5s)
+7,Real Measured Execution Time,PASS,Execution runtime: 4.32 seconds (target < 5s)
 8,Distinct Source Locations (Mumbai & Kanpur),PASS,"Mumbai resolved to IND_50KM_r025_c009, Kanpur resolved to IND_50KM_r041_c024"
 9,Marine Water Boundary Separation (Mumbai),PASS,Coastal dispersion into INTERNAL_UNMODELED_WATER: 1 pathways (47.5%)
 10,Unmonitored Source Cell Handling,PASS,All influence indices NaN; Status: UNMONITORED_SOURCE_NO_INFLUENCE; Closure: 1.000000
