@@ -114,6 +114,36 @@ class MapVisualizer:
             control_scale=True
         )
         
+        # Essential Leaflet 1.9.3 Compatibility Polyfill:
+        # Prevents "Uncaught TypeError: layer.getElement is not a function" when tooltips are bound to SVG vector layers.
+        polyfill_js = """
+        <script>
+        (function() {
+            function patchLeaflet() {
+                if (typeof L !== 'undefined' && L.Path && !L.Path.prototype.getElement) {
+                    L.Path.prototype.getElement = function() {
+                        return this._path || this._container;
+                    };
+                }
+                if (typeof L !== 'undefined' && L.FeatureGroup && L.FeatureGroup.prototype.bindTooltip) {
+                    var origBindTooltip = L.FeatureGroup.prototype.bindTooltip;
+                    L.FeatureGroup.prototype.bindTooltip = function(content, options) {
+                        try {
+                            return origBindTooltip.call(this, content, options);
+                        } catch (err) {
+                            console.warn('FeatureGroup.bindTooltip handled safely:', err);
+                            return this;
+                        }
+                    };
+                }
+            }
+            patchLeaflet();
+            document.addEventListener('DOMContentLoaded', patchLeaflet);
+        })();
+        </script>
+        """
+        m.get_root().html.add_child(folium.Element(polyfill_js))
+        
         # Alternate base tile options in layer control
         folium.TileLayer('CartoDB dark_matter', name='Dark Basemap').add_to(m)
         folium.TileLayer('OpenStreetMap', name='Street Map').add_to(m)
@@ -163,8 +193,7 @@ class MapVisualizer:
                     'color': '#1b4f72',
                     'weight': 2.2,
                     'fillOpacity': 0.0
-                },
-                tooltip=folium.Tooltip("Republic of India — Sovereign National Territory")
+                }
             ).add_to(national_fg)
             national_fg.add_to(m)
 
@@ -179,8 +208,7 @@ class MapVisualizer:
                     'color': '#bdc3c7',
                     'weight': 0.7,
                     'fillOpacity': 0.0
-                },
-                tooltip=folium.Tooltip("50 km Model Grid Cell (EPSG:7755)")
+                }
             ).add_to(grid_fg)
             grid_fg.add_to(m)
 
@@ -227,7 +255,7 @@ class MapVisualizer:
                 
             feat = self.features_by_id.get(d_id)
             if feat is not None:
-                fill_color = colormap(frac)
+                fill_color = colormap(frac)[:7]
                 dist_str = f"{dist_km:.1f} km" if not pd.isna(dist_km) else "N/A"
                 inf_str = f"{inf_idx:.2f} ug/m3-eq" if not pd.isna(inf_idx) else "Unmonitored"
                 
@@ -245,8 +273,12 @@ class MapVisualizer:
                 </div>
                 """
                 
+                feat_copy = dict(feat)
+                feat_copy['properties'] = dict(feat.get('properties', {}))
+                feat_copy['properties']['tooltip_info'] = f"{dest_name} ({d_id}): {frac*100:.1f}% transport ({dist_str})"
+
                 folium.GeoJson(
-                    feat,
+                    feat_copy,
                     style_function=lambda x, fc=fill_color: {
                         'fillColor': fc,
                         'color': '#555555',
@@ -258,7 +290,7 @@ class MapVisualizer:
                         'color': '#000000',
                         'fillOpacity': 0.90
                     },
-                    tooltip=folium.Tooltip(f"{dest_name} ({d_id}): {frac*100:.1f}% transport ({dist_str})"),
+                    tooltip=folium.GeoJsonTooltip(fields=['tooltip_info'], aliases=['']),
                     popup=folium.Popup(popup_html, max_width=320)
                 ).add_to(dest_fg)
                 
@@ -285,15 +317,18 @@ class MapVisualizer:
         src_fg = folium.FeatureGroup(name="Source Region & Centroid", show=True)
         src_feat = self.features_by_id.get(src_gid)
         if src_feat is not None:
+            src_feat_copy = dict(src_feat)
+            src_feat_copy['properties'] = dict(src_feat.get('properties', {}))
+            src_feat_copy['properties']['tooltip_info'] = f"SOURCE: {src_region_name} ({src_gid})"
             folium.GeoJson(
-                src_feat,
+                src_feat_copy,
                 style_function=lambda x: {
                     'fillColor': '#8e44ad',
                     'color': '#5b2c6f',
                     'weight': 3.5,
                     'fillOpacity': 0.45
                 },
-                tooltip=f"SOURCE: {src_region_name} ({src_gid})",
+                tooltip=folium.GeoJsonTooltip(fields=['tooltip_info'], aliases=['']),
                 popup=folium.Popup(f"<b>SOURCE REGION: {src_region_name}</b><br/>Cell: {src_gid}<br/>Centroid: ({src_lat:.4f}, {src_lon:.4f})", max_width=250)
             ).add_to(src_fg)
             
@@ -414,6 +449,36 @@ class MapVisualizer:
             control_scale=True
         )
         
+        # Essential Leaflet 1.9.3 Compatibility Polyfill:
+        # Prevents "Uncaught TypeError: layer.getElement is not a function" when tooltips are bound to SVG vector layers.
+        polyfill_js = """
+        <script>
+        (function() {
+            function patchLeaflet() {
+                if (typeof L !== 'undefined' && L.Path && !L.Path.prototype.getElement) {
+                    L.Path.prototype.getElement = function() {
+                        return this._path || this._container;
+                    };
+                }
+                if (typeof L !== 'undefined' && L.FeatureGroup && L.FeatureGroup.prototype.bindTooltip) {
+                    var origBindTooltip = L.FeatureGroup.prototype.bindTooltip;
+                    L.FeatureGroup.prototype.bindTooltip = function(content, options) {
+                        try {
+                            return origBindTooltip.call(this, content, options);
+                        } catch (err) {
+                            console.warn('FeatureGroup.bindTooltip handled safely:', err);
+                            return this;
+                        }
+                    };
+                }
+            }
+            patchLeaflet();
+            document.addEventListener('DOMContentLoaded', patchLeaflet);
+        })();
+        </script>
+        """
+        m.get_root().html.add_child(folium.Element(polyfill_js))
+        
         # Alternate base tile options in layer control
         folium.TileLayer('CartoDB dark_matter', name='Dark Basemap').add_to(m)
         folium.TileLayer('OpenStreetMap', name='Street Map').add_to(m)
@@ -463,8 +528,7 @@ class MapVisualizer:
                     'color': '#1b4f72',
                     'weight': 2.2,
                     'fillOpacity': 0.0
-                },
-                tooltip=folium.Tooltip("Republic of India — Sovereign National Territory")
+                }
             ).add_to(national_fg)
             national_fg.add_to(m)
 
@@ -479,8 +543,7 @@ class MapVisualizer:
                     'color': '#bdc3c7',
                     'weight': 0.7,
                     'fillOpacity': 0.0
-                },
-                tooltip=folium.Tooltip("50 km Model Grid Cell (EPSG:7755)")
+                }
             ).add_to(grid_fg)
             grid_fg.add_to(m)
 
@@ -515,7 +578,7 @@ class MapVisualizer:
                     
                 feat = self.features_by_id.get(src_id)
                 if feat is not None:
-                    fill_color = colormap(frac)
+                    fill_color = colormap(frac)[:7]
                     dist_str = f"{dist_km:.1f} km" if not pd.isna(dist_km) else "N/A"
                     pm_str = f"{src_pm25:.1f} ug/m3" if not pd.isna(src_pm25) else "Unmonitored"
                     inf_str = f"{inf_idx:.2f} ug/m3-eq" if not pd.isna(inf_idx) else "Unmonitored"
@@ -535,8 +598,12 @@ class MapVisualizer:
                     </div>
                     """
                     
+                    feat_copy = dict(feat)
+                    feat_copy['properties'] = dict(feat.get('properties', {}))
+                    feat_copy['properties']['tooltip_info'] = f"{src_region_name} ({src_id}): {frac*100:.2f}% inflow ({dist_str})"
+
                     folium.GeoJson(
-                        feat,
+                        feat_copy,
                         style_function=lambda x, fc=fill_color: {
                             'fillColor': fc,
                             'color': '#7f1d1d',
@@ -548,7 +615,7 @@ class MapVisualizer:
                             'color': '#000000',
                             'fillOpacity': 0.90
                         },
-                        tooltip=folium.Tooltip(f"{src_region_name} ({src_id}): {frac*100:.2f}% inflow ({dist_str})"),
+                        tooltip=folium.GeoJsonTooltip(fields=['tooltip_info'], aliases=['']),
                         popup=folium.Popup(popup_html, max_width=320)
                     ).add_to(sources_fg)
                     
@@ -575,15 +642,18 @@ class MapVisualizer:
         target_fg = folium.FeatureGroup(name="Target Receptor Region", show=True)
         tgt_feat = self.features_by_id.get(target_gid)
         if tgt_feat is not None:
+            tgt_feat_copy = dict(tgt_feat)
+            tgt_feat_copy['properties'] = dict(tgt_feat.get('properties', {}))
+            tgt_feat_copy['properties']['tooltip_info'] = f"TARGET RECEPTOR: {target_region_name} ({target_gid})"
             folium.GeoJson(
-                tgt_feat,
+                tgt_feat_copy,
                 style_function=lambda x: {
                     'fillColor': '#2980b9',
                     'color': '#1b4f72',
                     'weight': 3.5,
                     'fillOpacity': 0.40
                 },
-                tooltip=f"TARGET RECEPTOR: {target_region_name} ({target_gid})",
+                tooltip=folium.GeoJsonTooltip(fields=['tooltip_info'], aliases=['']),
                 popup=folium.Popup(f"<b>TARGET RECEPTOR: {target_region_name}</b><br/>Cell: {target_gid}<br/>Center: ({target_lat:.4f}, {target_lon:.4f})", max_width=250)
             ).add_to(target_fg)
             

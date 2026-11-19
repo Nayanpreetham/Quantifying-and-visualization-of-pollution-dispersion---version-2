@@ -360,19 +360,10 @@ st.markdown("""
 # ---------------------------------------------------------
 st.sidebar.markdown("### ⚙️ Analysis Configuration")
 
-# 1. Analysis Type Selector
-workflow_mode = st.sidebar.radio(
-    "Analysis Type",
-    options=[
-        "🎯 Receptor Analysis (Where is pollution coming from?)",
-        "💨 Source Analysis (Where does pollution travel to?)"
-    ],
-    index=0,
-    help="Receptor Mode identifies contributing upstream sources reaching a region. Source Mode simulates downwind plume advection from a source region."
-)
-is_target_mode = "Receptor" in workflow_mode
+# Analysis Mode: Strictly Receptor Analysis (Where is pollution coming from?)
+is_target_mode = True
 
-# 2. Pollutant Selector
+# 1. Pollutant Selector
 st.sidebar.selectbox(
     "Target Pollutant",
     options=["PM2.5 (Continuous CAAQMS Ground Truth & ERA5 Advection)"],
@@ -391,7 +382,7 @@ PRESET_CITIES = {
     "Delhi (NCR Core)": (28.6139, 77.2090, "Delhi", "Delhi"),
     "Bhopal, Madhya Pradesh": (23.2599, 77.4126, "Madhya Pradesh", "Bhopal"),
     "Chennai, Tamil Nadu": (13.0827, 80.2707, "Tamil Nadu", "Chennai"),
-    "Mumbai, Maharashtra": (19.0760, 72.8777, "Maharashtra", "Mumbai City"),
+    "Mumbai, Maharashtra": (19.0760, 72.8777, "Maharashtra", "Mumbai"),
     "Kolkata, West Bengal": (22.5726, 88.3639, "West Bengal", "Kolkata"),
     "Bengaluru, Karnataka": (12.9716, 77.5946, "Karnataka", "Bangalore"),
     "Ahmedabad, Gujarat": (23.0225, 72.5714, "Gujarat", "Ahmadabad"),
@@ -729,7 +720,8 @@ with tab_map:
             show_grid=show_grid_overlay
         )
         
-    components.html(folium_map._repr_html_(), height=620, scrolling=False)
+    map_html = folium_map.get_root().render()
+    components.html(map_html, height=620, scrolling=False)
     
     # Map Findings Highlight
     if is_target_mode and not df_table.empty:

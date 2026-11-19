@@ -3429,6 +3429,36 @@
       "grid_lat": 20.0726,
       "grid_lon": 77.8112,
       "offset_km": 27.1
+    },
+    "Mumbai": {
+      "district_name": "Mumbai",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.076,
+      "centroid_lon": 72.8777,
+      "grid_id_50km": "IND_50KM_r025_c009",
+      "grid_lat": 19.0047,
+      "grid_lon": 73.0007,
+      "offset_km": 15.2
+    },
+    "Mumbai City": {
+      "district_name": "Mumbai City",
+      "state_name": "Maharashtra",
+      "centroid_lat": 18.9388,
+      "centroid_lon": 72.8354,
+      "grid_id_50km": "IND_50KM_r025_c009",
+      "grid_lat": 19.0047,
+      "grid_lon": 73.0007,
+      "offset_km": 19.7
+    },
+    "Mumbai Suburban": {
+      "district_name": "Mumbai Suburban",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.1136,
+      "centroid_lon": 72.8697,
+      "grid_id_50km": "IND_50KM_r025_c009",
+      "grid_lat": 19.0047,
+      "grid_lon": 73.0007,
+      "offset_km": 17.5
     }
   },
   "Manipur": {
