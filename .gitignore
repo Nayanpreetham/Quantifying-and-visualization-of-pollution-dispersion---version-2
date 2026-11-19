@@ -1,6 +1,14 @@
 .venv/
 __pycache__/
 *.py[cod]
+.env
+.env.local
+*.log
+
+# Temporary test/debug scripts
+check_pkgs.py
+scan_imports.py
+scan_app_imports.py
 
 # Generated datasets and geospatial/model artifacts
 data/*

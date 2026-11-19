@@ -2,8 +2,8 @@ import requests
 import pandas as pd
 import os
 
-API_KEY = "985bdc07c5e4d052e54ed0b2a110d646b5ba507d1c749a3d71aaf6fede3cceeb"
-HEADERS = {"X-API-Key": API_KEY}
+API_KEY = os.environ.get("OPENAQ_API_KEY", "")
+HEADERS = {"X-API-Key": API_KEY} if API_KEY else {}
 
 def fetch_openaq(date_str="2020-11-01"):
     print(f"Fetching OpenAQ PM2.5 data for India on {date_str}...")

@@ -5,8 +5,8 @@ import concurrent.futures
 from datetime import datetime
 import time
 
-API_KEY = "985bdc07c5e4d052e54ed0b2a110d646b5ba507d1c749a3d71aaf6fede3cceeb"
-HEADERS = {"X-API-Key": API_KEY}
+API_KEY = os.environ.get("OPENAQ_API_KEY", "")
+HEADERS = {"X-API-Key": API_KEY} if API_KEY else {}
 
 def get_india_pm25_sensors():
     print("Fetching all India locations from OpenAQ v3 API...")
