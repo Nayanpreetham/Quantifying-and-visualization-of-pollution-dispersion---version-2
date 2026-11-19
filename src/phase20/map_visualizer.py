@@ -29,6 +29,7 @@ import numpy as np
 
 GRID_GEOJSON_PATH = "results/phase18_grid_audit/india_50km_grid.geojson"
 ASIA_GEOJSON_PATH = "data/processed/geography/asia_countries.geojson" if os.path.exists("data/processed/geography/asia_countries.geojson") else "data/raw/geography/asia_countries.geojson"
+NATIONAL_GEOJSON_PATH = "data/processed/geography/india_national_web.geojson" if os.path.exists("data/processed/geography/india_national_web.geojson") else "data/raw/geography/india_national_web.geojson"
 STATES_GEOJSON_PATH = "data/processed/geography/india_states_web.geojson" if os.path.exists("data/processed/geography/india_states_web.geojson") else "data/raw/geography/india_states_web.geojson"
 DISTRICTS_GEOJSON_PATH = "data/processed/geography/india_districts_web.geojson" if os.path.exists("data/processed/geography/india_districts_web.geojson") else "data/raw/geography/india_districts_web.geojson"
 GRID_TO_DISTRICTS_PATH = "data/processed/geography/grid_to_districts_mapping.json" if os.path.exists("data/processed/geography/grid_to_districts_mapping.json") else "data/raw/geography/grid_to_districts_mapping.json"
@@ -40,6 +41,7 @@ class MapVisualizer:
         self.features_by_id = {}
         self.grid_to_regions = {}
         self._asia_geojson = None
+        self._national_geojson = None
         self._states_geojson = None
         self._districts_geojson = None
         
@@ -64,13 +66,20 @@ class MapVisualizer:
                 self.grid_to_regions = {}
 
     def _load_administrative_boundaries(self):
-        """Loads optional simplified GeoJSON layers for Asian context, States, and Districts."""
+        """Loads optional simplified GeoJSON layers for Asian context, Sovereign India, States, and Districts."""
         if os.path.exists(ASIA_GEOJSON_PATH):
             try:
                 with open(ASIA_GEOJSON_PATH, 'r', encoding='utf-8') as f:
                     self._asia_geojson = json.load(f)
             except Exception:
                 self._asia_geojson = None
+
+        if os.path.exists(NATIONAL_GEOJSON_PATH):
+            try:
+                with open(NATIONAL_GEOJSON_PATH, 'r', encoding='utf-8') as f:
+                    self._national_geojson = json.load(f)
+            except Exception:
+                self._national_geojson = None
 
         if os.path.exists(STATES_GEOJSON_PATH):
             try:
@@ -141,6 +150,21 @@ class MapVisualizer:
                 tooltip=folium.GeoJsonTooltip(fields=['NAME_1'], aliases=['State:'])
             ).add_to(states_fg)
             states_fg.add_to(m)
+
+        # Base Layer 2b: Indian Sovereign Boundary Outline (Complete National Extent)
+        if self._national_geojson is not None:
+            national_fg = folium.FeatureGroup(name="India Sovereign Boundary (Complete National Extent)", show=True)
+            folium.GeoJson(
+                self._national_geojson,
+                style_function=lambda x: {
+                    'fillColor': 'transparent',
+                    'color': '#B6A38E',
+                    'weight': 2.0,
+                    'fillOpacity': 0.0
+                },
+                tooltip=folium.Tooltip("Republic of India — Sovereign National Territory")
+            ).add_to(national_fg)
+            national_fg.add_to(m)
 
         # Layer 3: 50 km Model Grid Overlay
         if show_grid or self.geojson_path:
@@ -419,6 +443,21 @@ class MapVisualizer:
                 tooltip=folium.GeoJsonTooltip(fields=['NAME_1'], aliases=['State:'])
             ).add_to(states_fg)
             states_fg.add_to(m)
+
+        # Base Layer 2b: Indian Sovereign Boundary Outline (Complete National Extent)
+        if self._national_geojson is not None:
+            national_fg = folium.FeatureGroup(name="India Sovereign Boundary (Complete National Extent)", show=True)
+            folium.GeoJson(
+                self._national_geojson,
+                style_function=lambda x: {
+                    'fillColor': 'transparent',
+                    'color': '#B6A38E',
+                    'weight': 2.0,
+                    'fillOpacity': 0.0
+                },
+                tooltip=folium.Tooltip("Republic of India — Sovereign National Territory")
+            ).add_to(national_fg)
+            national_fg.add_to(m)
 
         # Layer 3: 50 km Model Grid Overlay
         if show_grid or self.geojson_path:

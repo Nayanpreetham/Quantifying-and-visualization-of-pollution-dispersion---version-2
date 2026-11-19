@@ -401,6 +401,7 @@ PRESET_CITIES = {
     "Agartala, Tripura": (23.8315, 91.2868, "Tripura", "West Tripura"),
     "Itanagar, Arunachal Pradesh": (27.0844, 93.6053, "Arunachal Pradesh", "Papum Pare"),
     "Srinagar, Jammu & Kashmir": (34.0837, 74.7973, "Jammu and Kashmir", "Srinagar"),
+    "Leh, Ladakh": (34.1526, 77.5771, "Ladakh", "Leh (Ladakh)"),
     "Thiruvananthapuram, Kerala": (8.5241, 76.9366, "Kerala", "Thiruvananthapuram")
 }
 

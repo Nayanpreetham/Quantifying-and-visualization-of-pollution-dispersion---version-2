@@ -6008,5 +6008,27 @@
       "grid_lon": 87.1711,
       "offset_km": 16.5
     }
+  },
+  "Ladakh": {
+    "Leh (Ladakh)": {
+      "district_name": "Ladakh (Leh)",
+      "state_name": "Ladakh",
+      "centroid_lat": 33.5858,
+      "centroid_lon": 78.3073,
+      "grid_id_50km": "IND_50KM_r056_c020",
+      "grid_lat": 33.3782,
+      "grid_lon": 78.1081,
+      "offset_km": 31.9
+    },
+    "Kargil": {
+      "district_name": "Kargil",
+      "state_name": "Ladakh",
+      "centroid_lat": 33.566,
+      "centroid_lon": 76.6368,
+      "grid_id_50km": "IND_50KM_r056_c017",
+      "grid_lat": 33.3521,
+      "grid_lon": 76.4871,
+      "offset_km": 29.0
+    }
   }
 }
