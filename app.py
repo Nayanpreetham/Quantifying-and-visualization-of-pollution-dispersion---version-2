@@ -1,16 +1,8 @@
 """
 India National Pollution Transport & Dispersion Explorer
 Environmental Intelligence GIS Dashboard (Phases 20 & 21 Final)
-
-A physics-based 2D Lagrangian grid-to-grid atmospheric pollution transport
-platform driven by ECMWF ERA5 horizontal reanalysis winds (U10/V10) across
-India's 50 km projected national grid (EPSG:7755).
-
-Dual Operational Workflows:
-1. Receptor Analysis (Inflow): Answers "Where is pollution in my selected region coming from?"
-   Identifies and ranks all contributing candidate source regions across India reaching the target.
-2. Source Analysis (Dispersion): Answers "Where does pollution from my selected region travel?"
-   Simulates downwind advective plume dispersion across the national terrestrial grid.
+Refined with 60-30-10 Velvet Palette (#232528 Charcoal, #B6A38E Dark Beige, #6B1B1E Velvet Red),
+Compact Header, and Fixed 3x2 Environmental Information Grid.
 """
 
 import os
@@ -29,10 +21,10 @@ from src.phase20.app_controller import AppController, SUPPORTED_YEAR_MIN, SUPPOR
 from src.phase20.map_visualizer import MapVisualizer
 
 # ---------------------------------------------------------
-# Page Configuration & Professional Dark Cartographic Theme
+# Page Configuration & 60-30-10 Velvet Theme
 # ---------------------------------------------------------
 st.set_page_config(
-    page_title="India Pollution Transport & Dispersion Explorer",
+    page_title="Dispersion Explorer",
     page_icon="🗺️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -40,126 +32,280 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    /* Dark Cartographic Theme */
-    .stApp {
-        background-color: #0b0f19;
-        color: #f1f5f9;
+    /* =========================================================
+       60-30-10 VELVET SYSTEM TOKENS
+       60% Primary:   #232528 (Charcoal Black)
+       30% Secondary: #B6A38E (Dark Beige)
+       10% Accent:    #6B1B1E (Velvet Red)
+       Neutrals:      #EAE5DE (Light Cream), #1C1E20 (Deep Charcoal)
+       ========================================================= */
+    :root {
+        --color-charcoal: #232528;
+        --color-charcoal-deep: #1C1E20;
+        --color-charcoal-card: #2A2D31;
+        --color-charcoal-card-hover: #32363C;
+        --color-beige: #B6A38E;
+        --color-beige-light: #EAE5DE;
+        --color-beige-muted: #A0988E;
+        --color-velvet-red: #6B1B1E;
+        --color-velvet-red-hover: #822226;
+        --color-velvet-red-active: #541416;
+    }
+
+    /* Global View Background & Typography */
+    .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+        background-color: #232528 !important;
+        color: #EAE5DE !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     }
-    
+
     .block-container {
         padding-top: 1.2rem;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2.2rem;
     }
-    
-    /* Sleek Top Navigation Header */
+
+    /* Compact Main Header */
     .app-header {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        border-bottom: 1px solid #1e293b;
-        padding-bottom: 12px;
+        border-bottom: 1px solid rgba(182, 163, 142, 0.25);
+        padding-bottom: 8px;
         margin-bottom: 16px;
     }
-    
+
     .main-title {
-        font-size: 1.85rem;
+        font-size: 1.95rem;
         font-weight: 750;
-        color: #f8fafc;
+        color: #EAE5DE;
         letter-spacing: -0.4px;
         margin: 0;
+        padding: 0;
     }
-    
-    .main-subtitle {
-        font-size: 0.90rem;
-        color: #94a3b8;
-        margin-top: 3px;
+
+    /* Fixed 3x2 Metric Information Grid */
+    .metric-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 6px;
+        margin-bottom: 22px;
+        width: 100%;
+        box-sizing: border-box;
     }
-    
+
+    @media (max-width: 992px) {
+        .metric-grid-container {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 640px) {
+        .metric-grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .metric-card {
+        background-color: #2A2D31;
+        border: 1px solid rgba(182, 163, 142, 0.25);
+        border-radius: 8px;
+        padding: 16px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 112px;
+        box-sizing: border-box;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .metric-card:hover {
+        border-color: #B6A38E;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.40);
+    }
+
+    .metric-card-header {
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #B6A38E;
+        margin-bottom: 6px;
+    }
+
+    .metric-card-value {
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: #FFFFFF;
+        line-height: 1.25;
+        margin-bottom: 4px;
+        word-break: break-word;
+    }
+
+    .metric-card-sub {
+        font-size: 0.76rem;
+        color: #A0988E;
+        line-height: 1.3;
+    }
+
+    .metric-card-sub code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.74rem;
+        color: #B6A38E;
+        background: rgba(182, 163, 142, 0.12);
+        padding: 2px 5px;
+        border-radius: 3px;
+        border: 1px solid rgba(182, 163, 142, 0.25);
+    }
+
+    /* Sidebar Styling in 60-30-10 Palette */
+    [data-testid="stSidebar"], [data-testid="stSidebarContent"] {
+        background-color: #1C1E20 !important;
+        border-right: 1px solid rgba(182, 163, 142, 0.22) !important;
+    }
+
+    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+        color: #EAE5DE !important;
+    }
+
+    [data-testid="stSidebar"] label, [data-testid="stSidebar"] p {
+        color: #B6A38E !important;
+    }
+
+    /* Form Inputs & Controls */
+    div[data-baseweb="select"] > div,
+    div[data-baseweb="input"] > div,
+    .stTextInput > div > div,
+    .stNumberInput > div > div,
+    .stDateInput > div > div {
+        background-color: #2A2D31 !important;
+        border: 1px solid rgba(182, 163, 142, 0.3) !important;
+        color: #EAE5DE !important;
+        border-radius: 6px !important;
+    }
+
+    div[data-baseweb="select"] input,
+    div[data-baseweb="input"] input,
+    .stNumberInput input {
+        color: #EAE5DE !important;
+    }
+
+    div[data-baseweb="popover"], div[data-baseweb="menu"], ul[role="listbox"] {
+        background-color: #232528 !important;
+        border: 1px solid #B6A38E !important;
+        color: #EAE5DE !important;
+    }
+
+    li[role="option"] {
+        color: #EAE5DE !important;
+    }
+
+    li[role="option"][aria-selected="true"] {
+        background-color: #6B1B1E !important;
+        color: #FFFFFF !important;
+    }
+
+    li[role="option"]:hover {
+        background-color: rgba(182, 163, 142, 0.18) !important;
+        color: #FFFFFF !important;
+    }
+
+    /* Primary Run Action Button (10% Velvet Red Accent) */
+    button[kind="primary"], .stButton > button[kind="primary"], button[data-testid="baseButton-primary"] {
+        background-color: #6B1B1E !important;
+        color: #FFFFFF !important;
+        border: 1px solid #822226 !important;
+        border-radius: 6px !important;
+        font-weight: 600 !important;
+        padding: 0.55rem 1.2rem !important;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35) !important;
+        transition: all 0.2s ease-in-out !important;
+    }
+    button[kind="primary"]:hover, .stButton > button[kind="primary"]:hover, button[data-testid="baseButton-primary"]:hover {
+        background-color: #822226 !important;
+        border-color: #B6A38E !important;
+        box-shadow: 0 4px 14px rgba(107, 27, 30, 0.5) !important;
+    }
+
+    /* Secondary Download Buttons */
+    .stDownloadButton > button {
+        background-color: #2A2D31 !important;
+        color: #B6A38E !important;
+        border: 1px solid rgba(182, 163, 142, 0.35) !important;
+        border-radius: 6px !important;
+        font-weight: 600 !important;
+        transition: all 0.2s ease-in-out !important;
+    }
+    .stDownloadButton > button:hover {
+        background-color: #35393E !important;
+        color: #EAE5DE !important;
+        border-color: #B6A38E !important;
+    }
+
+    /* Radio Controls */
+    div[role="radiogroup"] label {
+        color: #EAE5DE !important;
+    }
+    div[role="radiogroup"] [aria-checked="true"] > div:first-child {
+        border-color: #6B1B1E !important;
+        background-color: #6B1B1E !important;
+    }
+
+    /* Sliders */
+    .stSlider [data-baseweb="slider"] div[role="slider"] {
+        background-color: #B6A38E !important;
+        border-color: #6B1B1E !important;
+    }
+    .stSlider [data-baseweb="slider"] div[style*="background-color: rgb(255"],
+    .stSlider [data-baseweb="slider"] div[style*="background-color: #"] {
+        background-color: #6B1B1E !important;
+    }
+
+    /* Navigation Tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+        border-bottom: 1px solid rgba(182, 163, 142, 0.25) !important;
+        background-color: transparent !important;
+    }
+    .stTabs [data-baseweb="tab"] {
+        padding: 8px 18px !important;
+        border-radius: 6px 6px 0 0 !important;
+        font-weight: 600 !important;
+        font-size: 0.90rem !important;
+        color: #B6A38E !important;
+        background-color: transparent !important;
+        border: none !important;
+    }
+    .stTabs [data-baseweb="tab"]:hover {
+        color: #EAE5DE !important;
+    }
+    .stTabs [aria-selected="true"] {
+        color: #FFFFFF !important;
+        border-bottom: 3px solid #6B1B1E !important;
+        background-color: rgba(107, 27, 30, 0.14) !important;
+    }
+
+    /* Highlight & Detail Cards */
+    .highlight-card {
+        background: #2A2D31;
+        border: 1px solid rgba(182, 163, 142, 0.25);
+        border-radius: 8px;
+        padding: 14px 18px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+        font-size: 0.88rem;
+        color: #EAE5DE;
+    }
+
     .badge-pill {
         display: inline-block;
-        background-color: #1e293b;
-        color: #38bdf8;
+        background-color: #2A2D31;
+        color: #B6A38E;
         padding: 3px 10px;
         border-radius: 12px;
         font-size: 0.74rem;
         font-weight: 600;
         margin-right: 6px;
-        border: 1px solid #334155;
-    }
-    
-    /* Modern Environmental Intelligence Cards */
-    .intel-card {
-        background: #111827;
-        border: 1px solid #1f2937;
-        border-radius: 8px;
-        padding: 12px 14px;
-        text-align: left;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-        transition: border-color 0.15s ease-in-out;
-    }
-    .intel-card:hover {
-        border-color: #374151;
-    }
-    
-    .intel-label {
-        font-size: 0.70rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: #94a3b8;
-        font-weight: 600;
         margin-bottom: 4px;
-    }
-    
-    .intel-value {
-        font-size: 1.28rem;
-        font-weight: 700;
-        color: #f8fafc;
-        line-height: 1.2;
-    }
-    
-    .intel-sub {
-        font-size: 0.74rem;
-        color: #64748b;
-        margin-top: 3px;
-    }
-    
-    .context-bar {
-        background: #111827;
-        border-left: 4px solid #38bdf8;
-        padding: 10px 14px;
-        border-radius: 6px;
-        margin-bottom: 14px;
-        font-size: 0.86rem;
-        color: #cbd5e1;
-    }
-    
-    .highlight-card {
-        background: #111827;
-        border: 1px solid #1f2937;
-        border-radius: 8px;
-        padding: 12px 16px;
-        margin-top: 12px;
-        margin-bottom: 14px;
-        font-size: 0.88rem;
-        color: #e2e8f0;
-    }
-    
-    /* Custom Tab Styling */
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 6px;
-        border-bottom: 1px solid #1e293b;
-    }
-    .stTabs [data-baseweb="tab"] {
-        padding: 8px 16px;
-        border-radius: 6px 6px 0 0;
-        font-weight: 600;
-        font-size: 0.88rem;
-        color: #94a3b8;
-    }
-    .stTabs [aria-selected="true"] {
-        color: #38bdf8 !important;
-        border-bottom-color: #38bdf8 !important;
+        border: 1px solid rgba(182, 163, 142, 0.35);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -201,23 +347,11 @@ def get_human_region_name(grid_id):
     return grid_id
 
 # ---------------------------------------------------------
-# Top Navigation Header
+# Compact Top Navigation Header (Requirement 1)
 # ---------------------------------------------------------
 st.markdown("""
 <div class="app-header">
-    <div>
-        <h1 class="main-title">🇮🇳 India National Pollution Transport & Dispersion Explorer</h1>
-        <div class="main-subtitle">
-            Understand where atmospheric pollution comes from, where it travels, and which regions are most influenced.
-        </div>
-    </div>
-</div>
-<div style="margin-bottom: 14px;">
-    <span class="badge-pill">🌐 50 km Equal-Area Grid (EPSG:7755)</span>
-    <span class="badge-pill">🌀 ECMWF ERA5 Horizontal Winds (U10/V10)</span>
-    <span class="badge-pill">🔬 2D Lagrangian Trajectory Ensembles</span>
-    <span class="badge-pill">📅 Historical Reanalysis (2019–2024)</span>
-    <span class="badge-pill">🛡️ Strict Probability Closure (100% Mass Balance)</span>
+    <h1 class="main-title">Dispersion Explorer</h1>
 </div>
 """, unsafe_allow_html=True)
 
@@ -252,6 +386,7 @@ st.sidebar.markdown("**📍 Geographical Selection**")
 # Quick City Presets
 PRESET_CITIES = {
     "Select from major regional hubs or choose State/District below...": None,
+    "Chandigarh, Chandigarh": (30.7333, 76.7794, "Chandigarh", "Chandigarh"),
     "Varanasi, Uttar Pradesh": (25.3606, 82.8253, "Uttar Pradesh", "Varanasi"),
     "Delhi (NCR Core)": (28.6139, 77.2090, "Delhi", "Delhi"),
     "Bhopal, Madhya Pradesh": (23.2599, 77.4126, "Madhya Pradesh", "Bhopal"),
@@ -274,7 +409,6 @@ selected_preset = st.sidebar.selectbox("Quick Regional Presets", list(PRESET_CIT
 # State and District Dropdown Selection
 all_states = sorted(list(district_hierarchy.keys())) if district_hierarchy else ["Delhi", "Uttar Pradesh", "Maharashtra"]
 
-# Default State and District
 default_state = "Delhi"
 default_district = "Delhi"
 
@@ -412,7 +546,7 @@ if query_result['status'] != 'SUCCESS':
     st.stop()
 
 # ---------------------------------------------------------
-# Summary Insight Cards (Answering Real Environmental Questions)
+# Fixed 3 x 2 Information Grid (Requirement 2)
 # ---------------------------------------------------------
 df_table = query_result['results_table']
 exec_time = query_result['execution_time_seconds']
@@ -420,20 +554,6 @@ exec_time = query_result['execution_time_seconds']
 if is_target_mode:
     tgt_info = query_result['target_info']
     tgt_mon = query_result['target_monitoring_info']
-    
-    st.markdown(f"""
-    <div class="context-bar">
-        <b>🎯 Receptor Inflow Analysis:</b> Identifying all geographical regions contributing atmospheric transport 
-        into <b>{location_display_name}</b> (Grid Cell: <code>{tgt_info['target_grid_id']}</code>) on <b>{input_date}</b> over a <b>{horizon_choice:g}-hour</b> window.
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Meaningful Card 1: Selected Region
-    # Meaningful Card 2: Local Observed PM2.5 (Ground Truth)
-    # Meaningful Card 3: Contributing Source Regions (Count)
-    # Meaningful Card 4: Monitored Contributing Sources
-    # Meaningful Card 5: Dominant Contributing Source
-    # Meaningful Card 6: Transport Window
     
     local_pm_str = f"{tgt_mon['effective_source_pm25_ugm3']:.1f} µg/m³" if not np.isnan(tgt_mon['effective_source_pm25_ugm3']) else "Unmonitored"
     local_pm_sub = f"{tgt_mon['stations_count']} CAAQMS Station(s)" if tgt_mon['stations_count'] > 0 else "No Ground Monitor"
@@ -449,68 +569,56 @@ if is_target_mode:
         dominant_str = "None Identified"
         dominant_sub = "Within threshold"
         
-    c1, c2, c3, c4, c5, c6 = st.columns(6)
-    with c1:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Selected Receptor</div>
-            <div class="intel-value" style="font-size: 1.05rem;">{location_display_name}</div>
-            <div class="intel-sub">Cell: {tgt_info['target_grid_id']}</div>
+    date_formatted = input_date.strftime('%d %b %Y')
+    
+    # Clean 3x2 Grid Render
+    grid_html = f"""
+    <div class="metric-grid-container">
+        <!-- Card 1: Selected Receptor -->
+        <div class="metric-card">
+            <div class="metric-card-header">Selected Receptor</div>
+            <div class="metric-card-value">{location_display_name}</div>
+            <div class="metric-card-sub">Cell: <code>{tgt_info['target_grid_id']}</code></div>
         </div>
-        """, unsafe_allow_html=True)
-    with c2:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Local Observed PM2.5</div>
-            <div class="intel-value" style="color: #38bdf8;">{local_pm_str}</div>
-            <div class="intel-sub">{local_pm_sub}</div>
+        <!-- Card 2: Local Observed PM2.5 -->
+        <div class="metric-card">
+            <div class="metric-card-header">Local Observed PM2.5</div>
+            <div class="metric-card-value">{local_pm_str}</div>
+            <div class="metric-card-sub">{local_pm_sub}</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c3:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Contributing Regions</div>
-            <div class="intel-value">{query_result['sources_with_positive_transport']}</div>
-            <div class="intel-sub">Out of 1,380 National Cells</div>
+        <!-- Card 3: Contributing Regions -->
+        <div class="metric-card">
+            <div class="metric-card-header">Contributing Regions</div>
+            <div class="metric-card-value">{query_result['sources_with_positive_transport']}</div>
+            <div class="metric-card-sub">Out of 1,380 National Cells</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c4:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Monitored Contributors</div>
-            <div class="intel-value" style="color: #34d399;">{query_result['monitored_sources_count']}</div>
-            <div class="intel-sub">With Ground Stations</div>
+        <!-- Card 4: Monitored Contributors -->
+        <div class="metric-card">
+            <div class="metric-card-header">Monitored Contributors</div>
+            <div class="metric-card-value">{query_result['monitored_sources_count']}</div>
+            <div class="metric-card-sub">With Ground Stations</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c5:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Primary Contributor</div>
-            <div class="intel-value" style="font-size: 1.0rem; color: #f59e0b;">{dominant_str}</div>
-            <div class="intel-sub">{dominant_sub}</div>
+        <!-- Card 5: Primary Contributor -->
+        <div class="metric-card">
+            <div class="metric-card-header">Primary Contributor</div>
+            <div class="metric-card-value">{dominant_str}</div>
+            <div class="metric-card-sub">{dominant_sub}</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c6:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Transport Window</div>
-            <div class="intel-value">{int(horizon_choice)} Hours</div>
-            <div class="intel-sub">{input_date.strftime('%d %b %Y')}</div>
+        <!-- Card 6: Transport Window -->
+        <div class="metric-card">
+            <div class="metric-card-header">Transport Window</div>
+            <div class="metric-card-value">{int(horizon_choice)} Hours</div>
+            <div class="metric-card-sub">{date_formatted}</div>
         </div>
-        """, unsafe_allow_html=True)
+    </div>
+    """
+    st.markdown(grid_html, unsafe_allow_html=True)
 
 else:
     src_info = query_result['source_info']
     mon_info = query_result['monitoring_info']
     cat_counts = query_result['category_counts']
     c_land = cat_counts.get("VALID_LAND_DESTINATION", 0)
-    
-    st.markdown(f"""
-    <div class="context-bar">
-        <b>💨 Source Dispersion Analysis:</b> Simulating downwind atmospheric advection dispersing from 
-        <b>{location_display_name}</b> (Grid Cell: <code>{src_info['grid_id_50km']}</code>) on <b>{input_date}</b> over a <b>{horizon_choice:g}-hour</b> window.
-    </div>
-    """, unsafe_allow_html=True)
     
     source_pm_str = f"{mon_info['effective_source_pm25_ugm3']:.1f} µg/m³" if not np.isnan(mon_info['effective_source_pm25_ugm3']) else "Unmonitored"
     source_pm_sub = f"{mon_info['stations_count']} Local Station(s)" if mon_info['stations_count'] > 0 else "No Ground Monitor"
@@ -528,79 +636,72 @@ else:
         corridor_str = "Local Retention"
         corridor_sub = "100% within source"
         
-    c1, c2, c3, c4, c5, c6 = st.columns(6)
-    with c1:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Selected Source</div>
-            <div class="intel-value" style="font-size: 1.05rem;">{location_display_name}</div>
-            <div class="intel-sub">Cell: {src_info['grid_id_50km']}</div>
+    date_formatted = input_date.strftime('%d %b %Y')
+    
+    # Clean 3x2 Grid Render
+    grid_html = f"""
+    <div class="metric-grid-container">
+        <!-- Card 1: Selected Source -->
+        <div class="metric-card">
+            <div class="metric-card-header">Selected Source</div>
+            <div class="metric-card-value">{location_display_name}</div>
+            <div class="metric-card-sub">Cell: <code>{src_info['grid_id_50km']}</code></div>
         </div>
-        """, unsafe_allow_html=True)
-    with c2:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Source Observed PM2.5</div>
-            <div class="intel-value" style="color: #38bdf8;">{source_pm_str}</div>
-            <div class="intel-sub">{source_pm_sub}</div>
+        <!-- Card 2: Source Observed PM2.5 -->
+        <div class="metric-card">
+            <div class="metric-card-header">Source Observed PM2.5</div>
+            <div class="metric-card-value">{source_pm_str}</div>
+            <div class="metric-card-sub">{source_pm_sub}</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c3:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Affected Regions</div>
-            <div class="intel-value">{c_land}</div>
-            <div class="intel-sub">Terrestrial Cells Reached</div>
+        <!-- Card 3: Affected Regions -->
+        <div class="metric-card">
+            <div class="metric-card-header">Affected Regions</div>
+            <div class="metric-card-value">{c_land}</div>
+            <div class="metric-card-sub">Terrestrial Cells Reached</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c4:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Max Transport Reach</div>
-            <div class="intel-value" style="color: #34d399;">{max_reach_km:.0f} km</div>
-            <div class="intel-sub">Furthest Downwind Land Cell</div>
+        <!-- Card 4: Max Transport Reach -->
+        <div class="metric-card">
+            <div class="metric-card-header">Max Transport Reach</div>
+            <div class="metric-card-value">{max_reach_km:.0f} km</div>
+            <div class="metric-card-sub">Furthest Downwind Land Cell</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c5:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Primary Corridor</div>
-            <div class="intel-value" style="font-size: 1.0rem; color: #f59e0b;">{corridor_str}</div>
-            <div class="intel-sub">{corridor_sub}</div>
+        <!-- Card 5: Primary Corridor -->
+        <div class="metric-card">
+            <div class="metric-card-header">Primary Corridor</div>
+            <div class="metric-card-value">{corridor_str}</div>
+            <div class="metric-card-sub">{corridor_sub}</div>
         </div>
-        """, unsafe_allow_html=True)
-    with c6:
-        st.markdown(f"""
-        <div class="intel-card">
-            <div class="intel-label">Transport Window</div>
-            <div class="intel-value">{int(horizon_choice)} Hours</div>
-            <div class="intel-sub">{input_date.strftime('%d %b %Y')}</div>
+        <!-- Card 6: Transport Window -->
+        <div class="metric-card">
+            <div class="metric-card-header">Transport Window</div>
+            <div class="metric-card-value">{int(horizon_choice)} Hours</div>
+            <div class="metric-card-sub">{date_formatted}</div>
         </div>
-        """, unsafe_allow_html=True)
-
-st.write("")
+    </div>
+    """
+    st.markdown(grid_html, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
 # Main Tabs: Map-First Experience
 # ---------------------------------------------------------
 tab_map, tab_table, tab_stations, tab_methodology = st.tabs([
-    "🗺️ Geographic Explorer",
-    "📊 Regional Findings & Matrix",
-    "📡 Ground Monitoring & Local Truth",
-    "🔬 Model Architecture & Physics"
+    "Geographic Explorer",
+    "Regional Findings & Matrix",
+    "Ground Monitoring & Local Truth",
+    "Model Architecture & Physics"
 ])
 
 # ---------------------------------------------------------
-# Tab 1: Geographic Explorer (The Central Heart of Application)
+# Tab 1: Geographic Explorer
 # ---------------------------------------------------------
 with tab_map:
     col_map_opts1, col_map_opts2, col_map_opts3 = st.columns([2, 1, 1])
     with col_map_opts1:
         if is_target_mode:
-            st.markdown(f"##### 🎯 Inflow Transport Footprint reaching {location_display_name}")
+            st.markdown(f"##### Inflow Transport Footprint reaching {location_display_name}")
             st.caption("Interactive Leaflet map showing candidate source regions and atmospheric transport pathways converging on the target receptor.")
         else:
-            st.markdown(f"##### 💨 Downwind Dispersion Plume from {location_display_name}")
+            st.markdown(f"##### Downwind Dispersion Plume from {location_display_name}")
             st.caption("Interactive Leaflet map showing downwind trajectory dispersion across Indian states and 50 km model grid cells.")
     with col_map_opts2:
         show_pathway_lines = st.checkbox("Show Transport Corridors (Pathways)", value=True)
@@ -633,8 +734,8 @@ with tab_map:
     if is_target_mode and not df_table.empty:
         st.markdown(f"""
         <div class="highlight-card">
-            <b>💡 Key Inflow Finding:</b> 
-            Atmospheric transport reaching <b>{location_display_name}</b> on {input_date} is predominantly influenced by 
+            <b>Inflow Summary:</b> 
+            Atmospheric transport reaching <b>{location_display_name}</b> on {date_formatted} is predominantly influenced by 
             <b>{top_src_name}</b> located <b>{top_src_dist:.1f} km</b> away ({top_src_frac:.2f}% modeled inflow transport fraction).
             A total of <b>{len(df_table)} geographical cells</b> have physical transport pathways connecting into this receptor.
         </div>
@@ -642,8 +743,8 @@ with tab_map:
     elif not is_target_mode:
         st.markdown(f"""
         <div class="highlight-card">
-            <b>💡 Key Dispersion Finding:</b> 
-            Air masses leaving <b>{location_display_name}</b> on {input_date} disperse across 
+            <b>Dispersion Summary:</b> 
+            Air masses leaving <b>{location_display_name}</b> on {date_formatted} disperse across 
             <b>{c_land} terrestrial land cells</b>, with a maximum travel reach of <b>{max_reach_km:.1f} km</b> over {horizon_choice:g} hours.
             Primary recipient region is <b>{corridor_str}</b>. Total mathematical probability closure: <b>{query_result['probability_closure_sum']:.6f} (100% mass accounting)</b>.
         </div>
@@ -654,7 +755,7 @@ with tab_map:
 # ---------------------------------------------------------
 with tab_table:
     if is_target_mode:
-        st.markdown("#### 📊 Candidate Source Inflow Ranking & Attribution Matrix")
+        st.markdown("#### Candidate Source Inflow Ranking & Attribution Matrix")
         st.caption("Quantitative ranking of all upstream source regions whose physical transport pathways connect into the selected receptor.")
         
         filtered_df = df_table[df_table['daily_transport_fraction'] >= min_frac_val].copy()
@@ -691,8 +792,8 @@ with tab_table:
             hide_index=True
         )
         
-        # Scatter / Decay Plot
-        st.markdown("##### 📈 Transport Inflow vs. Distance to Receptor")
+        # Scatter Plot in Velvet Palette
+        st.markdown("##### Transport Inflow vs. Distance to Receptor")
         plot_data = filtered_df[['distance_km', 'daily_transport_fraction']].dropna()
         if not plot_data.empty:
             plot_data['transport_fraction_pct'] = plot_data['daily_transport_fraction'] * 100
@@ -700,7 +801,7 @@ with tab_table:
                 plot_data,
                 x='distance_km',
                 y='transport_fraction_pct',
-                color='#38bdf8',
+                color='#B6A38E',
                 size='transport_fraction_pct'
             )
             
@@ -713,7 +814,7 @@ with tab_table:
         )
         
     else:
-        st.markdown("#### 📊 Downwind Destination Transport Matrix")
+        st.markdown("#### Downwind Destination Transport Matrix")
         st.caption("Quantitative accounting of destination cells receiving advected air masses from the source region.")
         
         filtered_df = df_table[df_table['daily_transport_fraction'] >= min_frac_val].copy()
@@ -743,8 +844,8 @@ with tab_table:
             hide_index=True
         )
         
-        # Dispersion Decay Plot
-        st.markdown("##### 📈 Dispersion Transport vs. Distance from Source")
+        # Dispersion Decay Plot in Velvet Palette
+        st.markdown("##### Dispersion Transport vs. Distance from Source")
         land_plot = filtered_df[filtered_df['category'] == 'VALID_LAND_DESTINATION'][['distance_km', 'daily_transport_fraction']].dropna()
         if not land_plot.empty:
             land_plot['transport_fraction_pct'] = land_plot['daily_transport_fraction'] * 100
@@ -752,7 +853,7 @@ with tab_table:
                 land_plot,
                 x='distance_km',
                 y='transport_fraction_pct',
-                color='#f59e0b',
+                color='#B6A38E',
                 size='transport_fraction_pct'
             )
             
@@ -768,7 +869,7 @@ with tab_table:
 # Tab 3: Ground Monitoring & Local Truth
 # ---------------------------------------------------------
 with tab_stations:
-    st.markdown("#### 🏢 Regulatory Air Quality Monitoring Ground Truth")
+    st.markdown("#### Regulatory Air Quality Monitoring Ground Truth")
     st.caption("Real-world ground observations from Continuous Ambient Air Quality Monitoring Stations (CAAQMS) operated by CPCB and State Pollution Control Boards.")
     
     local_gid = tgt_info['target_grid_id'] if is_target_mode else src_info['grid_id_50km']
@@ -838,8 +939,24 @@ with tab_stations:
 # Tab 4: Model Architecture & Physics
 # ---------------------------------------------------------
 with tab_methodology:
-    st.markdown("#### 🔬 Atmospheric Physics & Mathematical Methodology")
+    st.markdown("#### Atmospheric Physics & Mathematical Methodology")
     st.caption("Comprehensive physical, mathematical, and computational specifications of the India National Dispersion Framework.")
+    
+    # Preserved Header Badges (Requirement 1)
+    st.markdown("""
+    <div class="highlight-card" style="margin-bottom: 20px;">
+        <div style="font-size: 0.76rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #B6A38E; margin-bottom: 8px;">
+            Verified Model Specifications & Constraints
+        </div>
+        <div>
+            <span class="badge-pill">🌐 50 km Equal-Area Grid (EPSG:7755)</span>
+            <span class="badge-pill">🌀 ECMWF ERA5 Horizontal Winds (U10/V10)</span>
+            <span class="badge-pill">🔬 2D Lagrangian Trajectory Ensembles</span>
+            <span class="badge-pill">📅 Historical Reanalysis (2019–2024)</span>
+            <span class="badge-pill">🛡️ Strict Probability Closure (100% Mass Balance)</span>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
     
     col_m1, col_m2 = st.columns(2)
     with col_m1:
