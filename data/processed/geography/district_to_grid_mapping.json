@@ -1,0 +1,6012 @@
+{
+  "Andaman and Nicobar": {
+    "Andaman Islands": {
+      "district_name": "Andaman Islands",
+      "state_name": "Andaman and Nicobar",
+      "centroid_lat": 12.3826,
+      "centroid_lon": 92.8229,
+      "grid_id_50km": "IND_50KM_r032_c049",
+      "grid_lat": 21.864,
+      "grid_lon": 92.5885,
+      "offset_km": 1052.8
+    },
+    "Nicobar Islands": {
+      "district_name": "Nicobar Islands",
+      "state_name": "Andaman and Nicobar",
+      "centroid_lat": 7.8353,
+      "centroid_lon": 93.5116,
+      "grid_id_50km": "IND_50KM_r027_c037",
+      "grid_lat": 19.9442,
+      "grid_lon": 86.5622,
+      "offset_km": 1549.7
+    }
+  },
+  "Andhra Pradesh": {
+    "Adilabad": {
+      "district_name": "Adilabad",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 19.2845,
+      "centroid_lon": 78.8132,
+      "grid_id_50km": "IND_50KM_r025_c021",
+      "grid_lat": 19.1651,
+      "grid_lon": 78.7923,
+      "offset_km": 13.5
+    },
+    "Anantapur": {
+      "district_name": "Anantapur",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 14.3121,
+      "centroid_lon": 77.4602,
+      "grid_id_50km": "IND_50KM_r014_c018",
+      "grid_lat": 14.1208,
+      "grid_lon": 77.4398,
+      "offset_km": 21.3
+    },
+    "Chittoor": {
+      "district_name": "Chittoor",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 13.3311,
+      "centroid_lon": 78.9276,
+      "grid_id_50km": "IND_50KM_r012_c021",
+      "grid_lat": 13.2315,
+      "grid_lon": 78.8438,
+      "offset_km": 14.4
+    },
+    "Cuddapah": {
+      "district_name": "Cuddapah",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 14.4903,
+      "centroid_lon": 78.6961,
+      "grid_id_50km": "IND_50KM_r015_c021",
+      "grid_lat": 14.5934,
+      "grid_lon": 78.8323,
+      "offset_km": 19.0
+    },
+    "East Godavari": {
+      "district_name": "East Godavari",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 16.7827,
+      "centroid_lon": 82.2432,
+      "grid_id_50km": "IND_50KM_r020_c028",
+      "grid_lat": 16.8632,
+      "grid_lon": 82.1372,
+      "offset_km": 14.8
+    },
+    "Guntur": {
+      "district_name": "Guntur",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 15.8849,
+      "centroid_lon": 80.5866,
+      "grid_id_50km": "IND_50KM_r018_c025",
+      "grid_lat": 15.9634,
+      "grid_lon": 80.7077,
+      "offset_km": 16.0
+    },
+    "Hyderabad": {
+      "district_name": "Hyderabad",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 17.3897,
+      "centroid_lon": 78.4667,
+      "grid_id_50km": "IND_50KM_r021_c020",
+      "grid_lat": 17.3269,
+      "grid_lon": 78.3321,
+      "offset_km": 16.5
+    },
+    "Karimnagar": {
+      "district_name": "Karimnagar",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 18.5155,
+      "centroid_lon": 79.4377,
+      "grid_id_50km": "IND_50KM_r024_c022",
+      "grid_lat": 18.7094,
+      "grid_lon": 79.2778,
+      "offset_km": 27.9
+    },
+    "Khammam": {
+      "district_name": "Khammam",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 17.6839,
+      "centroid_lon": 80.6701,
+      "grid_id_50km": "IND_50KM_r022_c025",
+      "grid_lat": 17.7925,
+      "grid_lon": 80.7173,
+      "offset_km": 13.1
+    },
+    "Krishna": {
+      "district_name": "Krishna",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 16.1439,
+      "centroid_lon": 81.1481,
+      "grid_id_50km": "IND_50KM_r018_c026",
+      "grid_lat": 15.9603,
+      "grid_lon": 81.1794,
+      "offset_km": 20.7
+    },
+    "Kurnool": {
+      "district_name": "Kurnool",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 15.4376,
+      "centroid_lon": 77.9009,
+      "grid_id_50km": "IND_50KM_r017_c019",
+      "grid_lat": 15.4935,
+      "grid_lon": 77.8842,
+      "offset_km": 6.5
+    },
+    "Mahbubnagar": {
+      "district_name": "Mahbubnagar",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 16.6395,
+      "centroid_lon": 77.9893,
+      "grid_id_50km": "IND_50KM_r020_c019",
+      "grid_lat": 16.8632,
+      "grid_lon": 77.8628,
+      "offset_km": 28.5
+    },
+    "Medak": {
+      "district_name": "Medak",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 17.8893,
+      "centroid_lon": 78.1378,
+      "grid_id_50km": "IND_50KM_r022_c020",
+      "grid_lat": 17.7847,
+      "grid_lon": 78.3264,
+      "offset_km": 23.9
+    },
+    "Nalgonda": {
+      "district_name": "Nalgonda",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 17.1132,
+      "centroid_lon": 79.1698,
+      "grid_id_50km": "IND_50KM_r021_c022",
+      "grid_lat": 17.3346,
+      "grid_lon": 79.2852,
+      "offset_km": 27.7
+    },
+    "Nellore": {
+      "district_name": "Nellore",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 13.8943,
+      "centroid_lon": 80.147,
+      "grid_id_50km": "IND_50KM_r013_c024",
+      "grid_lat": 13.6894,
+      "grid_lon": 80.232,
+      "offset_km": 24.6
+    },
+    "Nizamabad": {
+      "district_name": "Nizamabad",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 18.4295,
+      "centroid_lon": 78.0752,
+      "grid_id_50km": "IND_50KM_r023_c019",
+      "grid_lat": 18.2367,
+      "grid_lon": 77.841,
+      "offset_km": 33.7
+    },
+    "Prakasam": {
+      "district_name": "Prakasam",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 15.489,
+      "centroid_lon": 80.1167,
+      "grid_id_50km": "IND_50KM_r017_c024",
+      "grid_lat": 15.5087,
+      "grid_lon": 80.2351,
+      "offset_km": 13.3
+    },
+    "Rangareddi": {
+      "district_name": "Rangareddi",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 17.2537,
+      "centroid_lon": 78.0815,
+      "grid_id_50km": "IND_50KM_r021_c019",
+      "grid_lat": 17.3207,
+      "grid_lon": 77.8556,
+      "offset_km": 26.2
+    },
+    "Srikakulam": {
+      "district_name": "Srikakulam",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 18.5709,
+      "centroid_lon": 84.2587,
+      "grid_id_50km": "IND_50KM_r024_c032",
+      "grid_lat": 18.6545,
+      "grid_lon": 84.0912,
+      "offset_km": 20.8
+    },
+    "Vishakhapatnam": {
+      "district_name": "Vishakhapatnam",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 17.6468,
+      "centroid_lon": 83.0101,
+      "grid_id_50km": "IND_50KM_r022_c030",
+      "grid_lat": 17.7614,
+      "grid_lon": 83.1077,
+      "offset_km": 16.7
+    },
+    "Vizianagaram": {
+      "district_name": "Vizianagaram",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 18.2833,
+      "centroid_lon": 83.4598,
+      "grid_id_50km": "IND_50KM_r023_c031",
+      "grid_lat": 18.2086,
+      "grid_lon": 83.5978,
+      "offset_km": 17.4
+    },
+    "Warangal": {
+      "district_name": "Warangal",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 18.0175,
+      "centroid_lon": 79.8742,
+      "grid_id_50km": "IND_50KM_r022_c023",
+      "grid_lat": 17.794,
+      "grid_lon": 79.7609,
+      "offset_km": 27.8
+    },
+    "West Godavari": {
+      "district_name": "West Godavari",
+      "state_name": "Andhra Pradesh",
+      "centroid_lat": 16.633,
+      "centroid_lon": 81.4591,
+      "grid_id_50km": "IND_50KM_r019_c027",
+      "grid_lat": 16.4123,
+      "grid_lon": 81.6567,
+      "offset_km": 32.9
+    }
+  },
+  "Arunachal Pradesh": {
+    "Changlang": {
+      "district_name": "Changlang",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.3605,
+      "centroid_lon": 96.3755,
+      "grid_id_50km": "IND_50KM_r045_c055",
+      "grid_lat": 27.5326,
+      "grid_lon": 96.2656,
+      "offset_km": 22.7
+    },
+    "East Kameng": {
+      "district_name": "East Kameng",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.3712,
+      "centroid_lon": 93.0474,
+      "grid_id_50km": "IND_50KM_r044_c049",
+      "grid_lat": 27.3628,
+      "grid_lon": 93.1394,
+      "offset_km": 10.3
+    },
+    "East Siang": {
+      "district_name": "East Siang",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 28.1538,
+      "centroid_lon": 95.065,
+      "grid_id_50km": "IND_50KM_r046_c053",
+      "grid_lat": 28.0915,
+      "grid_lon": 95.297,
+      "offset_km": 26.7
+    },
+    "Kurung Kumey": {
+      "district_name": "Kurung Kumey",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 28.0485,
+      "centroid_lon": 93.2453,
+      "grid_id_50km": "IND_50KM_r046_c049",
+      "grid_lat": 28.2771,
+      "grid_lon": 93.236,
+      "offset_km": 25.4
+    },
+    "Lohit": {
+      "district_name": "Lohit",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.9468,
+      "centroid_lon": 96.5967,
+      "grid_id_50km": "IND_50KM_r046_c056",
+      "grid_lat": 27.9348,
+      "grid_lon": 96.8385,
+      "offset_km": 26.9
+    },
+    "Lower Dibang Valley": {
+      "district_name": "Lower Dibang Valley",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 28.3265,
+      "centroid_lon": 95.7657,
+      "grid_id_50km": "IND_50KM_r047_c054",
+      "grid_lat": 28.4969,
+      "grid_lon": 95.8694,
+      "offset_km": 22.1
+    },
+    "Lower Subansiri": {
+      "district_name": "Lower Subansiri",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.7085,
+      "centroid_lon": 93.9623,
+      "grid_id_50km": "IND_50KM_r045_c051",
+      "grid_lat": 27.7309,
+      "grid_lon": 94.2151,
+      "offset_km": 28.2
+    },
+    "Papum Pare": {
+      "district_name": "Papum Pare",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.2735,
+      "centroid_lon": 93.5447,
+      "grid_id_50km": "IND_50KM_r044_c050",
+      "grid_lat": 27.3192,
+      "grid_lon": 93.6516,
+      "offset_km": 12.9
+    },
+    "Tawang": {
+      "district_name": "Tawang",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.6807,
+      "centroid_lon": 91.825,
+      "grid_id_50km": "IND_50KM_r044_c046",
+      "grid_lat": 27.4837,
+      "grid_lon": 91.6011,
+      "offset_km": 33.1
+    },
+    "Tirap": {
+      "district_name": "Tirap",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 26.9441,
+      "centroid_lon": 95.4147,
+      "grid_id_50km": "IND_50KM_r044_c053",
+      "grid_lat": 27.1784,
+      "grid_lon": 95.1857,
+      "offset_km": 36.4
+    },
+    "Upper Dibang Valley": {
+      "district_name": "Upper Dibang Valley",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 29.0199,
+      "centroid_lon": 95.9878,
+      "grid_id_50km": "IND_50KM_r048_c054",
+      "grid_lat": 28.9525,
+      "grid_lon": 95.928,
+      "offset_km": 10.0
+    },
+    "Upper Siang": {
+      "district_name": "Upper Siang",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 28.8309,
+      "centroid_lon": 95.0016,
+      "grid_id_50km": "IND_50KM_r048_c052",
+      "grid_lat": 29.0525,
+      "grid_lon": 94.8916,
+      "offset_km": 27.5
+    },
+    "Upper Subansiri": {
+      "district_name": "Upper Subansiri",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 28.2772,
+      "centroid_lon": 93.8991,
+      "grid_id_50km": "IND_50KM_r046_c050",
+      "grid_lat": 28.2332,
+      "grid_lon": 93.7518,
+      "offset_km": 17.1
+    },
+    "West Kameng": {
+      "district_name": "West Kameng",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 27.4649,
+      "centroid_lon": 92.6502,
+      "grid_id_50km": "IND_50KM_r044_c048",
+      "grid_lat": 27.4048,
+      "grid_lon": 92.627,
+      "offset_km": 7.1
+    },
+    "West Siang": {
+      "district_name": "West Siang",
+      "state_name": "Arunachal Pradesh",
+      "centroid_lat": 28.1063,
+      "centroid_lon": 94.5351,
+      "grid_id_50km": "IND_50KM_r046_c052",
+      "grid_lat": 28.1404,
+      "grid_lon": 94.7823,
+      "offset_km": 27.7
+    }
+  },
+  "Assam": {
+    "Barpeta": {
+      "district_name": "Barpeta",
+      "state_name": "Assam",
+      "centroid_lat": 26.4279,
+      "centroid_lon": 90.9791,
+      "grid_id_50km": "IND_50KM_r042_c045",
+      "grid_lat": 26.6044,
+      "grid_lon": 91.0072,
+      "offset_km": 19.8
+    },
+    "Bongaigaon": {
+      "district_name": "Bongaigaon",
+      "state_name": "Assam",
+      "centroid_lat": 26.4501,
+      "centroid_lon": 90.6734,
+      "grid_id_50km": "IND_50KM_r042_c044",
+      "grid_lat": 26.6394,
+      "grid_lon": 90.4972,
+      "offset_km": 28.7
+    },
+    "Cachar": {
+      "district_name": "Cachar",
+      "state_name": "Assam",
+      "centroid_lat": 24.8156,
+      "centroid_lon": 92.8685,
+      "grid_id_50km": "IND_50KM_r038_c049",
+      "grid_lat": 24.6149,
+      "grid_lon": 92.8581,
+      "offset_km": 22.3
+    },
+    "Darrang": {
+      "district_name": "Darrang",
+      "state_name": "Assam",
+      "centroid_lat": 26.5846,
+      "centroid_lon": 92.0414,
+      "grid_id_50km": "IND_50KM_r042_c047",
+      "grid_lat": 26.5293,
+      "grid_lon": 92.0264,
+      "offset_km": 6.4
+    },
+    "Dhemaji": {
+      "district_name": "Dhemaji",
+      "state_name": "Assam",
+      "centroid_lat": 27.5865,
+      "centroid_lon": 94.7134,
+      "grid_id_50km": "IND_50KM_r045_c052",
+      "grid_lat": 27.6838,
+      "grid_lon": 94.7283,
+      "offset_km": 10.9
+    },
+    "Dhuburi": {
+      "district_name": "Dhuburi",
+      "state_name": "Assam",
+      "centroid_lat": 26.0451,
+      "centroid_lon": 89.985,
+      "grid_id_50km": "IND_50KM_r041_c043",
+      "grid_lat": 26.2141,
+      "grid_lon": 89.9508,
+      "offset_km": 19.1
+    },
+    "Dibrugarh": {
+      "district_name": "Dibrugarh",
+      "state_name": "Assam",
+      "centroid_lat": 27.3061,
+      "centroid_lon": 95.0998,
+      "grid_id_50km": "IND_50KM_r044_c053",
+      "grid_lat": 27.1784,
+      "grid_lon": 95.1857,
+      "offset_km": 17.1
+    },
+    "Goalpara": {
+      "district_name": "Goalpara",
+      "state_name": "Assam",
+      "centroid_lat": 26.0173,
+      "centroid_lon": 90.5987,
+      "grid_id_50km": "IND_50KM_r041_c044",
+      "grid_lat": 26.1809,
+      "grid_lon": 90.4593,
+      "offset_km": 23.9
+    },
+    "Golaghat": {
+      "district_name": "Golaghat",
+      "state_name": "Assam",
+      "centroid_lat": 26.3772,
+      "centroid_lon": 93.8258,
+      "grid_id_50km": "IND_50KM_r042_c051",
+      "grid_lat": 26.3592,
+      "grid_lon": 94.0609,
+      "offset_km": 26.2
+    },
+    "Hailakandi": {
+      "district_name": "Hailakandi",
+      "state_name": "Assam",
+      "centroid_lat": 24.4575,
+      "centroid_lon": 92.5915,
+      "grid_id_50km": "IND_50KM_r038_c048",
+      "grid_lat": 24.656,
+      "grid_lon": 92.3565,
+      "offset_km": 34.2
+    },
+    "Jorhat": {
+      "district_name": "Jorhat",
+      "state_name": "Assam",
+      "centroid_lat": 26.7624,
+      "centroid_lon": 94.302,
+      "grid_id_50km": "IND_50KM_r043_c051",
+      "grid_lat": 26.8167,
+      "grid_lon": 94.1119,
+      "offset_km": 21.9
+    },
+    "Kamrup": {
+      "district_name": "Kamrup",
+      "state_name": "Assam",
+      "centroid_lat": 26.1709,
+      "centroid_lon": 91.5886,
+      "grid_id_50km": "IND_50KM_r041_c046",
+      "grid_lat": 26.1093,
+      "grid_lon": 91.4754,
+      "offset_km": 14.3
+    },
+    "Karbi Anglong": {
+      "district_name": "Karbi Anglong",
+      "state_name": "Assam",
+      "centroid_lat": 26.0897,
+      "centroid_lon": 93.1154,
+      "grid_id_50km": "IND_50KM_r041_c049",
+      "grid_lat": 25.9896,
+      "grid_lon": 92.9973,
+      "offset_km": 17.2
+    },
+    "Karimganj": {
+      "district_name": "Karimganj",
+      "state_name": "Assam",
+      "centroid_lat": 24.6966,
+      "centroid_lon": 92.3679,
+      "grid_id_50km": "IND_50KM_r038_c048",
+      "grid_lat": 24.656,
+      "grid_lon": 92.3565,
+      "offset_km": 4.7
+    },
+    "Kokrajhar": {
+      "district_name": "Kokrajhar",
+      "state_name": "Assam",
+      "centroid_lat": 26.4972,
+      "centroid_lon": 90.14,
+      "grid_id_50km": "IND_50KM_r042_c043",
+      "grid_lat": 26.6728,
+      "grid_lon": 89.9869,
+      "offset_km": 25.9
+    },
+    "Lakhimpur": {
+      "district_name": "Lakhimpur",
+      "state_name": "Assam",
+      "centroid_lat": 27.1413,
+      "centroid_lon": 94.0776,
+      "grid_id_50km": "IND_50KM_r044_c051",
+      "grid_lat": 27.274,
+      "grid_lon": 94.1633,
+      "offset_km": 17.5
+    },
+    "Marigaon": {
+      "district_name": "Marigaon",
+      "state_name": "Assam",
+      "centroid_lat": 26.2465,
+      "centroid_lon": 92.2195,
+      "grid_id_50km": "IND_50KM_r041_c047",
+      "grid_lat": 26.0711,
+      "grid_lon": 91.983,
+      "offset_km": 32.7
+    },
+    "Nagaon": {
+      "district_name": "Nagaon",
+      "state_name": "Assam",
+      "centroid_lat": 26.2646,
+      "centroid_lon": 92.9306,
+      "grid_id_50km": "IND_50KM_r042_c049",
+      "grid_lat": 26.4476,
+      "grid_lon": 93.0443,
+      "offset_km": 23.9
+    },
+    "Nalbari": {
+      "district_name": "Nalbari",
+      "state_name": "Assam",
+      "centroid_lat": 26.4632,
+      "centroid_lon": 91.406,
+      "grid_id_50km": "IND_50KM_r042_c046",
+      "grid_lat": 26.5677,
+      "grid_lon": 91.517,
+      "offset_km": 16.9
+    },
+    "North Cachar Hills": {
+      "district_name": "North Cachar Hills",
+      "state_name": "Assam",
+      "centroid_lat": 25.3383,
+      "centroid_lon": 92.9774,
+      "grid_id_50km": "IND_50KM_r040_c049",
+      "grid_lat": 25.5315,
+      "grid_lon": 92.9505,
+      "offset_km": 21.7
+    },
+    "Sibsagar": {
+      "district_name": "Sibsagar",
+      "state_name": "Assam",
+      "centroid_lat": 27.0276,
+      "centroid_lon": 94.9003,
+      "grid_id_50km": "IND_50KM_r044_c052",
+      "grid_lat": 27.227,
+      "grid_lon": 94.6747,
+      "offset_km": 33.4
+    },
+    "Sonitpur": {
+      "district_name": "Sonitpur",
+      "state_name": "Assam",
+      "centroid_lat": 26.7351,
+      "centroid_lon": 92.852,
+      "grid_id_50km": "IND_50KM_r043_c049",
+      "grid_lat": 26.9053,
+      "grid_lon": 93.0917,
+      "offset_km": 32.6
+    },
+    "Tinsukia": {
+      "district_name": "Tinsukia",
+      "state_name": "Assam",
+      "centroid_lat": 27.5355,
+      "centroid_lon": 95.6906,
+      "grid_id_50km": "IND_50KM_r045_c054",
+      "grid_lat": 27.5847,
+      "grid_lon": 95.7536,
+      "offset_km": 8.9
+    }
+  },
+  "Bihar": {
+    "Araria": {
+      "district_name": "Araria",
+      "state_name": "Bihar",
+      "centroid_lat": 26.2115,
+      "centroid_lon": 87.3077,
+      "grid_id_50km": "IND_50KM_r041_c038",
+      "grid_lat": 26.3557,
+      "grid_lon": 87.4048,
+      "offset_km": 19.3
+    },
+    "Aurangabad": {
+      "district_name": "Aurangabad",
+      "state_name": "Bihar",
+      "centroid_lat": 24.7743,
+      "centroid_lon": 84.4599,
+      "grid_id_50km": "IND_50KM_r037_c032",
+      "grid_lat": 24.6311,
+      "grid_lon": 84.2813,
+      "offset_km": 25.4
+    },
+    "Banka": {
+      "district_name": "Banka",
+      "state_name": "Bihar",
+      "centroid_lat": 24.8324,
+      "centroid_lon": 86.8665,
+      "grid_id_50km": "IND_50KM_r038_c037",
+      "grid_lat": 25.0004,
+      "grid_lon": 86.8209,
+      "offset_km": 19.3
+    },
+    "Begusarai": {
+      "district_name": "Begusarai",
+      "state_name": "Bihar",
+      "centroid_lat": 25.543,
+      "centroid_lon": 86.1256,
+      "grid_id_50km": "IND_50KM_r039_c036",
+      "grid_lat": 25.4816,
+      "grid_lon": 86.339,
+      "offset_km": 24.7
+    },
+    "Bhabua": {
+      "district_name": "Bhabua",
+      "state_name": "Bihar",
+      "centroid_lat": 25.0216,
+      "centroid_lon": 83.6113,
+      "grid_id_50km": "IND_50KM_r038_c031",
+      "grid_lat": 25.1044,
+      "grid_lon": 83.7914,
+      "offset_km": 22.0
+    },
+    "Bhagalpur": {
+      "district_name": "Bhagalpur",
+      "state_name": "Bihar",
+      "centroid_lat": 25.2772,
+      "centroid_lon": 87.0421,
+      "grid_id_50km": "IND_50KM_r039_c037",
+      "grid_lat": 25.4601,
+      "grid_lon": 86.8454,
+      "offset_km": 29.8
+    },
+    "Bhojpur": {
+      "district_name": "Bhojpur",
+      "state_name": "Bihar",
+      "centroid_lat": 25.5067,
+      "centroid_lon": 84.4941,
+      "grid_id_50km": "IND_50KM_r039_c032",
+      "grid_lat": 25.5511,
+      "grid_lon": 84.3121,
+      "offset_km": 20.8
+    },
+    "Buxar": {
+      "district_name": "Buxar",
+      "state_name": "Bihar",
+      "centroid_lat": 25.4859,
+      "centroid_lon": 84.0881,
+      "grid_id_50km": "IND_50KM_r039_c032",
+      "grid_lat": 25.5511,
+      "grid_lon": 84.3121,
+      "offset_km": 25.9
+    },
+    "Darbhanga": {
+      "district_name": "Darbhanga",
+      "state_name": "Bihar",
+      "centroid_lat": 26.1462,
+      "centroid_lon": 85.9739,
+      "grid_id_50km": "IND_50KM_r040_c035",
+      "grid_lat": 25.9611,
+      "grid_lon": 85.8536,
+      "offset_km": 24.5
+    },
+    "Gaya": {
+      "district_name": "Gaya",
+      "state_name": "Bihar",
+      "centroid_lat": 24.7267,
+      "centroid_lon": 84.9429,
+      "grid_id_50km": "IND_50KM_r037_c033",
+      "grid_lat": 24.6163,
+      "grid_lon": 84.7846,
+      "offset_km": 21.4
+    },
+    "Gopalganj": {
+      "district_name": "Gopalganj",
+      "state_name": "Bihar",
+      "centroid_lat": 26.4487,
+      "centroid_lon": 84.3464,
+      "grid_id_50km": "IND_50KM_r041_c032",
+      "grid_lat": 26.4707,
+      "grid_lon": 84.3434,
+      "offset_km": 2.5
+    },
+    "Jamui": {
+      "district_name": "Jamui",
+      "state_name": "Bihar",
+      "centroid_lat": 24.7842,
+      "centroid_lon": 86.2632,
+      "grid_id_50km": "IND_50KM_r037_c036",
+      "grid_lat": 24.562,
+      "grid_lon": 86.2938,
+      "offset_km": 24.9
+    },
+    "Jehanabad": {
+      "district_name": "Jehanabad",
+      "state_name": "Bihar",
+      "centroid_lat": 25.1557,
+      "centroid_lon": 84.9208,
+      "grid_id_50km": "IND_50KM_r038_c033",
+      "grid_lat": 25.0763,
+      "grid_lon": 84.8018,
+      "offset_km": 15.9
+    },
+    "Katihar": {
+      "district_name": "Katihar",
+      "state_name": "Bihar",
+      "centroid_lat": 25.5657,
+      "centroid_lon": 87.7047,
+      "grid_id_50km": "IND_50KM_r039_c039",
+      "grid_lat": 25.4121,
+      "grid_lon": 87.8575,
+      "offset_km": 24.1
+    },
+    "Khagaria": {
+      "district_name": "Khagaria",
+      "state_name": "Bihar",
+      "centroid_lat": 25.5356,
+      "centroid_lon": 86.5659,
+      "grid_id_50km": "IND_50KM_r039_c036",
+      "grid_lat": 25.4816,
+      "grid_lon": 86.339,
+      "offset_km": 25.9
+    },
+    "Kishanganj": {
+      "district_name": "Kishanganj",
+      "state_name": "Bihar",
+      "centroid_lat": 26.3243,
+      "centroid_lon": 87.9505,
+      "grid_id_50km": "IND_50KM_r041_c039",
+      "grid_lat": 26.3307,
+      "grid_lon": 87.9144,
+      "offset_km": 4.1
+    },
+    "Lakhisarai": {
+      "district_name": "Lakhisarai",
+      "state_name": "Bihar",
+      "centroid_lat": 25.1835,
+      "centroid_lon": 86.1283,
+      "grid_id_50km": "IND_50KM_r038_c036",
+      "grid_lat": 25.0218,
+      "grid_lon": 86.3163,
+      "offset_km": 27.5
+    },
+    "Madhepura": {
+      "district_name": "Madhepura",
+      "state_name": "Bihar",
+      "centroid_lat": 25.7734,
+      "centroid_lon": 86.8978,
+      "grid_id_50km": "IND_50KM_r040_c037",
+      "grid_lat": 25.9196,
+      "grid_lon": 86.8701,
+      "offset_km": 16.5
+    },
+    "Madhubani": {
+      "district_name": "Madhubani",
+      "state_name": "Bihar",
+      "centroid_lat": 26.4138,
+      "centroid_lon": 86.1633,
+      "grid_id_50km": "IND_50KM_r041_c036",
+      "grid_lat": 26.4007,
+      "grid_lon": 86.385,
+      "offset_km": 24.6
+    },
+    "Munger": {
+      "district_name": "Munger",
+      "state_name": "Bihar",
+      "centroid_lat": 25.1985,
+      "centroid_lon": 86.5417,
+      "grid_id_50km": "IND_50KM_r038_c036",
+      "grid_lat": 25.0218,
+      "grid_lon": 86.3163,
+      "offset_km": 31.8
+    },
+    "Muzaffarpur": {
+      "district_name": "Muzaffarpur",
+      "state_name": "Bihar",
+      "centroid_lat": 26.1866,
+      "centroid_lon": 85.3274,
+      "grid_id_50km": "IND_50KM_r040_c034",
+      "grid_lat": 25.9794,
+      "grid_lon": 85.3451,
+      "offset_km": 23.1
+    },
+    "Nalanda": {
+      "district_name": "Nalanda",
+      "state_name": "Bihar",
+      "centroid_lat": 25.2293,
+      "centroid_lon": 85.4805,
+      "grid_id_50km": "IND_50KM_r038_c034",
+      "grid_lat": 25.0598,
+      "grid_lon": 85.3067,
+      "offset_km": 26.9
+    },
+    "Nawada": {
+      "district_name": "Nawada",
+      "state_name": "Bihar",
+      "centroid_lat": 24.8257,
+      "centroid_lon": 85.6159,
+      "grid_id_50km": "IND_50KM_r038_c035",
+      "grid_lat": 25.0416,
+      "grid_lon": 85.8116,
+      "offset_km": 32.3
+    },
+    "Pashchim Champaran": {
+      "district_name": "Pashchim Champaran",
+      "state_name": "Bihar",
+      "centroid_lat": 27.1606,
+      "centroid_lon": 84.3027,
+      "grid_id_50km": "IND_50KM_r042_c032",
+      "grid_lat": 26.9302,
+      "grid_lon": 84.3592,
+      "offset_km": 26.3
+    },
+    "Patna": {
+      "district_name": "Patna",
+      "state_name": "Bihar",
+      "centroid_lat": 25.403,
+      "centroid_lon": 85.3198,
+      "grid_id_50km": "IND_50KM_r039_c034",
+      "grid_lat": 25.5197,
+      "grid_lon": 85.3258,
+      "offset_km": 13.0
+    },
+    "Purba Champaran": {
+      "district_name": "Purba Champaran",
+      "state_name": "Bihar",
+      "centroid_lat": 26.6813,
+      "centroid_lon": 85.0038,
+      "grid_id_50km": "IND_50KM_r042_c033",
+      "grid_lat": 26.9151,
+      "grid_lon": 84.8716,
+      "offset_km": 29.8
+    },
+    "Purnia": {
+      "district_name": "Purnia",
+      "state_name": "Bihar",
+      "centroid_lat": 25.8171,
+      "centroid_lon": 87.4045,
+      "grid_id_50km": "IND_50KM_r040_c038",
+      "grid_lat": 25.8964,
+      "grid_lon": 87.3781,
+      "offset_km": 9.3
+    },
+    "Rohtas": {
+      "district_name": "Rohtas",
+      "state_name": "Bihar",
+      "centroid_lat": 24.9917,
+      "centroid_lon": 83.9351,
+      "grid_id_50km": "IND_50KM_r038_c031",
+      "grid_lat": 25.1044,
+      "grid_lon": 83.7914,
+      "offset_km": 20.3
+    },
+    "Saharsa": {
+      "district_name": "Saharsa",
+      "state_name": "Bihar",
+      "centroid_lat": 25.8213,
+      "centroid_lon": 86.5467,
+      "grid_id_50km": "IND_50KM_r040_c036",
+      "grid_lat": 25.9412,
+      "grid_lon": 86.3619,
+      "offset_km": 24.5
+    },
+    "Samastipur": {
+      "district_name": "Samastipur",
+      "state_name": "Bihar",
+      "centroid_lat": 25.7932,
+      "centroid_lon": 85.9483,
+      "grid_id_50km": "IND_50KM_r040_c035",
+      "grid_lat": 25.9611,
+      "grid_lon": 85.8536,
+      "offset_km": 21.4
+    },
+    "Saran": {
+      "district_name": "Saran",
+      "state_name": "Bihar",
+      "centroid_lat": 25.8966,
+      "centroid_lon": 84.8227,
+      "grid_id_50km": "IND_50KM_r040_c033",
+      "grid_lat": 25.996,
+      "grid_lon": 84.8364,
+      "offset_km": 11.1
+    },
+    "Sheikhpura": {
+      "district_name": "Sheikhpura",
+      "state_name": "Bihar",
+      "centroid_lat": 25.1247,
+      "centroid_lon": 85.7784,
+      "grid_id_50km": "IND_50KM_r038_c035",
+      "grid_lat": 25.0416,
+      "grid_lon": 85.8116,
+      "offset_km": 9.9
+    },
+    "Sheohar": {
+      "district_name": "Sheohar",
+      "state_name": "Bihar",
+      "centroid_lat": 26.4584,
+      "centroid_lon": 85.2954,
+      "grid_id_50km": "IND_50KM_r041_c034",
+      "grid_lat": 26.439,
+      "grid_lon": 85.3644,
+      "offset_km": 8.0
+    },
+    "Sitamarhi": {
+      "district_name": "Sitamarhi",
+      "state_name": "Bihar",
+      "centroid_lat": 26.5657,
+      "centroid_lon": 85.6117,
+      "grid_id_50km": "IND_50KM_r041_c034",
+      "grid_lat": 26.439,
+      "grid_lon": 85.3644,
+      "offset_km": 30.8
+    },
+    "Siwan": {
+      "district_name": "Siwan",
+      "state_name": "Bihar",
+      "centroid_lat": 26.1736,
+      "centroid_lon": 84.3377,
+      "grid_id_50km": "IND_50KM_r040_c032",
+      "grid_lat": 26.011,
+      "grid_lon": 84.3277,
+      "offset_km": 18.1
+    },
+    "Supaul": {
+      "district_name": "Supaul",
+      "state_name": "Bihar",
+      "centroid_lat": 26.2816,
+      "centroid_lon": 86.785,
+      "grid_id_50km": "IND_50KM_r041_c037",
+      "grid_lat": 26.379,
+      "grid_lon": 86.895,
+      "offset_km": 16.3
+    },
+    "Vaishali": {
+      "district_name": "Vaishali",
+      "state_name": "Bihar",
+      "centroid_lat": 25.8135,
+      "centroid_lon": 85.3925,
+      "grid_id_50km": "IND_50KM_r040_c034",
+      "grid_lat": 25.9794,
+      "grid_lon": 85.3451,
+      "offset_km": 19.2
+    }
+  },
+  "Chandigarh": {
+    "Chandigarh": {
+      "district_name": "Chandigarh",
+      "state_name": "Chandigarh",
+      "centroid_lat": 30.7426,
+      "centroid_lon": 76.7587,
+      "grid_id_50km": "IND_50KM_r050_c017",
+      "grid_lat": 30.6213,
+      "grid_lon": 76.5661,
+      "offset_km": 25.3
+    }
+  },
+  "Chhattisgarh": {
+    "Bastar": {
+      "district_name": "Bastar",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 19.3939,
+      "centroid_lon": 81.529,
+      "grid_id_50km": "IND_50KM_r026_c027",
+      "grid_lat": 19.6195,
+      "grid_lon": 81.6966,
+      "offset_km": 31.2
+    },
+    "Bilaspur": {
+      "district_name": "Bilaspur",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 22.3569,
+      "centroid_lon": 81.9977,
+      "grid_id_50km": "IND_50KM_r032_c028",
+      "grid_lat": 22.3723,
+      "grid_lon": 82.2272,
+      "offset_km": 25.5
+    },
+    "Dantewada": {
+      "district_name": "Dantewada",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 18.6539,
+      "centroid_lon": 81.072,
+      "grid_id_50km": "IND_50KM_r024_c026",
+      "grid_lat": 18.7062,
+      "grid_lon": 81.2036,
+      "offset_km": 15.7
+    },
+    "Dhamtari": {
+      "district_name": "Dhamtari",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 20.5549,
+      "centroid_lon": 81.7569,
+      "grid_id_50km": "IND_50KM_r028_c027",
+      "grid_lat": 20.5386,
+      "grid_lon": 81.7084,
+      "offset_km": 5.7
+    },
+    "Durg": {
+      "district_name": "Durg",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 21.1945,
+      "centroid_lon": 81.3318,
+      "grid_id_50km": "IND_50KM_r029_c026",
+      "grid_lat": 21.0032,
+      "grid_lon": 81.2245,
+      "offset_km": 24.3
+    },
+    "Janjgir-Champa": {
+      "district_name": "Janjgir-Champa",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 21.9611,
+      "centroid_lon": 82.805,
+      "grid_id_50km": "IND_50KM_r031_c029",
+      "grid_lat": 21.904,
+      "grid_lon": 82.7126,
+      "offset_km": 12.1
+    },
+    "Jashpur": {
+      "district_name": "Jashpur",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 22.7729,
+      "centroid_lon": 83.8704,
+      "grid_id_50km": "IND_50KM_r033_c031",
+      "grid_lat": 22.8034,
+      "grid_lon": 83.7246,
+      "offset_km": 16.5
+    },
+    "Kanker": {
+      "district_name": "Kanker",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 20.1395,
+      "centroid_lon": 81.0691,
+      "grid_id_50km": "IND_50KM_r027_c026",
+      "grid_lat": 20.0837,
+      "grid_lon": 81.2161,
+      "offset_km": 17.4
+    },
+    "Kawardha": {
+      "district_name": "Kawardha",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 22.048,
+      "centroid_lon": 81.1627,
+      "grid_id_50km": "IND_50KM_r031_c026",
+      "grid_lat": 21.9234,
+      "grid_lon": 81.2331,
+      "offset_km": 15.9
+    },
+    "Korba": {
+      "district_name": "Korba",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 22.4842,
+      "centroid_lon": 82.5886,
+      "grid_id_50km": "IND_50KM_r032_c029",
+      "grid_lat": 22.3642,
+      "grid_lon": 82.7221,
+      "offset_km": 19.9
+    },
+    "Koriya": {
+      "district_name": "Koriya",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 23.5041,
+      "centroid_lon": 82.1252,
+      "grid_id_50km": "IND_50KM_r034_c028",
+      "grid_lat": 23.2929,
+      "grid_lon": 82.243,
+      "offset_km": 26.8
+    },
+    "Mahasamund": {
+      "district_name": "Mahasamund",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 21.2237,
+      "centroid_lon": 82.6593,
+      "grid_id_50km": "IND_50KM_r030_c029",
+      "grid_lat": 21.444,
+      "grid_lon": 82.7031,
+      "offset_km": 24.9
+    },
+    "Raigarh": {
+      "district_name": "Raigarh",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 22.0083,
+      "centroid_lon": 83.278,
+      "grid_id_50km": "IND_50KM_r031_c030",
+      "grid_lat": 21.8944,
+      "grid_lon": 83.2056,
+      "offset_km": 15.0
+    },
+    "Raipur": {
+      "district_name": "Raipur",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 20.886,
+      "centroid_lon": 82.2003,
+      "grid_id_50km": "IND_50KM_r029_c028",
+      "grid_lat": 20.992,
+      "grid_lon": 82.204,
+      "offset_km": 11.8
+    },
+    "Raj Nandgaon": {
+      "district_name": "Raj Nandgaon",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 21.0584,
+      "centroid_lon": 80.7853,
+      "grid_id_50km": "IND_50KM_r029_c025",
+      "grid_lat": 21.0064,
+      "grid_lon": 80.7347,
+      "offset_km": 8.0
+    },
+    "Surguja": {
+      "district_name": "Surguja",
+      "state_name": "Chhattisgarh",
+      "centroid_lat": 23.3272,
+      "centroid_lon": 83.2358,
+      "grid_id_50km": "IND_50KM_r034_c030",
+      "grid_lat": 23.275,
+      "grid_lon": 83.2396,
+      "offset_km": 5.8
+    }
+  },
+  "Dadra and Nagar Haveli": {
+    "Dadra and Nagar Haveli": {
+      "district_name": "Dadra and Nagar Haveli",
+      "state_name": "Dadra and Nagar Haveli",
+      "centroid_lat": 20.2151,
+      "centroid_lon": 73.0946,
+      "grid_id_50km": "IND_50KM_r028_c009",
+      "grid_lat": 20.381,
+      "grid_lon": 72.9281,
+      "offset_km": 26.1
+    }
+  },
+  "Daman and Diu": {
+    "Daman": {
+      "district_name": "Daman",
+      "state_name": "Daman and Diu",
+      "centroid_lat": 20.4316,
+      "centroid_lon": 72.8392,
+      "grid_id_50km": "IND_50KM_r028_c009",
+      "grid_lat": 20.381,
+      "grid_lon": 72.9281,
+      "offset_km": 11.4
+    },
+    "Junagadh": {
+      "district_name": "Junagadh",
+      "state_name": "Daman and Diu",
+      "centroid_lat": 20.7257,
+      "centroid_lon": 70.8399,
+      "grid_id_50km": "IND_50KM_r029_c005",
+      "grid_lat": 20.7349,
+      "grid_lon": 70.9507,
+      "offset_km": 12.4
+    }
+  },
+  "Delhi": {
+    "Delhi": {
+      "district_name": "Delhi",
+      "state_name": "Delhi",
+      "centroid_lat": 28.6459,
+      "centroid_lon": 77.128,
+      "grid_id_50km": "IND_50KM_r046_c018",
+      "grid_lat": 28.8012,
+      "grid_lon": 77.1371,
+      "offset_km": 17.3
+    }
+  },
+  "Goa": {
+    "North Goa": {
+      "district_name": "North Goa",
+      "state_name": "Goa",
+      "centroid_lat": 15.5487,
+      "centroid_lon": 73.8067,
+      "grid_id_50km": "IND_50KM_r017_c010",
+      "grid_lat": 15.3704,
+      "grid_lon": 73.6565,
+      "offset_km": 25.9
+    },
+    "South Goa": {
+      "district_name": "South Goa",
+      "state_name": "Goa",
+      "centroid_lat": 15.1953,
+      "centroid_lon": 73.9418,
+      "grid_id_50km": "IND_50KM_r017_c011",
+      "grid_lat": 15.3901,
+      "grid_lon": 74.1258,
+      "offset_km": 29.7
+    }
+  },
+  "Gujarat": {
+    "Ahmadabad": {
+      "district_name": "Ahmadabad",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.6054,
+      "centroid_lon": 72.239,
+      "grid_id_50km": "IND_50KM_r033_c008",
+      "grid_lat": 22.6542,
+      "grid_lon": 72.3083,
+      "offset_km": 9.4
+    },
+    "Amreli": {
+      "district_name": "Amreli",
+      "state_name": "Gujarat",
+      "centroid_lat": 21.0483,
+      "centroid_lon": 71.4346,
+      "grid_id_50km": "IND_50KM_r030_c006",
+      "grid_lat": 21.2227,
+      "grid_lon": 71.4089,
+      "offset_km": 19.6
+    },
+    "Anand": {
+      "district_name": "Anand",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.2827,
+      "centroid_lon": 72.5778,
+      "grid_id_50km": "IND_50KM_r032_c008",
+      "grid_lat": 22.1945,
+      "grid_lon": 72.3353,
+      "offset_km": 28.6
+    },
+    "Banas Kantha": {
+      "district_name": "Banas Kantha",
+      "state_name": "Gujarat",
+      "centroid_lat": 24.2585,
+      "centroid_lon": 71.9321,
+      "grid_id_50km": "IND_50KM_r037_c007",
+      "grid_lat": 24.4667,
+      "grid_lon": 71.6963,
+      "offset_km": 34.9
+    },
+    "Bharuch": {
+      "district_name": "Bharuch",
+      "state_name": "Gujarat",
+      "centroid_lat": 21.7579,
+      "centroid_lon": 72.6733,
+      "grid_id_50km": "IND_50KM_r031_c009",
+      "grid_lat": 21.7591,
+      "grid_lon": 72.854,
+      "offset_km": 20.1
+    },
+    "Bhavnagar": {
+      "district_name": "Bhavnagar",
+      "state_name": "Gujarat",
+      "centroid_lat": 21.7022,
+      "centroid_lon": 72.1627,
+      "grid_id_50km": "IND_50KM_r031_c008",
+      "grid_lat": 21.735,
+      "grid_lon": 72.3621,
+      "offset_km": 22.4
+    },
+    "Dahod": {
+      "district_name": "Dahod",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.898,
+      "centroid_lon": 73.9917,
+      "grid_id_50km": "IND_50KM_r033_c011",
+      "grid_lat": 22.7223,
+      "grid_lon": 73.7949,
+      "offset_km": 29.3
+    },
+    "Gandhinagar": {
+      "district_name": "Gandhinagar",
+      "state_name": "Gujarat",
+      "centroid_lat": 23.1937,
+      "centroid_lon": 72.6722,
+      "grid_id_50km": "IND_50KM_r034_c009",
+      "grid_lat": 23.1383,
+      "grid_lon": 72.7783,
+      "offset_km": 13.3
+    },
+    "Jamnagar": {
+      "district_name": "Jamnagar",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.4106,
+      "centroid_lon": 69.6206,
+      "grid_id_50km": "IND_50KM_r033_c003",
+      "grid_lat": 22.5084,
+      "grid_lon": 69.8347,
+      "offset_km": 26.1
+    },
+    "Junagadh": {
+      "district_name": "Junagadh",
+      "state_name": "Gujarat",
+      "centroid_lat": 20.9295,
+      "centroid_lon": 70.5473,
+      "grid_id_50km": "IND_50KM_r029_c004",
+      "grid_lat": 20.7046,
+      "grid_lon": 70.463,
+      "offset_km": 26.7
+    },
+    "Kachchh": {
+      "district_name": "Kachchh",
+      "state_name": "Gujarat",
+      "centroid_lat": 23.4806,
+      "centroid_lon": 68.8219,
+      "grid_id_50km": "IND_50KM_r035_c001",
+      "grid_lat": 23.3567,
+      "grid_lon": 68.7681,
+      "offset_km": 15.0
+    },
+    "Kheda": {
+      "district_name": "Kheda",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.8877,
+      "centroid_lon": 73.0188,
+      "grid_id_50km": "IND_50KM_r033_c009",
+      "grid_lat": 22.6785,
+      "grid_lon": 72.8037,
+      "offset_km": 33.3
+    },
+    "Mahesana": {
+      "district_name": "Mahesana",
+      "state_name": "Gujarat",
+      "centroid_lat": 23.5294,
+      "centroid_lon": 72.4555,
+      "grid_id_50km": "IND_50KM_r035_c008",
+      "grid_lat": 23.5736,
+      "grid_lon": 72.2538,
+      "offset_km": 22.9
+    },
+    "Narmada": {
+      "district_name": "Narmada",
+      "state_name": "Gujarat",
+      "centroid_lat": 21.7067,
+      "centroid_lon": 73.684,
+      "grid_id_50km": "IND_50KM_r031_c011",
+      "grid_lat": 21.8026,
+      "grid_lon": 73.8383,
+      "offset_km": 20.2
+    },
+    "Navsari": {
+      "district_name": "Navsari",
+      "state_name": "Gujarat",
+      "centroid_lat": 20.867,
+      "centroid_lon": 72.8618,
+      "grid_id_50km": "IND_50KM_r029_c009",
+      "grid_lat": 20.8402,
+      "grid_lon": 72.9036,
+      "offset_km": 5.5
+    },
+    "Panch Mahals": {
+      "district_name": "Panch Mahals",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.8044,
+      "centroid_lon": 73.6198,
+      "grid_id_50km": "IND_50KM_r033_c011",
+      "grid_lat": 22.7223,
+      "grid_lon": 73.7949,
+      "offset_km": 21.5
+    },
+    "Patan": {
+      "district_name": "Patan",
+      "state_name": "Gujarat",
+      "centroid_lat": 23.8063,
+      "centroid_lon": 71.7516,
+      "grid_id_50km": "IND_50KM_r036_c007",
+      "grid_lat": 24.0071,
+      "grid_lon": 71.7259,
+      "offset_km": 22.5
+    },
+    "Porbandar": {
+      "district_name": "Porbandar",
+      "state_name": "Gujarat",
+      "centroid_lat": 21.5509,
+      "centroid_lon": 69.719,
+      "grid_id_50km": "IND_50KM_r031_c003",
+      "grid_lat": 21.5903,
+      "grid_lon": 69.9056,
+      "offset_km": 21.2
+    },
+    "Rajkot": {
+      "district_name": "Rajkot",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.406,
+      "centroid_lon": 70.8368,
+      "grid_id_50km": "IND_50KM_r033_c005",
+      "grid_lat": 22.5716,
+      "grid_lon": 70.8235,
+      "offset_km": 18.4
+    },
+    "Sabar Kantha": {
+      "district_name": "Sabar Kantha",
+      "state_name": "Gujarat",
+      "centroid_lat": 23.718,
+      "centroid_lon": 73.1364,
+      "grid_id_50km": "IND_50KM_r035_c010",
+      "grid_lat": 23.6209,
+      "grid_lon": 73.2517,
+      "offset_km": 16.7
+    },
+    "Surat": {
+      "district_name": "Surat",
+      "state_name": "Gujarat",
+      "centroid_lat": 21.2576,
+      "centroid_lon": 72.9349,
+      "grid_id_50km": "IND_50KM_r030_c009",
+      "grid_lat": 21.2996,
+      "grid_lon": 72.8789,
+      "offset_km": 7.8
+    },
+    "Surendranagar": {
+      "district_name": "Surendranagar",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.8267,
+      "centroid_lon": 71.4836,
+      "grid_id_50km": "IND_50KM_r033_c006",
+      "grid_lat": 22.6007,
+      "grid_lon": 71.3182,
+      "offset_km": 31.1
+    },
+    "The Dangs": {
+      "district_name": "The Dangs",
+      "state_name": "Gujarat",
+      "centroid_lat": 20.8016,
+      "centroid_lon": 73.6884,
+      "grid_id_50km": "IND_50KM_r029_c011",
+      "grid_lat": 20.8833,
+      "grid_lon": 73.8811,
+      "offset_km": 23.2
+    },
+    "Vadodara": {
+      "district_name": "Vadodara",
+      "state_name": "Gujarat",
+      "centroid_lat": 22.2613,
+      "centroid_lon": 73.4943,
+      "grid_id_50km": "IND_50KM_r032_c010",
+      "grid_lat": 22.2414,
+      "grid_lon": 73.3227,
+      "offset_km": 19.2
+    },
+    "Valsad": {
+      "district_name": "Valsad",
+      "state_name": "Gujarat",
+      "centroid_lat": 20.4424,
+      "centroid_lon": 72.9149,
+      "grid_id_50km": "IND_50KM_r028_c009",
+      "grid_lat": 20.381,
+      "grid_lon": 72.9281,
+      "offset_km": 7.0
+    }
+  },
+  "Haryana": {
+    "Ambala": {
+      "district_name": "Ambala",
+      "state_name": "Haryana",
+      "centroid_lat": 30.3504,
+      "centroid_lon": 76.9497,
+      "grid_id_50km": "IND_50KM_r049_c018",
+      "grid_lat": 30.1746,
+      "grid_lon": 77.1051,
+      "offset_km": 26.0
+    },
+    "Bhiwani": {
+      "district_name": "Bhiwani",
+      "state_name": "Haryana",
+      "centroid_lat": 28.7289,
+      "centroid_lon": 76.0211,
+      "grid_id_50km": "IND_50KM_r046_c016",
+      "grid_lat": 28.7792,
+      "grid_lon": 76.0966,
+      "offset_km": 10.1
+    },
+    "Faridabad": {
+      "district_name": "Faridabad",
+      "state_name": "Haryana",
+      "centroid_lat": 28.1487,
+      "centroid_lon": 77.3272,
+      "grid_id_50km": "IND_50KM_r045_c018",
+      "grid_lat": 28.3427,
+      "grid_lon": 77.1477,
+      "offset_km": 29.3
+    },
+    "Fatehabad": {
+      "district_name": "Fatehabad",
+      "state_name": "Haryana",
+      "centroid_lat": 29.573,
+      "centroid_lon": 75.5461,
+      "grid_id_50km": "IND_50KM_r048_c015",
+      "grid_lat": 29.6814,
+      "grid_lon": 75.5435,
+      "offset_km": 12.0
+    },
+    "Gurgaon": {
+      "district_name": "Gurgaon",
+      "state_name": "Haryana",
+      "centroid_lat": 28.0439,
+      "centroid_lon": 77.0194,
+      "grid_id_50km": "IND_50KM_r044_c018",
+      "grid_lat": 27.8838,
+      "grid_lon": 77.1581,
+      "offset_km": 23.5
+    },
+    "Hisar": {
+      "district_name": "Hisar",
+      "state_name": "Haryana",
+      "centroid_lat": 29.2363,
+      "centroid_lon": 75.8432,
+      "grid_id_50km": "IND_50KM_r047_c016",
+      "grid_lat": 29.2373,
+      "grid_lon": 76.0821,
+      "offset_km": 26.5
+    },
+    "Jhajjar": {
+      "district_name": "Jhajjar",
+      "state_name": "Haryana",
+      "centroid_lat": 28.5965,
+      "centroid_lon": 76.6114,
+      "grid_id_50km": "IND_50KM_r046_c017",
+      "grid_lat": 28.791,
+      "grid_lon": 76.6168,
+      "offset_km": 21.6
+    },
+    "Jind": {
+      "district_name": "Jind",
+      "state_name": "Haryana",
+      "centroid_lat": 29.4515,
+      "centroid_lon": 76.296,
+      "grid_id_50km": "IND_50KM_r047_c016",
+      "grid_lat": 29.2373,
+      "grid_lon": 76.0821,
+      "offset_km": 33.6
+    },
+    "Kaithal": {
+      "district_name": "Kaithal",
+      "state_name": "Haryana",
+      "centroid_lat": 29.9607,
+      "centroid_lon": 76.377,
+      "grid_id_50km": "IND_50KM_r049_c017",
+      "grid_lat": 30.1643,
+      "grid_lon": 76.5789,
+      "offset_km": 31.8
+    },
+    "Karnal": {
+      "district_name": "Karnal",
+      "state_name": "Haryana",
+      "centroid_lat": 29.7032,
+      "centroid_lon": 76.8749,
+      "grid_id_50km": "IND_50KM_r048_c018",
+      "grid_lat": 29.7172,
+      "grid_lon": 77.1158,
+      "offset_km": 26.8
+    },
+    "Kurukshetra": {
+      "district_name": "Kurukshetra",
+      "state_name": "Haryana",
+      "centroid_lat": 30.0565,
+      "centroid_lon": 76.7877,
+      "grid_id_50km": "IND_50KM_r049_c017",
+      "grid_lat": 30.1643,
+      "grid_lon": 76.5789,
+      "offset_km": 26.1
+    },
+    "Mahendragarh": {
+      "district_name": "Mahendragarh",
+      "state_name": "Haryana",
+      "centroid_lat": 28.1352,
+      "centroid_lon": 76.1402,
+      "grid_id_50km": "IND_50KM_r045_c016",
+      "grid_lat": 28.3207,
+      "grid_lon": 76.1109,
+      "offset_km": 20.8
+    },
+    "Panchkula": {
+      "district_name": "Panchkula",
+      "state_name": "Haryana",
+      "centroid_lat": 30.7009,
+      "centroid_lon": 76.9717,
+      "grid_id_50km": "IND_50KM_r050_c018",
+      "grid_lat": 30.6316,
+      "grid_lon": 77.0942,
+      "offset_km": 15.6
+    },
+    "Panipat": {
+      "district_name": "Panipat",
+      "state_name": "Haryana",
+      "centroid_lat": 29.3435,
+      "centroid_lon": 76.929,
+      "grid_id_50km": "IND_50KM_r047_c018",
+      "grid_lat": 29.2594,
+      "grid_lon": 77.1265,
+      "offset_km": 23.8
+    },
+    "Rewari": {
+      "district_name": "Rewari",
+      "state_name": "Haryana",
+      "centroid_lat": 28.1916,
+      "centroid_lon": 76.5596,
+      "grid_id_50km": "IND_50KM_r045_c017",
+      "grid_lat": 28.3325,
+      "grid_lon": 76.6293,
+      "offset_km": 17.4
+    },
+    "Rohtak": {
+      "district_name": "Rohtak",
+      "state_name": "Haryana",
+      "centroid_lat": 28.8925,
+      "centroid_lon": 76.5312,
+      "grid_id_50km": "IND_50KM_r046_c017",
+      "grid_lat": 28.791,
+      "grid_lon": 76.6168,
+      "offset_km": 14.7
+    },
+    "Sirsa": {
+      "district_name": "Sirsa",
+      "state_name": "Haryana",
+      "centroid_lat": 29.6358,
+      "centroid_lon": 74.9097,
+      "grid_id_50km": "IND_50KM_r048_c014",
+      "grid_lat": 29.6661,
+      "grid_lon": 75.0197,
+      "offset_km": 12.7
+    },
+    "Sonepat": {
+      "district_name": "Sonepat",
+      "state_name": "Haryana",
+      "centroid_lat": 29.0581,
+      "centroid_lon": 76.8559,
+      "grid_id_50km": "IND_50KM_r047_c017",
+      "grid_lat": 29.2492,
+      "grid_lon": 76.6043,
+      "offset_km": 35.1
+    },
+    "Yamuna Nagar": {
+      "district_name": "Yamuna Nagar",
+      "state_name": "Haryana",
+      "centroid_lat": 30.2647,
+      "centroid_lon": 77.3165,
+      "grid_id_50km": "IND_50KM_r049_c018",
+      "grid_lat": 30.1746,
+      "grid_lon": 77.1051,
+      "offset_km": 25.5
+    }
+  },
+  "Himachal Pradesh": {
+    "Bilaspur": {
+      "district_name": "Bilaspur",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.378,
+      "centroid_lon": 76.6532,
+      "grid_id_50km": "IND_50KM_r052_c017",
+      "grid_lat": 31.5337,
+      "grid_lon": 76.5401,
+      "offset_km": 21.4
+    },
+    "Chamba": {
+      "district_name": "Chamba",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 32.6674,
+      "centroid_lon": 76.3935,
+      "grid_id_50km": "IND_50KM_r054_c017",
+      "grid_lat": 32.4441,
+      "grid_lon": 76.5138,
+      "offset_km": 28.2
+    },
+    "Hamirpur": {
+      "district_name": "Hamirpur",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.6767,
+      "centroid_lon": 76.4977,
+      "grid_id_50km": "IND_50KM_r052_c017",
+      "grid_lat": 31.5337,
+      "grid_lon": 76.5401,
+      "offset_km": 16.6
+    },
+    "Kangra": {
+      "district_name": "Kangra",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 32.1409,
+      "centroid_lon": 76.4121,
+      "grid_id_50km": "IND_50KM_r053_c017",
+      "grid_lat": 31.9892,
+      "grid_lon": 76.527,
+      "offset_km": 21.1
+    },
+    "Kinnaur": {
+      "district_name": "Kinnaur",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.6067,
+      "centroid_lon": 78.5161,
+      "grid_id_50km": "IND_50KM_r052_c021",
+      "grid_lat": 31.5647,
+      "grid_lon": 78.6691,
+      "offset_km": 17.6
+    },
+    "Kullu": {
+      "district_name": "Kullu",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.9091,
+      "centroid_lon": 77.4092,
+      "grid_id_50km": "IND_50KM_r053_c019",
+      "grid_lat": 32.0082,
+      "grid_lon": 77.5954,
+      "offset_km": 23.4
+    },
+    "Lahul and Spiti": {
+      "district_name": "Lahul and Spiti",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 32.5172,
+      "centroid_lon": 77.6247,
+      "grid_id_50km": "IND_50KM_r054_c019",
+      "grid_lat": 32.4631,
+      "grid_lon": 77.5862,
+      "offset_km": 7.4
+    },
+    "Mandi": {
+      "district_name": "Mandi",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.6358,
+      "centroid_lon": 76.9656,
+      "grid_id_50km": "IND_50KM_r052_c018",
+      "grid_lat": 31.5441,
+      "grid_lon": 77.0723,
+      "offset_km": 15.6
+    },
+    "Shimla": {
+      "district_name": "Shimla",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.1557,
+      "centroid_lon": 77.6257,
+      "grid_id_50km": "IND_50KM_r051_c019",
+      "grid_lat": 31.0966,
+      "grid_lon": 77.6135,
+      "offset_km": 6.7
+    },
+    "Sirmaur": {
+      "district_name": "Sirmaur",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 30.6828,
+      "centroid_lon": 77.4318,
+      "grid_id_50km": "IND_50KM_r050_c019",
+      "grid_lat": 30.6401,
+      "grid_lon": 77.6224,
+      "offset_km": 21.7
+    },
+    "Solan": {
+      "district_name": "Solan",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.0386,
+      "centroid_lon": 76.9444,
+      "grid_id_50km": "IND_50KM_r051_c018",
+      "grid_lat": 31.0881,
+      "grid_lon": 77.0833,
+      "offset_km": 16.4
+    },
+    "Una": {
+      "district_name": "Una",
+      "state_name": "Himachal Pradesh",
+      "centroid_lat": 31.5833,
+      "centroid_lon": 76.1835,
+      "grid_id_50km": "IND_50KM_r052_c016",
+      "grid_lat": 31.5217,
+      "grid_lon": 76.0081,
+      "offset_km": 20.6
+    }
+  },
+  "Jammu and Kashmir": {
+    "Anantnag (Kashmir South)": {
+      "district_name": "Anantnag (Kashmir South)",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.7603,
+      "centroid_lon": 75.3039,
+      "grid_id_50km": "IND_50KM_r057_c015",
+      "grid_lat": 33.779,
+      "grid_lon": 75.3892,
+      "offset_km": 9.7
+    },
+    "Bagdam": {
+      "district_name": "Bagdam",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.9326,
+      "centroid_lon": 74.798,
+      "grid_id_50km": "IND_50KM_r057_c014",
+      "grid_lat": 33.7633,
+      "grid_lon": 74.8472,
+      "offset_km": 19.6
+    },
+    "Baramula (Kashmir North)": {
+      "district_name": "Baramula (Kashmir North)",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 34.3813,
+      "centroid_lon": 74.7636,
+      "grid_id_50km": "IND_50KM_r058_c014",
+      "grid_lat": 34.2156,
+      "grid_lon": 74.8273,
+      "offset_km": 19.7
+    },
+    "Doda": {
+      "district_name": "Doda",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.3596,
+      "centroid_lon": 76.0716,
+      "grid_id_50km": "IND_50KM_r056_c016",
+      "grid_lat": 33.3399,
+      "grid_lon": 75.9469,
+      "offset_km": 14.0
+    },
+    "Jammu": {
+      "district_name": "Jammu",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 32.7132,
+      "centroid_lon": 74.8478,
+      "grid_id_50km": "IND_50KM_r055_c014",
+      "grid_lat": 32.8568,
+      "grid_lon": 74.8865,
+      "offset_km": 16.5
+    },
+    "Kargil": {
+      "district_name": "Kargil",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.566,
+      "centroid_lon": 76.6368,
+      "grid_id_50km": "IND_50KM_r056_c017",
+      "grid_lat": 33.3521,
+      "grid_lon": 76.4871,
+      "offset_km": 29.0
+    },
+    "Kathua": {
+      "district_name": "Kathua",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 32.5178,
+      "centroid_lon": 75.589,
+      "grid_id_50km": "IND_50KM_r054_c015",
+      "grid_lat": 32.4181,
+      "grid_lon": 75.4418,
+      "offset_km": 19.7
+    },
+    "Kupwara (Muzaffarabad)": {
+      "district_name": "Kupwara (Muzaffarabad)",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 34.5992,
+      "centroid_lon": 74.2159,
+      "grid_id_50km": "IND_50KM_r059_c013",
+      "grid_lat": 34.6496,
+      "grid_lon": 74.2612,
+      "offset_km": 7.5
+    },
+    "Ladakh (Leh)": {
+      "district_name": "Ladakh (Leh)",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.5858,
+      "centroid_lon": 78.3073,
+      "grid_id_50km": "IND_50KM_r056_c020",
+      "grid_lat": 33.3782,
+      "grid_lon": 78.1081,
+      "offset_km": 31.9
+    },
+    "Pulwama": {
+      "district_name": "Pulwama",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.8841,
+      "centroid_lon": 75.0092,
+      "grid_id_50km": "IND_50KM_r057_c014",
+      "grid_lat": 33.7633,
+      "grid_lon": 74.8472,
+      "offset_km": 22.4
+    },
+    "Punch": {
+      "district_name": "Punch",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.7912,
+      "centroid_lon": 74.2959,
+      "grid_id_50km": "IND_50KM_r057_c013",
+      "grid_lat": 33.7459,
+      "grid_lon": 74.3053,
+      "offset_km": 5.1
+    },
+    "Rajauri": {
+      "district_name": "Rajauri",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.2723,
+      "centroid_lon": 74.4078,
+      "grid_id_50km": "IND_50KM_r056_c013",
+      "grid_lat": 33.293,
+      "grid_lon": 74.3272,
+      "offset_km": 9.2
+    },
+    "Srinagar": {
+      "district_name": "Srinagar",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 34.2731,
+      "centroid_lon": 75.1102,
+      "grid_id_50km": "IND_50KM_r058_c015",
+      "grid_lat": 34.2313,
+      "grid_lon": 75.3713,
+      "offset_km": 29.4
+    },
+    "Udhampur": {
+      "district_name": "Udhampur",
+      "state_name": "Jammu and Kashmir",
+      "centroid_lat": 33.0477,
+      "centroid_lon": 75.1529,
+      "grid_id_50km": "IND_50KM_r055_c015",
+      "grid_lat": 32.8724,
+      "grid_lon": 75.4244,
+      "offset_km": 35.9
+    }
+  },
+  "Jharkhand": {
+    "Bokaro": {
+      "district_name": "Bokaro",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.6815,
+      "centroid_lon": 85.984,
+      "grid_id_50km": "IND_50KM_r035_c035",
+      "grid_lat": 23.6617,
+      "grid_lon": 85.7498,
+      "offset_km": 26.1
+    },
+    "Chatra": {
+      "district_name": "Chatra",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.1162,
+      "centroid_lon": 84.933,
+      "grid_id_50km": "IND_50KM_r036_c033",
+      "grid_lat": 24.1562,
+      "grid_lon": 84.7676,
+      "offset_km": 18.9
+    },
+    "Deoghar": {
+      "district_name": "Deoghar",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.3307,
+      "centroid_lon": 86.757,
+      "grid_id_50km": "IND_50KM_r037_c037",
+      "grid_lat": 24.5406,
+      "grid_lon": 86.7965,
+      "offset_km": 23.7
+    },
+    "Dhanbad": {
+      "district_name": "Dhanbad",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.8545,
+      "centroid_lon": 86.4037,
+      "grid_id_50km": "IND_50KM_r035_c036",
+      "grid_lat": 23.6422,
+      "grid_lon": 86.2491,
+      "offset_km": 29.2
+    },
+    "Dumka": {
+      "district_name": "Dumka",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.275,
+      "centroid_lon": 87.2766,
+      "grid_id_50km": "IND_50KM_r036_c038",
+      "grid_lat": 24.0579,
+      "grid_lon": 87.2731,
+      "offset_km": 24.1
+    },
+    "Garhwa": {
+      "district_name": "Garhwa",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.0821,
+      "centroid_lon": 83.6866,
+      "grid_id_50km": "IND_50KM_r036_c031",
+      "grid_lat": 24.1841,
+      "grid_lon": 83.7644,
+      "offset_km": 14.2
+    },
+    "Giridih": {
+      "district_name": "Giridih",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.3058,
+      "centroid_lon": 86.0871,
+      "grid_id_50km": "IND_50KM_r036_c036",
+      "grid_lat": 24.1021,
+      "grid_lon": 86.2714,
+      "offset_km": 30.5
+    },
+    "Godda": {
+      "district_name": "Godda",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.8189,
+      "centroid_lon": 87.2942,
+      "grid_id_50km": "IND_50KM_r038_c038",
+      "grid_lat": 24.9773,
+      "grid_lon": 87.3252,
+      "offset_km": 17.9
+    },
+    "Gumla": {
+      "district_name": "Gumla",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.0785,
+      "centroid_lon": 84.5506,
+      "grid_id_50km": "IND_50KM_r034_c033",
+      "grid_lat": 23.2359,
+      "grid_lon": 84.7339,
+      "offset_km": 26.8
+    },
+    "Hazaribag": {
+      "district_name": "Hazaribag",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.9432,
+      "centroid_lon": 85.4944,
+      "grid_id_50km": "IND_50KM_r036_c034",
+      "grid_lat": 24.1398,
+      "grid_lon": 85.269,
+      "offset_km": 33.2
+    },
+    "Jamtara": {
+      "district_name": "Jamtara",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.9787,
+      "centroid_lon": 86.9533,
+      "grid_id_50km": "IND_50KM_r036_c037",
+      "grid_lat": 24.0808,
+      "grid_lon": 86.7723,
+      "offset_km": 23.1
+    },
+    "Koderma": {
+      "district_name": "Koderma",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.5567,
+      "centroid_lon": 85.7169,
+      "grid_id_50km": "IND_50KM_r037_c035",
+      "grid_lat": 24.5817,
+      "grid_lon": 85.7908,
+      "offset_km": 8.7
+    },
+    "Latehar": {
+      "district_name": "Latehar",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.7251,
+      "centroid_lon": 84.483,
+      "grid_id_50km": "IND_50KM_r035_c032",
+      "grid_lat": 23.7108,
+      "grid_lon": 84.2509,
+      "offset_km": 25.8
+    },
+    "Lohardaga": {
+      "district_name": "Lohardaga",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.4888,
+      "centroid_lon": 84.6605,
+      "grid_id_50km": "IND_50KM_r035_c033",
+      "grid_lat": 23.6961,
+      "grid_lon": 84.7506,
+      "offset_km": 25.1
+    },
+    "Pakur": {
+      "district_name": "Pakur",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.5726,
+      "centroid_lon": 87.6969,
+      "grid_id_50km": "IND_50KM_r037_c039",
+      "grid_lat": 24.493,
+      "grid_lon": 87.8015,
+      "offset_km": 14.6
+    },
+    "Palamu": {
+      "district_name": "Palamu",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.1969,
+      "centroid_lon": 84.2031,
+      "grid_id_50km": "IND_50KM_r036_c032",
+      "grid_lat": 24.1709,
+      "grid_lon": 84.266,
+      "offset_km": 7.6
+    },
+    "Pashchim Singhbhum": {
+      "district_name": "Pashchim Singhbhum",
+      "state_name": "Jharkhand",
+      "centroid_lat": 22.3994,
+      "centroid_lon": 85.541,
+      "grid_id_50km": "IND_50KM_r032_c035",
+      "grid_lat": 22.2818,
+      "grid_lon": 85.6892,
+      "offset_km": 21.0
+    },
+    "Purba Singhbhum": {
+      "district_name": "Purba Singhbhum",
+      "state_name": "Jharkhand",
+      "centroid_lat": 22.5913,
+      "centroid_lon": 86.5091,
+      "grid_id_50km": "IND_50KM_r033_c037",
+      "grid_lat": 22.7012,
+      "grid_lon": 86.7008,
+      "offset_km": 24.5
+    },
+    "Ranchi": {
+      "district_name": "Ranchi",
+      "state_name": "Jharkhand",
+      "centroid_lat": 23.1842,
+      "centroid_lon": 85.3178,
+      "grid_id_50km": "IND_50KM_r034_c034",
+      "grid_lat": 23.2196,
+      "grid_lon": 85.2317,
+      "offset_km": 10.3
+    },
+    "Sahibganj": {
+      "district_name": "Sahibganj",
+      "state_name": "Jharkhand",
+      "centroid_lat": 24.9367,
+      "centroid_lon": 87.6826,
+      "grid_id_50km": "IND_50KM_r038_c039",
+      "grid_lat": 24.9526,
+      "grid_lon": 87.8294,
+      "offset_km": 16.4
+    },
+    "Saraikela Kharsawan": {
+      "district_name": "Saraikela Kharsawan",
+      "state_name": "Jharkhand",
+      "centroid_lat": 22.8559,
+      "centroid_lon": 85.8961,
+      "grid_id_50km": "IND_50KM_r033_c035",
+      "grid_lat": 22.7417,
+      "grid_lon": 85.7093,
+      "offset_km": 24.3
+    },
+    "Simdega": {
+      "district_name": "Simdega",
+      "state_name": "Jharkhand",
+      "centroid_lat": 22.6088,
+      "centroid_lon": 84.5919,
+      "grid_id_50km": "IND_50KM_r033_c033",
+      "grid_lat": 22.7758,
+      "grid_lon": 84.7172,
+      "offset_km": 23.2
+    }
+  },
+  "Karnataka": {
+    "Bagalkot": {
+      "district_name": "Bagalkot",
+      "state_name": "Karnataka",
+      "centroid_lat": 16.1586,
+      "centroid_lon": 75.6453,
+      "grid_id_50km": "IND_50KM_r019_c014",
+      "grid_lat": 16.3525,
+      "grid_lon": 75.5045,
+      "offset_km": 26.6
+    },
+    "Bangalore Rural": {
+      "district_name": "Bangalore Rural",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.9368,
+      "centroid_lon": 77.4737,
+      "grid_id_50km": "IND_50KM_r011_c018",
+      "grid_lat": 12.761,
+      "grid_lon": 77.4649,
+      "offset_km": 19.5
+    },
+    "Bangalore Urban": {
+      "district_name": "Bangalore Urban",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.9019,
+      "centroid_lon": 77.5869,
+      "grid_id_50km": "IND_50KM_r011_c018",
+      "grid_lat": 12.761,
+      "grid_lon": 77.4649,
+      "offset_km": 20.7
+    },
+    "Belgaum": {
+      "district_name": "Belgaum",
+      "state_name": "Karnataka",
+      "centroid_lat": 16.1611,
+      "centroid_lon": 74.7233,
+      "grid_id_50km": "IND_50KM_r019_c012",
+      "grid_lat": 16.3203,
+      "grid_lon": 74.559,
+      "offset_km": 25.4
+    },
+    "Bellary": {
+      "district_name": "Bellary",
+      "state_name": "Karnataka",
+      "centroid_lat": 15.0744,
+      "centroid_lon": 76.4723,
+      "grid_id_50km": "IND_50KM_r016_c016",
+      "grid_lat": 15.0107,
+      "grid_lon": 76.4859,
+      "offset_km": 7.2
+    },
+    "Bidar": {
+      "district_name": "Bidar",
+      "state_name": "Karnataka",
+      "centroid_lat": 17.9504,
+      "centroid_lon": 77.1946,
+      "grid_id_50km": "IND_50KM_r022_c018",
+      "grid_lat": 17.7707,
+      "grid_lon": 77.3703,
+      "offset_km": 27.9
+    },
+    "Bijapur": {
+      "district_name": "Bijapur",
+      "state_name": "Karnataka",
+      "centroid_lat": 16.8402,
+      "centroid_lon": 75.9591,
+      "grid_id_50km": "IND_50KM_r020_c015",
+      "grid_lat": 16.8231,
+      "grid_lon": 75.9639,
+      "offset_km": 2.0
+    },
+    "Chamrajnagar": {
+      "district_name": "Chamrajnagar",
+      "state_name": "Karnataka",
+      "centroid_lat": 11.9525,
+      "centroid_lon": 77.0238,
+      "grid_id_50km": "IND_50KM_r009_c017",
+      "grid_lat": 11.8489,
+      "grid_lon": 77.0236,
+      "offset_km": 11.5
+    },
+    "Chikmagalur": {
+      "district_name": "Chikmagalur",
+      "state_name": "Karnataka",
+      "centroid_lat": 13.4253,
+      "centroid_lon": 75.6763,
+      "grid_id_50km": "IND_50KM_r013_c014",
+      "grid_lat": 13.6221,
+      "grid_lon": 75.5933,
+      "offset_km": 23.7
+    },
+    "Chitradurga": {
+      "district_name": "Chitradurga",
+      "state_name": "Karnataka",
+      "centroid_lat": 14.291,
+      "centroid_lon": 76.5782,
+      "grid_id_50km": "IND_50KM_r014_c016",
+      "grid_lat": 14.1013,
+      "grid_lon": 76.5091,
+      "offset_km": 22.4
+    },
+    "Dakshin Kannad": {
+      "district_name": "Dakshin Kannad",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.8912,
+      "centroid_lon": 74.9622,
+      "grid_id_50km": "IND_50KM_r011_c013",
+      "grid_lat": 12.7018,
+      "grid_lon": 75.1617,
+      "offset_km": 30.5
+    },
+    "Davanagere": {
+      "district_name": "Davanagere",
+      "state_name": "Karnataka",
+      "centroid_lat": 14.3304,
+      "centroid_lon": 75.9172,
+      "grid_id_50km": "IND_50KM_r015_c015",
+      "grid_lat": 14.5437,
+      "grid_lon": 76.0308,
+      "offset_km": 26.8
+    },
+    "Dharwad": {
+      "district_name": "Dharwad",
+      "state_name": "Karnataka",
+      "centroid_lat": 15.3438,
+      "centroid_lon": 75.1383,
+      "grid_id_50km": "IND_50KM_r017_c013",
+      "grid_lat": 15.4251,
+      "grid_lon": 75.0649,
+      "offset_km": 12.2
+    },
+    "Gadag": {
+      "district_name": "Gadag",
+      "state_name": "Karnataka",
+      "centroid_lat": 15.5071,
+      "centroid_lon": 75.6486,
+      "grid_id_50km": "IND_50KM_r017_c014",
+      "grid_lat": 15.4403,
+      "grid_lon": 75.5345,
+      "offset_km": 14.7
+    },
+    "Gulbarga": {
+      "district_name": "Gulbarga",
+      "state_name": "Karnataka",
+      "centroid_lat": 17.0705,
+      "centroid_lon": 76.875,
+      "grid_id_50km": "IND_50KM_r020_c017",
+      "grid_lat": 16.8463,
+      "grid_lon": 76.9132,
+      "offset_km": 25.2
+    },
+    "Hassan": {
+      "district_name": "Hassan",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.9451,
+      "centroid_lon": 76.1105,
+      "grid_id_50km": "IND_50KM_r011_c015",
+      "grid_lat": 12.7299,
+      "grid_lon": 76.0827,
+      "offset_km": 24.1
+    },
+    "Haveri": {
+      "district_name": "Haveri",
+      "state_name": "Karnataka",
+      "centroid_lat": 14.7376,
+      "centroid_lon": 75.3961,
+      "grid_id_50km": "IND_50KM_r015_c014",
+      "grid_lat": 14.5301,
+      "grid_lon": 75.5641,
+      "offset_km": 29.6
+    },
+    "Kodagu": {
+      "district_name": "Kodagu",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.3968,
+      "centroid_lon": 75.7934,
+      "grid_id_50km": "IND_50KM_r010_c014",
+      "grid_lat": 12.2648,
+      "grid_lon": 75.6364,
+      "offset_km": 22.8
+    },
+    "Kolar": {
+      "district_name": "Kolar",
+      "state_name": "Karnataka",
+      "centroid_lat": 13.3128,
+      "centroid_lon": 78.0138,
+      "grid_id_50km": "IND_50KM_r012_c019",
+      "grid_lat": 13.2211,
+      "grid_lon": 77.919,
+      "offset_km": 14.6
+    },
+    "Koppal": {
+      "district_name": "Koppal",
+      "state_name": "Karnataka",
+      "centroid_lat": 15.6512,
+      "centroid_lon": 76.1617,
+      "grid_id_50km": "IND_50KM_r017_c015",
+      "grid_lat": 15.454,
+      "grid_lon": 76.0043,
+      "offset_km": 28.0
+    },
+    "Mandya": {
+      "district_name": "Mandya",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.5749,
+      "centroid_lon": 76.8157,
+      "grid_id_50km": "IND_50KM_r011_c017",
+      "grid_lat": 12.7521,
+      "grid_lon": 77.0041,
+      "offset_km": 28.7
+    },
+    "Mysore": {
+      "district_name": "Mysore",
+      "state_name": "Karnataka",
+      "centroid_lat": 12.2481,
+      "centroid_lon": 76.5288,
+      "grid_id_50km": "IND_50KM_r010_c016",
+      "grid_lat": 12.2899,
+      "grid_lon": 76.5546,
+      "offset_km": 5.5
+    },
+    "Raichur": {
+      "district_name": "Raichur",
+      "state_name": "Karnataka",
+      "centroid_lat": 16.0508,
+      "centroid_lon": 76.8737,
+      "grid_id_50km": "IND_50KM_r018_c017",
+      "grid_lat": 15.9328,
+      "grid_lon": 76.9339,
+      "offset_km": 14.7
+    },
+    "Shimoga": {
+      "district_name": "Shimoga",
+      "state_name": "Karnataka",
+      "centroid_lat": 14.0638,
+      "centroid_lon": 75.1788,
+      "grid_id_50km": "IND_50KM_r014_c013",
+      "grid_lat": 14.0608,
+      "grid_lon": 75.1137,
+      "offset_km": 7.2
+    },
+    "Tumkur": {
+      "district_name": "Tumkur",
+      "state_name": "Karnataka",
+      "centroid_lat": 13.5925,
+      "centroid_lon": 77.023,
+      "grid_id_50km": "IND_50KM_r013_c017",
+      "grid_lat": 13.658,
+      "grid_lon": 76.9844,
+      "offset_km": 8.4
+    },
+    "Udupi": {
+      "district_name": "Udupi",
+      "state_name": "Karnataka",
+      "centroid_lat": 13.4504,
+      "centroid_lon": 74.7201,
+      "grid_id_50km": "IND_50KM_r013_c012",
+      "grid_lat": 13.5908,
+      "grid_lon": 74.6664,
+      "offset_km": 16.7
+    },
+    "Uttar Kannand": {
+      "district_name": "Uttar Kannand",
+      "state_name": "Karnataka",
+      "centroid_lat": 14.539,
+      "centroid_lon": 74.3523,
+      "grid_id_50km": "IND_50KM_r015_c011",
+      "grid_lat": 14.4804,
+      "grid_lon": 74.1647,
+      "offset_km": 21.8
+    }
+  },
+  "Kerala": {
+    "Alappuzha": {
+      "district_name": "Alappuzha",
+      "state_name": "Kerala",
+      "centroid_lat": 9.5426,
+      "centroid_lon": 76.3801,
+      "grid_id_50km": "IND_50KM_r004_c015",
+      "grid_lat": 9.5823,
+      "grid_lon": 76.1704,
+      "offset_km": 23.7
+    },
+    "Ernakulam": {
+      "district_name": "Ernakulam",
+      "state_name": "Kerala",
+      "centroid_lat": 10.0049,
+      "centroid_lon": 76.2696,
+      "grid_id_50km": "IND_50KM_r005_c015",
+      "grid_lat": 10.0296,
+      "grid_lon": 76.1581,
+      "offset_km": 12.7
+    },
+    "Idukki": {
+      "district_name": "Idukki",
+      "state_name": "Kerala",
+      "centroid_lat": 9.8048,
+      "centroid_lon": 77.0459,
+      "grid_id_50km": "IND_50KM_r004_c017",
+      "grid_lat": 9.6037,
+      "grid_lon": 77.0712,
+      "offset_km": 22.5
+    },
+    "Kannur": {
+      "district_name": "Kannur",
+      "state_name": "Kerala",
+      "centroid_lat": 11.9415,
+      "centroid_lon": 75.3521,
+      "grid_id_50km": "IND_50KM_r009_c013",
+      "grid_lat": 11.7991,
+      "grid_lon": 75.1931,
+      "offset_km": 23.7
+    },
+    "Kasaragod": {
+      "district_name": "Kasaragod",
+      "state_name": "Kerala",
+      "centroid_lat": 12.3331,
+      "centroid_lon": 75.0777,
+      "grid_id_50km": "IND_50KM_r010_c013",
+      "grid_lat": 12.2501,
+      "grid_lon": 75.1774,
+      "offset_km": 14.4
+    },
+    "Kollam": {
+      "district_name": "Kollam",
+      "state_name": "Kerala",
+      "centroid_lat": 8.9294,
+      "centroid_lon": 76.6361,
+      "grid_id_50km": "IND_50KM_r003_c016",
+      "grid_lat": 9.1471,
+      "grid_lon": 76.6315,
+      "offset_km": 24.2
+    },
+    "Kottayam": {
+      "district_name": "Kottayam",
+      "state_name": "Kerala",
+      "centroid_lat": 9.6437,
+      "centroid_lon": 76.4606,
+      "grid_id_50km": "IND_50KM_r004_c016",
+      "grid_lat": 9.5937,
+      "grid_lon": 76.6207,
+      "offset_km": 18.6
+    },
+    "Kozhikode": {
+      "district_name": "Kozhikode",
+      "state_name": "Kerala",
+      "centroid_lat": 11.3929,
+      "centroid_lon": 75.7116,
+      "grid_id_50km": "IND_50KM_r008_c014",
+      "grid_lat": 11.3634,
+      "grid_lon": 75.6647,
+      "offset_km": 6.2
+    },
+    "Malappuram": {
+      "district_name": "Malappuram",
+      "state_name": "Kerala",
+      "centroid_lat": 10.9733,
+      "centroid_lon": 75.9391,
+      "grid_id_50km": "IND_50KM_r007_c015",
+      "grid_lat": 10.9268,
+      "grid_lon": 76.1333,
+      "offset_km": 22.2
+    },
+    "Palakkad": {
+      "district_name": "Palakkad",
+      "state_name": "Kerala",
+      "centroid_lat": 10.7849,
+      "centroid_lon": 76.4998,
+      "grid_id_50km": "IND_50KM_r007_c016",
+      "grid_lat": 10.9384,
+      "grid_lon": 76.588,
+      "offset_km": 19.6
+    },
+    "Pattanamtitta": {
+      "district_name": "Pattanamtitta",
+      "state_name": "Kerala",
+      "centroid_lat": 9.2913,
+      "centroid_lon": 76.8641,
+      "grid_id_50km": "IND_50KM_r003_c017",
+      "grid_lat": 9.1571,
+      "grid_lon": 77.0805,
+      "offset_km": 28.3
+    },
+    "Thiruvananthapuram": {
+      "district_name": "Thiruvananthapuram",
+      "state_name": "Kerala",
+      "centroid_lat": 8.5371,
+      "centroid_lon": 76.8871,
+      "grid_id_50km": "IND_50KM_r002_c017",
+      "grid_lat": 8.7113,
+      "grid_lon": 77.0898,
+      "offset_km": 29.7
+    },
+    "Thrissur": {
+      "district_name": "Thrissur",
+      "state_name": "Kerala",
+      "centroid_lat": 10.4589,
+      "centroid_lon": 76.1232,
+      "grid_id_50km": "IND_50KM_r006_c015",
+      "grid_lat": 10.4778,
+      "grid_lon": 76.1457,
+      "offset_km": 3.3
+    },
+    "Wayanad": {
+      "district_name": "Wayanad",
+      "state_name": "Kerala",
+      "centroid_lat": 11.7153,
+      "centroid_lon": 76.0759,
+      "grid_id_50km": "IND_50KM_r009_c015",
+      "grid_lat": 11.8269,
+      "grid_lon": 76.1082,
+      "offset_km": 12.9
+    }
+  },
+  "Lakshadweep": {
+    "Kavaratti": {
+      "district_name": "Kavaratti",
+      "state_name": "Lakshadweep",
+      "centroid_lat": 10.4364,
+      "centroid_lon": 72.8299,
+      "grid_id_50km": "IND_50KM_r009_c013",
+      "grid_lat": 11.7991,
+      "grid_lon": 75.1931,
+      "offset_km": 302.8
+    }
+  },
+  "Madhya Pradesh": {
+    "Anuppur": {
+      "district_name": "Anuppur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.1818,
+      "centroid_lon": 81.8656,
+      "grid_id_50km": "IND_50KM_r034_c027",
+      "grid_lat": 23.2994,
+      "grid_lon": 81.7446,
+      "offset_km": 18.7
+    },
+    "Ashoknagar": {
+      "district_name": "Ashoknagar",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.631,
+      "centroid_lon": 77.8297,
+      "grid_id_50km": "IND_50KM_r037_c019",
+      "grid_lat": 24.6739,
+      "grid_lon": 77.7329,
+      "offset_km": 11.8
+    },
+    "Balaghat": {
+      "district_name": "Balaghat",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 21.8002,
+      "centroid_lon": 80.4217,
+      "grid_id_50km": "IND_50KM_r031_c024",
+      "grid_lat": 21.9282,
+      "grid_lon": 80.2466,
+      "offset_km": 24.1
+    },
+    "Barwani": {
+      "district_name": "Barwani",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 21.7021,
+      "centroid_lon": 74.91,
+      "grid_id_50km": "IND_50KM_r031_c013",
+      "grid_lat": 21.8396,
+      "grid_lon": 74.8232,
+      "offset_km": 18.1
+    },
+    "Betul": {
+      "district_name": "Betul",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 21.9646,
+      "centroid_lon": 77.7873,
+      "grid_id_50km": "IND_50KM_r031_c019",
+      "grid_lat": 21.9121,
+      "grid_lon": 77.7805,
+      "offset_km": 5.9
+    },
+    "Bhind": {
+      "district_name": "Bhind",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 26.3595,
+      "centroid_lon": 78.7618,
+      "grid_id_50km": "IND_50KM_r041_c021",
+      "grid_lat": 26.5257,
+      "grid_lon": 78.7222,
+      "offset_km": 19.0
+    },
+    "Bhopal": {
+      "district_name": "Bhopal",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.4807,
+      "centroid_lon": 77.3925,
+      "grid_id_50km": "IND_50KM_r034_c018",
+      "grid_lat": 23.2848,
+      "grid_lon": 77.2587,
+      "offset_km": 26.3
+    },
+    "Burhanpur": {
+      "district_name": "Burhanpur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 21.3646,
+      "centroid_lon": 76.2446,
+      "grid_id_50km": "IND_50KM_r030_c016",
+      "grid_lat": 21.4231,
+      "grid_lon": 76.3144,
+      "offset_km": 10.1
+    },
+    "Chhatarpur": {
+      "district_name": "Chhatarpur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.8136,
+      "centroid_lon": 79.5645,
+      "grid_id_50km": "IND_50KM_r037_c023",
+      "grid_lat": 24.6903,
+      "grid_lon": 79.7481,
+      "offset_km": 24.5
+    },
+    "Chhindwara": {
+      "district_name": "Chhindwara",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.228,
+      "centroid_lon": 78.7641,
+      "grid_id_50km": "IND_50KM_r032_c021",
+      "grid_lat": 22.3836,
+      "grid_lon": 78.7626,
+      "offset_km": 17.3
+    },
+    "Damoh": {
+      "district_name": "Damoh",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.7662,
+      "centroid_lon": 79.4705,
+      "grid_id_50km": "IND_50KM_r035_c022",
+      "grid_lat": 23.768,
+      "grid_lon": 79.2496,
+      "offset_km": 24.5
+    },
+    "Datia": {
+      "district_name": "Datia",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 25.9023,
+      "centroid_lon": 78.6392,
+      "grid_id_50km": "IND_50KM_r040_c021",
+      "grid_lat": 26.0658,
+      "grid_lon": 78.7268,
+      "offset_km": 20.6
+    },
+    "Dewas": {
+      "district_name": "Dewas",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.7851,
+      "centroid_lon": 76.4609,
+      "grid_id_50km": "IND_50KM_r033_c016",
+      "grid_lat": 22.8034,
+      "grid_lon": 76.2754,
+      "offset_km": 20.7
+    },
+    "Dhar": {
+      "district_name": "Dhar",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.5727,
+      "centroid_lon": 75.1106,
+      "grid_id_50km": "IND_50KM_r033_c014",
+      "grid_lat": 22.7758,
+      "grid_lon": 75.2828,
+      "offset_km": 29.6
+    },
+    "Dindori": {
+      "district_name": "Dindori",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.8374,
+      "centroid_lon": 81.0433,
+      "grid_id_50km": "IND_50KM_r033_c026",
+      "grid_lat": 22.8439,
+      "grid_lon": 81.2418,
+      "offset_km": 22.0
+    },
+    "East Nimar": {
+      "district_name": "East Nimar",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.099,
+      "centroid_lon": 76.5581,
+      "grid_id_50km": "IND_50KM_r031_c017",
+      "grid_lat": 21.8944,
+      "grid_lon": 76.7944,
+      "offset_km": 34.7
+    },
+    "Guna": {
+      "district_name": "Guna",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.4904,
+      "centroid_lon": 77.2236,
+      "grid_id_50km": "IND_50KM_r037_c018",
+      "grid_lat": 24.6657,
+      "grid_lon": 77.2293,
+      "offset_km": 19.5
+    },
+    "Gwalior": {
+      "district_name": "Gwalior",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 26.0407,
+      "centroid_lon": 78.1278,
+      "grid_id_50km": "IND_50KM_r040_c020",
+      "grid_lat": 26.0609,
+      "grid_lon": 78.2175,
+      "offset_km": 10.2
+    },
+    "Harda": {
+      "district_name": "Harda",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.2277,
+      "centroid_lon": 77.0702,
+      "grid_id_50km": "IND_50KM_r032_c018",
+      "grid_lat": 22.3642,
+      "grid_lon": 77.2779,
+      "offset_km": 27.6
+    },
+    "Hoshangabad": {
+      "district_name": "Hoshangabad",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.5953,
+      "centroid_lon": 78.0217,
+      "grid_id_50km": "IND_50KM_r032_c020",
+      "grid_lat": 22.3788,
+      "grid_lon": 78.2676,
+      "offset_km": 36.4
+    },
+    "Indore": {
+      "district_name": "Indore",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.6803,
+      "centroid_lon": 75.9134,
+      "grid_id_50km": "IND_50KM_r033_c015",
+      "grid_lat": 22.7904,
+      "grid_lon": 75.7791,
+      "offset_km": 19.3
+    },
+    "Jabalpur": {
+      "district_name": "Jabalpur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.1853,
+      "centroid_lon": 79.9833,
+      "grid_id_50km": "IND_50KM_r034_c023",
+      "grid_lat": 23.3092,
+      "grid_lon": 79.7508,
+      "offset_km": 29.2
+    },
+    "Jhabua": {
+      "district_name": "Jhabua",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.4196,
+      "centroid_lon": 74.4092,
+      "grid_id_50km": "IND_50KM_r032_c012",
+      "grid_lat": 22.2818,
+      "grid_lon": 74.3108,
+      "offset_km": 18.8
+    },
+    "Katni": {
+      "district_name": "Katni",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.7244,
+      "centroid_lon": 80.3382,
+      "grid_id_50km": "IND_50KM_r035_c024",
+      "grid_lat": 23.7696,
+      "grid_lon": 80.2501,
+      "offset_km": 11.0
+    },
+    "Mandla": {
+      "district_name": "Mandla",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.7035,
+      "centroid_lon": 80.386,
+      "grid_id_50km": "IND_50KM_r033_c024",
+      "grid_lat": 22.8488,
+      "grid_lon": 80.2484,
+      "offset_km": 22.2
+    },
+    "Mandsaur": {
+      "district_name": "Mandsaur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.1928,
+      "centroid_lon": 75.4359,
+      "grid_id_50km": "IND_50KM_r036_c014",
+      "grid_lat": 24.1562,
+      "grid_lon": 75.2324,
+      "offset_km": 22.9
+    },
+    "Morena": {
+      "district_name": "Morena",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 26.3731,
+      "centroid_lon": 77.8845,
+      "grid_id_50km": "IND_50KM_r041_c019",
+      "grid_lat": 26.514,
+      "grid_lon": 77.7,
+      "offset_km": 25.8
+    },
+    "Narsinghpur": {
+      "district_name": "Narsinghpur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.9513,
+      "centroid_lon": 79.002,
+      "grid_id_50km": "IND_50KM_r033_c021",
+      "grid_lat": 22.8439,
+      "grid_lon": 78.7582,
+      "offset_km": 29.6
+    },
+    "Neemuch": {
+      "district_name": "Neemuch",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.7031,
+      "centroid_lon": 75.0661,
+      "grid_id_50km": "IND_50KM_r037_c014",
+      "grid_lat": 24.6163,
+      "grid_lon": 75.2154,
+      "offset_km": 19.2
+    },
+    "Panna": {
+      "district_name": "Panna",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.4513,
+      "centroid_lon": 80.2113,
+      "grid_id_50km": "IND_50KM_r036_c024",
+      "grid_lat": 24.23,
+      "grid_lon": 80.251,
+      "offset_km": 25.0
+    },
+    "Raisen": {
+      "district_name": "Raisen",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.2925,
+      "centroid_lon": 78.1631,
+      "grid_id_50km": "IND_50KM_r034_c020",
+      "grid_lat": 23.2994,
+      "grid_lon": 78.2554,
+      "offset_km": 10.3
+    },
+    "Rajgarh": {
+      "district_name": "Rajgarh",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.7855,
+      "centroid_lon": 76.6643,
+      "grid_id_50km": "IND_50KM_r035_c017",
+      "grid_lat": 23.7353,
+      "grid_lon": 76.7489,
+      "offset_km": 10.9
+    },
+    "Ratlam": {
+      "district_name": "Ratlam",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.5036,
+      "centroid_lon": 75.149,
+      "grid_id_50km": "IND_50KM_r035_c014",
+      "grid_lat": 23.6961,
+      "grid_lon": 75.2494,
+      "offset_km": 24.1
+    },
+    "Rewa": {
+      "district_name": "Rewa",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.8612,
+      "centroid_lon": 81.5757,
+      "grid_id_50km": "IND_50KM_r037_c027",
+      "grid_lat": 24.6805,
+      "grid_lon": 81.7633,
+      "offset_km": 28.9
+    },
+    "Sagar": {
+      "district_name": "Sagar",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.8003,
+      "centroid_lon": 78.7194,
+      "grid_id_50km": "IND_50KM_r035_c021",
+      "grid_lat": 23.7647,
+      "grid_lon": 78.7494,
+      "offset_km": 5.2
+    },
+    "Satna": {
+      "district_name": "Satna",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.6278,
+      "centroid_lon": 80.7555,
+      "grid_id_50km": "IND_50KM_r037_c025",
+      "grid_lat": 24.6887,
+      "grid_lon": 80.7557,
+      "offset_km": 6.8
+    },
+    "Sehore": {
+      "district_name": "Sehore",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.9297,
+      "centroid_lon": 77.0678,
+      "grid_id_50km": "IND_50KM_r033_c018",
+      "grid_lat": 22.8245,
+      "grid_lon": 77.2683,
+      "offset_km": 25.1
+    },
+    "Seoni": {
+      "district_name": "Seoni",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.3323,
+      "centroid_lon": 79.6605,
+      "grid_id_50km": "IND_50KM_r032_c023",
+      "grid_lat": 22.3885,
+      "grid_lon": 79.7525,
+      "offset_km": 12.0
+    },
+    "Shahdol": {
+      "district_name": "Shahdol",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.4486,
+      "centroid_lon": 81.4597,
+      "grid_id_50km": "IND_50KM_r034_c026",
+      "grid_lat": 23.3043,
+      "grid_lon": 81.2462,
+      "offset_km": 28.6
+    },
+    "Shajapur": {
+      "district_name": "Shajapur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.5666,
+      "centroid_lon": 76.3356,
+      "grid_id_50km": "IND_50KM_r035_c016",
+      "grid_lat": 23.7238,
+      "grid_lon": 76.249,
+      "offset_km": 19.9
+    },
+    "Sheopur": {
+      "district_name": "Sheopur",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 25.7801,
+      "centroid_lon": 77.1691,
+      "grid_id_50km": "IND_50KM_r039_c018",
+      "grid_lat": 25.5859,
+      "grid_lon": 77.2093,
+      "offset_km": 22.0
+    },
+    "Shivpuri": {
+      "district_name": "Shivpuri",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 25.378,
+      "centroid_lon": 77.7486,
+      "grid_id_50km": "IND_50KM_r039_c019",
+      "grid_lat": 25.5942,
+      "grid_lon": 77.7166,
+      "offset_km": 24.3
+    },
+    "Sidhi": {
+      "district_name": "Sidhi",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 24.1755,
+      "centroid_lon": 82.1054,
+      "grid_id_50km": "IND_50KM_r036_c028",
+      "grid_lat": 24.2136,
+      "grid_lon": 82.259,
+      "offset_km": 17.6
+    },
+    "Tikamgarh": {
+      "district_name": "Tikamgarh",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 25.141,
+      "centroid_lon": 78.8936,
+      "grid_id_50km": "IND_50KM_r038_c021",
+      "grid_lat": 25.1457,
+      "grid_lon": 78.7359,
+      "offset_km": 17.5
+    },
+    "Ujjain": {
+      "district_name": "Ujjain",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.3193,
+      "centroid_lon": 75.8038,
+      "grid_id_50km": "IND_50KM_r034_c015",
+      "grid_lat": 23.2506,
+      "grid_lon": 75.7641,
+      "offset_km": 8.8
+    },
+    "Umaria": {
+      "district_name": "Umaria",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.596,
+      "centroid_lon": 80.9088,
+      "grid_id_50km": "IND_50KM_r035_c025",
+      "grid_lat": 23.768,
+      "grid_lon": 80.7504,
+      "offset_km": 26.0
+    },
+    "Vidisha": {
+      "district_name": "Vidisha",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 23.8284,
+      "centroid_lon": 77.9014,
+      "grid_id_50km": "IND_50KM_r035_c019",
+      "grid_lat": 23.7532,
+      "grid_lon": 77.749,
+      "offset_km": 18.9
+    },
+    "West Nimar": {
+      "district_name": "West Nimar",
+      "state_name": "Madhya Pradesh",
+      "centroid_lat": 22.0271,
+      "centroid_lon": 75.8734,
+      "grid_id_50km": "IND_50KM_r031_c015",
+      "grid_lat": 21.8702,
+      "grid_lon": 75.8086,
+      "offset_km": 18.8
+    }
+  },
+  "Maharashtra": {
+    "Ahmednagar": {
+      "district_name": "Ahmednagar",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.2176,
+      "centroid_lon": 74.6922,
+      "grid_id_50km": "IND_50KM_r025_c013",
+      "grid_lat": 19.0833,
+      "grid_lon": 74.9296,
+      "offset_km": 30.3
+    },
+    "Akola": {
+      "district_name": "Akola",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.7463,
+      "centroid_lon": 77.1212,
+      "grid_id_50km": "IND_50KM_r028_c018",
+      "grid_lat": 20.5242,
+      "grid_lon": 77.3156,
+      "offset_km": 32.8
+    },
+    "Amravati": {
+      "district_name": "Amravati",
+      "state_name": "Maharashtra",
+      "centroid_lat": 21.1652,
+      "centroid_lon": 77.6758,
+      "grid_id_50km": "IND_50KM_r029_c019",
+      "grid_lat": 20.992,
+      "grid_lon": 77.796,
+      "offset_km": 23.4
+    },
+    "Aurangabad": {
+      "district_name": "Aurangabad",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.0979,
+      "centroid_lon": 75.3207,
+      "grid_id_50km": "IND_50KM_r027_c014",
+      "grid_lat": 20.0171,
+      "grid_lon": 75.3805,
+      "offset_km": 11.2
+    },
+    "Bhandara": {
+      "district_name": "Bhandara",
+      "state_name": "Maharashtra",
+      "centroid_lat": 21.2118,
+      "centroid_lon": 80.1095,
+      "grid_id_50km": "IND_50KM_r029_c024",
+      "grid_lat": 21.008,
+      "grid_lon": 80.2449,
+      "offset_km": 27.2
+    },
+    "Bid": {
+      "district_name": "Bid",
+      "state_name": "Maharashtra",
+      "centroid_lat": 18.9524,
+      "centroid_lon": 75.6932,
+      "grid_id_50km": "IND_50KM_r025_c015",
+      "grid_lat": 19.1132,
+      "grid_lon": 75.8948,
+      "offset_km": 28.6
+    },
+    "Buldana": {
+      "district_name": "Buldana",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.5668,
+      "centroid_lon": 76.3902,
+      "grid_id_50km": "IND_50KM_r028_c016",
+      "grid_lat": 20.5035,
+      "grid_lon": 76.3399,
+      "offset_km": 9.0
+    },
+    "Chandrapur": {
+      "district_name": "Chandrapur",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.0956,
+      "centroid_lon": 79.3156,
+      "grid_id_50km": "IND_50KM_r027_c022",
+      "grid_lat": 20.0869,
+      "grid_lon": 79.2703,
+      "offset_km": 5.1
+    },
+    "Dhule": {
+      "district_name": "Dhule",
+      "state_name": "Maharashtra",
+      "centroid_lat": 21.274,
+      "centroid_lon": 74.5872,
+      "grid_id_50km": "IND_50KM_r030_c012",
+      "grid_lat": 21.3621,
+      "grid_lon": 74.3504,
+      "offset_km": 28.0
+    },
+    "Garhchiroli": {
+      "district_name": "Garhchiroli",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.7955,
+      "centroid_lon": 80.3097,
+      "grid_id_50km": "IND_50KM_r026_c024",
+      "grid_lat": 19.629,
+      "grid_lon": 80.2424,
+      "offset_km": 19.9
+    },
+    "Gondiya": {
+      "district_name": "Gondiya",
+      "state_name": "Maharashtra",
+      "centroid_lat": 21.225,
+      "centroid_lon": 80.1752,
+      "grid_id_50km": "IND_50KM_r029_c024",
+      "grid_lat": 21.008,
+      "grid_lon": 80.2449,
+      "offset_km": 25.3
+    },
+    "Greater Bombay": {
+      "district_name": "Greater Bombay",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.0851,
+      "centroid_lon": 72.8426,
+      "grid_id_50km": "IND_50KM_r025_c009",
+      "grid_lat": 19.0047,
+      "grid_lon": 73.0007,
+      "offset_km": 19.7
+    },
+    "Hingoli": {
+      "district_name": "Hingoli",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.5953,
+      "centroid_lon": 77.0924,
+      "grid_id_50km": "IND_50KM_r026_c018",
+      "grid_lat": 19.6053,
+      "grid_lon": 77.3341,
+      "offset_km": 26.9
+    },
+    "Jalgaon": {
+      "district_name": "Jalgaon",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.8829,
+      "centroid_lon": 75.5514,
+      "grid_id_50km": "IND_50KM_r029_c014",
+      "grid_lat": 20.9361,
+      "grid_lon": 75.3484,
+      "offset_km": 23.3
+    },
+    "Jalna": {
+      "district_name": "Jalna",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.9846,
+      "centroid_lon": 75.9847,
+      "grid_id_50km": "IND_50KM_r027_c015",
+      "grid_lat": 20.0314,
+      "grid_lon": 75.8664,
+      "offset_km": 14.1
+    },
+    "Kolhapur": {
+      "district_name": "Kolhapur",
+      "state_name": "Maharashtra",
+      "centroid_lat": 16.4488,
+      "centroid_lon": 74.129,
+      "grid_id_50km": "IND_50KM_r019_c011",
+      "grid_lat": 16.3019,
+      "grid_lon": 74.0864,
+      "offset_km": 17.0
+    },
+    "Latur": {
+      "district_name": "Latur",
+      "state_name": "Maharashtra",
+      "centroid_lat": 18.3487,
+      "centroid_lon": 76.7581,
+      "grid_id_50km": "IND_50KM_r023_c017",
+      "grid_lat": 18.2195,
+      "grid_lon": 76.8817,
+      "offset_km": 19.8
+    },
+    "Nagpur": {
+      "district_name": "Nagpur",
+      "state_name": "Maharashtra",
+      "centroid_lat": 21.1966,
+      "centroid_lon": 79.0217,
+      "grid_id_50km": "IND_50KM_r029_c022",
+      "grid_lat": 21.0064,
+      "grid_lon": 79.2653,
+      "offset_km": 34.3
+    },
+    "Nanded": {
+      "district_name": "Nanded",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.2093,
+      "centroid_lon": 77.6829,
+      "grid_id_50km": "IND_50KM_r025_c019",
+      "grid_lat": 19.1541,
+      "grid_lon": 77.8262,
+      "offset_km": 17.0
+    },
+    "Nandurbar": {
+      "district_name": "Nandurbar",
+      "state_name": "Maharashtra",
+      "centroid_lat": 21.5232,
+      "centroid_lon": 74.3264,
+      "grid_id_50km": "IND_50KM_r030_c012",
+      "grid_lat": 21.3621,
+      "grid_lon": 74.3504,
+      "offset_km": 18.1
+    },
+    "Nashik": {
+      "district_name": "Nashik",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.2669,
+      "centroid_lon": 74.0382,
+      "grid_id_50km": "IND_50KM_r028_c011",
+      "grid_lat": 20.424,
+      "grid_lon": 73.9022,
+      "offset_km": 23.1
+    },
+    "Osmanabad": {
+      "district_name": "Osmanabad",
+      "state_name": "Maharashtra",
+      "centroid_lat": 18.1946,
+      "centroid_lon": 75.995,
+      "grid_id_50km": "IND_50KM_r023_c015",
+      "grid_lat": 18.1961,
+      "grid_lon": 75.9227,
+      "offset_km": 8.0
+    },
+    "Parbhani": {
+      "district_name": "Parbhani",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.3103,
+      "centroid_lon": 76.7016,
+      "grid_id_50km": "IND_50KM_r025_c017",
+      "grid_lat": 19.1368,
+      "grid_lon": 76.8603,
+      "offset_km": 26.1
+    },
+    "Pune": {
+      "district_name": "Pune",
+      "state_name": "Maharashtra",
+      "centroid_lat": 18.517,
+      "centroid_lon": 74.1292,
+      "grid_id_50km": "IND_50KM_r024_c011",
+      "grid_lat": 18.5887,
+      "grid_lon": 73.9855,
+      "offset_km": 17.8
+    },
+    "Raigarh": {
+      "district_name": "Raigarh",
+      "state_name": "Maharashtra",
+      "centroid_lat": 18.4533,
+      "centroid_lon": 73.0091,
+      "grid_id_50km": "IND_50KM_r024_c009",
+      "grid_lat": 18.5464,
+      "grid_lon": 73.0246,
+      "offset_km": 10.5
+    },
+    "Ratnagiri": {
+      "district_name": "Ratnagiri",
+      "state_name": "Maharashtra",
+      "centroid_lat": 17.2102,
+      "centroid_lon": 73.2573,
+      "grid_id_50km": "IND_50KM_r021_c009",
+      "grid_lat": 17.1737,
+      "grid_lon": 73.0953,
+      "offset_km": 18.4
+    },
+    "Sangli": {
+      "district_name": "Sangli",
+      "state_name": "Maharashtra",
+      "centroid_lat": 17.1549,
+      "centroid_lon": 74.7071,
+      "grid_id_50km": "IND_50KM_r021_c012",
+      "grid_lat": 17.234,
+      "grid_lon": 74.5222,
+      "offset_km": 22.3
+    },
+    "Satara": {
+      "district_name": "Satara",
+      "state_name": "Maharashtra",
+      "centroid_lat": 17.6738,
+      "centroid_lon": 74.1805,
+      "grid_id_50km": "IND_50KM_r022_c011",
+      "grid_lat": 17.6728,
+      "grid_lon": 74.0263,
+      "offset_km": 17.1
+    },
+    "Sindhudurg": {
+      "district_name": "Sindhudurg",
+      "state_name": "Maharashtra",
+      "centroid_lat": 16.1709,
+      "centroid_lon": 73.5133,
+      "grid_id_50km": "IND_50KM_r019_c010",
+      "grid_lat": 16.282,
+      "grid_lon": 73.6139,
+      "offset_km": 16.6
+    },
+    "Solapur": {
+      "district_name": "Solapur",
+      "state_name": "Maharashtra",
+      "centroid_lat": 17.8374,
+      "centroid_lon": 75.4239,
+      "grid_id_50km": "IND_50KM_r022_c014",
+      "grid_lat": 17.7241,
+      "grid_lon": 75.4588,
+      "offset_km": 13.2
+    },
+    "Thane": {
+      "district_name": "Thane",
+      "state_name": "Maharashtra",
+      "centroid_lat": 19.6988,
+      "centroid_lon": 72.7988,
+      "grid_id_50km": "IND_50KM_r027_c009",
+      "grid_lat": 19.922,
+      "grid_lon": 72.9525,
+      "offset_km": 30.1
+    },
+    "Wardha": {
+      "district_name": "Wardha",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.8074,
+      "centroid_lon": 78.5726,
+      "grid_id_50km": "IND_50KM_r029_c021",
+      "grid_lat": 21.0032,
+      "grid_lon": 78.7755,
+      "offset_km": 31.3
+    },
+    "Washim": {
+      "district_name": "Washim",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.2823,
+      "centroid_lon": 77.255,
+      "grid_id_50km": "IND_50KM_r027_c018",
+      "grid_lat": 20.0647,
+      "grid_lon": 77.3249,
+      "offset_km": 25.4
+    },
+    "Yavatmal": {
+      "district_name": "Yavatmal",
+      "state_name": "Maharashtra",
+      "centroid_lat": 20.0426,
+      "centroid_lon": 78.0533,
+      "grid_id_50km": "IND_50KM_r027_c019",
+      "grid_lat": 20.0726,
+      "grid_lon": 77.8112,
+      "offset_km": 27.1
+    }
+  },
+  "Manipur": {
+    "Bishnupur": {
+      "district_name": "Bishnupur",
+      "state_name": "Manipur",
+      "centroid_lat": 24.5071,
+      "centroid_lon": 93.8246,
+      "grid_id_50km": "IND_50KM_r038_c051",
+      "grid_lat": 24.5277,
+      "grid_lon": 93.8603,
+      "offset_km": 4.6
+    },
+    "Chandel": {
+      "district_name": "Chandel",
+      "state_name": "Manipur",
+      "centroid_lat": 24.2636,
+      "centroid_lon": 94.0944,
+      "grid_id_50km": "IND_50KM_r037_c052",
+      "grid_lat": 24.0237,
+      "grid_lon": 94.3099,
+      "offset_km": 35.8
+    },
+    "Churachandpur": {
+      "district_name": "Churachandpur",
+      "state_name": "Manipur",
+      "centroid_lat": 24.3031,
+      "centroid_lon": 93.3867,
+      "grid_id_50km": "IND_50KM_r037_c050",
+      "grid_lat": 24.1138,
+      "grid_lon": 93.3119,
+      "offset_km": 22.6
+    },
+    "East Imphal": {
+      "district_name": "East Imphal",
+      "state_name": "Manipur",
+      "centroid_lat": 24.8211,
+      "centroid_lon": 93.6695,
+      "grid_id_50km": "IND_50KM_r039_c051",
+      "grid_lat": 24.9858,
+      "grid_lon": 93.9099,
+      "offset_km": 32.3
+    },
+    "Senapati": {
+      "district_name": "Senapati",
+      "state_name": "Manipur",
+      "centroid_lat": 25.0847,
+      "centroid_lon": 94.0337,
+      "grid_id_50km": "IND_50KM_r039_c051",
+      "grid_lat": 24.9858,
+      "grid_lon": 93.9099,
+      "offset_km": 17.6
+    },
+    "Tamenglong": {
+      "district_name": "Tamenglong",
+      "state_name": "Manipur",
+      "centroid_lat": 24.9831,
+      "centroid_lon": 93.4945,
+      "grid_id_50km": "IND_50KM_r039_c050",
+      "grid_lat": 25.0303,
+      "grid_lon": 93.4072,
+      "offset_km": 11.0
+    },
+    "Thoubal": {
+      "district_name": "Thoubal",
+      "state_name": "Manipur",
+      "centroid_lat": 24.5454,
+      "centroid_lon": 93.9796,
+      "grid_id_50km": "IND_50KM_r038_c051",
+      "grid_lat": 24.5277,
+      "grid_lon": 93.8603,
+      "offset_km": 13.4
+    },
+    "Ukhrul": {
+      "district_name": "Ukhrul",
+      "state_name": "Manipur",
+      "centroid_lat": 25.059,
+      "centroid_lon": 94.4413,
+      "grid_id_50km": "IND_50KM_r039_c052",
+      "grid_lat": 24.9396,
+      "grid_lon": 94.4123,
+      "offset_km": 13.6
+    },
+    "West Imphal": {
+      "district_name": "West Imphal",
+      "state_name": "Manipur",
+      "centroid_lat": 24.794,
+      "centroid_lon": 93.8886,
+      "grid_id_50km": "IND_50KM_r039_c051",
+      "grid_lat": 24.9858,
+      "grid_lon": 93.9099,
+      "offset_km": 21.4
+    }
+  },
+  "Meghalaya": {
+    "East Garo Hills": {
+      "district_name": "East Garo Hills",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.8273,
+      "centroid_lon": 90.6468,
+      "grid_id_50km": "IND_50KM_r040_c044",
+      "grid_lat": 25.7221,
+      "grid_lon": 90.4216,
+      "offset_km": 27.6
+    },
+    "East Khasi Hills": {
+      "district_name": "East Khasi Hills",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.3038,
+      "centroid_lon": 91.7592,
+      "grid_id_50km": "IND_50KM_r039_c047",
+      "grid_lat": 25.1542,
+      "grid_lon": 91.8971,
+      "offset_km": 22.6
+    },
+    "Jaintia Hills": {
+      "district_name": "Jaintia Hills",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.3396,
+      "centroid_lon": 92.3761,
+      "grid_id_50km": "IND_50KM_r039_c048",
+      "grid_lat": 25.1145,
+      "grid_lon": 92.4008,
+      "offset_km": 25.1
+    },
+    "Ri-Bhoi": {
+      "district_name": "Ri-Bhoi",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.8971,
+      "centroid_lon": 91.8452,
+      "grid_id_50km": "IND_50KM_r041_c047",
+      "grid_lat": 26.0711,
+      "grid_lon": 91.983,
+      "offset_km": 24.6
+    },
+    "South Garo Hills": {
+      "district_name": "South Garo Hills",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.2406,
+      "centroid_lon": 90.6456,
+      "grid_id_50km": "IND_50KM_r039_c045",
+      "grid_lat": 25.2285,
+      "grid_lon": 90.8888,
+      "offset_km": 27.0
+    },
+    "West Garo Hills": {
+      "district_name": "West Garo Hills",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.4953,
+      "centroid_lon": 90.0371,
+      "grid_id_50km": "IND_50KM_r039_c043",
+      "grid_lat": 25.2963,
+      "grid_lon": 89.8793,
+      "offset_km": 28.2
+    },
+    "West Khasi Hills": {
+      "district_name": "West Khasi Hills",
+      "state_name": "Meghalaya",
+      "centroid_lat": 25.5009,
+      "centroid_lon": 91.2536,
+      "grid_id_50km": "IND_50KM_r040_c046",
+      "grid_lat": 25.6508,
+      "grid_lon": 91.4341,
+      "offset_km": 26.0
+    }
+  },
+  "Mizoram": {
+    "Aizawl": {
+      "district_name": "Aizawl",
+      "state_name": "Mizoram",
+      "centroid_lat": 23.9078,
+      "centroid_lon": 92.8536,
+      "grid_id_50km": "IND_50KM_r036_c049",
+      "grid_lat": 23.6979,
+      "grid_lon": 92.767,
+      "offset_km": 25.2
+    },
+    "Champhai": {
+      "district_name": "Champhai",
+      "state_name": "Mizoram",
+      "centroid_lat": 23.5417,
+      "centroid_lon": 93.2422,
+      "grid_id_50km": "IND_50KM_r036_c050",
+      "grid_lat": 23.6555,
+      "grid_lon": 93.2647,
+      "offset_km": 12.9
+    },
+    "Kolasib": {
+      "district_name": "Kolasib",
+      "state_name": "Mizoram",
+      "centroid_lat": 24.202,
+      "centroid_lon": 92.7347,
+      "grid_id_50km": "IND_50KM_r037_c049",
+      "grid_lat": 24.1564,
+      "grid_lon": 92.8124,
+      "offset_km": 10.0
+    },
+    "Lawngtlai": {
+      "district_name": "Lawngtlai",
+      "state_name": "Mizoram",
+      "centroid_lat": 22.361,
+      "centroid_lon": 92.6696,
+      "grid_id_50km": "IND_50KM_r033_c049",
+      "grid_lat": 22.3224,
+      "grid_lon": 92.6327,
+      "offset_km": 5.9
+    },
+    "Lunglei": {
+      "district_name": "Lunglei",
+      "state_name": "Mizoram",
+      "centroid_lat": 23.0077,
+      "centroid_lon": 92.6351,
+      "grid_id_50km": "IND_50KM_r034_c049",
+      "grid_lat": 22.7809,
+      "grid_lon": 92.6771,
+      "offset_km": 25.6
+    },
+    "Mamit": {
+      "district_name": "Mamit",
+      "state_name": "Mizoram",
+      "centroid_lat": 23.7385,
+      "centroid_lon": 92.4331,
+      "grid_id_50km": "IND_50KM_r036_c048",
+      "grid_lat": 23.7388,
+      "grid_lon": 92.2689,
+      "offset_km": 18.2
+    },
+    "Saiha": {
+      "district_name": "Saiha",
+      "state_name": "Mizoram",
+      "centroid_lat": 22.3575,
+      "centroid_lon": 93.0283,
+      "grid_id_50km": "IND_50KM_r033_c050",
+      "grid_lat": 22.2804,
+      "grid_lon": 93.1253,
+      "offset_km": 13.7
+    },
+    "Serchhip": {
+      "district_name": "Serchhip",
+      "state_name": "Mizoram",
+      "centroid_lat": 23.2639,
+      "centroid_lon": 92.9142,
+      "grid_id_50km": "IND_50KM_r035_c049",
+      "grid_lat": 23.2394,
+      "grid_lon": 92.7219,
+      "offset_km": 21.5
+    }
+  },
+  "Nagaland": {
+    "Dimapur": {
+      "district_name": "Dimapur",
+      "state_name": "Nagaland",
+      "centroid_lat": 25.8142,
+      "centroid_lon": 93.7507,
+      "grid_id_50km": "IND_50KM_r041_c051",
+      "grid_lat": 25.9016,
+      "grid_lon": 94.0102,
+      "offset_km": 30.4
+    },
+    "Kohima": {
+      "district_name": "Kohima",
+      "state_name": "Nagaland",
+      "centroid_lat": 25.6031,
+      "centroid_lon": 93.786,
+      "grid_id_50km": "IND_50KM_r040_c051",
+      "grid_lat": 25.4438,
+      "grid_lon": 93.9599,
+      "offset_km": 26.2
+    },
+    "Mokokchung": {
+      "district_name": "Mokokchung",
+      "state_name": "Nagaland",
+      "centroid_lat": 26.4789,
+      "centroid_lon": 94.5224,
+      "grid_id_50km": "IND_50KM_r042_c052",
+      "grid_lat": 26.3126,
+      "grid_lon": 94.5686,
+      "offset_km": 19.2
+    },
+    "Mon": {
+      "district_name": "Mon",
+      "state_name": "Nagaland",
+      "centroid_lat": 26.6921,
+      "centroid_lon": 95.0307,
+      "grid_id_50km": "IND_50KM_r043_c053",
+      "grid_lat": 26.7215,
+      "grid_lon": 95.1306,
+      "offset_km": 11.6
+    },
+    "Phek": {
+      "district_name": "Phek",
+      "state_name": "Nagaland",
+      "centroid_lat": 25.6327,
+      "centroid_lon": 94.5681,
+      "grid_id_50km": "IND_50KM_r041_c052",
+      "grid_lat": 25.8551,
+      "grid_lon": 94.5161,
+      "offset_km": 25.3
+    },
+    "Tuensang": {
+      "district_name": "Tuensang",
+      "state_name": "Nagaland",
+      "centroid_lat": 26.211,
+      "centroid_lon": 94.8581,
+      "grid_id_50km": "IND_50KM_r042_c053",
+      "grid_lat": 26.2643,
+      "grid_lon": 95.0759,
+      "offset_km": 24.9
+    },
+    "Wokha": {
+      "district_name": "Wokha",
+      "state_name": "Nagaland",
+      "centroid_lat": 26.2026,
+      "centroid_lon": 94.1991,
+      "grid_id_50km": "IND_50KM_r042_c051",
+      "grid_lat": 26.3592,
+      "grid_lon": 94.0609,
+      "offset_km": 23.2
+    },
+    "Zunheboto": {
+      "district_name": "Zunheboto",
+      "state_name": "Nagaland",
+      "centroid_lat": 26.0282,
+      "centroid_lon": 94.5003,
+      "grid_id_50km": "IND_50KM_r041_c052",
+      "grid_lat": 25.8551,
+      "grid_lon": 94.5161,
+      "offset_km": 19.3
+    }
+  },
+  "Orissa": {
+    "Angul": {
+      "district_name": "Angul",
+      "state_name": "Orissa",
+      "centroid_lat": 21.1207,
+      "centroid_lon": 84.9984,
+      "grid_id_50km": "IND_50KM_r029_c034",
+      "grid_lat": 20.9201,
+      "grid_lon": 85.1409,
+      "offset_km": 27.3
+    },
+    "Baleshwar": {
+      "district_name": "Baleshwar",
+      "state_name": "Orissa",
+      "centroid_lat": 21.4857,
+      "centroid_lon": 87.0809,
+      "grid_id_50km": "IND_50KM_r030_c038",
+      "grid_lat": 21.2996,
+      "grid_lon": 87.1211,
+      "offset_km": 21.1
+    },
+    "Baragarh": {
+      "district_name": "Baragarh",
+      "state_name": "Orissa",
+      "centroid_lat": 21.1324,
+      "centroid_lon": 83.2644,
+      "grid_id_50km": "IND_50KM_r029_c030",
+      "grid_lat": 20.9744,
+      "grid_lon": 83.1833,
+      "offset_km": 19.7
+    },
+    "Bhadrak": {
+      "district_name": "Bhadrak",
+      "state_name": "Orissa",
+      "centroid_lat": 20.9526,
+      "centroid_lon": 86.815,
+      "grid_id_50km": "IND_50KM_r029_c037",
+      "grid_lat": 20.8626,
+      "grid_lon": 86.6078,
+      "offset_km": 25.1
+    },
+    "Bolangir": {
+      "district_name": "Bolangir",
+      "state_name": "Orissa",
+      "centroid_lat": 20.6163,
+      "centroid_lon": 83.2152,
+      "grid_id_50km": "IND_50KM_r028_c030",
+      "grid_lat": 20.5147,
+      "grid_lon": 83.1723,
+      "offset_km": 12.2
+    },
+    "Boudh": {
+      "district_name": "Boudh",
+      "state_name": "Orissa",
+      "centroid_lat": 20.5832,
+      "centroid_lon": 84.1236,
+      "grid_id_50km": "IND_50KM_r028_c032",
+      "grid_lat": 20.4908,
+      "grid_lon": 84.1479,
+      "offset_km": 10.6
+    },
+    "Cuttack": {
+      "district_name": "Cuttack",
+      "state_name": "Orissa",
+      "centroid_lat": 20.4076,
+      "centroid_lon": 85.7777,
+      "grid_id_50km": "IND_50KM_r028_c035",
+      "grid_lat": 20.4431,
+      "grid_lon": 85.6105,
+      "offset_km": 19.0
+    },
+    "Deogarh": {
+      "district_name": "Deogarh",
+      "state_name": "Orissa",
+      "centroid_lat": 21.4315,
+      "centroid_lon": 84.8145,
+      "grid_id_50km": "IND_50KM_r030_c033",
+      "grid_lat": 21.3958,
+      "grid_lon": 84.6678,
+      "offset_km": 16.8
+    },
+    "Dhenkanal": {
+      "district_name": "Dhenkanal",
+      "state_name": "Orissa",
+      "centroid_lat": 20.7989,
+      "centroid_lon": 85.5323,
+      "grid_id_50km": "IND_50KM_r029_c035",
+      "grid_lat": 20.9025,
+      "grid_lon": 85.63,
+      "offset_km": 15.8
+    },
+    "Gajapati": {
+      "district_name": "Gajapati",
+      "state_name": "Orissa",
+      "centroid_lat": 19.1211,
+      "centroid_lon": 84.1402,
+      "grid_id_50km": "IND_50KM_r025_c032",
+      "grid_lat": 19.1132,
+      "grid_lon": 84.1052,
+      "offset_km": 4.0
+    },
+    "Ganjam": {
+      "district_name": "Ganjam",
+      "state_name": "Orissa",
+      "centroid_lat": 19.2633,
+      "centroid_lon": 84.803,
+      "grid_id_50km": "IND_50KM_r025_c033",
+      "grid_lat": 19.099,
+      "grid_lon": 84.5879,
+      "offset_km": 30.0
+    },
+    "Jagatsinghpur": {
+      "district_name": "Jagatsinghpur",
+      "state_name": "Orissa",
+      "centroid_lat": 20.1144,
+      "centroid_lon": 86.4327,
+      "grid_id_50km": "IND_50KM_r027_c037",
+      "grid_lat": 19.9442,
+      "grid_lon": 86.5622,
+      "offset_km": 23.7
+    },
+    "Jajpur": {
+      "district_name": "Jajpur",
+      "state_name": "Orissa",
+      "centroid_lat": 20.8532,
+      "centroid_lon": 86.1528,
+      "grid_id_50km": "IND_50KM_r029_c036",
+      "grid_lat": 20.8833,
+      "grid_lon": 86.1189,
+      "offset_km": 5.0
+    },
+    "Jharsuguda": {
+      "district_name": "Jharsuguda",
+      "state_name": "Orissa",
+      "centroid_lat": 21.8271,
+      "centroid_lon": 83.9358,
+      "grid_id_50km": "IND_50KM_r031_c031",
+      "grid_lat": 21.8831,
+      "grid_lon": 83.6985,
+      "offset_km": 27.1
+    },
+    "Kalahandi": {
+      "district_name": "Kalahandi",
+      "state_name": "Orissa",
+      "centroid_lat": 19.7843,
+      "centroid_lon": 83.1124,
+      "grid_id_50km": "IND_50KM_r026_c030",
+      "grid_lat": 19.5958,
+      "grid_lon": 83.1505,
+      "offset_km": 21.3
+    },
+    "Kandhamal": {
+      "district_name": "Kandhamal",
+      "state_name": "Orissa",
+      "centroid_lat": 20.0929,
+      "centroid_lon": 84.0222,
+      "grid_id_50km": "IND_50KM_r027_c032",
+      "grid_lat": 20.0314,
+      "grid_lon": 84.1336,
+      "offset_km": 14.1
+    },
+    "Kendrapara": {
+      "district_name": "Kendrapara",
+      "state_name": "Orissa",
+      "centroid_lat": 20.6063,
+      "centroid_lon": 86.8376,
+      "grid_id_50km": "IND_50KM_r028_c037",
+      "grid_lat": 20.4033,
+      "grid_lon": 86.5849,
+      "offset_km": 36.0
+    },
+    "Keonjhar": {
+      "district_name": "Keonjhar",
+      "state_name": "Orissa",
+      "centroid_lat": 21.4923,
+      "centroid_lon": 85.7628,
+      "grid_id_50km": "IND_50KM_r030_c035",
+      "grid_lat": 21.3621,
+      "grid_lon": 85.6496,
+      "offset_km": 19.1
+    },
+    "Khordha": {
+      "district_name": "Khordha",
+      "state_name": "Orissa",
+      "centroid_lat": 20.0542,
+      "centroid_lon": 85.5223,
+      "grid_id_50km": "IND_50KM_r027_c035",
+      "grid_lat": 19.9838,
+      "grid_lon": 85.5911,
+      "offset_km": 10.9
+    },
+    "Koraput": {
+      "district_name": "Koraput",
+      "state_name": "Orissa",
+      "centroid_lat": 18.8263,
+      "centroid_lon": 82.8128,
+      "grid_id_50km": "IND_50KM_r024_c029",
+      "grid_lat": 18.6874,
+      "grid_lon": 82.6477,
+      "offset_km": 23.9
+    },
+    "Malkangiri": {
+      "district_name": "Malkangiri",
+      "state_name": "Orissa",
+      "centroid_lat": 18.2523,
+      "centroid_lon": 81.9829,
+      "grid_id_50km": "IND_50KM_r023_c028",
+      "grid_lat": 18.2367,
+      "grid_lon": 82.159,
+      "offset_km": 19.6
+    },
+    "Mayurbhanj": {
+      "district_name": "Mayurbhanj",
+      "state_name": "Orissa",
+      "centroid_lat": 21.8976,
+      "centroid_lon": 86.403,
+      "grid_id_50km": "IND_50KM_r031_c036",
+      "grid_lat": 21.8026,
+      "grid_lon": 86.1617,
+      "offset_km": 28.8
+    },
+    "Nabarangpur": {
+      "district_name": "Nabarangpur",
+      "state_name": "Orissa",
+      "centroid_lat": 19.513,
+      "centroid_lon": 82.4204,
+      "grid_id_50km": "IND_50KM_r026_c028",
+      "grid_lat": 19.6132,
+      "grid_lon": 82.1813,
+      "offset_km": 28.8
+    },
+    "Nayagarh": {
+      "district_name": "Nayagarh",
+      "state_name": "Orissa",
+      "centroid_lat": 20.1929,
+      "centroid_lon": 85.0561,
+      "grid_id_50km": "IND_50KM_r027_c034",
+      "grid_lat": 20.0012,
+      "grid_lon": 85.1054,
+      "offset_km": 22.0
+    },
+    "Nuapada": {
+      "district_name": "Nuapada",
+      "state_name": "Orissa",
+      "centroid_lat": 20.4713,
+      "centroid_lon": 82.5915,
+      "grid_id_50km": "IND_50KM_r028_c029",
+      "grid_lat": 20.5242,
+      "grid_lon": 82.6844,
+      "offset_km": 11.9
+    },
+    "Puri": {
+      "district_name": "Puri",
+      "state_name": "Orissa",
+      "centroid_lat": 19.8351,
+      "centroid_lon": 85.867,
+      "grid_id_50km": "IND_50KM_r027_c036",
+      "grid_lat": 19.9648,
+      "grid_lon": 86.0767,
+      "offset_km": 27.4
+    },
+    "Rayagada": {
+      "district_name": "Rayagada",
+      "state_name": "Orissa",
+      "centroid_lat": 19.2928,
+      "centroid_lon": 83.4586,
+      "grid_id_50km": "IND_50KM_r025_c031",
+      "grid_lat": 19.1258,
+      "grid_lon": 83.6225,
+      "offset_km": 26.0
+    },
+    "Sambalpur": {
+      "district_name": "Sambalpur",
+      "state_name": "Orissa",
+      "centroid_lat": 21.5158,
+      "centroid_lon": 84.3496,
+      "grid_id_50km": "IND_50KM_r030_c032",
+      "grid_lat": 21.4103,
+      "grid_lon": 84.1768,
+      "offset_km": 22.5
+    },
+    "Sonepur": {
+      "district_name": "Sonepur",
+      "state_name": "Orissa",
+      "centroid_lat": 20.8908,
+      "centroid_lon": 83.7685,
+      "grid_id_50km": "IND_50KM_r029_c031",
+      "grid_lat": 20.9632,
+      "grid_lon": 83.6728,
+      "offset_km": 13.3
+    },
+    "Sundargarh": {
+      "district_name": "Sundargarh",
+      "state_name": "Orissa",
+      "centroid_lat": 22.0635,
+      "centroid_lon": 84.5052,
+      "grid_id_50km": "IND_50KM_r031_c033",
+      "grid_lat": 21.8557,
+      "grid_lon": 84.6842,
+      "offset_km": 30.4
+    }
+  },
+  "Puducherry": {
+    "Karaikal": {
+      "district_name": "Karaikal",
+      "state_name": "Puducherry",
+      "centroid_lat": 10.8762,
+      "centroid_lon": 79.8237,
+      "grid_id_50km": "IND_50KM_r007_c023",
+      "grid_lat": 10.979,
+      "grid_lon": 79.7725,
+      "offset_km": 12.8
+    },
+    "Mahe": {
+      "district_name": "Mahe",
+      "state_name": "Puducherry",
+      "centroid_lat": 12.0064,
+      "centroid_lon": 75.2827,
+      "grid_id_50km": "IND_50KM_r009_c013",
+      "grid_lat": 11.7991,
+      "grid_lon": 75.1931,
+      "offset_km": 25.1
+    },
+    "Puducherry": {
+      "district_name": "Puducherry",
+      "state_name": "Puducherry",
+      "centroid_lat": 11.8878,
+      "centroid_lon": 79.7971,
+      "grid_id_50km": "IND_50KM_r009_c023",
+      "grid_lat": 11.8797,
+      "grid_lon": 79.771,
+      "offset_km": 3.0
+    },
+    "Yanam": {
+      "district_name": "Yanam",
+      "state_name": "Puducherry",
+      "centroid_lat": 16.7077,
+      "centroid_lon": 82.2619,
+      "grid_id_50km": "IND_50KM_r020_c028",
+      "grid_lat": 16.8632,
+      "grid_lon": 82.1372,
+      "offset_km": 22.1
+    }
+  },
+  "Punjab": {
+    "Amritsar": {
+      "district_name": "Amritsar",
+      "state_name": "Punjab",
+      "centroid_lat": 31.5487,
+      "centroid_lon": 74.7988,
+      "grid_id_50km": "IND_50KM_r052_c014",
+      "grid_lat": 31.4924,
+      "grid_lon": 74.9444,
+      "offset_km": 17.3
+    },
+    "Bathinda": {
+      "district_name": "Bathinda",
+      "state_name": "Punjab",
+      "centroid_lat": 30.1905,
+      "centroid_lon": 75.0569,
+      "grid_id_50km": "IND_50KM_r049_c014",
+      "grid_lat": 30.1233,
+      "grid_lon": 75.0011,
+      "offset_km": 9.7
+    },
+    "Faridkot": {
+      "district_name": "Faridkot",
+      "state_name": "Punjab",
+      "centroid_lat": 30.5912,
+      "centroid_lon": 74.7975,
+      "grid_id_50km": "IND_50KM_r050_c014",
+      "grid_lat": 30.5802,
+      "grid_lon": 74.9823,
+      "offset_km": 20.6
+    },
+    "Fatehgarh Sahib": {
+      "district_name": "Fatehgarh Sahib",
+      "state_name": "Punjab",
+      "centroid_lat": 30.6429,
+      "centroid_lon": 76.3621,
+      "grid_id_50km": "IND_50KM_r050_c017",
+      "grid_lat": 30.6213,
+      "grid_lon": 76.5661,
+      "offset_km": 22.8
+    },
+    "Firozpur": {
+      "district_name": "Firozpur",
+      "state_name": "Punjab",
+      "centroid_lat": 30.6341,
+      "centroid_lon": 74.4025,
+      "grid_id_50km": "IND_50KM_r050_c013",
+      "grid_lat": 30.5631,
+      "grid_lon": 74.4547,
+      "offset_km": 9.8
+    },
+    "Gurdaspur": {
+      "district_name": "Gurdaspur",
+      "state_name": "Punjab",
+      "centroid_lat": 32.0428,
+      "centroid_lon": 75.3204,
+      "grid_id_50km": "IND_50KM_r053_c015",
+      "grid_lat": 31.9633,
+      "grid_lon": 75.4591,
+      "offset_km": 17.7
+    },
+    "Hoshiarpur": {
+      "district_name": "Hoshiarpur",
+      "state_name": "Punjab",
+      "centroid_lat": 31.5516,
+      "centroid_lon": 75.847,
+      "grid_id_50km": "IND_50KM_r052_c016",
+      "grid_lat": 31.5217,
+      "grid_lon": 76.0081,
+      "offset_km": 18.2
+    },
+    "Jalandhar": {
+      "district_name": "Jalandhar",
+      "state_name": "Punjab",
+      "centroid_lat": 31.2503,
+      "centroid_lon": 75.544,
+      "grid_id_50km": "IND_50KM_r051_c015",
+      "grid_lat": 31.052,
+      "grid_lon": 75.4932,
+      "offset_km": 22.7
+    },
+    "Kapurthala": {
+      "district_name": "Kapurthala",
+      "state_name": "Punjab",
+      "centroid_lat": 31.3366,
+      "centroid_lon": 75.4764,
+      "grid_id_50km": "IND_50KM_r052_c015",
+      "grid_lat": 31.5079,
+      "grid_lon": 75.4762,
+      "offset_km": 19.0
+    },
+    "Ludhiana": {
+      "district_name": "Ludhiana",
+      "state_name": "Punjab",
+      "centroid_lat": 30.766,
+      "centroid_lon": 75.8311,
+      "grid_id_50km": "IND_50KM_r050_c016",
+      "grid_lat": 30.6093,
+      "grid_lon": 76.038,
+      "offset_km": 28.8
+    },
+    "Mansa": {
+      "district_name": "Mansa",
+      "state_name": "Punjab",
+      "centroid_lat": 29.9195,
+      "centroid_lon": 75.4305,
+      "grid_id_50km": "IND_50KM_r049_c015",
+      "grid_lat": 30.1387,
+      "grid_lon": 75.5269,
+      "offset_km": 26.6
+    },
+    "Moga": {
+      "district_name": "Moga",
+      "state_name": "Punjab",
+      "centroid_lat": 30.7565,
+      "centroid_lon": 75.1601,
+      "grid_id_50km": "IND_50KM_r050_c014",
+      "grid_lat": 30.5802,
+      "grid_lon": 74.9823,
+      "offset_km": 27.8
+    },
+    "Muktsar": {
+      "district_name": "Muktsar",
+      "state_name": "Punjab",
+      "centroid_lat": 30.3124,
+      "centroid_lon": 74.5519,
+      "grid_id_50km": "IND_50KM_r049_c013",
+      "grid_lat": 30.1063,
+      "grid_lon": 74.4754,
+      "offset_km": 24.4
+    },
+    "Nawan Shehar": {
+      "district_name": "Nawan Shehar",
+      "state_name": "Punjab",
+      "centroid_lat": 31.1334,
+      "centroid_lon": 76.1019,
+      "grid_id_50km": "IND_50KM_r051_c016",
+      "grid_lat": 31.0657,
+      "grid_lon": 76.0231,
+      "offset_km": 11.5
+    },
+    "Patiala": {
+      "district_name": "Patiala",
+      "state_name": "Punjab",
+      "centroid_lat": 30.2145,
+      "centroid_lon": 76.2751,
+      "grid_id_50km": "IND_50KM_r049_c016",
+      "grid_lat": 30.1524,
+      "grid_lon": 76.0528,
+      "offset_km": 25.6
+    },
+    "Rupnagar": {
+      "district_name": "Rupnagar",
+      "state_name": "Punjab",
+      "centroid_lat": 30.9109,
+      "centroid_lon": 76.5374,
+      "grid_id_50km": "IND_50KM_r051_c017",
+      "grid_lat": 31.0778,
+      "grid_lon": 76.5532,
+      "offset_km": 18.6
+    },
+    "Sangrur": {
+      "district_name": "Sangrur",
+      "state_name": "Punjab",
+      "centroid_lat": 30.185,
+      "centroid_lon": 75.8944,
+      "grid_id_50km": "IND_50KM_r049_c016",
+      "grid_lat": 30.1524,
+      "grid_lon": 76.0528,
+      "offset_km": 18.0
+    }
+  },
+  "Rajasthan": {
+    "Ajmer": {
+      "district_name": "Ajmer",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.1993,
+      "centroid_lon": 74.699,
+      "grid_id_50km": "IND_50KM_r040_c013",
+      "grid_lat": 25.9794,
+      "grid_lon": 74.6549,
+      "offset_km": 24.9
+    },
+    "Alwar": {
+      "district_name": "Alwar",
+      "state_name": "Rajasthan",
+      "centroid_lat": 27.5527,
+      "centroid_lon": 76.6536,
+      "grid_id_50km": "IND_50KM_r043_c017",
+      "grid_lat": 27.4146,
+      "grid_lon": 76.6539,
+      "offset_km": 15.3
+    },
+    "Banswara": {
+      "district_name": "Banswara",
+      "state_name": "Rajasthan",
+      "centroid_lat": 23.4536,
+      "centroid_lon": 74.4425,
+      "grid_id_50km": "IND_50KM_r035_c012",
+      "grid_lat": 23.6617,
+      "grid_lon": 74.2502,
+      "offset_km": 31.4
+    },
+    "Baran": {
+      "district_name": "Baran",
+      "state_name": "Rajasthan",
+      "centroid_lat": 24.9802,
+      "centroid_lon": 76.8621,
+      "grid_id_50km": "IND_50KM_r038_c017",
+      "grid_lat": 25.1159,
+      "grid_lon": 76.7139,
+      "offset_km": 22.3
+    },
+    "Barmer": {
+      "district_name": "Barmer",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.7707,
+      "centroid_lon": 71.503,
+      "grid_id_50km": "IND_50KM_r040_c007",
+      "grid_lat": 25.8449,
+      "grid_lon": 71.6065,
+      "offset_km": 14.1
+    },
+    "Bharatpur": {
+      "district_name": "Bharatpur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 27.3241,
+      "centroid_lon": 77.2175,
+      "grid_id_50km": "IND_50KM_r043_c018",
+      "grid_lat": 27.4247,
+      "grid_lon": 77.1685,
+      "offset_km": 12.4
+    },
+    "Bhilwara": {
+      "district_name": "Bhilwara",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.4512,
+      "centroid_lon": 74.6395,
+      "grid_id_50km": "IND_50KM_r039_c013",
+      "grid_lat": 25.5197,
+      "grid_lon": 74.6742,
+      "offset_km": 8.5
+    },
+    "Bikaner": {
+      "district_name": "Bikaner",
+      "state_name": "Rajasthan",
+      "centroid_lat": 28.1249,
+      "centroid_lon": 73.2694,
+      "grid_id_50km": "IND_50KM_r045_c011",
+      "grid_lat": 28.2363,
+      "grid_lon": 73.5212,
+      "offset_km": 30.6
+    },
+    "Bundi": {
+      "district_name": "Bundi",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.4858,
+      "centroid_lon": 75.7998,
+      "grid_id_50km": "IND_50KM_r039_c015",
+      "grid_lat": 25.5511,
+      "grid_lon": 75.6879,
+      "offset_km": 14.4
+    },
+    "Chittaurgarh": {
+      "district_name": "Chittaurgarh",
+      "state_name": "Rajasthan",
+      "centroid_lat": 24.6316,
+      "centroid_lon": 74.8001,
+      "grid_id_50km": "IND_50KM_r037_c013",
+      "grid_lat": 24.5998,
+      "grid_lon": 74.7122,
+      "offset_km": 10.4
+    },
+    "Churu": {
+      "district_name": "Churu",
+      "state_name": "Rajasthan",
+      "centroid_lat": 28.2933,
+      "centroid_lon": 74.6585,
+      "grid_id_50km": "IND_50KM_r045_c013",
+      "grid_lat": 28.2751,
+      "grid_lon": 74.5566,
+      "offset_km": 11.5
+    },
+    "Dausa": {
+      "district_name": "Dausa",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.9123,
+      "centroid_lon": 76.5734,
+      "grid_id_50km": "IND_50KM_r042_c017",
+      "grid_lat": 26.9553,
+      "grid_lon": 76.6661,
+      "offset_km": 11.3
+    },
+    "Dhaulpur": {
+      "district_name": "Dhaulpur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.724,
+      "centroid_lon": 77.7448,
+      "grid_id_50km": "IND_50KM_r041_c019",
+      "grid_lat": 26.514,
+      "grid_lon": 77.7,
+      "offset_km": 23.8
+    },
+    "Dungarpur": {
+      "district_name": "Dungarpur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 23.751,
+      "centroid_lon": 73.8477,
+      "grid_id_50km": "IND_50KM_r035_c011",
+      "grid_lat": 23.6422,
+      "grid_lon": 73.7509,
+      "offset_km": 16.2
+    },
+    "Ganganagar": {
+      "district_name": "Ganganagar",
+      "state_name": "Rajasthan",
+      "centroid_lat": 29.2568,
+      "centroid_lon": 73.5619,
+      "grid_id_50km": "IND_50KM_r047_c011",
+      "grid_lat": 29.1524,
+      "grid_lon": 73.4732,
+      "offset_km": 15.2
+    },
+    "Hanumangarh": {
+      "district_name": "Hanumangarh",
+      "state_name": "Rajasthan",
+      "centroid_lat": 29.1813,
+      "centroid_lon": 74.7463,
+      "grid_id_50km": "IND_50KM_r047_c013",
+      "grid_lat": 29.1914,
+      "grid_lon": 74.5163,
+      "offset_km": 25.6
+    },
+    "Jaipur": {
+      "district_name": "Jaipur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 27.0335,
+      "centroid_lon": 75.7712,
+      "grid_id_50km": "IND_50KM_r042_c015",
+      "grid_lat": 26.9302,
+      "grid_lon": 75.6408,
+      "offset_km": 18.5
+    },
+    "Jaisalmer": {
+      "district_name": "Jaisalmer",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.869,
+      "centroid_lon": 71.1837,
+      "grid_id_50km": "IND_50KM_r042_c006",
+      "grid_lat": 26.7346,
+      "grid_lon": 71.0345,
+      "offset_km": 22.3
+    },
+    "Jalor": {
+      "district_name": "Jalor",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.0758,
+      "centroid_lon": 72.1865,
+      "grid_id_50km": "IND_50KM_r038_c008",
+      "grid_lat": 24.9526,
+      "grid_lon": 72.1706,
+      "offset_km": 13.8
+    },
+    "Jhalawar": {
+      "district_name": "Jhalawar",
+      "state_name": "Rajasthan",
+      "centroid_lat": 24.2473,
+      "centroid_lon": 76.1124,
+      "grid_id_50km": "IND_50KM_r036_c016",
+      "grid_lat": 24.1841,
+      "grid_lon": 76.2356,
+      "offset_km": 15.4
+    },
+    "Jhunjhunun": {
+      "district_name": "Jhunjhunun",
+      "state_name": "Rajasthan",
+      "centroid_lat": 28.1352,
+      "centroid_lon": 75.5284,
+      "grid_id_50km": "IND_50KM_r045_c015",
+      "grid_lat": 28.3072,
+      "grid_lon": 75.5927,
+      "offset_km": 20.4
+    },
+    "Jodhpur": {
+      "district_name": "Jodhpur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.6785,
+      "centroid_lon": 73.0045,
+      "grid_id_50km": "IND_50KM_r042_c010",
+      "grid_lat": 26.8382,
+      "grid_lon": 73.08,
+      "offset_km": 19.6
+    },
+    "Karauli": {
+      "district_name": "Karauli",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.519,
+      "centroid_lon": 76.9608,
+      "grid_id_50km": "IND_50KM_r041_c018",
+      "grid_lat": 26.5057,
+      "grid_lon": 77.1891,
+      "offset_km": 25.4
+    },
+    "Kota": {
+      "district_name": "Kota",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.1757,
+      "centroid_lon": 76.1862,
+      "grid_id_50km": "IND_50KM_r038_c016",
+      "grid_lat": 25.1044,
+      "grid_lon": 76.2086,
+      "offset_km": 8.3
+    },
+    "Nagaur": {
+      "district_name": "Nagaur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 27.0786,
+      "centroid_lon": 74.1422,
+      "grid_id_50km": "IND_50KM_r042_c012",
+      "grid_lat": 26.88,
+      "grid_lon": 74.1039,
+      "offset_km": 22.5
+    },
+    "Pali": {
+      "district_name": "Pali",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.8049,
+      "centroid_lon": 73.5529,
+      "grid_id_50km": "IND_50KM_r040_c011",
+      "grid_lat": 25.9412,
+      "grid_lon": 73.6381,
+      "offset_km": 17.8
+    },
+    "Rajsamand": {
+      "district_name": "Rajsamand",
+      "state_name": "Rajasthan",
+      "centroid_lat": 25.2489,
+      "centroid_lon": 73.9657,
+      "grid_id_50km": "IND_50KM_r038_c012",
+      "grid_lat": 25.0416,
+      "grid_lon": 74.1884,
+      "offset_km": 33.8
+    },
+    "Sawai Madhopur": {
+      "district_name": "Sawai Madhopur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.2511,
+      "centroid_lon": 76.4219,
+      "grid_id_50km": "IND_50KM_r040_c016",
+      "grid_lat": 26.0243,
+      "grid_lon": 76.1812,
+      "offset_km": 36.7
+    },
+    "Sikar": {
+      "district_name": "Sikar",
+      "state_name": "Rajasthan",
+      "centroid_lat": 27.6464,
+      "centroid_lon": 75.2932,
+      "grid_id_50km": "IND_50KM_r044_c014",
+      "grid_lat": 27.8333,
+      "grid_lon": 75.0927,
+      "offset_km": 30.4
+    },
+    "Sirohi": {
+      "district_name": "Sirohi",
+      "state_name": "Rajasthan",
+      "centroid_lat": 24.7977,
+      "centroid_lon": 72.7531,
+      "grid_id_50km": "IND_50KM_r038_c009",
+      "grid_lat": 24.9773,
+      "grid_lon": 72.6748,
+      "offset_km": 21.7
+    },
+    "Tonk": {
+      "district_name": "Tonk",
+      "state_name": "Rajasthan",
+      "centroid_lat": 26.1539,
+      "centroid_lon": 75.7919,
+      "grid_id_50km": "IND_50KM_r040_c015",
+      "grid_lat": 26.011,
+      "grid_lon": 75.6723,
+      "offset_km": 20.7
+    },
+    "Udaipur": {
+      "district_name": "Udaipur",
+      "state_name": "Rajasthan",
+      "centroid_lat": 24.4408,
+      "centroid_lon": 73.8403,
+      "grid_id_50km": "IND_50KM_r037_c011",
+      "grid_lat": 24.562,
+      "grid_lon": 73.7062,
+      "offset_km": 20.1
+    }
+  },
+  "Sikkim": {
+    "East": {
+      "district_name": "East",
+      "state_name": "Sikkim",
+      "centroid_lat": 27.296,
+      "centroid_lon": 88.7491,
+      "grid_id_50km": "IND_50KM_r043_c041",
+      "grid_lat": 27.1933,
+      "grid_lon": 88.9982,
+      "offset_km": 29.9
+    },
+    "North Sikkim": {
+      "district_name": "North Sikkim",
+      "state_name": "Sikkim",
+      "centroid_lat": 27.8138,
+      "centroid_lon": 88.542,
+      "grid_id_50km": "IND_50KM_r044_c040",
+      "grid_lat": 27.6802,
+      "grid_lon": 88.5163,
+      "offset_km": 15.1
+    },
+    "South Sikkim": {
+      "district_name": "South Sikkim",
+      "state_name": "Sikkim",
+      "centroid_lat": 27.278,
+      "centroid_lon": 88.3754,
+      "grid_id_50km": "IND_50KM_r043_c040",
+      "grid_lat": 27.2217,
+      "grid_lon": 88.4853,
+      "offset_km": 13.7
+    },
+    "West Sikkim": {
+      "district_name": "West Sikkim",
+      "state_name": "Sikkim",
+      "centroid_lat": 27.336,
+      "centroid_lon": 88.158,
+      "grid_id_50km": "IND_50KM_r043_c039",
+      "grid_lat": 27.2486,
+      "grid_lon": 87.9722,
+      "offset_km": 22.8
+    }
+  },
+  "Tamil Nadu": {
+    "Ariyalur": {
+      "district_name": "Ariyalur",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.1905,
+      "centroid_lon": 79.2225,
+      "grid_id_50km": "IND_50KM_r007_c022",
+      "grid_lat": 10.9776,
+      "grid_lon": 79.3175,
+      "offset_km": 25.9
+    },
+    "Chennai": {
+      "district_name": "Chennai",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 13.0581,
+      "centroid_lon": 80.2814,
+      "grid_id_50km": "IND_50KM_r012_c024",
+      "grid_lat": 13.236,
+      "grid_lon": 80.2312,
+      "offset_km": 20.5
+    },
+    "Coimbatore": {
+      "district_name": "Coimbatore",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.8714,
+      "centroid_lon": 77.0762,
+      "grid_id_50km": "IND_50KM_r007_c017",
+      "grid_lat": 10.9485,
+      "grid_lon": 77.0428,
+      "offset_km": 9.3
+    },
+    "Cuddalore": {
+      "district_name": "Cuddalore",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.5759,
+      "centroid_lon": 79.63,
+      "grid_id_50km": "IND_50KM_r008_c023",
+      "grid_lat": 11.429,
+      "grid_lon": 79.7718,
+      "offset_km": 22.7
+    },
+    "Dharmapuri": {
+      "district_name": "Dharmapuri",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 12.3001,
+      "centroid_lon": 78.1151,
+      "grid_id_50km": "IND_50KM_r010_c019",
+      "grid_lat": 12.3164,
+      "grid_lon": 77.9325,
+      "offset_km": 20.3
+    },
+    "Dindigul": {
+      "district_name": "Dindigul",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.3778,
+      "centroid_lon": 77.7801,
+      "grid_id_50km": "IND_50KM_r006_c019",
+      "grid_lat": 10.5154,
+      "grid_lon": 77.9591,
+      "offset_km": 25.1
+    },
+    "Erode": {
+      "district_name": "Erode",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.267,
+      "centroid_lon": 77.4203,
+      "grid_id_50km": "IND_50KM_r008_c018",
+      "grid_lat": 11.4071,
+      "grid_lon": 77.4895,
+      "offset_km": 17.3
+    },
+    "Kancheepuram": {
+      "district_name": "Kancheepuram",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 12.4964,
+      "centroid_lon": 80.0882,
+      "grid_id_50km": "IND_50KM_r010_c024",
+      "grid_lat": 12.3311,
+      "grid_lon": 80.2297,
+      "offset_km": 24.2
+    },
+    "Kanniyakumari": {
+      "district_name": "Kanniyakumari",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 8.1835,
+      "centroid_lon": 77.3205,
+      "grid_id_50km": "IND_50KM_r001_c017",
+      "grid_lat": 8.2664,
+      "grid_lon": 77.099,
+      "offset_km": 26.3
+    },
+    "Karur": {
+      "district_name": "Karur",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.7953,
+      "centroid_lon": 78.0875,
+      "grid_id_50km": "IND_50KM_r007_c019",
+      "grid_lat": 10.9645,
+      "grid_lon": 77.9525,
+      "offset_km": 24.0
+    },
+    "Madurai": {
+      "district_name": "Madurai",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 9.9043,
+      "centroid_lon": 78.0137,
+      "grid_id_50km": "IND_50KM_r005_c019",
+      "grid_lat": 10.067,
+      "grid_lon": 77.9657,
+      "offset_km": 18.8
+    },
+    "Nagapattinam": {
+      "district_name": "Nagapattinam",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.7895,
+      "centroid_lon": 79.7944,
+      "grid_id_50km": "IND_50KM_r007_c023",
+      "grid_lat": 10.979,
+      "grid_lon": 79.7725,
+      "offset_km": 21.2
+    },
+    "Namakkal": {
+      "district_name": "Namakkal",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.3377,
+      "centroid_lon": 78.1462,
+      "grid_id_50km": "IND_50KM_r008_c019",
+      "grid_lat": 11.4144,
+      "grid_lon": 77.9459,
+      "offset_km": 23.8
+    },
+    "Nilgiris": {
+      "district_name": "Nilgiris",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.4424,
+      "centroid_lon": 76.6615,
+      "grid_id_50km": "IND_50KM_r008_c016",
+      "grid_lat": 11.3881,
+      "grid_lon": 76.577,
+      "offset_km": 11.1
+    },
+    "Perambalur": {
+      "district_name": "Perambalur",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.2601,
+      "centroid_lon": 78.8603,
+      "grid_id_50km": "IND_50KM_r008_c021",
+      "grid_lat": 11.4246,
+      "grid_lon": 78.8588,
+      "offset_km": 18.3
+    },
+    "Pudukkottai": {
+      "district_name": "Pudukkottai",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.1305,
+      "centroid_lon": 79.0544,
+      "grid_id_50km": "IND_50KM_r005_c021",
+      "grid_lat": 10.0771,
+      "grid_lon": 78.8698,
+      "offset_km": 21.3
+    },
+    "Ramanathapuram": {
+      "district_name": "Ramanathapuram",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 9.3129,
+      "centroid_lon": 78.9919,
+      "grid_id_50km": "IND_50KM_r003_c021",
+      "grid_lat": 9.1827,
+      "grid_lon": 78.877,
+      "offset_km": 19.3
+    },
+    "Salem": {
+      "district_name": "Salem",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 11.6293,
+      "centroid_lon": 78.2478,
+      "grid_id_50km": "IND_50KM_r008_c020",
+      "grid_lat": 11.4202,
+      "grid_lon": 78.4023,
+      "offset_km": 28.9
+    },
+    "Sivaganga": {
+      "district_name": "Sivaganga",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 9.9603,
+      "centroid_lon": 78.5654,
+      "grid_id_50km": "IND_50KM_r005_c020",
+      "grid_lat": 10.0728,
+      "grid_lon": 78.4177,
+      "offset_km": 20.6
+    },
+    "Thanjavur": {
+      "district_name": "Thanjavur",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.3877,
+      "centroid_lon": 79.3195,
+      "grid_id_50km": "IND_50KM_r006_c022",
+      "grid_lat": 10.5284,
+      "grid_lon": 79.3197,
+      "offset_km": 15.6
+    },
+    "Theni": {
+      "district_name": "Theni",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 9.9241,
+      "centroid_lon": 77.4346,
+      "grid_id_50km": "IND_50KM_r005_c018",
+      "grid_lat": 10.0598,
+      "grid_lon": 77.5137,
+      "offset_km": 17.4
+    },
+    "Thiruvallur": {
+      "district_name": "Thiruvallur",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 13.2759,
+      "centroid_lon": 80.1972,
+      "grid_id_50km": "IND_50KM_r012_c024",
+      "grid_lat": 13.236,
+      "grid_lon": 80.2312,
+      "offset_km": 5.8
+    },
+    "Thiruvarur": {
+      "district_name": "Thiruvarur",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.3689,
+      "centroid_lon": 79.6032,
+      "grid_id_50km": "IND_50KM_r006_c023",
+      "grid_lat": 10.5298,
+      "grid_lon": 79.7732,
+      "offset_km": 26.0
+    },
+    "Thoothukudi": {
+      "district_name": "Thoothukudi",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 8.721,
+      "centroid_lon": 78.1383,
+      "grid_id_50km": "IND_50KM_r002_c019",
+      "grid_lat": 8.7269,
+      "grid_lon": 77.9851,
+      "offset_km": 17.0
+    },
+    "Tiruchchirappalli": {
+      "district_name": "Tiruchchirappalli",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 10.8378,
+      "centroid_lon": 78.5473,
+      "grid_id_50km": "IND_50KM_r007_c020",
+      "grid_lat": 10.9703,
+      "grid_lon": 78.4075,
+      "offset_km": 21.4
+    },
+    "Tirunelveli Kattabo": {
+      "district_name": "Tirunelveli Kattabo",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 8.4574,
+      "centroid_lon": 77.7055,
+      "grid_id_50km": "IND_50KM_r001_c018",
+      "grid_lat": 8.2749,
+      "grid_lon": 77.5452,
+      "offset_km": 27.0
+    },
+    "Tiruvannamalai": {
+      "district_name": "Tiruvannamalai",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 12.4193,
+      "centroid_lon": 79.2327,
+      "grid_id_50km": "IND_50KM_r010_c022",
+      "grid_lat": 12.3296,
+      "grid_lon": 79.3108,
+      "offset_km": 13.2
+    },
+    "Vellore": {
+      "district_name": "Vellore",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 12.7849,
+      "centroid_lon": 79.0264,
+      "grid_id_50km": "IND_50KM_r011_c021",
+      "grid_lat": 12.7788,
+      "grid_lon": 78.8476,
+      "offset_km": 19.9
+    },
+    "Villupuram": {
+      "district_name": "Villupuram",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 12.0656,
+      "centroid_lon": 79.6899,
+      "grid_id_50km": "IND_50KM_r009_c023",
+      "grid_lat": 11.8797,
+      "grid_lon": 79.771,
+      "offset_km": 22.5
+    },
+    "Virudhunagar": {
+      "district_name": "Virudhunagar",
+      "state_name": "Tamil Nadu",
+      "centroid_lat": 9.4689,
+      "centroid_lon": 77.8764,
+      "grid_id_50km": "IND_50KM_r004_c019",
+      "grid_lat": 9.6195,
+      "grid_lon": 77.9722,
+      "offset_km": 19.8
+    }
+  },
+  "Tripura": {
+    "Dhalai": {
+      "district_name": "Dhalai",
+      "state_name": "Tripura",
+      "centroid_lat": 23.7814,
+      "centroid_lon": 91.9465,
+      "grid_id_50km": "IND_50KM_r036_c047",
+      "grid_lat": 23.778,
+      "grid_lon": 91.7705,
+      "offset_km": 19.5
+    },
+    "North Tripura": {
+      "district_name": "North Tripura",
+      "state_name": "Tripura",
+      "centroid_lat": 24.1217,
+      "centroid_lon": 92.1784,
+      "grid_id_50km": "IND_50KM_r037_c048",
+      "grid_lat": 24.1974,
+      "grid_lon": 92.3125,
+      "offset_km": 17.1
+    },
+    "South Tripura": {
+      "district_name": "South Tripura",
+      "state_name": "Tripura",
+      "centroid_lat": 23.2119,
+      "centroid_lon": 91.6066,
+      "grid_id_50km": "IND_50KM_r035_c047",
+      "grid_lat": 23.3192,
+      "grid_lon": 91.7289,
+      "offset_km": 18.1
+    },
+    "West Tripura": {
+      "district_name": "West Tripura",
+      "state_name": "Tripura",
+      "centroid_lat": 23.7802,
+      "centroid_lon": 91.4131,
+      "grid_id_50km": "IND_50KM_r036_c046",
+      "grid_lat": 23.8156,
+      "grid_lon": 91.2718,
+      "offset_km": 16.2
+    }
+  },
+  "Uttar Pradesh": {
+    "Agra": {
+      "district_name": "Agra",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.9951,
+      "centroid_lon": 78.0528,
+      "grid_id_50km": "IND_50KM_r042_c020",
+      "grid_lat": 26.9804,
+      "grid_lon": 78.2046,
+      "offset_km": 16.9
+    },
+    "Aligarh": {
+      "district_name": "Aligarh",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.9375,
+      "centroid_lon": 78.0015,
+      "grid_id_50km": "IND_50KM_r044_c020",
+      "grid_lat": 27.899,
+      "grid_lon": 78.1914,
+      "offset_km": 21.5
+    },
+    "Allahabad": {
+      "district_name": "Allahabad",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.392,
+      "centroid_lon": 82.0517,
+      "grid_id_50km": "IND_50KM_r039_c028",
+      "grid_lat": 25.5942,
+      "grid_lon": 82.2834,
+      "offset_km": 34.1
+    },
+    "Ambedkar Nagar": {
+      "district_name": "Ambedkar Nagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.3912,
+      "centroid_lon": 82.6828,
+      "grid_id_50km": "IND_50KM_r041_c029",
+      "grid_lat": 26.5057,
+      "grid_lon": 82.8109,
+      "offset_km": 19.1
+    },
+    "Auraiya": {
+      "district_name": "Auraiya",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.6689,
+      "centroid_lon": 79.4264,
+      "grid_id_50km": "IND_50KM_r041_c022",
+      "grid_lat": 26.529,
+      "grid_lon": 79.2333,
+      "offset_km": 26.5
+    },
+    "Azamgarh": {
+      "district_name": "Azamgarh",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.0083,
+      "centroid_lon": 83.0122,
+      "grid_id_50km": "IND_50KM_r040_c029",
+      "grid_lat": 26.0459,
+      "grid_lon": 82.8008,
+      "offset_km": 23.8
+    },
+    "Badaun": {
+      "district_name": "Badaun",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.086,
+      "centroid_lon": 78.9971,
+      "grid_id_50km": "IND_50KM_r044_c022",
+      "grid_lat": 27.9074,
+      "grid_lon": 79.2249,
+      "offset_km": 32.1
+    },
+    "Baghpat": {
+      "district_name": "Baghpat",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 29.0458,
+      "centroid_lon": 77.3027,
+      "grid_id_50km": "IND_50KM_r047_c018",
+      "grid_lat": 29.2594,
+      "grid_lon": 77.1265,
+      "offset_km": 30.7
+    },
+    "Bahraich": {
+      "district_name": "Bahraich",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.6918,
+      "centroid_lon": 81.4678,
+      "grid_id_50km": "IND_50KM_r044_c026",
+      "grid_lat": 27.904,
+      "grid_lon": 81.2919,
+      "offset_km": 30.6
+    },
+    "Ballia": {
+      "district_name": "Ballia",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.8608,
+      "centroid_lon": 84.0365,
+      "grid_id_50km": "IND_50KM_r040_c031",
+      "grid_lat": 26.0243,
+      "grid_lon": 83.8188,
+      "offset_km": 30.2
+    },
+    "Balrampur": {
+      "district_name": "Balrampur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.4491,
+      "centroid_lon": 82.4716,
+      "grid_id_50km": "IND_50KM_r043_c028",
+      "grid_lat": 27.4331,
+      "grid_lon": 82.3168,
+      "offset_km": 17.3
+    },
+    "Banda": {
+      "district_name": "Banda",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.3519,
+      "centroid_lon": 80.5249,
+      "grid_id_50km": "IND_50KM_r038_c025",
+      "grid_lat": 25.149,
+      "grid_lon": 80.7585,
+      "offset_km": 34.3
+    },
+    "Bara Banki": {
+      "district_name": "Bara Banki",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.9228,
+      "centroid_lon": 81.3576,
+      "grid_id_50km": "IND_50KM_r042_c026",
+      "grid_lat": 26.9854,
+      "grid_lon": 81.2825,
+      "offset_km": 10.9
+    },
+    "Bareilly": {
+      "district_name": "Bareilly",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.511,
+      "centroid_lon": 79.4319,
+      "grid_id_50km": "IND_50KM_r045_c022",
+      "grid_lat": 28.3663,
+      "grid_lon": 79.222,
+      "offset_km": 28.3
+    },
+    "Basti": {
+      "district_name": "Basti",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.8339,
+      "centroid_lon": 82.6979,
+      "grid_id_50km": "IND_50KM_r042_c029",
+      "grid_lat": 26.9653,
+      "grid_lon": 82.8212,
+      "offset_km": 20.0
+    },
+    "Bijnor": {
+      "district_name": "Bijnor",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 29.314,
+      "centroid_lon": 78.451,
+      "grid_id_50km": "IND_50KM_r047_c021",
+      "grid_lat": 29.2798,
+      "grid_lon": 78.6937,
+      "offset_km": 27.2
+    },
+    "Bulandshahr": {
+      "district_name": "Bulandshahr",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.3488,
+      "centroid_lon": 78.0108,
+      "grid_id_50km": "IND_50KM_r045_c020",
+      "grid_lat": 28.3578,
+      "grid_lon": 78.1847,
+      "offset_km": 19.3
+    },
+    "Chandauli": {
+      "district_name": "Chandauli",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.1181,
+      "centroid_lon": 83.2531,
+      "grid_id_50km": "IND_50KM_r038_c030",
+      "grid_lat": 25.1159,
+      "grid_lon": 83.2861,
+      "offset_km": 3.7
+    },
+    "Chitrakoot": {
+      "district_name": "Chitrakoot",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.1599,
+      "centroid_lon": 81.0767,
+      "grid_id_50km": "IND_50KM_r038_c026",
+      "grid_lat": 25.1457,
+      "grid_lon": 81.2641,
+      "offset_km": 20.9
+    },
+    "Deoria": {
+      "district_name": "Deoria",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.4222,
+      "centroid_lon": 83.8244,
+      "grid_id_50km": "IND_50KM_r041_c031",
+      "grid_lat": 26.484,
+      "grid_lon": 83.8327,
+      "offset_km": 6.9
+    },
+    "Etah": {
+      "district_name": "Etah",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.5912,
+      "centroid_lon": 78.7002,
+      "grid_id_50km": "IND_50KM_r043_c021",
+      "grid_lat": 27.4448,
+      "grid_lon": 78.7128,
+      "offset_km": 16.3
+    },
+    "Etawah": {
+      "district_name": "Etawah",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.7882,
+      "centroid_lon": 79.0762,
+      "grid_id_50km": "IND_50KM_r042_c022",
+      "grid_lat": 26.9887,
+      "grid_lon": 79.2305,
+      "offset_km": 28.1
+    },
+    "Faizabad": {
+      "district_name": "Faizabad",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.6059,
+      "centroid_lon": 82.0078,
+      "grid_id_50km": "IND_50KM_r041_c027",
+      "grid_lat": 26.5207,
+      "grid_lon": 81.7889,
+      "offset_km": 26.1
+    },
+    "Farrukhabad": {
+      "district_name": "Farrukhabad",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.4506,
+      "centroid_lon": 79.4406,
+      "grid_id_50km": "IND_50KM_r043_c022",
+      "grid_lat": 27.4482,
+      "grid_lon": 79.2277,
+      "offset_km": 23.6
+    },
+    "Fatehpur": {
+      "district_name": "Fatehpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.8374,
+      "centroid_lon": 80.8542,
+      "grid_id_50km": "IND_50KM_r039_c025",
+      "grid_lat": 25.6091,
+      "grid_lon": 80.7612,
+      "offset_km": 27.4
+    },
+    "Firozabad": {
+      "district_name": "Firozabad",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.2096,
+      "centroid_lon": 78.4266,
+      "grid_id_50km": "IND_50KM_r042_c020",
+      "grid_lat": 26.9804,
+      "grid_lon": 78.2046,
+      "offset_km": 35.4
+    },
+    "Gautam Buddha Nagar": {
+      "district_name": "Gautam Buddha Nagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.3933,
+      "centroid_lon": 77.5246,
+      "grid_id_50km": "IND_50KM_r045_c019",
+      "grid_lat": 28.3511,
+      "grid_lon": 77.6662,
+      "offset_km": 16.4
+    },
+    "Ghaziabad": {
+      "district_name": "Ghaziabad",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.75,
+      "centroid_lon": 77.6744,
+      "grid_id_50km": "IND_50KM_r046_c019",
+      "grid_lat": 28.8097,
+      "grid_lon": 77.6576,
+      "offset_km": 6.9
+    },
+    "Ghazipur": {
+      "district_name": "Ghazipur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.6247,
+      "centroid_lon": 83.5361,
+      "grid_id_50km": "IND_50KM_r039_c030",
+      "grid_lat": 25.576,
+      "grid_lon": 83.2979,
+      "offset_km": 27.0
+    },
+    "Gonda": {
+      "district_name": "Gonda",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.1572,
+      "centroid_lon": 82.0227,
+      "grid_id_50km": "IND_50KM_r042_c027",
+      "grid_lat": 26.9804,
+      "grid_lon": 81.7954,
+      "offset_km": 32.0
+    },
+    "Gorakhpur": {
+      "district_name": "Gorakhpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.6332,
+      "centroid_lon": 83.355,
+      "grid_id_50km": "IND_50KM_r041_c030",
+      "grid_lat": 26.4957,
+      "grid_lon": 83.3218,
+      "offset_km": 15.7
+    },
+    "Hamirpur": {
+      "district_name": "Hamirpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.7382,
+      "centroid_lon": 79.8262,
+      "grid_id_50km": "IND_50KM_r039_c023",
+      "grid_lat": 25.6108,
+      "grid_lon": 79.7463,
+      "offset_km": 16.7
+    },
+    "Hardoi": {
+      "district_name": "Hardoi",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.3374,
+      "centroid_lon": 80.2641,
+      "grid_id_50km": "IND_50KM_r043_c024",
+      "grid_lat": 27.4499,
+      "grid_lon": 80.2574,
+      "offset_km": 12.5
+    },
+    "Hathras": {
+      "district_name": "Hathras",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.5781,
+      "centroid_lon": 78.1825,
+      "grid_id_50km": "IND_50KM_r043_c020",
+      "grid_lat": 27.4398,
+      "grid_lon": 78.198,
+      "offset_km": 15.5
+    },
+    "Jalaun": {
+      "district_name": "Jalaun",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.068,
+      "centroid_lon": 79.3669,
+      "grid_id_50km": "IND_50KM_r040_c022",
+      "grid_lat": 26.0692,
+      "grid_lon": 79.2361,
+      "offset_km": 14.5
+    },
+    "Jaunpur": {
+      "district_name": "Jaunpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.7014,
+      "centroid_lon": 82.5432,
+      "grid_id_50km": "IND_50KM_r039_c029",
+      "grid_lat": 25.5859,
+      "grid_lon": 82.7907,
+      "offset_km": 30.3
+    },
+    "Jhansi": {
+      "district_name": "Jhansi",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.4558,
+      "centroid_lon": 78.8995,
+      "grid_id_50km": "IND_50KM_r039_c021",
+      "grid_lat": 25.6058,
+      "grid_lon": 78.7314,
+      "offset_km": 25.0
+    },
+    "Jyotiba Phule Nagar": {
+      "district_name": "Jyotiba Phule Nagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.8705,
+      "centroid_lon": 78.3901,
+      "grid_id_50km": "IND_50KM_r046_c020",
+      "grid_lat": 28.8164,
+      "grid_lon": 78.178,
+      "offset_km": 24.3
+    },
+    "Kannauj": {
+      "district_name": "Kannauj",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.994,
+      "centroid_lon": 79.6444,
+      "grid_id_50km": "IND_50KM_r042_c023",
+      "grid_lat": 26.9904,
+      "grid_lon": 79.7435,
+      "offset_km": 11.0
+    },
+    "Kanpur Dehat": {
+      "district_name": "Kanpur Dehat",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.4305,
+      "centroid_lon": 79.9871,
+      "grid_id_50km": "IND_50KM_r041_c023",
+      "grid_lat": 26.5307,
+      "grid_lon": 79.7444,
+      "offset_km": 29.1
+    },
+    "Kanpur": {
+      "district_name": "Kanpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.3705,
+      "centroid_lon": 80.2925,
+      "grid_id_50km": "IND_50KM_r041_c024",
+      "grid_lat": 26.5307,
+      "grid_lon": 80.2556,
+      "offset_km": 18.3
+    },
+    "Kaushambi": {
+      "district_name": "Kaushambi",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.5359,
+      "centroid_lon": 81.4181,
+      "grid_id_50km": "IND_50KM_r039_c026",
+      "grid_lat": 25.6058,
+      "grid_lon": 81.2686,
+      "offset_km": 18.3
+    },
+    "Kushinagar": {
+      "district_name": "Kushinagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.8925,
+      "centroid_lon": 83.9226,
+      "grid_id_50km": "IND_50KM_r042_c031",
+      "grid_lat": 26.9436,
+      "grid_lon": 83.8466,
+      "offset_km": 10.2
+    },
+    "Lakhimpur Kheri": {
+      "district_name": "Lakhimpur Kheri",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.0919,
+      "centroid_lon": 80.6473,
+      "grid_id_50km": "IND_50KM_r044_c025",
+      "grid_lat": 27.9074,
+      "grid_lon": 80.7751,
+      "offset_km": 24.9
+    },
+    "Lalitpur": {
+      "district_name": "Lalitpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 24.5888,
+      "centroid_lon": 78.6008,
+      "grid_id_50km": "IND_50KM_r037_c021",
+      "grid_lat": 24.6854,
+      "grid_lon": 78.7404,
+      "offset_km": 18.8
+    },
+    "Lucknow": {
+      "district_name": "Lucknow",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.8382,
+      "centroid_lon": 80.8971,
+      "grid_id_50km": "IND_50KM_r042_c025",
+      "grid_lat": 26.9887,
+      "grid_lon": 80.7695,
+      "offset_km": 21.9
+    },
+    "Maharajganj": {
+      "district_name": "Maharajganj",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.1771,
+      "centroid_lon": 83.4613,
+      "grid_id_50km": "IND_50KM_r042_c030",
+      "grid_lat": 26.9553,
+      "grid_lon": 83.3339,
+      "offset_km": 28.4
+    },
+    "Mahoba": {
+      "district_name": "Mahoba",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.3453,
+      "centroid_lon": 79.6786,
+      "grid_id_50km": "IND_50KM_r038_c023",
+      "grid_lat": 25.1506,
+      "grid_lon": 79.7472,
+      "offset_km": 22.9
+    },
+    "Mainpuri": {
+      "district_name": "Mainpuri",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.1739,
+      "centroid_lon": 79.035,
+      "grid_id_50km": "IND_50KM_r042_c022",
+      "grid_lat": 26.9887,
+      "grid_lon": 79.2305,
+      "offset_km": 29.9
+    },
+    "Mathura": {
+      "district_name": "Mathura",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.5939,
+      "centroid_lon": 77.6215,
+      "grid_id_50km": "IND_50KM_r043_c019",
+      "grid_lat": 27.4331,
+      "grid_lon": 77.6832,
+      "offset_km": 19.1
+    },
+    "Mau": {
+      "district_name": "Mau",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.0108,
+      "centroid_lon": 83.5058,
+      "grid_id_50km": "IND_50KM_r040_c030",
+      "grid_lat": 26.0359,
+      "grid_lon": 83.3098,
+      "offset_km": 21.9
+    },
+    "Meerut": {
+      "district_name": "Meerut",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 29.0296,
+      "centroid_lon": 77.8061,
+      "grid_id_50km": "IND_50KM_r046_c019",
+      "grid_lat": 28.8097,
+      "grid_lon": 77.6576,
+      "offset_km": 29.5
+    },
+    "Mirzapur": {
+      "district_name": "Mirzapur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.1021,
+      "centroid_lon": 82.6013,
+      "grid_id_50km": "IND_50KM_r038_c029",
+      "grid_lat": 25.1258,
+      "grid_lon": 82.7807,
+      "offset_km": 20.1
+    },
+    "Moradabad": {
+      "district_name": "Moradabad",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.8518,
+      "centroid_lon": 78.7358,
+      "grid_id_50km": "IND_50KM_r046_c021",
+      "grid_lat": 28.8215,
+      "grid_lon": 78.6986,
+      "offset_km": 5.3
+    },
+    "Muzaffarnagar": {
+      "district_name": "Muzaffarnagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 29.4705,
+      "centroid_lon": 77.6402,
+      "grid_id_50km": "IND_50KM_r047_c019",
+      "grid_lat": 29.2679,
+      "grid_lon": 77.6489,
+      "offset_km": 22.5
+    },
+    "Pilibhit": {
+      "district_name": "Pilibhit",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.5202,
+      "centroid_lon": 79.901,
+      "grid_id_50km": "IND_50KM_r045_c023",
+      "grid_lat": 28.368,
+      "grid_lon": 79.7407,
+      "offset_km": 24.5
+    },
+    "Pratapgarh": {
+      "district_name": "Pratapgarh",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.8648,
+      "centroid_lon": 81.9353,
+      "grid_id_50km": "IND_50KM_r040_c027",
+      "grid_lat": 26.0609,
+      "grid_lon": 81.7825,
+      "offset_km": 27.6
+    },
+    "Rae Bareli": {
+      "district_name": "Rae Bareli",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.2539,
+      "centroid_lon": 81.2226,
+      "grid_id_50km": "IND_50KM_r040_c026",
+      "grid_lat": 26.0658,
+      "grid_lon": 81.2732,
+      "offset_km": 21.6
+    },
+    "Rampur": {
+      "district_name": "Rampur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 28.8324,
+      "centroid_lon": 79.1098,
+      "grid_id_50km": "IND_50KM_r046_c022",
+      "grid_lat": 28.8249,
+      "grid_lon": 79.2191,
+      "offset_km": 12.2
+    },
+    "Saharanpur": {
+      "district_name": "Saharanpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 30.0338,
+      "centroid_lon": 77.5991,
+      "grid_id_50km": "IND_50KM_r049_c019",
+      "grid_lat": 30.1831,
+      "grid_lon": 77.6313,
+      "offset_km": 17.0
+    },
+    "Sant Kabir Nagar": {
+      "district_name": "Sant Kabir Nagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.7916,
+      "centroid_lon": 83.0388,
+      "grid_id_50km": "IND_50KM_r042_c029",
+      "grid_lat": 26.9653,
+      "grid_lon": 82.8212,
+      "offset_km": 30.9
+    },
+    "Sant Ravi Das Nagar": {
+      "district_name": "Sant Ravi Das Nagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.3646,
+      "centroid_lon": 82.435,
+      "grid_id_50km": "IND_50KM_r039_c028",
+      "grid_lat": 25.5942,
+      "grid_lon": 82.2834,
+      "offset_km": 30.5
+    },
+    "Shahjahanpur": {
+      "district_name": "Shahjahanpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.9914,
+      "centroid_lon": 79.8302,
+      "grid_id_50km": "IND_50KM_r044_c023",
+      "grid_lat": 27.9091,
+      "grid_lon": 79.7416,
+      "offset_km": 13.4
+    },
+    "Shravasti": {
+      "district_name": "Shravasti",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.6049,
+      "centroid_lon": 81.7932,
+      "grid_id_50km": "IND_50KM_r043_c027",
+      "grid_lat": 27.4398,
+      "grid_lon": 81.802,
+      "offset_km": 18.4
+    },
+    "Siddharth Nagar": {
+      "district_name": "Siddharth Nagar",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.2074,
+      "centroid_lon": 82.7867,
+      "grid_id_50km": "IND_50KM_r043_c029",
+      "grid_lat": 27.4247,
+      "grid_lon": 82.8315,
+      "offset_km": 24.6
+    },
+    "Sitapur": {
+      "district_name": "Sitapur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 27.502,
+      "centroid_lon": 80.8529,
+      "grid_id_50km": "IND_50KM_r043_c025",
+      "grid_lat": 27.4482,
+      "grid_lon": 80.7723,
+      "offset_km": 10.8
+    },
+    "Sonbhadra": {
+      "district_name": "Sonbhadra",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 24.4669,
+      "centroid_lon": 83.0682,
+      "grid_id_50km": "IND_50KM_r037_c030",
+      "grid_lat": 24.6558,
+      "grid_lon": 83.2743,
+      "offset_km": 31.0
+    },
+    "Sultanpur": {
+      "district_name": "Sultanpur",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.2846,
+      "centroid_lon": 82.0571,
+      "grid_id_50km": "IND_50KM_r040_c028",
+      "grid_lat": 26.0542,
+      "grid_lon": 82.2916,
+      "offset_km": 36.5
+    },
+    "Unnao": {
+      "district_name": "Unnao",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 26.6316,
+      "centroid_lon": 80.6368,
+      "grid_id_50km": "IND_50KM_r041_c025",
+      "grid_lat": 26.529,
+      "grid_lon": 80.7667,
+      "offset_km": 18.4
+    },
+    "Varanasi": {
+      "district_name": "Varanasi",
+      "state_name": "Uttar Pradesh",
+      "centroid_lat": 25.3606,
+      "centroid_lon": 82.8253,
+      "grid_id_50km": "IND_50KM_r039_c029",
+      "grid_lat": 25.5859,
+      "grid_lon": 82.7907,
+      "offset_km": 25.3
+    }
+  },
+  "Uttaranchal": {
+    "Almora": {
+      "district_name": "Almora",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.6835,
+      "centroid_lon": 79.5016,
+      "grid_id_50km": "IND_50KM_r048_c023",
+      "grid_lat": 29.7427,
+      "grid_lon": 79.7378,
+      "offset_km": 27.0
+    },
+    "Bageshwar": {
+      "district_name": "Bageshwar",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.987,
+      "centroid_lon": 79.8395,
+      "grid_id_50km": "IND_50KM_r049_c023",
+      "grid_lat": 30.2002,
+      "grid_lon": 79.7368,
+      "offset_km": 26.3
+    },
+    "Chamoli": {
+      "district_name": "Chamoli",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 30.5834,
+      "centroid_lon": 79.5628,
+      "grid_id_50km": "IND_50KM_r050_c023",
+      "grid_lat": 30.6572,
+      "grid_lon": 79.7358,
+      "offset_km": 20.9
+    },
+    "Champawat": {
+      "district_name": "Champawat",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.2914,
+      "centroid_lon": 80.0772,
+      "grid_id_50km": "IND_50KM_r047_c024",
+      "grid_lat": 29.2848,
+      "grid_lon": 80.2613,
+      "offset_km": 20.4
+    },
+    "Dehra Dun": {
+      "district_name": "Dehra Dun",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 30.5333,
+      "centroid_lon": 77.9088,
+      "grid_id_50km": "IND_50KM_r050_c020",
+      "grid_lat": 30.647,
+      "grid_lon": 78.1507,
+      "offset_km": 29.7
+    },
+    "Haridwar": {
+      "district_name": "Haridwar",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.8861,
+      "centroid_lon": 77.9298,
+      "grid_id_50km": "IND_50KM_r048_c020",
+      "grid_lat": 29.7325,
+      "grid_lon": 78.1645,
+      "offset_km": 31.1
+    },
+    "Naini Tal": {
+      "district_name": "Naini Tal",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.3364,
+      "centroid_lon": 79.4998,
+      "grid_id_50km": "IND_50KM_r047_c023",
+      "grid_lat": 29.2848,
+      "grid_lon": 79.7387,
+      "offset_km": 27.1
+    },
+    "Pauri Garhwal": {
+      "district_name": "Pauri Garhwal",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.9781,
+      "centroid_lon": 78.7745,
+      "grid_id_50km": "IND_50KM_r049_c021",
+      "grid_lat": 30.1951,
+      "grid_lon": 78.684,
+      "offset_km": 26.1
+    },
+    "Pithoragarh": {
+      "district_name": "Pithoragarh",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 30.1472,
+      "centroid_lon": 80.3423,
+      "grid_id_50km": "IND_50KM_r049_c024",
+      "grid_lat": 30.2002,
+      "grid_lon": 80.2632,
+      "offset_km": 10.6
+    },
+    "Rudra Prayag": {
+      "district_name": "Rudra Prayag",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 30.5566,
+      "centroid_lon": 79.0942,
+      "grid_id_50km": "IND_50KM_r050_c022",
+      "grid_lat": 30.6555,
+      "grid_lon": 79.2074,
+      "offset_km": 16.7
+    },
+    "Tehri Garhwal": {
+      "district_name": "Tehri Garhwal",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 30.4637,
+      "centroid_lon": 78.4878,
+      "grid_id_50km": "IND_50KM_r050_c021",
+      "grid_lat": 30.6521,
+      "grid_lon": 78.679,
+      "offset_km": 29.8
+    },
+    "Udham Singh Nagar": {
+      "district_name": "Udham Singh Nagar",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 29.0278,
+      "centroid_lon": 79.4563,
+      "grid_id_50km": "IND_50KM_r046_c022",
+      "grid_lat": 28.8249,
+      "grid_lon": 79.2191,
+      "offset_km": 34.6
+    },
+    "Uttarkashi": {
+      "district_name": "Uttarkashi",
+      "state_name": "Uttaranchal",
+      "centroid_lat": 30.969,
+      "centroid_lon": 78.5688,
+      "grid_id_50km": "IND_50KM_r051_c021",
+      "grid_lat": 31.1087,
+      "grid_lon": 78.6741,
+      "offset_km": 19.4
+    }
+  },
+  "West Bengal": {
+    "Bankura": {
+      "district_name": "Bankura",
+      "state_name": "West Bengal",
+      "centroid_lat": 23.0813,
+      "centroid_lon": 87.1264,
+      "grid_id_50km": "IND_50KM_r034_c038",
+      "grid_lat": 23.1383,
+      "grid_lon": 87.2217,
+      "offset_km": 12.3
+    },
+    "Barddhaman": {
+      "district_name": "Barddhaman",
+      "state_name": "West Bengal",
+      "centroid_lat": 23.4445,
+      "centroid_lon": 87.8151,
+      "grid_id_50km": "IND_50KM_r035_c039",
+      "grid_lat": 23.5736,
+      "grid_lon": 87.7462,
+      "offset_km": 16.2
+    },
+    "Birbhum": {
+      "district_name": "Birbhum",
+      "state_name": "West Bengal",
+      "centroid_lat": 24.0639,
+      "centroid_lon": 87.6515,
+      "grid_id_50km": "IND_50KM_r036_c039",
+      "grid_lat": 24.0333,
+      "grid_lon": 87.7737,
+      "offset_km": 14.0
+    },
+    "Dakshin Dinajpur": {
+      "district_name": "Dakshin Dinajpur",
+      "state_name": "West Bengal",
+      "centroid_lat": 25.3421,
+      "centroid_lon": 88.6982,
+      "grid_id_50km": "IND_50KM_r039_c041",
+      "grid_lat": 25.3575,
+      "grid_lon": 88.8689,
+      "offset_km": 19.0
+    },
+    "Darjiling": {
+      "district_name": "Darjiling",
+      "state_name": "West Bengal",
+      "centroid_lat": 26.8396,
+      "centroid_lon": 88.3315,
+      "grid_id_50km": "IND_50KM_r042_c040",
+      "grid_lat": 26.763,
+      "grid_lon": 88.4545,
+      "offset_km": 16.1
+    },
+    "East Midnapore": {
+      "district_name": "East Midnapore",
+      "state_name": "West Bengal",
+      "centroid_lat": 21.992,
+      "centroid_lon": 87.9228,
+      "grid_id_50km": "IND_50KM_r032_c040",
+      "grid_lat": 22.1687,
+      "grid_lon": 88.1581,
+      "offset_km": 32.7
+    },
+    "Haora": {
+      "district_name": "Haora",
+      "state_name": "West Bengal",
+      "centroid_lat": 22.4017,
+      "centroid_lon": 87.9942,
+      "grid_id_50km": "IND_50KM_r032_c040",
+      "grid_lat": 22.1687,
+      "grid_lon": 88.1581,
+      "offset_km": 31.6
+    },
+    "Hugli": {
+      "district_name": "Hugli",
+      "state_name": "West Bengal",
+      "centroid_lat": 22.8793,
+      "centroid_lon": 88.0001,
+      "grid_id_50km": "IND_50KM_r034_c040",
+      "grid_lat": 23.0878,
+      "grid_lon": 88.2157,
+      "offset_km": 33.3
+    },
+    "Jalpaiguri": {
+      "district_name": "Jalpaiguri",
+      "state_name": "West Bengal",
+      "centroid_lat": 26.6264,
+      "centroid_lon": 89.0415,
+      "grid_id_50km": "IND_50KM_r042_c041",
+      "grid_lat": 26.7346,
+      "grid_lon": 88.9655,
+      "offset_km": 14.7
+    },
+    "Kochbihar": {
+      "district_name": "Kochbihar",
+      "state_name": "West Bengal",
+      "centroid_lat": 26.2505,
+      "centroid_lon": 89.3061,
+      "grid_id_50km": "IND_50KM_r041_c042",
+      "grid_lat": 26.2458,
+      "grid_lon": 89.4421,
+      "offset_km": 15.1
+    },
+    "Kolkata": {
+      "district_name": "Kolkata",
+      "state_name": "West Bengal",
+      "centroid_lat": 22.5506,
+      "centroid_lon": 88.3528,
+      "grid_id_50km": "IND_50KM_r033_c040",
+      "grid_lat": 22.6283,
+      "grid_lon": 88.1868,
+      "offset_km": 20.3
+    },
+    "Maldah": {
+      "district_name": "Maldah",
+      "state_name": "West Bengal",
+      "centroid_lat": 25.0803,
+      "centroid_lon": 88.1719,
+      "grid_id_50km": "IND_50KM_r038_c040",
+      "grid_lat": 24.9262,
+      "grid_lon": 88.3334,
+      "offset_km": 24.8
+    },
+    "Murshidabad": {
+      "district_name": "Murshidabad",
+      "state_name": "West Bengal",
+      "centroid_lat": 24.2595,
+      "centroid_lon": 88.1682,
+      "grid_id_50km": "IND_50KM_r037_c040",
+      "grid_lat": 24.4667,
+      "grid_lon": 88.3037,
+      "offset_km": 27.5
+    },
+    "Nadia": {
+      "district_name": "Nadia",
+      "state_name": "West Bengal",
+      "centroid_lat": 23.5641,
+      "centroid_lon": 88.5829,
+      "grid_id_50km": "IND_50KM_r035_c041",
+      "grid_lat": 23.5197,
+      "grid_lon": 88.7433,
+      "offset_km": 18.5
+    },
+    "North 24 Parganas": {
+      "district_name": "North 24 Parganas",
+      "state_name": "West Bengal",
+      "centroid_lat": 22.0624,
+      "centroid_lon": 88.8779,
+      "grid_id_50km": "IND_50KM_r032_c041",
+      "grid_lat": 22.1413,
+      "grid_lon": 88.6514,
+      "offset_km": 26.6
+    },
+    "Puruliya": {
+      "district_name": "Puruliya",
+      "state_name": "West Bengal",
+      "centroid_lat": 23.2542,
+      "centroid_lon": 86.3969,
+      "grid_id_50km": "IND_50KM_r034_c036",
+      "grid_lat": 23.1822,
+      "grid_lon": 86.227,
+      "offset_km": 20.5
+    },
+    "South 24 Parganas": {
+      "district_name": "South 24 Parganas",
+      "state_name": "West Bengal",
+      "centroid_lat": 21.8544,
+      "centroid_lon": 88.4454,
+      "grid_id_50km": "IND_50KM_r031_c041",
+      "grid_lat": 21.6819,
+      "grid_lon": 88.6211,
+      "offset_km": 27.3
+    },
+    "Uttar Dinajpur": {
+      "district_name": "Uttar Dinajpur",
+      "state_name": "West Bengal",
+      "centroid_lat": 26.0446,
+      "centroid_lon": 88.236,
+      "grid_id_50km": "IND_50KM_r040_c040",
+      "grid_lat": 25.8449,
+      "grid_lon": 88.3935,
+      "offset_km": 28.2
+    },
+    "West Midnapore": {
+      "district_name": "West Midnapore",
+      "state_name": "West Bengal",
+      "centroid_lat": 22.3549,
+      "centroid_lon": 87.231,
+      "grid_id_50km": "IND_50KM_r032_c038",
+      "grid_lat": 22.2188,
+      "grid_lon": 87.1711,
+      "offset_km": 16.5
+    }
+  }
+}
