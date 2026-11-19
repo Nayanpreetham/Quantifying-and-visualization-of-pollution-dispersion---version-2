@@ -1,22 +1,17 @@
 """
 Map Visualizer for Phase 20/21 Environmental Intelligence Explorer
 Renders interactive geospatial Leaflet/Folium maps for India-wide 2D pollution dispersion:
-- Complete Velvet Palette:
-    Primary (60%): Charcoal Black (#232528)
-    Secondary (30%): Dark Beige (#B6A38E)
-    Accent (10%): Velvet Red (#6B1B1E)
-- Multi-level geographical hierarchy:
+- High-contrast intensified dispersion grid cells color-coded with the scientific fiery gradient
+  ('#fee5d9' -> '#fcae91' -> '#fb6a4a' -> '#de2d26' -> '#a50f15') for maximum clarity and visibility.
+- Prominently highlighted Target Receptor Cell (#2980b9 Sapphire Blue with #1b4f72 Midnight Blue border)
+  and Source Cell (#8e44ad Amethyst Purple with #5b2c6f Royal Purple border) providing unmistakable visual contrast.
+- Multi-level sovereign geographical hierarchy:
     Level 1: Asian continent with international borders.
-    Level 2: Indian State and Union Territory boundaries in Dark Beige (#B6A38E).
-    Level 3: District boundaries (with district and state hover tooltips).
-    Level 4: Toggleable 50 km model grid overlay (EPSG:7755).
-- Dual analysis visualization:
-    1. Receptor Inflow Analysis: Highlighted target receptor in Velvet Red (#6B1B1E),
-       incoming contributing source cells in harmonious beige-to-crimson gradient,
-       flow pathways in Dark Beige (#B6A38E), and source-weighted influence.
-    2. Source Dispersion Analysis: Highlighted source cell in Velvet Red (#6B1B1E),
-       downwind transport footprint, dispersion pathways, and boundary partitions.
-- Modern floating dark-glass cartographic legend with Velvet Palette styling.
+    Level 2: Continuous Indian Sovereign Boundary & State/UT boundaries (Survey of India extent including PoK & CoK).
+    Level 3: Toggleable 50 km model grid overlay (EPSG:7755).
+    Level 4: Intensified dispersion plume & contributing source grid cells.
+    Level 5: Target / Source highlighting and directional transport pathways.
+- Crisp Positron basemap by default (with toggleable Dark & Street Map layers) and floating cartographic legend.
 """
 
 import os
@@ -98,8 +93,11 @@ class MapVisualizer:
     def create_dispersion_map(self, query_result, user_lat=None, user_lon=None, min_fraction=0.0,
                               show_pathways=True, show_states=True, show_grid=False):
         """
-        Creates an interactive Folium dark-cartographic map for Source Dispersion Analysis
-        styled with the 60-30-10 Velvet Palette (#232528 Charcoal, #B6A38E Dark Beige, #6B1B1E Velvet Red).
+        Creates an interactive Folium map for Source Dispersion Analysis:
+        - Centers on source cell and highlights it in vibrant Amethyst Purple (#8e44ad).
+        - Renders downwind reached destination grid cells with high-intensity fiery heatmap ramp.
+        - Unbroken sovereign India boundary and state outlines without obscuring fills.
+        - High contrast cartography with Positron tiles by default.
         """
         src_lat = query_result.get('source_latitude', 22.0)
         src_lon = query_result.get('source_longitude', 79.0)
@@ -108,13 +106,17 @@ class MapVisualizer:
         horizon_hours = query_result.get('horizon_hours', 24.0)
         src_region_name = self.get_region_name(src_gid)
         
-        # Center map on source location with dark cartographic tiles
+        # Center map on source location with Positron light tiles for maximum contrast
         m = folium.Map(
             location=[src_lat, src_lon],
             zoom_start=6,
-            tiles="CartoDB dark_matter",
+            tiles="CartoDB positron",
             control_scale=True
         )
+        
+        # Alternate base tile options in layer control
+        folium.TileLayer('CartoDB dark_matter', name='Dark Basemap').add_to(m)
+        folium.TileLayer('OpenStreetMap', name='Street Map').add_to(m)
         
         # Base Layer 1: Asian Regional Context
         if self._asia_geojson is not None:
@@ -122,30 +124,30 @@ class MapVisualizer:
             folium.GeoJson(
                 self._asia_geojson,
                 style_function=lambda x: {
-                    'fillColor': '#1A1C1E',
-                    'color': '#33363B',
-                    'weight': 1.0,
-                    'fillOpacity': 0.30
+                    'fillColor': '#f8f9fa',
+                    'color': '#bdc3c7',
+                    'weight': 0.8,
+                    'fillOpacity': 0.15
                 },
                 tooltip=folium.GeoJsonTooltip(fields=['name'], aliases=['Country:'])
             ).add_to(asia_fg)
             asia_fg.add_to(m)
 
-        # Base Layer 2: Indian State Boundaries (Dark Beige: #B6A38E)
+        # Base Layer 2: Indian State Boundaries (Clean transparent outlines)
         if self._states_geojson is not None:
             states_fg = folium.FeatureGroup(name="Indian States & UTs (Level 2)", show=show_states)
             folium.GeoJson(
                 self._states_geojson,
                 style_function=lambda x: {
-                    'fillColor': '#232528',
-                    'color': '#B6A38E',
-                    'weight': 1.2,
-                    'fillOpacity': 0.08
+                    'fillColor': 'transparent',
+                    'color': '#7f8c8d',
+                    'weight': 1.0,
+                    'fillOpacity': 0.0
                 },
                 highlight_function=lambda x: {
-                    'color': '#EAE5DE',
+                    'color': '#2c3e50',
                     'weight': 2.0,
-                    'fillOpacity': 0.2
+                    'fillOpacity': 0.10
                 },
                 tooltip=folium.GeoJsonTooltip(fields=['NAME_1'], aliases=['State:'])
             ).add_to(states_fg)
@@ -158,8 +160,8 @@ class MapVisualizer:
                 self._national_geojson,
                 style_function=lambda x: {
                     'fillColor': 'transparent',
-                    'color': '#B6A38E',
-                    'weight': 2.0,
+                    'color': '#1b4f72',
+                    'weight': 2.2,
                     'fillOpacity': 0.0
                 },
                 tooltip=folium.Tooltip("Republic of India — Sovereign National Territory")
@@ -174,7 +176,7 @@ class MapVisualizer:
                 {"type": "FeatureCollection", "features": sample_feats},
                 style_function=lambda x: {
                     'fillColor': 'transparent',
-                    'color': '#4A4742',
+                    'color': '#bdc3c7',
                     'weight': 0.7,
                     'fillOpacity': 0.0
                 },
@@ -182,19 +184,19 @@ class MapVisualizer:
             ).add_to(grid_fg)
             grid_fg.add_to(m)
 
-        # Color palette for transport fractions: Beige to Terracotta to Velvet Red
+        # Color palette for transport fractions: Scientific High-Intensity Fiery Gradient
         df_results = query_result.get('results_table', pd.DataFrame())
         max_frac = df_results['daily_transport_fraction'].max() if not df_results.empty else 1.0
         max_frac = max(0.05, float(max_frac))
         
         colormap = cm.LinearColormap(
-            colors=['#EAE5DE', '#D4A373', '#BC4749', '#6B1B1E'],
+            colors=['#fee5d9', '#fcae91', '#fb6a4a', '#de2d26', '#a50f15'],
             vmin=0.0,
             vmax=max_frac,
-            caption=f"Downwind Transport Fraction ({horizon_hours:g}h Horizon)"
+            caption=f"Modeled Downwind Transport Fraction ({horizon_hours:g}h Horizon)"
         )
         
-        # Layer 4: Destination Grid Polygons
+        # Layer 4: Destination Grid Polygons (Intensified Plume Grids)
         dest_fg = folium.FeatureGroup(name="Downwind Destination Footprint", show=True)
         pathways_fg = folium.FeatureGroup(name="Dispersion Transport Pathways", show=show_pathways)
         
@@ -230,14 +232,14 @@ class MapVisualizer:
                 inf_str = f"{inf_idx:.2f} ug/m3-eq" if not pd.isna(inf_idx) else "Unmonitored"
                 
                 popup_html = f"""
-                <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; min-width: 230px; background: #232528; color: #EAE5DE; padding: 12px; border-radius: 6px; border: 1px solid #B6A38E;">
-                    <div style="font-size: 13px; font-weight: 700; color: #B6A38E; margin-bottom: 4px;">{dest_name}</div>
-                    <div style="font-size: 10px; color: #A0988E; margin-bottom: 6px;">Grid Cell: {d_id} ({cat})</div>
-                    <div style="height: 1px; background: rgba(182, 163, 142, 0.3); margin: 6px 0;"></div>
-                    <div><b>Downwind Transport:</b> <span style="color: #EAE5DE; font-weight: 600;">{frac*100:.2f}%</span> ({frac:.4f})</div>
+                <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; min-width: 220px; background: #ffffff; color: #2c3e50; padding: 10px; border-radius: 6px; border: 1px solid #ccc; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                    <div style="font-size: 13px; font-weight: 700; color: #a50f15; margin-bottom: 4px;">{dest_name}</div>
+                    <div style="font-size: 10px; color: #7f8c8d; margin-bottom: 6px;">Grid Cell: {d_id} ({cat})</div>
+                    <div style="height: 1px; background: #eee; margin: 6px 0;"></div>
+                    <div><b>Downwind Transport:</b> <span style="color: #a50f15; font-weight: 700;">{frac*100:.2f}%</span> ({frac:.4f})</div>
                     <div><b>Distance from Source:</b> {dist_str}</div>
-                    <div><b>Source-Weighted Influence:</b> <span style="color: #B6A38E;">{inf_str}</span></div>
-                    <div style="margin-top: 6px; font-size: 10px; color: #A0988E; font-style: italic;">
+                    <div><b>Source-Weighted Influence:</b> <span style="color: #2c3e50;">{inf_str}</span></div>
+                    <div style="margin-top: 6px; font-size: 10px; color: #95a5a6; font-style: italic;">
                         Physical transport probability only. Not ambient AQI.
                     </div>
                 </div>
@@ -247,31 +249,31 @@ class MapVisualizer:
                     feat,
                     style_function=lambda x, fc=fill_color: {
                         'fillColor': fc,
-                        'color': '#B6A38E',
-                        'weight': 1.0,
-                        'fillOpacity': 0.65
+                        'color': '#555555',
+                        'weight': 1.2,
+                        'fillOpacity': 0.70
                     },
                     highlight_function=lambda x: {
-                        'weight': 2.5,
-                        'color': '#FFFFFF',
-                        'fillOpacity': 0.85
+                        'weight': 3.0,
+                        'color': '#000000',
+                        'fillOpacity': 0.90
                     },
                     tooltip=folium.Tooltip(f"{dest_name} ({d_id}): {frac*100:.1f}% transport ({dist_str})"),
                     popup=folium.Popup(popup_html, max_width=320)
                 ).add_to(dest_fg)
                 
-                # Draw pathway connector in Dark Beige (#B6A38E)
-                if show_pathways and frac >= 0.03:
+                # Draw pathway connector in Royal Purple (#8e44ad)
+                if show_pathways and frac >= 0.02:
                     d_props = feat.get('properties', {})
                     d_lat = d_props.get('center_latitude_deg')
                     d_lon = d_props.get('center_longitude_deg')
                     if d_lat and d_lon and (d_lat != src_lat or d_lon != src_lon):
-                        line_weight = max(1.5, min(4.0, frac * 18.0))
+                        line_weight = max(1.5, min(4.5, frac * 20.0))
                         folium.PolyLine(
                             locations=[[src_lat, src_lon], [d_lat, d_lon]],
-                            color='#B6A38E',
+                            color='#8e44ad',
                             weight=line_weight,
-                            opacity=0.75,
+                            opacity=0.80,
                             dash_array='4, 6',
                             tooltip=f"Path to {dest_name}: {frac*100:.1f}%"
                         ).add_to(pathways_fg)
@@ -279,29 +281,29 @@ class MapVisualizer:
         dest_fg.add_to(m)
         pathways_fg.add_to(m)
         
-        # Layer 5: Source Cell Highlight in Velvet Red (#6B1B1E)
+        # Layer 5: Source Cell Highlight in Vivid Amethyst Purple (#8e44ad)
         src_fg = folium.FeatureGroup(name="Source Region & Centroid", show=True)
         src_feat = self.features_by_id.get(src_gid)
         if src_feat is not None:
             folium.GeoJson(
                 src_feat,
                 style_function=lambda x: {
-                    'fillColor': '#6B1B1E',
-                    'color': '#B6A38E',
+                    'fillColor': '#8e44ad',
+                    'color': '#5b2c6f',
                     'weight': 3.5,
-                    'fillOpacity': 0.50
+                    'fillOpacity': 0.45
                 },
                 tooltip=f"SOURCE: {src_region_name} ({src_gid})",
                 popup=folium.Popup(f"<b>SOURCE REGION: {src_region_name}</b><br/>Cell: {src_gid}<br/>Centroid: ({src_lat:.4f}, {src_lon:.4f})", max_width=250)
             ).add_to(src_fg)
             
-        # Source centroid marker in Velvet Red
+        # Source centroid marker in Vivid Purple
         folium.CircleMarker(
             location=[src_lat, src_lon],
             radius=8,
-            color='#B6A38E',
+            color='#5b2c6f',
             fill=True,
-            fill_color='#6B1B1E',
+            fill_color='#8e44ad',
             fill_opacity=0.95,
             tooltip=f"Source Centroid: {src_region_name} ({src_lat:.3f}, {src_lon:.3f})"
         ).add_to(src_fg)
@@ -311,7 +313,7 @@ class MapVisualizer:
             dist_user_center = np.sqrt((user_lat - src_lat)**2 + (user_lon - src_lon)**2) * 111.0
             folium.Marker(
                 location=[user_lat, user_lon],
-                icon=folium.Icon(color="red", icon="screenshot", prefix="glyphicon"),
+                icon=folium.Icon(color="blue", icon="screenshot", prefix="glyphicon"),
                 tooltip=f"Selected Location: ({user_lat:.4f}, {user_lon:.4f})",
                 popup=folium.Popup(f"<b>Selected Location</b><br/>Lat: {user_lat:.4f}, Lon: {user_lon:.4f}<br/>Resolved Grid: {src_gid}<br/>Offset: {dist_user_center:.1f} km", max_width=250)
             ).add_to(src_fg)
@@ -321,16 +323,16 @@ class MapVisualizer:
         # Non-terrestrial categories
         non_terr_items = []
         if marine_water_fraction > 0:
-            non_terr_items.append(f"<li><span style='color: #B6A38E;'>&#9632;</span> <b>Coastal / Marine Water:</b> {marine_water_fraction*100:.1f}%</li>")
+            non_terr_items.append(f"<li><span style='color: #2980b9;'>&#9632;</span> <b>Coastal / Marine Water:</b> {marine_water_fraction*100:.1f}%</li>")
         if domain_exit_fraction > 0:
-            non_terr_items.append(f"<li><span style='color: #BC4749;'>&#9632;</span> <b>Domain Exit (Cross-Border):</b> {domain_exit_fraction*100:.1f}%</li>")
+            non_terr_items.append(f"<li><span style='color: #e67e22;'>&#9632;</span> <b>Domain Exit (Cross-Border):</b> {domain_exit_fraction*100:.1f}%</li>")
         if unsupported_met_fraction > 0:
-            non_terr_items.append(f"<li><span style='color: #A0988E;'>&#9632;</span> <b>Unsupported Met Bounds:</b> {unsupported_met_fraction*100:.1f}%</li>")
+            non_terr_items.append(f"<li><span style='color: #7f8c8d;'>&#9632;</span> <b>Unsupported Met Bounds:</b> {unsupported_met_fraction*100:.1f}%</li>")
             
         non_terr_html = ""
         if non_terr_items:
             non_terr_html = f"""
-            <div style="margin-top: 8px; padding-top: 6px; border-top: 1px solid rgba(182,163,142,0.3); font-size: 11px;">
+            <div style="margin-top: 8px; padding-top: 6px; border-top: 1px solid #e0e0e0; font-size: 11px;">
                 <b>Boundary / Domain Exits:</b>
                 <ul style="margin: 4px 0; padding-left: 16px;">
                     {''.join(non_terr_items)}
@@ -338,47 +340,47 @@ class MapVisualizer:
             </div>
             """
 
-        # Floating Velvet Palette Legend
+        # Floating High-Contrast Legend
         legend_html = f"""
         <div style="
             position: fixed; 
             bottom: 25px; 
             right: 25px; 
-            width: 280px; 
-            background: rgba(35, 37, 40, 0.96); 
+            width: 270px; 
+            background: rgba(255, 255, 255, 0.96); 
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
-            border: 1px solid #B6A38E;
+            border: 2px solid #ccc; 
             border-radius: 8px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
-            color: #EAE5DE;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            color: #2c3e50;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             padding: 12px 14px;
             z-index: 9999;
             font-size: 11px;
         ">
-            <div style="font-size: 13px; font-weight: 700; color: #EAE5DE; margin-bottom: 2px;">Dispersion Footprint</div>
-            <div style="font-size: 11px; color: #B6A38E; margin-bottom: 8px;">
+            <div style="font-size: 13px; font-weight: 700; color: #2c3e50; margin-bottom: 2px;">Dispersion Footprint</div>
+            <div style="font-size: 11px; color: #7f8c8d; margin-bottom: 8px;">
                 <b>Source:</b> {src_region_name} · {horizon_hours:g}h window
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #6B1B1E; border: 1px solid #B6A38E; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #8e44ad; border: 1px solid #5b2c6f; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>Source Region</b> ({src_gid})
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #BC4749; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #a50f15; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>High Transport Reach</b> (> {max_frac*0.6*100:.1f}%)
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #D4A373; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #fb6a4a; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>Moderate Transport Reach</b>
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #EAE5DE; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #fee5d9; border: 1px solid #d0d0d0; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>Peripheral Reach</b> (< {max_frac*0.2*100:.1f}%)
             </div>
             {non_terr_html}
-            <div style="margin-top: 8px; font-size: 9.5px; color: #A0988E; line-height: 1.25;">
+            <div style="margin-top: 8px; font-size: 9.5px; color: #95a5a6; line-height: 1.25;">
                 *Strictly 2D physical transport probability. Does not calculate ambient AQI or stack emissions.
             </div>
         </div>
@@ -390,8 +392,11 @@ class MapVisualizer:
     def create_target_influence_map(self, query_result, user_lat=None, user_lon=None, min_fraction=0.0,
                                     show_pathways=True, show_states=True, show_grid=False):
         """
-        Creates an interactive Folium dark-cartographic map for Receptor Inflow Analysis
-        styled with the 60-30-10 Velvet Palette (#232528 Charcoal, #B6A38E Dark Beige, #6B1B1E Velvet Red).
+        Creates an interactive Folium map for Receptor Inflow Analysis:
+        - Centers on target receptor cell and highlights it in vivid Sapphire Blue (#2980b9) with Midnight Blue border (#1b4f72).
+        - Renders incoming contributing source grid cells with high-intensity fiery heatmap ramp.
+        - Continuous India sovereign boundary outline with all claimed territories (PoK & CoK).
+        - High contrast cartography with Positron tiles by default.
         """
         target_info = query_result.get('target_info', {})
         target_lat = target_info.get('target_latitude', 22.0)
@@ -401,13 +406,17 @@ class MapVisualizer:
         horizon_hours = query_result.get('horizon_hours', 24.0)
         target_region_name = self.get_region_name(target_gid)
         
-        # Center map on target receptor location
+        # Center map on target receptor location with Positron light tiles
         m = folium.Map(
             location=[target_lat, target_lon],
             zoom_start=6,
-            tiles="CartoDB dark_matter",
+            tiles="CartoDB positron",
             control_scale=True
         )
+        
+        # Alternate base tile options in layer control
+        folium.TileLayer('CartoDB dark_matter', name='Dark Basemap').add_to(m)
+        folium.TileLayer('OpenStreetMap', name='Street Map').add_to(m)
         
         # Base Layer 1: Asian Regional Context
         if self._asia_geojson is not None:
@@ -415,30 +424,30 @@ class MapVisualizer:
             folium.GeoJson(
                 self._asia_geojson,
                 style_function=lambda x: {
-                    'fillColor': '#1A1C1E',
-                    'color': '#33363B',
-                    'weight': 1.0,
-                    'fillOpacity': 0.30
+                    'fillColor': '#f8f9fa',
+                    'color': '#bdc3c7',
+                    'weight': 0.8,
+                    'fillOpacity': 0.15
                 },
                 tooltip=folium.GeoJsonTooltip(fields=['name'], aliases=['Country:'])
             ).add_to(asia_fg)
             asia_fg.add_to(m)
 
-        # Base Layer 2: Indian State Boundaries in Dark Beige (#B6A38E)
+        # Base Layer 2: Indian State Boundaries (Clean transparent outlines)
         if self._states_geojson is not None:
             states_fg = folium.FeatureGroup(name="Indian States & UTs (Level 2)", show=show_states)
             folium.GeoJson(
                 self._states_geojson,
                 style_function=lambda x: {
-                    'fillColor': '#232528',
-                    'color': '#B6A38E',
-                    'weight': 1.2,
-                    'fillOpacity': 0.08
+                    'fillColor': 'transparent',
+                    'color': '#7f8c8d',
+                    'weight': 1.0,
+                    'fillOpacity': 0.0
                 },
                 highlight_function=lambda x: {
-                    'color': '#EAE5DE',
+                    'color': '#2c3e50',
                     'weight': 2.0,
-                    'fillOpacity': 0.2
+                    'fillOpacity': 0.10
                 },
                 tooltip=folium.GeoJsonTooltip(fields=['NAME_1'], aliases=['State:'])
             ).add_to(states_fg)
@@ -451,8 +460,8 @@ class MapVisualizer:
                 self._national_geojson,
                 style_function=lambda x: {
                     'fillColor': 'transparent',
-                    'color': '#B6A38E',
-                    'weight': 2.0,
+                    'color': '#1b4f72',
+                    'weight': 2.2,
                     'fillOpacity': 0.0
                 },
                 tooltip=folium.Tooltip("Republic of India — Sovereign National Territory")
@@ -467,7 +476,7 @@ class MapVisualizer:
                 {"type": "FeatureCollection", "features": sample_feats},
                 style_function=lambda x: {
                     'fillColor': 'transparent',
-                    'color': '#4A4742',
+                    'color': '#bdc3c7',
                     'weight': 0.7,
                     'fillOpacity': 0.0
                 },
@@ -475,18 +484,19 @@ class MapVisualizer:
             ).add_to(grid_fg)
             grid_fg.add_to(m)
 
+        # High-Intensity Fiery Heatmap Ramp for Inflow Transport Fractions
         df_results = query_result.get('results_table', pd.DataFrame())
         max_frac = df_results['daily_transport_fraction'].max() if not df_results.empty else 1.0
         max_frac = max(0.05, float(max_frac))
         
         colormap = cm.LinearColormap(
-            colors=['#EAE5DE', '#D4A373', '#BC4749', '#6B1B1E'],
+            colors=['#fee5d9', '#fcae91', '#fb6a4a', '#de2d26', '#a50f15'],
             vmin=0.0,
             vmax=max_frac,
-            caption=f"Inflow Transport Fraction ({horizon_hours:g}h Horizon)"
+            caption=f"Modeled Inflow Transport Fraction reaching Target ({horizon_hours:g}h Horizon)"
         )
         
-        # Layer 4: Contributing Source Grid Cells
+        # Layer 4: Contributing Source Grid Cells (Intensified Inflow Footprint)
         sources_fg = folium.FeatureGroup(name="Contributing Source Regions (Inflow)", show=True)
         pathways_fg = folium.FeatureGroup(name="Inflow Transport Pathways", show=show_pathways)
         
@@ -511,15 +521,15 @@ class MapVisualizer:
                     inf_str = f"{inf_idx:.2f} ug/m3-eq" if not pd.isna(inf_idx) else "Unmonitored"
                     
                     popup_html = f"""
-                    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; min-width: 230px; background: #232528; color: #EAE5DE; padding: 12px; border-radius: 6px; border: 1px solid #B6A38E;">
-                        <div style="font-size: 13px; font-weight: 700; color: #B6A38E; margin-bottom: 4px;">{src_region_name}</div>
-                        <div style="font-size: 10px; color: #A0988E; margin-bottom: 6px;">Source Cell: {src_id}</div>
-                        <div style="height: 1px; background: rgba(182, 163, 142, 0.3); margin: 6px 0;"></div>
-                        <div><b>Transport to Target:</b> <span style="color: #EAE5DE; font-weight: 600;">{frac*100:.2f}%</span> ({frac:.4f})</div>
+                    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; min-width: 220px; background: #ffffff; color: #2c3e50; padding: 10px; border-radius: 6px; border: 1px solid #ccc; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                        <div style="font-size: 13px; font-weight: 700; color: #a50f15; margin-bottom: 4px;">{src_region_name}</div>
+                        <div style="font-size: 10px; color: #7f8c8d; margin-bottom: 6px;">Source Cell: {src_id}</div>
+                        <div style="height: 1px; background: #eee; margin: 6px 0;"></div>
+                        <div><b>Transport to Target:</b> <span style="color: #a50f15; font-weight: 700;">{frac*100:.2f}%</span> ({frac:.4f})</div>
                         <div><b>Distance:</b> {dist_str}</div>
                         <div><b>Source Observed PM2.5:</b> {pm_str}</div>
-                        <div><b>Source-Weighted Influence:</b> <span style="color: #B6A38E;">{inf_str}</span></div>
-                        <div style="margin-top: 6px; font-size: 10px; color: #A0988E; font-style: italic;">
+                        <div><b>Source-Weighted Influence:</b> <span style="color: #2c3e50;">{inf_str}</span></div>
+                        <div style="margin-top: 6px; font-size: 10px; color: #95a5a6; font-style: italic;">
                             Candidate transport pathway reaching target. Not verified emissions.
                         </div>
                     </div>
@@ -529,31 +539,31 @@ class MapVisualizer:
                         feat,
                         style_function=lambda x, fc=fill_color: {
                             'fillColor': fc,
-                            'color': '#B6A38E',
-                            'weight': 1.0,
-                            'fillOpacity': 0.60
+                            'color': '#7f1d1d',
+                            'weight': 1.2,
+                            'fillOpacity': 0.70
                         },
                         highlight_function=lambda x: {
-                            'weight': 2.5,
-                            'color': '#FFFFFF',
-                            'fillOpacity': 0.85
+                            'weight': 3.0,
+                            'color': '#000000',
+                            'fillOpacity': 0.90
                         },
                         tooltip=folium.Tooltip(f"{src_region_name} ({src_id}): {frac*100:.2f}% inflow ({dist_str})"),
                         popup=folium.Popup(popup_html, max_width=320)
                     ).add_to(sources_fg)
                     
-                    # Draw pathway connector from source centroid to target centroid in Dark Beige (#B6A38E)
+                    # Draw pathway connector from source centroid to target centroid in Midnight Blue (#1b4f72)
                     if show_pathways and frac >= 0.02:
                         s_props = feat.get('properties', {})
                         s_lat = s_props.get('center_latitude_deg')
                         s_lon = s_props.get('center_longitude_deg')
                         if s_lat and s_lon and (s_lat != target_lat or s_lon != target_lon):
-                            line_weight = max(1.5, min(4.0, frac * 18.0))
+                            line_weight = max(1.5, min(4.5, frac * 20.0))
                             folium.PolyLine(
                                 locations=[[s_lat, s_lon], [target_lat, target_lon]],
-                                color='#B6A38E',
+                                color='#1b4f72',
                                 weight=line_weight,
-                                opacity=0.75,
+                                opacity=0.80,
                                 dash_array='4, 6',
                                 tooltip=f"Inflow from {src_region_name}: {frac*100:.1f}%"
                             ).add_to(pathways_fg)
@@ -561,30 +571,30 @@ class MapVisualizer:
         sources_fg.add_to(m)
         pathways_fg.add_to(m)
         
-        # Layer 5: Target Receptor Grid Cell Highlight in Velvet Red (#6B1B1E)
+        # Layer 5: Target Receptor Grid Cell Highlight in Vivid Sapphire Blue (#2980b9)
         target_fg = folium.FeatureGroup(name="Target Receptor Region", show=True)
         tgt_feat = self.features_by_id.get(target_gid)
         if tgt_feat is not None:
             folium.GeoJson(
                 tgt_feat,
                 style_function=lambda x: {
-                    'fillColor': '#6B1B1E',
-                    'color': '#B6A38E',
+                    'fillColor': '#2980b9',
+                    'color': '#1b4f72',
                     'weight': 3.5,
-                    'fillOpacity': 0.50
+                    'fillOpacity': 0.40
                 },
                 tooltip=f"TARGET RECEPTOR: {target_region_name} ({target_gid})",
                 popup=folium.Popup(f"<b>TARGET RECEPTOR: {target_region_name}</b><br/>Cell: {target_gid}<br/>Center: ({target_lat:.4f}, {target_lon:.4f})", max_width=250)
             ).add_to(target_fg)
             
-        # Target centroid marker in Velvet Red
+        # Target centroid marker in Sapphire Blue with Midnight Blue ring
         folium.CircleMarker(
             location=[target_lat, target_lon],
             radius=8,
-            color='#B6A38E',
+            color='#1b4f72',
             fill=True,
-            fill_color='#6B1B1E',
-            fill_opacity=0.95,
+            fill_color='#2980b9',
+            fill_opacity=1.0,
             tooltip=f"Target Centroid: {target_region_name} ({target_lat:.3f}, {target_lon:.3f})"
         ).add_to(target_fg)
         
@@ -600,46 +610,46 @@ class MapVisualizer:
             
         target_fg.add_to(m)
         
-        # Modern Floating Velvet-Palette Legend
+        # Floating High-Contrast Legend
         legend_html = f"""
         <div style="
             position: fixed; 
             bottom: 25px; 
             right: 25px; 
-            width: 280px; 
-            background: rgba(35, 37, 40, 0.96); 
+            width: 270px; 
+            background: rgba(255, 255, 255, 0.96); 
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
-            border: 1px solid #B6A38E;
+            border: 2px solid #ccc; 
             border-radius: 8px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
-            color: #EAE5DE;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            color: #2c3e50;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             padding: 12px 14px;
             z-index: 9999;
             font-size: 11px;
         ">
-            <div style="font-size: 13px; font-weight: 700; color: #EAE5DE; margin-bottom: 2px;">Inflow Intelligence</div>
-            <div style="font-size: 11px; color: #B6A38E; margin-bottom: 8px;">
+            <div style="font-size: 13px; font-weight: 700; color: #1b4f72; margin-bottom: 2px;">Inflow Intelligence</div>
+            <div style="font-size: 11px; color: #7f8c8d; margin-bottom: 8px;">
                 <b>Target:</b> {target_region_name} · {horizon_hours:g}h window
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #6B1B1E; border: 1px solid #B6A38E; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #2980b9; border: 1px solid #1b4f72; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>Target Receptor</b> ({target_gid})
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #BC4749; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #a50f15; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>High Inflow Contributor</b> (> {max_frac*0.6*100:.1f}%)
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #D4A373; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #fb6a4a; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>Moderate Contributor</b>
             </div>
             <div style="margin-bottom: 4px;">
-                <span style="display: inline-block; width: 12px; height: 12px; background: #EAE5DE; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
+                <span style="display: inline-block; width: 13px; height: 13px; background: #fee5d9; border: 1px solid #d0d0d0; border-radius: 2px; vertical-align: middle; margin-right: 6px;"></span>
                 <b>Minor Inflow Pathway</b> (< {max_frac*0.2*100:.1f}%)
             </div>
-            <div style="margin-top: 8px; font-size: 9.5px; color: #A0988E; line-height: 1.25;">
+            <div style="margin-top: 8px; font-size: 9.5px; color: #95a5a6; line-height: 1.25;">
                 *Identifies candidate source cells whose physical transport pathways reach this target. Does not represent emission inventories.
             </div>
         </div>
